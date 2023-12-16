@@ -1,11 +1,10 @@
-//Pokemon Start
 /datum/species/feral
 	name = "REPORT THIS AS A BUG"
 	//The id is the living and standing icon state of the creature.
 	//The dead icon state must be "id_d" in the .dmi file
 	//The resting icon state must be "id_rest" in the .dmi file
 	simple_icon = 'modular_coyote/icons/mob/pokemon64.dmi'
-	mutant_bodyparts = list("legs" = "Digitigrade", "meat_type" = "Mammalian")//Lets you select digitgrade legs if you want the claw footstep sound.
+	mutant_bodyparts = list("legs" = "Digitigrade", "meat_type" = "Mammalian")
 	icon_dead_suffix = "_dead"
 	icon_rest_suffix = "_rest"
 	/// The width of the icon_limbs file. Used to auto-center your sprite.
@@ -22,6 +21,12 @@
 	//We need this so that our limbs don't have null sprites when they get thrown off. (Should almost never happen because I glued them on, but just in case.)
 	limbs_id = "mammal"
 	damage_overlay_type = null
+	attack_verb = "slash"
+	attack_sound = 'sound/weapons/slash.ogg'
+	miss_sound = 'sound/weapons/slashmiss.ogg'
+	tail_type = "mam_tail"
+	wagging_type = "mam_waggingtail"
+	footstep_type = FOOTSTEP_MOB_CLAW
 
 //Start Pokemon//
 //Alphabetical Please//
@@ -29,15 +34,17 @@
 /datum/species/feral/pokemon
 	meat = /obj/item/reagent_containers/food/snacks/meat/slab/pokemon
 	roundstart = FALSE
-	liked_food = FRUIT
+	liked_food = FRUIT | MEAT //berries
 	disliked_food = TOXIC | GROSS
 	icon_dead_suffix = "_d"
 	icon_rest_suffix = "_rest"
+	icon_width = 64
 
 /datum/species/feral/pokemon/aerodactyl
 	name = "Feral Aerodactyl"
 	id = "Aerodactyl"//randomly has a capital letter i guess
 	roundstart = TRUE
+	footstep_type = FOOTSTEP_MOB_CRAWL
 /mob/living/carbon/human/species/aerodactyl
 	race = /datum/species/feral/pokemon/aerodactyl
 
@@ -103,6 +110,7 @@
 	name = "Feral Celebi"
 	id = "celebi"
 	roundstart = TRUE
+	footstep_type = FOOTSTEP_MOB_CRAWL
 /mob/living/carbon/human/species/celebi
 	race = /datum/species/feral/pokemon/celebi
 
@@ -131,6 +139,7 @@
 	name = "Feral Ditto"
 	id = "ditto"
 	roundstart = TRUE
+	footstep_type = FOOTSTEP_MOB_CRAWL
 /mob/living/carbon/human/species/ditto
 	race = /datum/species/feral/pokemon/ditto
 
@@ -138,6 +147,7 @@
 	name = "Feral Dragonair"
 	id = "dragonair"
 	roundstart = TRUE
+	footstep_type = FOOTSTEP_MOB_CRAWL
 /mob/living/carbon/human/species/dragonair
 	race = /datum/species/feral/pokemon/dragonair
 
@@ -145,6 +155,7 @@
 	name = "Feral Shiny Dragonair"
 	id = "shinydragonair"
 	roundstart = TRUE
+	footstep_type = FOOTSTEP_MOB_CRAWL
 /mob/living/carbon/human/species/shinydragonair
 	race = /datum/species/feral/pokemon/shinydragonair
 
@@ -166,6 +177,7 @@
 	name = "Feral Dratini"
 	id = "dratini"
 	roundstart = TRUE
+	footstep_type = FOOTSTEP_MOB_CRAWL
 /mob/living/carbon/human/species/dratini
 	race = /datum/species/feral/pokemon/dratini
 
@@ -173,6 +185,7 @@
 	name = "Feral Eevee"
 	id = "eevee"
 	roundstart = TRUE
+	alt_prefixes = list("Old Color" = "old")
 /mob/living/carbon/human/species/eevee
 	race = /datum/species/feral/pokemon/eevee
 
@@ -180,6 +193,7 @@
 	name = "Feral Espeon"
 	id = "espeon"
 	roundstart = TRUE
+	alt_prefixes = list("Old Color" = "old")
 /mob/living/carbon/human/species/espeon
 	race = /datum/species/feral/pokemon/espeon
 
@@ -201,6 +215,7 @@
 	name = "Feral Flareon"
 	id = "flareon"
 	roundstart = TRUE
+	alt_prefixes = list("Old Color" = "old")
 /mob/living/carbon/human/species/flareon
 	race = /datum/species/feral/pokemon/flareon
 
@@ -236,6 +251,7 @@
 	name = "Feral Gastly"
 	id = "gastly"
 	roundstart = TRUE
+	footstep_type = FOOTSTEP_MOB_CRAWL
 /mob/living/carbon/human/species/gastly
 	race = /datum/species/feral/pokemon/gastly
 
@@ -243,6 +259,7 @@
 	name = "Feral Gengar"
 	id = "gengar"
 	roundstart = TRUE
+	footstep_type = FOOTSTEP_MOB_CRAWL
 /mob/living/carbon/human/species/gengar
 	race = /datum/species/feral/pokemon/gengar
 
@@ -253,10 +270,19 @@
 /mob/living/carbon/human/species/glaceon
 	race = /datum/species/feral/pokemon/glaceon
 
+/datum/species/feral/pokemon/growlithe
+	name = "Feral Growlithe"
+	id = "growlithe"
+	roundstart = TRUE
+	alt_prefixes = list("Old Color" = "old")
+/mob/living/carbon/human/species/growlithe
+	race = /datum/species/feral/pokemon/growlithe
+
 /datum/species/feral/pokemon/haunter
 	name = "Feral Haunter"
 	id = "haunter"
 	roundstart = TRUE
+	footstep_type = FOOTSTEP_MOB_CRAWL
 /mob/living/carbon/human/species/haunter
 	race = /datum/species/feral/pokemon/haunter
 
@@ -264,6 +290,7 @@
 	name = "Feral Jirachi"
 	id = "jirachi"
 	roundstart = TRUE
+	footstep_type = FOOTSTEP_MOB_CRAWL
 /mob/living/carbon/human/species/jirachi
 	race = /datum/species/feral/pokemon/jirachi
 
@@ -299,6 +326,7 @@
 	name = "Feral Lapras"
 	id = "lapras"
 	roundstart = TRUE
+	footstep_type = FOOTSTEP_MOB_CRAWL
 /mob/living/carbon/human/species/lapras
 	race = /datum/species/feral/pokemon/lapras
 
@@ -329,6 +357,7 @@
 	roundstart = TRUE
 	simple_icon = 'modular_coyote/icons/mob/pokemon96.dmi'
 	icon_width = 96
+	footstep_type = FOOTSTEP_MOB_CRAWL
 /mob/living/carbon/human/species/lugia
 	race = /datum/species/feral/pokemon/lugia
 
@@ -338,13 +367,6 @@
 	roundstart = TRUE
 /mob/living/carbon/human/species/lycanroc
 	race = /datum/species/feral/pokemon/lycanroc
-
-/datum/species/feral/pokemon/growlithe
-	name = "Feral growlithe"
-	id = "growlithe"
-	roundstart = TRUE
-/mob/living/carbon/human/species/growlithe
-	race = /datum/species/feral/pokemon/growlithe
 
 /datum/species/feral/pokemon/magicarp
 	name = "Feral Magicarp"
@@ -371,6 +393,7 @@
 	name = "Feral Mew"
 	id = "mew"
 	roundstart = TRUE
+	footstep_type = FOOTSTEP_MOB_CRAWL
 /mob/living/carbon/human/species/mew
 	race = /datum/species/feral/pokemon/mew
 
@@ -409,10 +432,20 @@
 /mob/living/carbon/human/species/omanyte
 	race = /datum/species/feral/pokemon/omanyte
 
+/datum/species/feral/pokemon/pikachu
+	name = "Feral Pikachu"
+	id = "pikachu"
+	roundstart = TRUE
+	alt_prefixes = list("Female" = "f")
+	simple_icon = 'modular_coyote/icons/mob/pmon/pikachu.dmi'
+/mob/living/carbon/human/species/pikachu
+	race = /datum/species/feral/pokemon/pikachu
+
 /datum/species/feral/pokemon/ponyta
 	name = "Feral Ponyta"
 	id = "ponyta"
 	roundstart = TRUE
+	footstep_type = FOOTSTEP_MOB_HOOF
 /mob/living/carbon/human/species/ponyta
 	race = /datum/species/feral/pokemon/ponyta
 
@@ -430,10 +463,29 @@
 /mob/living/carbon/human/species/purrloin
 	race = /datum/species/feral/pokemon/purrloin
 
+/datum/species/feral/pokemon/raichu
+	name = "Feral Raichu"
+	id = "raichu"
+	roundstart = TRUE
+	alt_prefixes = list("Female" = "f")
+	simple_icon = 'modular_coyote/icons/mob/pmon/raichu.dmi'
+/mob/living/carbon/human/species/raichu
+	race = /datum/species/feral/pokemon/raichu
+
+/datum/species/feral/pokemon/alolanraichu
+	name = "Feral Alolan Raichu"
+	id = "alolanraichu"
+	roundstart = TRUE
+	simple_icon = 'modular_coyote/icons/mob/pmon/raichu.dmi'
+	footstep_type = FOOTSTEP_MOB_CRAWL
+/mob/living/carbon/human/species/alolanraichu
+	race = /datum/species/feral/pokemon/alolanraichu
+
 /datum/species/feral/pokemon/ralts
 	name = "Feral Ralts"
 	id = "ralts"
 	roundstart = TRUE
+	footstep_type = FOOTSTEP_MOB_CRAWL
 /mob/living/carbon/human/species/ralts
 	race = /datum/species/feral/pokemon/ralts
 
@@ -457,8 +509,17 @@
 	roundstart = TRUE
 	simple_icon = 'modular_coyote/icons/mob/pokemon96.dmi'
 	icon_width = 96
+	footstep_type = FOOTSTEP_MOB_CRAWL
 /mob/living/carbon/human/species/rayquaza
 	race = /datum/species/feral/pokemon/rayquaza
+
+/datum/species/feral/pokemon/salazzle
+	name = "Feral Salazzle"
+	id = "salazzle"
+	roundstart = TRUE
+	simple_icon = 'modular_coyote/icons/mob/pmon/salazzle.dmi'
+/mob/living/carbon/human/species/salazzle
+	race = /datum/species/feral/pokemon/salazzle
 
 /datum/species/feral/pokemon/skuntank
 	name = "Feral Skuntank"
@@ -513,6 +574,7 @@
 	name = "Feral Umbreon"
 	id = "umbreon"
 	roundstart = TRUE
+	alt_prefixes = list("Old Color" = "old")
 /mob/living/carbon/human/species/umbreon
 	race = /datum/species/feral/pokemon/umbreon
 
@@ -569,6 +631,7 @@
 	name = "Feral Zubat"
 	id = "zubat"
 	roundstart = TRUE
+	footstep_type = FOOTSTEP_MOB_CRAWL
 /mob/living/carbon/human/species/zubat
 	race = /datum/species/feral/pokemon/zubat
 
@@ -829,7 +892,7 @@
 /mob/living/carbon/human/species/xenodrone
 	race = /datum/species/feral/xeno/drone
 
-/datum/species/feral/alien/hunter
+/datum/species/feral/xeno/hunter
 	name = "Feral Xenomorph Hunter"
 	id = "alienh"
 	simple_icon = 'icons/mob/alien.dmi'
@@ -838,7 +901,7 @@
 	rotate_on_lying = TRUE
 	icon_rest_suffix = "_sleep"
 /mob/living/carbon/human/species/alienh
-	race = /datum/species/feral/alien/hunter
+	race = /datum/species/feral/xeno/hunter
 
 /datum/species/feral/xeno/sentry
 	name = "Feral Xenomorph Sentry"
@@ -848,36 +911,157 @@
 	roundstart = TRUE
 	rotate_on_lying = TRUE
 	icon_rest_suffix = "_sleep"
-
 /mob/living/carbon/human/species/xenosentry
 	race = /datum/species/feral/xeno/sentry
 
-/datum/species/feral/alien/praetorian
+/datum/species/feral/xeno/praetorian
 	name = "Feral Xenomorph Praetorian"
 	id = "alienp"
 	simple_icon = 'icons/mob/alienqueen.dmi'
 	icon_width = 64
 	roundstart = TRUE
 /mob/living/carbon/human/species/alienp
-	race = /datum/species/feral/alien/praetorian
+	race = /datum/species/feral/xeno/praetorian
 
-/datum/species/feral/alien/queen
+/datum/species/feral/xeno/queen
 	name = "Feral Xenomorph Queen"
 	id = "alienq"
 	simple_icon = 'icons/mob/alienqueen.dmi'
 	icon_width = 64
 	roundstart = TRUE
-/mob/living/carbon/human/species/alienq
-	race = /datum/species/feral/alien/queen
+	alt_prefixes = list("TGMC Queen" = "tgmc_")
+/mob/living/carbon/human/species/queen
+	race = /datum/species/feral/xeno/queen
 
-/datum/species/feral/alien/maid
+/datum/species/feral/xeno/maid
 	name = "Feral Xenomorph Maid"
 	id = "maid"
 	simple_icon = 'icons/mob/alien.dmi'
 	icon_width = 32
 	roundstart = TRUE
-/mob/living/carbon/human/species/alienh
-	race = /datum/species/feral/alien/hunter
+/mob/living/carbon/human/species/maid
+	race = /datum/species/feral/xeno/maid
+
+/datum/species/feral/werewolf/rogue
+	name = "Black Werewolf"
+	id = "were"
+	simple_icon = 'modular_roguetown/mob/monster/werewolf.dmi'
+	icon_width = 32
+	roundstart = TRUE
+/mob/living/carbon/human/species/werewolfrogue
+	race = /datum/species/feral/werewolf/rogue
+
+//tgmc aliens
+/datum/species/feral/xeno/beetle
+	name = "Feral Xenomorph Beetle"
+	id = "xeno_beetle"
+	roundstart = TRUE
+	default_color = "302239"
+	simple_icon = 'modular_coyote/icons/mob/tgmc/beetle.dmi'
+	icon_width = 64
+/mob/living/carbon/human/species/beetle
+	race = /datum/species/feral/xeno/beetle
+
+/datum/species/feral/xeno/bull
+	name = "Feral Xenomorph Bull"
+	id = "xeno_bull"
+	roundstart = TRUE
+	default_color = "710E13"
+	simple_icon = 'modular_coyote/icons/mob/tgmc/bull.dmi'
+	icon_width = 64
+/mob/living/carbon/human/species/bull
+	race = /datum/species/feral/xeno/bull
+
+/datum/species/feral/xeno/crusher
+	name = "Feral Xenomorph Crusher"
+	id = "xeno_crusher"
+	roundstart = TRUE
+	default_color = "710E13"
+	simple_icon = 'modular_coyote/icons/mob/tgmc/crusher.dmi'
+	icon_width = 64
+/mob/living/carbon/human/species/crusher
+	race = /datum/species/feral/xeno/crusher
+
+/datum/species/feral/xeno/defender
+	name = "Feral Xenomorph Defender"
+	id = "xeno_defender"
+	roundstart = TRUE
+	default_color = "302239"
+	simple_icon = 'modular_coyote/icons/mob/tgmc/defender.dmi'
+	icon_width = 64
+/mob/living/carbon/human/species/defender
+	race = /datum/species/feral/xeno/defender
+
+/datum/species/feral/xeno/defiler
+	name = "Feral Xenomorph Defiler"
+	id = "xeno_defiler"
+	roundstart = TRUE
+	default_color = "2C212B"
+	simple_icon = 'modular_coyote/icons/mob/tgmc/defiler.dmi'
+	icon_width = 64
+/mob/living/carbon/human/species/defiler
+	race = /datum/species/feral/xeno/defiler
+
+/datum/species/feral/xeno/nymph
+	name = "Feral Xenomorph Nymph"
+	id = "xeno_nymph"
+	roundstart = TRUE
+	default_color = "710E13"
+	simple_icon = 'modular_coyote/icons/mob/tgmc/nymph.dmi'
+	icon_width = 64
+/mob/living/carbon/human/species/nymph
+	race = /datum/species/feral/xeno/nymph
+
+/datum/species/feral/xeno/runner
+	name = "Feral Xenomorph Runner"
+	id = "xeno_runner"
+	roundstart = TRUE
+	default_color = "BC2929"
+	simple_icon = 'modular_coyote/icons/mob/tgmc/runner.dmi'
+	icon_width = 64
+/mob/living/carbon/human/species/runner
+	race = /datum/species/feral/xeno/runner
+
+/datum/species/feral/xeno/warlock
+	name = "Feral Xenomorph Warlock"
+	id = "xeno_warlock"
+	roundstart = TRUE
+	default_color = "514643"
+	simple_icon = 'modular_coyote/icons/mob/tgmc/warlock.dmi'
+	icon_width = 64
+	footstep_type = FOOTSTEP_MOB_CRAWL
+/mob/living/carbon/human/species/warlock
+	race = /datum/species/feral/xeno/warlock
+
+/datum/species/feral/xeno/warrior
+	name = "Feral Xenomorph Warrior"
+	id = "xeno_warrior"
+	roundstart = TRUE
+	default_color = "302239"
+	simple_icon = 'modular_coyote/icons/mob/tgmc/warrior.dmi'
+	icon_width = 64
+/mob/living/carbon/human/species/warrior
+	race = /datum/species/feral/xeno/warrior
+
+/datum/species/feral/xeno/widow
+	name = "Feral Xenomorph Widow"
+	id = "xeno_widow"
+	roundstart = TRUE
+	default_color = "514643"
+	simple_icon = 'modular_coyote/icons/mob/tgmc/widow.dmi'
+	icon_width = 64
+/mob/living/carbon/human/species/widow
+	race = /datum/species/feral/xeno/widow
+
+/datum/species/feral/xeno/wraith
+	name = "Feral Xenomorph Wraith"
+	id = "xeno_wraith"
+	roundstart = TRUE
+	default_color = "302239"
+	simple_icon = 'modular_coyote/icons/mob/tgmc/wraith.dmi'
+	icon_width = 64
+/mob/living/carbon/human/species/wraith
+	race = /datum/species/feral/xeno/wraith
 
 //end aliens
 
@@ -925,6 +1109,7 @@
 	icon_rest_suffix = "_rest"
 	simple_icon = 'modular_coyote/icons/mob/deathclaw.dmi'
 	icon_width = 64
+	footstep_type = FOOTSTEP_MOB_HEAVY
 
 /datum/species/feral/deathclaw/original
 	name = "Feral Deathclaw"
@@ -933,7 +1118,6 @@
 	icon_rest_suffix = ""
 	rotate_on_lying = TRUE
 	simple_icon = 'icons/mob/deathclaw.dmi'
-
 /mob/living/carbon/human/species/deathclaw_original
 	race = /datum/species/feral/deathclaw/original
 
@@ -989,10 +1173,10 @@
 /datum/species/feral/deathclaw/queen
 	name = "Queen Deathclaw"
 	id = "deathclaw_queen"
+	rotate_on_lying = TRUE
+	icon_rest_suffix = ""
 	roundstart = TRUE
 /mob/living/carbon/human/species/deathclaw_queen
 	race = /datum/species/feral/deathclaw/queen
-
-
 
 //End Other//

@@ -358,16 +358,17 @@
 	if(!istype(deceasedturf,/turf/open))
 		return
 
-	// var/turf/open/miasma_turf = deceasedturf
+	var/turf/open/miasma_turf = deceasedturf
 
-	// var/static/datum/gas_mixture/stank
-	// if(!stank) // Use a static mixture to avoid gas mixture churn.
-	// 	stank = new
-	// 	stank.set_moles(GAS_MIASMA,0.1)
-	// 	stank.set_temperature(BODYTEMP_NORMAL)
+	if (miasma_turf.air)
+		var/static/datum/gas_mixture/stank
+		if(!stank) // Use a static mixture to avoid gas mixture churn.
+			stank = new
+			stank.set_moles(GAS_MIASMA,0.1)
+			stank.set_temperature(BODYTEMP_NORMAL)
 
-	// miasma_turf.air.merge(stank)
-	// miasma_turf.air_update_turf()
+		miasma_turf.air.merge(stank)
+		miasma_turf.air_update_turf()
 
 /mob/living/carbon/proc/handle_blood()
 	return
@@ -438,6 +439,9 @@
 			if(HM && HM.timed)
 				dna.remove_mutation(HM.type)
 
+	var/turf/T = get_turf(src)
+	if(T)
+		rad_act(T.radiation_turf)
 	if(HAS_TRAIT(src, TRAIT_RADIMMUNE))
 		return FALSE
 	//radiation -= min(radiation, RAD_LOSS_PER_TICK) nope, you need radx or radaway. small change to make rads *more*

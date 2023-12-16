@@ -32,7 +32,7 @@
 /obj/item/ammo_box/magazine/internal/boltaction/hunting/paciencia
 	max_ammo = 2 //with 1 in the tube = 3 shots
 
-/obj/item/ammo_box/magazine/internal/boltaction/antimateriel
+/obj/item/ammo_box/magazine/internal/boltaction/antimaterial
 	ammo_type = /obj/item/ammo_casing/a50MG
 	caliber = list(CALIBER_50MG)
 	max_ammo = 4
@@ -66,6 +66,18 @@
 	w_class = WEIGHT_CLASS_TINY
 	multiload = TRUE
 
+/obj/item/ammo_box/magazine/internal/needlesvd
+	name = "magazine filled with needlers"
+	icon = 'icons/fallout/objects/guns/ammo.dmi'
+	icon_state = "needlerpack"
+	ammo_type = /obj/item/ammo_casing/caseless/needle
+	caliber = list(CALIBER_NEEDLE)
+	max_ammo = 10
+	multiple_sprites = 2
+	custom_materials = list(/datum/material/iron = MATS_LIGHT_RIFLE_MAGAZINE)
+	w_class = WEIGHT_CLASS_TINY
+	multiload = TRUE
+
 /obj/item/ammo_box/magazine/internal/grenadeshotgun
 	name = "magazine filled with 40mm mike-mikes ouch ouchs"
 	ammo_type = /obj/item/ammo_casing/a40mm/buck
@@ -89,6 +101,15 @@
 	ammo_type = /obj/item/ammo_casing/a308
 	caliber = list(CALIBER_308)
 	max_ammo = 9
+	custom_materials = list(/datum/material/iron = MATS_LIGHT_RIFLE_MAGAZINE)
+	w_class = WEIGHT_CLASS_TINY
+	multiload = FALSE
+
+/obj/item/ammo_box/magazine/internal/no3pistol //4+1 mechanic
+	name = "magazine filled with Bergmann 6.5mm(5mm closest)."
+	ammo_type = /obj/item/ammo_casing/m5mm
+	caliber = list(CALIBER_5MM)
+	max_ammo = 4
 	custom_materials = list(/datum/material/iron = MATS_LIGHT_RIFLE_MAGAZINE)
 	w_class = WEIGHT_CLASS_TINY
 	multiload = FALSE
