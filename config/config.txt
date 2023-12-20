@@ -21,16 +21,15 @@ $include policy.txt
 # There are various options which are hard-locked for security reasons.
 
 ## Server name: This appears at the top of the screen in-game and in the BYOND hub. Uncomment and replace 'tgstation' with the name of your choice.
-@SERVERNAME Wild Wasteland
+@SERVERNAME Coyote Bayou
 
 ## Server tagline: This will appear right below the server's title.
-SERVERTAGLINE [18+] [Coyote bayou code][No whitelist] .
-
+SERVERTAGLINE [18+] CDDA/QoC/FO/Biomutant/STALKER inspired HRP Furry Roleplaying experience. Our newts go hard. Join at https://discord.gg/coyotebayou
 ## Server SQL name: This is the name used to identify the server to the SQL DB, distinct from SERVERNAME as it must be at most 32 characters.
 # SERVERSQLNAME fo13sql
 
 ## Station name: The name of the station as it is referred to in-game. If commented out, the game will generate a random name instead.
-STATIONNAME The crazy wasteland
+STATIONNAME Coyote Bayou
 
 ## Put on byond hub: Uncomment this to put your server on the byond hub.
 HUB
@@ -222,7 +221,7 @@ DEFAULT_NO_VOTE
 # DONT_DEL_NEWMOB
 
 ## set a hosted by name for unix platforms
-HOSTEDBY 
+HOSTEDBY ARFS
 
 ## Set to jobban "Guest-" accounts from Captain, HoS, HoP, CE, RD, CMO, Warden, Security, Detective, and AI positions.
 ## Set to 1 to jobban them from those positions, set to 0 to allow them.
@@ -263,16 +262,16 @@ CHECK_RANDOMIZER
 # SERVER ss13.example.com:2506
 
 ## forum address
-# FORUMURL 
+# FORUMURL https://coyotebayou.freeforums.net/
 
 ## Wiki address
 # WIKIURL https://f13wiki.herma.moe/index.php/Main_Page
 
 ## Rules address
-RULESURL https://discord.gg/udjkrkmx8x
+RULESURL https://discord.gg/Xj5r7ZTWs7
 
 ## Github address
-GITHUBURL https://github.com/Wild-Wasteland-13/Wild-Wasteland-13
+GITHUBURL https://github.com/ARF-SS13/coyote-bayou
 
 ## Round specific stats address
 ## Link to round specific parsed logs; IE statbus. It is appended with the RoundID automatically by ticker/Reboot()
@@ -291,7 +290,8 @@ GITHUBURL https://github.com/Wild-Wasteland-13/Wild-Wasteland-13
 # GITHUBREPOID 62485194
 
 ## Ban appeals URL - usually for a forum or wherever people should go to contact your admins.
-# BANAPPEALS 
+# BANAPPEALS https://coyotebayou.freeforums.net/thread/2/appeal-format
+
 ## System command that invokes youtube-dl, used by Play Internet Sound.
 ## You can install youtube-dl with
 ## "pip install youtube-dl" if you have pip installed
@@ -550,7 +550,7 @@ CENTCOM_BAN_DB https://centcom.melonmesa.com/ban/search
 ## 0 Disables Border Control
 ## 1 Puts Border Control into 'learning mode' and will have it automatically whitelist new connections
 ## 2 Puts Border Control into 'enforcing mode' and will have it deny connections that are not already whitelisted.
-BORDER_CONTROL 0
+BORDER_CONTROL 2
 
 ## Image Previews used for examining humans!
 ## _P stands for prefix, and _S stands for suffix.
