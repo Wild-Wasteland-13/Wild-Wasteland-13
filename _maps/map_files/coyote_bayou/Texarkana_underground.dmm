@@ -1676,9 +1676,16 @@
 	},
 /area/f13/building/sewers)
 "bfe" = (
-/mob/living/simple_animal/hostile/raider/ranged,
+/mob/living/simple_animal/hostile/raider/baseball{
+	desc = "A burly looking Junker armed with a crude fist-weapon.";
+	icon_dead = "junker_scrapper";
+	icon_gib = "junker_scrapper";
+	icon_living = "junker_scrapper";
+	icon_state = "junker_scrapper";
+	name = "Junker Scrapper"
+	},
 /turf/open/indestructible/ground/inside/subway,
-/area/f13/tunnel)
+/area/f13/building/sewers)
 "bgb" = (
 /obj/effect/spawner/lootdrop/trash,
 /obj/effect/decal/cleanable/dirt{
@@ -2405,6 +2412,12 @@
 /obj/item/stack/f13Cash/random/high,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/building)
+"bBd" = (
+/mob/living/simple_animal/hostile/raider/ranged/boss/blueberrybates{
+	name = "Strawberry Stacy from the Bottom-Feeder"
+	},
+/turf/open/indestructible/ground/inside/subway,
+/area/f13/building/sewers)
 "bBl" = (
 /obj/item/trash/f13/dog,
 /turf/open/indestructible/ground/inside/subway,
@@ -5186,6 +5199,13 @@
 /obj/effect/turf_decal/weather/dirt,
 /turf/open/floor/plating/ashplanet/rocky,
 /area/f13/caves)
+"bUL" = (
+/obj/effect/decal/cleanable/dirt,
+/mob/living/simple_animal/hostile/raider/ranged/biker,
+/turf/open/floor/plasteel/f13/vault_floor/dark{
+	icon_state = "darkrusty"
+	},
+/area/f13/building/sewers)
 "bUM" = (
 /obj/effect/decal/remains{
 	icon_state = "remains"
@@ -10739,19 +10759,6 @@
 /obj/structure/railing/handrail/rusty,
 /obj/structure/lattice/catwalk,
 /turf/open/water,
-/area/f13/building/sewers)
-"frS" = (
-/mob/living/simple_animal/hostile/raider/baseball{
-	desc = "A burly looking Junker armed with a crude fist-weapon.";
-	icon_dead = "junker_scrapper";
-	icon_gib = "junker_scrapper";
-	icon_living = "junker_scrapper";
-	icon_state = "junker_scrapper";
-	name = "Junker Scrapper"
-	},
-/turf/open/floor/f13{
-	icon_state = "greenrustyfull"
-	},
 /area/f13/building/sewers)
 "frY" = (
 /obj/structure/simple_door/wood,
@@ -17289,10 +17296,6 @@
 	},
 /turf/closed/wall/r_wall/rust,
 /area/f13/building)
-"jDU" = (
-/mob/living/simple_animal/hostile/raider/ranged,
-/turf/open/indestructible/ground/inside/subway,
-/area/f13/building/sewers)
 "jDW" = (
 /obj/structure/obstacle/barbedwire/end,
 /turf/open/indestructible/ground/inside/subway,
@@ -18712,12 +18715,6 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/yellow/yellowchess/yellowchess2,
 /area/f13/caves)
-"kCU" = (
-/mob/living/simple_animal/hostile/raider/ranged/boss/blueberrybates{
-	name = "Strawberry Stacy from the Bottom-Feeder"
-	},
-/turf/open/indestructible/ground/inside/subway,
-/area/f13/building/sewers)
 "kCX" = (
 /obj/structure/sign/warning,
 /obj/structure/timeddoor,
@@ -18892,15 +18889,10 @@
 /turf/open/floor/plating,
 /area/f13/building/museum)
 "kJT" = (
-/mob/living/simple_animal/hostile/raider/baseball{
-	desc = "A burly looking Junker armed with a crude fist-weapon.";
-	icon_dead = "junker_scrapper";
-	icon_gib = "junker_scrapper";
-	icon_living = "junker_scrapper";
-	icon_state = "junker_scrapper";
-	name = "Junker Scrapper"
+/obj/machinery/workbench/advanced,
+/turf/open/floor/f13{
+	icon_state = "greenrustyfull"
 	},
-/turf/open/indestructible/ground/inside/subway,
 /area/f13/building/sewers)
 "kKi" = (
 /obj/structure/table/glass,
@@ -21351,6 +21343,10 @@
 /obj/effect/spawner/lootdrop/f13/uncommon,
 /turf/open/floor/plating/tunnel,
 /area/f13/caves)
+"mdG" = (
+/mob/living/simple_animal/hostile/raider/ranged,
+/turf/open/indestructible/ground/inside/subway,
+/area/f13/building/sewers)
 "mdN" = (
 /obj/structure/table/wood,
 /obj/structure/decoration/clock/active{
@@ -26065,12 +26061,6 @@
 	icon_state = "greenrustyfull"
 	},
 /area/f13/caves)
-"peq" = (
-/obj/machinery/workbench/advanced,
-/turf/open/floor/f13{
-	icon_state = "greenrustyfull"
-	},
-/area/f13/building/sewers)
 "peA" = (
 /obj/effect/decal/cleanable/oil/slippery,
 /obj/machinery/porta_turret/syndicate/vehicle_turret{
@@ -28477,6 +28467,13 @@
 	},
 /turf/open/indestructible/ground/inside/subway,
 /area/f13/caves)
+"qxQ" = (
+/obj/effect/decal/cleanable/dirt,
+/mob/living/simple_animal/hostile/raider/baseball,
+/turf/open/floor/f13{
+	icon_state = "greenrustyfull"
+	},
+/area/f13/building/sewers)
 "qxZ" = (
 /obj/machinery/light{
 	dir = 1;
@@ -31608,13 +31605,6 @@
 /obj/effect/spawner/lootdrop/f13/armor/tier1,
 /obj/effect/spawner/lootdrop/f13/uncommon,
 /turf/open/floor/wood_wide/wood_wide_dark,
-/area/f13/building/sewers)
-"suO" = (
-/obj/effect/decal/cleanable/dirt,
-/mob/living/simple_animal/hostile/raider/baseball,
-/turf/open/floor/f13{
-	icon_state = "greenrustyfull"
-	},
 /area/f13/building/sewers)
 "suZ" = (
 /obj/machinery/light{
@@ -35441,6 +35431,19 @@
 	},
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/caves)
+"uNF" = (
+/mob/living/simple_animal/hostile/raider/baseball{
+	desc = "A burly looking Junker armed with a crude fist-weapon.";
+	icon_dead = "junker_scrapper";
+	icon_gib = "junker_scrapper";
+	icon_living = "junker_scrapper";
+	icon_state = "junker_scrapper";
+	name = "Junker Scrapper"
+	},
+/turf/open/floor/f13{
+	icon_state = "greenrustyfull"
+	},
+/area/f13/building/sewers)
 "uNI" = (
 /obj/item/chair/stool/retro/black,
 /obj/effect/spawner/lootdrop/trash,
@@ -35927,6 +35930,10 @@
 "veW" = (
 /obj/structure/timeddoor/sixtyminute,
 /turf/closed/wall/f13/tunnel,
+/area/f13/tunnel)
+"vfd" = (
+/mob/living/simple_animal/hostile/raider/ranged,
+/turf/open/indestructible/ground/inside/subway,
 /area/f13/tunnel)
 "vfG" = (
 /obj/item/reagent_containers/hypospray/medipen/stimpak,
@@ -36850,6 +36857,12 @@
 /obj/structure/flora/wasteplant/wild_fungus,
 /turf/open/indestructible/ground/outside/dirt/bigdirtturf,
 /area/f13/caves)
+"vNo" = (
+/mob/living/simple_animal/hostile/raider/firefighter,
+/turf/open/floor/f13{
+	icon_state = "greenrustyfull"
+	},
+/area/f13/building/sewers)
 "vNt" = (
 /obj/structure/sign/poster/official/obey,
 /turf/closed/wall/r_wall/f13vault{
@@ -36871,12 +36884,6 @@
 	icon_state = "darkrustysolid"
 	},
 /area/f13/building/massfusion)
-"vNX" = (
-/mob/living/simple_animal/hostile/raider/firefighter,
-/turf/open/floor/f13{
-	icon_state = "greenrustyfull"
-	},
-/area/f13/building/sewers)
 "vOh" = (
 /obj/item/mine/explosive,
 /turf/open/water,
@@ -38994,13 +39001,6 @@
 	color = "#779999"
 	},
 /area/f13/building)
-"xdQ" = (
-/obj/effect/decal/cleanable/dirt,
-/mob/living/simple_animal/hostile/raider/ranged/biker,
-/turf/open/floor/plasteel/f13/vault_floor/dark{
-	icon_state = "darkrusty"
-	},
-/area/f13/building/sewers)
 "xeh" = (
 /obj/structure/girder/reinforced,
 /turf/open/indestructible/ground/inside/mountain,
@@ -80328,7 +80328,7 @@ blM
 blM
 ccw
 kyV
-jDU
+mdG
 pwE
 rpA
 rpA
@@ -82124,7 +82124,7 @@ dzm
 bsC
 bsC
 bsC
-bfe
+vfd
 aah
 jeq
 okf
@@ -83923,7 +83923,7 @@ oRd
 pry
 kyV
 jZC
-xdQ
+bUL
 tYU
 tYU
 pfJ
@@ -85453,7 +85453,7 @@ pwE
 bsu
 ptn
 gcv
-peq
+kJT
 blM
 blM
 blM
@@ -86491,7 +86491,7 @@ kyV
 xul
 pry
 kyV
-kCU
+bBd
 kyV
 pry
 yiL
@@ -86994,7 +86994,7 @@ bKb
 pwE
 blM
 hXn
-suO
+qxQ
 gcv
 blM
 blM
@@ -87266,7 +87266,7 @@ kXx
 kXx
 pFE
 kyV
-kJT
+bfe
 pwE
 vRN
 rpA
@@ -87507,11 +87507,11 @@ aah
 bKb
 pwE
 blM
-frS
+uNF
 aYX
 gcv
 gcv
-vNX
+vNo
 gcv
 dDV
 blM
