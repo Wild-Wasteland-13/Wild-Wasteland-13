@@ -2670,11 +2670,6 @@
 /obj/item/reagent_containers/food/snacks/meat/slab/human,
 /turf/open/indestructible/ground/outside/ruins,
 /area/f13/caves)
-"ccH" = (
-/turf/open/floor/grass{
-	color = "#444444"
-	},
-/area/f13/caves)
 "ccL" = (
 /obj/structure/table/wood,
 /obj/effect/spawner/lootdrop/f13/common,
@@ -4005,10 +4000,6 @@
 	icon_state = "whitegreenrustychess"
 	},
 /area/f13/building/hospital)
-"dhn" = (
-/obj/effect/spawner/lootdrop/f13/trash,
-/turf/open/floor/carpet/royalblack,
-/area/f13/building/hospital/clinic/nash)
 "dhW" = (
 /obj/structure/spacevine{
 	name = "vines"
@@ -6984,7 +6975,6 @@
 	},
 /area/f13/building/mall)
 "fwX" = (
-/obj/effect/spawner/lootdrop/f13/trash,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/carpet/blue,
 /area/f13/building/hospital/clinic/nash)
@@ -8754,11 +8744,6 @@
 /obj/structure/closet/crate/bin,
 /turf/open/floor/f13/wood,
 /area/f13/ruins)
-"gOx" = (
-/obj/effect/spawner/lootdrop/f13/trash,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/f13/vault_floor/white,
-/area/f13/building/hospital/clinic/nash)
 "gOF" = (
 /obj/structure/chair/office/dark,
 /turf/open/floor/f13/wood{
@@ -14800,13 +14785,6 @@
 /obj/item/twohanded/required/kirbyplants/random,
 /turf/open/floor/plasteel/f13/vault_floor/white,
 /area/f13/building/hospital/clinic/nash)
-"leG" = (
-/obj/effect/spawner/lootdrop/f13/trash,
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/f13/vault_floor/white,
-/area/f13/building/hospital/clinic/nash)
 "lfe" = (
 /obj/structure/table/wood,
 /obj/effect/decal/cleanable/dirt/dust,
@@ -19098,7 +19076,6 @@
 /turf/closed/wall/f13/wood,
 /area/f13/building)
 "oub" = (
-/obj/effect/spawner/lootdrop/f13/trash,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -20767,9 +20744,10 @@
 	},
 /area/f13/wasteland)
 "pMU" = (
-/obj/effect/spawner/lootdrop/f13/trash,
-/turf/open/floor/plasteel/f13/vault_floor/white,
-/area/f13/building/hospital/clinic/nash)
+/turf/open/floor/grass{
+	color = "#444444"
+	},
+/area/f13/caves)
 "pNo" = (
 /obj/item/twohanded/required/kirbyplants/random,
 /turf/open/floor/wood_wide,
@@ -25529,7 +25507,6 @@
 /area/f13/building)
 "tnO" = (
 /obj/machinery/light,
-/obj/effect/spawner/lootdrop/f13/trash,
 /turf/open/floor/plasteel/f13/vault_floor/white,
 /area/f13/building/hospital/clinic/nash)
 "tog" = (
@@ -31527,7 +31504,6 @@
 /obj/structure/table,
 /obj/item/paper_bin,
 /obj/item/pen,
-/obj/effect/spawner/lootdrop/f13/trash,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/f13/vault_floor/neutral/white/whitepurplechess,
 /area/f13/building/hospital/clinic/nash)
@@ -35802,7 +35778,7 @@ qnC
 hHi
 psj
 oce
-dhn
+oce
 bMc
 mcX
 sKt
@@ -36061,7 +36037,7 @@ psj
 wdS
 bMc
 cxI
-leG
+mXO
 gVp
 mXO
 sKt
@@ -36318,12 +36294,12 @@ psj
 uWx
 bMc
 oce
-pMU
 oKe
 oKe
 oKe
 oKe
-gOx
+oKe
+sKt
 qsC
 qnC
 qnC
@@ -83436,7 +83412,7 @@ dtb
 dtb
 dtb
 dtb
-ccH
+pMU
 oDh
 oDh
 oDh
