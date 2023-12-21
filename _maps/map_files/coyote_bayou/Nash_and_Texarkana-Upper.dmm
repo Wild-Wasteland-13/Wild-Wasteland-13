@@ -1891,8 +1891,8 @@
 	dir = 4;
 	icon_state = "post_wood"
 	},
-/turf/open/indestructible/ground/outside/dirt{
-	color = "#9c9c9c"
+/turf/open/floor/grass{
+	color = "#444444"
 	},
 /area/f13/building/tribal)
 "bvx" = (
@@ -17984,8 +17984,8 @@
 /area/f13/building)
 "nBo" = (
 /obj/structure/fence/corner/wooden,
-/turf/open/indestructible/ground/outside/dirt{
-	color = "#9c9c9c"
+/turf/open/floor/grass{
+	color = "#444444"
 	},
 /area/f13/building/tribal)
 "nBq" = (
