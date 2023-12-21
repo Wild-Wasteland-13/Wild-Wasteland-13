@@ -220,7 +220,6 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/nest/raider,
 /turf/open/floor/f13{
 	icon_state = "floorrusty"
 	},
@@ -20890,6 +20889,7 @@
 "bCM" = (
 /obj/machinery/hydroponics/soil/pot,
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/flora/wasteplant/wild_punga,
 /turf/open/floor/f13/wood,
 /area/f13/building/coyote/nash/greenhouse)
 "bCS" = (
@@ -26628,18 +26628,6 @@
 	icon_state = "floorrusty"
 	},
 /area/f13/ruins)
-"cFX" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/nest/randomized{
-	randomizer_difficulty = 1;
-	randomizer_kind = "mid level mobs";
-	randomizer_tag = "Texarkana Residential District 1"
-	},
-/turf/open/floor/f13{
-	icon_state = "floorrusty"
-	},
-/area/f13/building)
 "cFZ" = (
 /obj/structure/flora/grass/wasteland{
 	icon_state = "tall_grass_3"
@@ -31814,6 +31802,7 @@
 /area/f13/building/coyote/nash/school/groundfloor)
 "dLQ" = (
 /obj/machinery/hydroponics/soil/pot,
+/obj/structure/flora/wasteplant/wild_broc,
 /turf/open/floor/f13/wood,
 /area/f13/building/coyote/nash/greenhouse)
 "dMc" = (
@@ -59474,12 +59463,9 @@
 	},
 /area/f13/wasteland)
 "jYO" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/nest/raider,
-/turf/open/floor/f13{
-	icon_state = "floorrusty"
-	},
-/area/f13/building)
+/obj/structure/flora/grass/coyote/one,
+/turf/open/indestructible/ground/outside/desert,
+/area/f13/wasteland/city/nash/suburbs)
 "jYR" = (
 /turf/closed/wall/f13/wood/interior,
 /area/f13/building/church)
@@ -77035,14 +77021,10 @@
 /turf/open/indestructible/ground/outside/desert,
 /area/f13/caves)
 "nOf" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/nest/randomized{
-	randomizer_difficulty = 1;
-	randomizer_kind = "mid level mobs";
-	randomizer_tag = "Texarkana Residential District 1"
-	},
-/turf/open/floor/plating,
-/area/f13/building/abandoned)
+/obj/structure/flora/grass/jungle,
+/mob/living/simple_animal/hostile/retaliate/goat/bighorn,
+/turf/open/floor/grass,
+/area/f13/wasteland)
 "nOi" = (
 /obj/structure/flora/grass/wasteland{
 	icon_state = "tall_grass_6"
@@ -140267,7 +140249,7 @@ jxt
 kyI
 jxt
 jxt
-jxt
+jYO
 jxt
 nxi
 nxi
@@ -140542,7 +140524,7 @@ jxt
 jxt
 edb
 jxt
-jxt
+jYO
 rCY
 sdu
 rRa
@@ -140914,7 +140896,7 @@ leB
 cIY
 cIY
 cIY
-cIY
+aCK
 cIY
 hyv
 cIY
@@ -141292,7 +141274,7 @@ jxt
 jxt
 jxt
 jxt
-jxt
+jYO
 jxt
 jxt
 jxt
@@ -141820,7 +141802,7 @@ jxt
 jxt
 jxt
 jxt
-jxt
+jYO
 jxt
 jEc
 jxt
@@ -142192,7 +142174,7 @@ cIY
 eAK
 eAK
 eAK
-eAK
+nOf
 tLX
 cIY
 cIY
@@ -142323,7 +142305,7 @@ jxt
 adB
 jxt
 jxt
-jxt
+jYO
 jxt
 jxt
 jxt
@@ -174002,7 +173984,7 @@ ktY
 afS
 ajS
 oHz
-jYO
+acp
 wJP
 brX
 sLC
@@ -174512,7 +174494,7 @@ myq
 afS
 ivj
 fFf
-cFX
+fFf
 ivj
 ivj
 xEJ
@@ -185813,7 +185795,7 @@ oUf
 uqJ
 bkI
 cVV
-nOf
+bkI
 bkI
 uqJ
 aHF
