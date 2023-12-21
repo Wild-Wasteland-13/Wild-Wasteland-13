@@ -9526,17 +9526,6 @@
 	},
 /area/f13/wasteland)
 "eiE" = (
-/obj/machinery/porta_turret/syndicate/vehicle_turret{
-	desc = "An ancient ballistic turret - it looks rusted, yet stil functional. Safe to assume it's still operational, given the fact it's shooting at you.";
-	faction = list("wastebot");
-	lethal_projectile = /obj/item/projectile/bullet/a762/sport/simple;
-	lethal_projectile_sound = 'sound/f13weapons/auto5.ogg';
-	name = "ancient turret";
-	scan_range = 9;
-	stun_projectile = /obj/item/projectile/bullet/a762/sport/simple;
-	stun_projectile_sound = 'sound/f13weapons/auto5.ogg';
-	throw_range = 9
-	},
 /obj/structure/table,
 /turf/open/indestructible/ground/outside/road{
 	icon_state = "shadowleft"
@@ -10266,13 +10255,11 @@
 	},
 /area/f13/wasteland/city)
 "ezJ" = (
-/obj/structure/nest/ghoul{
-	layer = 2.7;
-	max_mobs = 1;
-	radius = 3
-	},
-/turf/open/indestructible/ground/outside/road{
-	icon_state = "horizontalinnermain2"
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/mob/living/simple_animal/hostile/radscorpion/blue,
+/turf/open/indestructible/ground/outside/sidewalk{
+	icon_state = "horizontaltopbordertop0"
 	},
 /area/f13/wasteland)
 "ezM" = (
@@ -16303,7 +16290,7 @@
 "hfD" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/nest/scorpion,
+/mob/living/simple_animal/hostile/radscorpion,
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/caves)
 "hfO" = (
@@ -18513,13 +18500,9 @@
 /turf/open/floor/f13/wood,
 /area/f13/wasteland)
 "ijK" = (
-/obj/structure/nest/securitron,
-/turf/open/floor/f13{
-	color = "#ffe9de";
-	icon_state = "darkrusty";
-	name = "dirty floor"
-	},
-/area/f13/building)
+/mob/living/simple_animal/hostile/mirelurk/hunter,
+/turf/open/indestructible/ground/inside/dirt,
+/area/f13/caves)
 "iku" = (
 /obj/effect/turf_decal/weather/dirt{
 	dir = 1
@@ -19035,15 +19018,9 @@
 /area/f13/wasteland)
 "ivU" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/nest/ghoul{
-	layer = 2.7;
-	max_mobs = 1;
-	radius = 3
-	},
-/turf/open/indestructible/ground/outside/road{
-	icon_state = "horizontalbottombordertop0"
-	},
-/area/f13/wasteland)
+/mob/living/simple_animal/hostile/radscorpion/blue,
+/turf/open/indestructible/ground/inside/mountain,
+/area/f13/caves)
 "iwr" = (
 /obj/structure/car/rubbish2,
 /obj/effect/decal/cleanable/dirt,
@@ -30482,13 +30459,9 @@
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/bar/ashdown)
 "nzM" = (
-/obj/structure/nest/randomized{
-	randomizer_difficulty = 3;
-	randomizer_kind = "mid level mobs";
-	randomizer_tag = "westerm garland city"
-	},
-/turf/open/floor/plasteel/blueyellow,
-/area/f13/building)
+/mob/living/simple_animal/hostile/radscorpion,
+/turf/open/indestructible/ground/inside/mountain,
+/area/f13/caves)
 "nzP" = (
 /obj/effect/decal/cleanable/dirt{
 	color = "#363636"
@@ -41376,15 +41349,9 @@
 /turf/open/indestructible/ground/outside/desert,
 /area/f13/wasteland)
 "suJ" = (
-/obj/structure/nest/randomized{
-	randomizer_difficulty = 1;
-	randomizer_kind = "mid level mobs";
-	randomizer_tag = "Texarkana Residential District 1"
-	},
-/turf/open/floor/plasteel/f13{
-	icon_state = "bluerustychess"
-	},
-/area/f13/building/abandoned)
+/mob/living/simple_animal/hostile/radscorpion/black,
+/turf/open/indestructible/ground/inside/mountain,
+/area/f13/caves)
 "suL" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/curtain{
@@ -43967,13 +43934,10 @@
 	},
 /area/f13/building/abandoned)
 "tCn" = (
-/obj/structure/nest/randomized{
-	randomizer_difficulty = 1;
-	randomizer_kind = "mid level mobs";
-	randomizer_tag = "Texarkana Residential District 1"
-	},
-/turf/open/floor/plasteel/f13{
-	icon_state = "bluedirtychess"
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/spider/stickyweb,
+/turf/open/floor/f13{
+	icon_state = "bluerustysolid"
 	},
 /area/f13/building/abandoned)
 "tCq" = (
@@ -44546,13 +44510,9 @@
 	},
 /area/f13/building)
 "tPe" = (
-/obj/structure/spider/stickyweb,
-/obj/structure/nest/scorpion,
-/turf/open/floor/plasteel/barber{
-	icon = 'icons/turf/f13floors2.dmi';
-	icon_state = "bluerustychess2"
-	},
-/area/f13/building)
+/mob/living/simple_animal/hostile/mirelurk/hunter,
+/turf/open/indestructible/ground/inside/mountain,
+/area/f13/caves)
 "tPr" = (
 /obj/structure/window/fulltile/house,
 /turf/open/floor/f13{
@@ -47993,11 +47953,16 @@
 	},
 /area/f13/wasteland)
 "vrT" = (
-/obj/structure/nest/securitron,
-/turf/open/indestructible/ground/outside/road{
-	icon_state = "shadowleft"
+/obj/machinery/door/window{
+	dir = 4
 	},
-/area/f13/wasteland)
+/obj/structure/spider/stickyweb,
+/obj/structure/nest/scorpion,
+/turf/open/floor/plasteel/barber{
+	icon = 'icons/turf/f13floors2.dmi';
+	icon_state = "bluerustychess2"
+	},
+/area/f13/building)
 "vrV" = (
 /obj/effect/decal/cleanable/glass,
 /obj/effect/decal/cleanable/dirt,
@@ -57305,7 +57270,7 @@ ppl
 ppl
 wWK
 wWK
-ppl
+ivU
 wWK
 wWK
 ccr
@@ -59630,7 +59595,7 @@ gMW
 ccr
 gMW
 gMW
-wWK
+nzM
 wWK
 wWK
 wWK
@@ -59892,7 +59857,7 @@ gMW
 gMW
 gMW
 dhZ
-sSV
+ezJ
 bxV
 nDZ
 yft
@@ -60129,7 +60094,7 @@ gMW
 wWK
 tCq
 wWK
-eyi
+wWK
 wWK
 gMW
 eyi
@@ -60640,7 +60605,7 @@ gMW
 gMW
 gMW
 gMW
-wWK
+suJ
 wWK
 tCq
 wWK
@@ -61034,7 +60999,7 @@ ahd
 eWw
 pbk
 lPM
-lPM
+tCn
 jnr
 yfv
 oFI
@@ -62472,7 +62437,7 @@ mYI
 mYI
 iTh
 ebw
-eJh
+ega
 ebw
 ebw
 iTh
@@ -62722,7 +62687,7 @@ rAI
 tms
 jux
 bxV
-ivU
+oMR
 vGR
 imR
 mYI
@@ -64756,16 +64721,16 @@ qGB
 lNS
 qGB
 abQ
-sVi
 osb
-sVi
+osb
+osb
 arU
 osb
 osb
 abQ
 vsl
 oiX
-sVi
+osb
 arU
 arU
 sHz
@@ -64775,7 +64740,7 @@ bFq
 duP
 odC
 wbS
-ezJ
+duP
 riy
 yft
 eNv
@@ -65009,7 +64974,7 @@ hOu
 osb
 arU
 arU
-tPe
+arU
 osb
 osb
 vGB
@@ -66092,7 +66057,7 @@ mex
 mex
 kdu
 uZa
-uRT
+ebw
 ebw
 npi
 aZK
@@ -66297,7 +66262,7 @@ ccr
 gMW
 gMW
 uSf
-nCB
+vrT
 pag
 uSf
 nCB
@@ -67106,7 +67071,7 @@ gvq
 vsM
 wLm
 ylN
-uRT
+ebw
 ebw
 iTh
 mYI
@@ -80177,7 +80142,7 @@ lFI
 lFI
 lFI
 fYb
-xHd
+tBA
 lFI
 tBA
 iYs
@@ -82423,7 +82388,7 @@ mex
 exR
 hAi
 riU
-qSX
+riU
 cJP
 qVh
 qVh
@@ -83007,7 +82972,7 @@ lrs
 cSd
 lrs
 lrs
-cSd
+lrs
 lrs
 lrs
 lrs
@@ -84483,7 +84448,7 @@ lCN
 kbP
 riU
 qVh
-tCn
+qVh
 qVh
 jrS
 jrS
@@ -85058,7 +85023,7 @@ aNy
 lrs
 lrs
 lrs
-cSd
+lrs
 yiJ
 lrs
 wOS
@@ -86092,7 +86057,7 @@ lrs
 gUo
 lrs
 eeG
-cSd
+lrs
 lrs
 lrs
 gUo
@@ -87135,7 +87100,7 @@ lrs
 lrs
 lrs
 lFI
-xHd
+tBA
 orq
 wIT
 eFz
@@ -87645,7 +87610,7 @@ lrs
 lrs
 lrs
 lrs
-cSd
+lrs
 lrs
 lrs
 lFI
@@ -88081,7 +88046,7 @@ nbU
 qfp
 exR
 iXu
-suJ
+jrS
 uyn
 dzt
 exR
@@ -88450,8 +88415,8 @@ xnX
 jEu
 dZs
 dZs
-ijK
-ijK
+cxC
+cxC
 dZs
 fhz
 nlc
@@ -88961,8 +88926,8 @@ mYI
 mYI
 rQt
 oCy
-vrT
-vrT
+iCP
+iCP
 iEy
 eiE
 pOE
@@ -109157,7 +109122,7 @@ yji
 xdG
 vrE
 xdG
-nzM
+xdG
 mhI
 lwy
 htg
@@ -109637,7 +109602,7 @@ gRn
 wWK
 tCq
 wWK
-eHB
+tPe
 wWK
 wWK
 gMW
@@ -111685,7 +111650,7 @@ btP
 btP
 btP
 wWK
-eHB
+wWK
 tCq
 wWK
 wWK
@@ -111954,7 +111919,7 @@ wWK
 wWK
 wWK
 ldV
-hyb
+kOR
 kOR
 aqi
 bbz
@@ -112728,7 +112693,7 @@ wWK
 kOR
 sKh
 kOR
-hyb
+kOR
 kOR
 aqi
 hOr
@@ -113237,7 +113202,7 @@ wWK
 wWK
 wWK
 wWK
-eHB
+wWK
 wWK
 wWK
 kOR
@@ -114962,7 +114927,7 @@ wWK
 wxf
 wxf
 wWK
-dWX
+wWK
 agk
 gMW
 gMW
@@ -115208,7 +115173,7 @@ mYI
 gMW
 agk
 wWK
-dWX
+wWK
 wWK
 jEr
 tvr
@@ -115725,7 +115690,7 @@ xrU
 wWK
 wWK
 wxf
-dWX
+wWK
 wWK
 wWK
 wWK
@@ -117094,7 +117059,7 @@ gMW
 gMW
 tvk
 kOR
-kOR
+ijK
 gMW
 gMW
 gMW
@@ -117355,7 +117320,7 @@ kOR
 gMW
 gMW
 gMW
-wWK
+tPe
 wWK
 gMW
 gMW
@@ -117608,7 +117573,7 @@ gMW
 kOR
 anC
 sKh
-hyb
+kOR
 gMW
 gMW
 gMW

@@ -4374,7 +4374,6 @@
 /obj/item/storage/secure/briefcase,
 /obj/item/storage/secure/briefcase,
 /obj/item/storage/secure/briefcase,
-/obj/effect/spawner/lootdrop/f13/uncommon_unique,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/building)
 "bOR" = (
@@ -5029,12 +5028,6 @@
 /obj/structure/nest/gelcube,
 /turf/open/indestructible/ground/inside/subway,
 /area/f13/tunnel)
-"bRQ" = (
-/obj/structure/nest/raider,
-/turf/open/floor/f13{
-	icon_state = "greenrustyfull"
-	},
-/area/f13/building/sewers)
 "bRR" = (
 /obj/structure/bonfire,
 /turf/open/indestructible/ground/inside/subway,
@@ -5051,15 +5044,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/closed/indestructible/f13vaultrusted,
 /area/f13/tunnel)
-"bSi" = (
-/obj/machinery/light{
-	dir = 4
-	},
-/obj/structure/nest/raider,
-/turf/open/floor/f13{
-	icon_state = "greenrustyfull"
-	},
-/area/f13/building/sewers)
 "bSm" = (
 /obj/item/flashlight/flare/torch,
 /turf/open/indestructible/ground/inside/subway,
@@ -5590,9 +5574,14 @@
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/caves)
 "cdK" = (
-/mob/living/simple_animal/hostile/poison/giant_spider/tarantula,
-/turf/open/floor/plasteel/f13/vault_floor/green,
-/area/f13/caves)
+/mob/living/simple_animal/hostile/raider/ranged/boss/blueberrybates{
+	color = "#eeee00";
+	name = "Lemon Leonidas & His Lactose Intolerant Loons"
+	},
+/turf/open/floor/f13{
+	icon_state = "greenrustyfull"
+	},
+/area/f13/building/sewers)
 "cdP" = (
 /obj/effect/decal/cleanable/blood/tracks,
 /turf/open/indestructible/ground/inside/mountain,
@@ -6593,10 +6582,9 @@
 	},
 /area/f13/building)
 "cBO" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/nest/raider,
-/turf/open/floor/f13{
-	icon_state = "greenrustyfull"
+/mob/living/simple_animal/hostile/raider/baseball,
+/turf/open/floor/plasteel/f13/vault_floor/dark{
+	icon_state = "darkrusty"
 	},
 /area/f13/building/sewers)
 "cBX" = (
@@ -11915,13 +11903,6 @@
 	icon_state = "floorrustysolid"
 	},
 /area/f13/building)
-"ghL" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/nest/gecko/tribal/guard,
-/turf/open/floor/f13{
-	icon_state = "greenrustyfull"
-	},
-/area/f13/tunnel)
 "ghM" = (
 /obj/structure/simple_door/bunker,
 /obj/structure/spider/stickyweb,
@@ -14711,12 +14692,10 @@
 /turf/open/floor/wood_fancy/wood_fancy_dark,
 /area/f13/building)
 "hYr" = (
-/obj/effect/decal/cleanable/generic,
-/mob/living/simple_animal/hostile/raider/ranged/boss/blueberrybates{
-	color = "#eeee00";
-	name = "Lemon Leonidas & His Lactose Intolerant Loons"
+/mob/living/simple_animal/hostile/raider/ranged/boss/blueberrybates,
+/turf/open/floor/f13{
+	icon_state = "greenrustyfull"
 	},
-/turf/open/indestructible/ground/inside/subway,
 /area/f13/building/sewers)
 "hYz" = (
 /obj/item/card/midbounty,
@@ -15586,7 +15565,7 @@
 /area/f13/tunnel)
 "izx" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/nest/raider,
+/mob/living/simple_animal/hostile/raider/firefighter,
 /turf/open/indestructible/ground/inside/subway,
 /area/f13/building/sewers)
 "izL" = (
@@ -16292,7 +16271,7 @@
 /turf/open/water,
 /area/f13/building/sewers)
 "iUI" = (
-/obj/structure/nest/raider,
+/mob/living/simple_animal/hostile/raider/firefighter,
 /turf/open/indestructible/ground/inside/subway,
 /area/f13/tunnel)
 "iUK" = (
@@ -24806,14 +24785,6 @@
 /obj/effect/decal/cleanable/blood/gibs/old,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/caves)
-"opR" = (
-/obj/structure/table/wood/settler,
-/obj/item/storage/secure/briefcase,
-/obj/item/storage/secure/briefcase,
-/obj/item/storage/secure/briefcase,
-/obj/effect/spawner/lootdrop/f13/common_unique,
-/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
-/area/f13/building)
 "opU" = (
 /obj/effect/decal/cleanable/dirt{
 	color = "#363636"
@@ -25624,13 +25595,13 @@
 /turf/open/water,
 /area/f13/building/sewers)
 "oRd" = (
-/obj/structure/table/wood/settler,
-/obj/item/storage/secure/briefcase,
-/obj/item/storage/secure/briefcase,
-/obj/item/storage/secure/briefcase,
-/obj/effect/spawner/lootdrop/f13/rare_unique,
-/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
-/area/f13/building)
+/obj/structure/destructible/tribal_torch/wall/lit{
+	dir = 1;
+	pixel_y = 12
+	},
+/mob/living/simple_animal/hostile/raider/firefighter,
+/turf/open/indestructible/ground/inside/subway,
+/area/f13/building/sewers)
 "oRB" = (
 /obj/machinery/power/terminal,
 /obj/structure/cable{
@@ -28394,12 +28365,6 @@
 /obj/effect/spawner/lootdrop/f13/uncommon,
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/tunnel)
-"qvr" = (
-/obj/structure/nest/raider,
-/turf/open/floor/f13{
-	icon_state = "yellowrustychess"
-	},
-/area/f13/building/sewers)
 "qvL" = (
 /turf/open/floor/plasteel/f13/vault_floor/misc/cafeteria,
 /area/f13/building/museum)
@@ -29910,11 +29875,10 @@
 /turf/open/floor/f13/wood,
 /area/f13/building)
 "rsc" = (
-/obj/structure/nest/gecko/tribal/guard,
-/turf/open/floor/f13{
-	icon_state = "greenrustyfull"
-	},
-/area/f13/tunnel)
+/obj/effect/decal/cleanable/dirt,
+/mob/living/simple_animal/hostile/raider/baseball,
+/turf/open/indestructible/ground/inside/subway,
+/area/f13/building/sewers)
 "rsu" = (
 /obj/structure/decoration/vent/rusty,
 /obj/machinery/shower{
@@ -34212,8 +34176,7 @@
 	},
 /area/f13/building/sewers)
 "tZa" = (
-/obj/structure/table/reinforced,
-/obj/item/stack/cable_coil,
+/obj/machinery/rnd/production/circuit_imprinter,
 /turf/open/floor/plasteel/f13/vault_floor/purple,
 /area/f13/building)
 "tZe" = (
@@ -52734,7 +52697,7 @@ boU
 aae
 uUw
 bOH
-oRd
+bOQ
 bLL
 bOR
 bLL
@@ -52991,7 +52954,7 @@ boU
 aae
 uUw
 tFU
-opR
+bOQ
 bLL
 bPE
 bLL
@@ -60968,7 +60931,7 @@ jGk
 aae
 aaB
 lxm
-iSK
+mUb
 aaB
 aae
 aak
@@ -62865,7 +62828,7 @@ aak
 rQU
 aaB
 fSX
-var
+aaB
 aaB
 aaB
 aaB
@@ -65603,7 +65566,7 @@ aae
 aak
 aae
 aar
-mmC
+aaB
 mUb
 aaB
 aaB
@@ -65862,7 +65825,7 @@ aae
 aar
 aaB
 mUb
-mmC
+aaB
 aaB
 obr
 aaB
@@ -66635,7 +66598,7 @@ aaB
 aaB
 aaB
 asX
-iSK
+mUb
 aaB
 aae
 aae
@@ -67147,7 +67110,7 @@ aae
 aae
 aae
 aaB
-mmC
+aaB
 mUb
 aaB
 uhX
@@ -73403,7 +73366,7 @@ aaa
 haC
 svV
 bKb
-ghL
+bPR
 iCR
 bPR
 tuh
@@ -74127,11 +74090,11 @@ bsC
 aae
 aae
 aaa
-ylF
+aaB
 hlL
 lCE
 hlL
-ylF
+aaB
 aaa
 aak
 aae
@@ -74430,7 +74393,7 @@ aae
 aaa
 haC
 pdx
-rsc
+bKb
 bKb
 kGB
 ioY
@@ -79276,7 +79239,7 @@ jGk
 jGk
 jGk
 blM
-pry
+izx
 kyV
 blM
 bfe
@@ -83393,7 +83356,7 @@ kyV
 jZC
 tYU
 ezq
-tYU
+cBO
 azD
 pwE
 aah
@@ -83645,7 +83608,7 @@ nGt
 cTO
 bCt
 ykz
-izx
+pry
 lsI
 jZC
 aWr
@@ -83901,7 +83864,7 @@ bCt
 cTO
 cTO
 bCt
-njF
+oRd
 pry
 kyV
 jZC
@@ -84159,7 +84122,7 @@ ovm
 qZn
 bCt
 xbU
-pry
+rsc
 kyV
 eFN
 byL
@@ -85434,7 +85397,7 @@ bKb
 pwE
 bsu
 ptn
-bRQ
+gcv
 gcv
 blM
 blM
@@ -85947,9 +85910,9 @@ aah
 bKb
 pwE
 gQX
-gcv
-cBO
-gcv
+hYr
+hXn
+cdK
 eIP
 blM
 aaK
@@ -85961,9 +85924,9 @@ kyV
 pry
 kyV
 kyV
-izx
+pry
 kyV
-aGK
+kyV
 blM
 pwE
 rpA
@@ -86206,7 +86169,7 @@ pwE
 cOH
 aYX
 gcv
-bSi
+aYX
 blM
 blM
 ckq
@@ -86466,7 +86429,7 @@ ura
 blM
 blM
 ilL
-qvr
+dua
 kiv
 blM
 kyV
@@ -86718,7 +86681,7 @@ aah
 bKb
 pwE
 blM
-bRQ
+gcv
 hXn
 nUP
 pDP
@@ -86730,7 +86693,7 @@ njF
 eXI
 pry
 kJT
-hYr
+ijd
 pry
 pry
 mrH
@@ -87234,7 +87197,7 @@ pwE
 blM
 gcv
 hXn
-bRQ
+gcv
 gcv
 gcv
 gcv
@@ -98205,7 +98168,7 @@ qwI
 bHT
 iZw
 rMV
-cdK
+mmz
 flz
 srq
 cKd

@@ -3746,6 +3746,13 @@
 	icon_state = "yellowdirtyfull"
 	},
 /area/f13/building)
+"bPg" = (
+/obj/effect/spawner/lootdrop/f13/rare_armor,
+/turf/open/floor/plasteel/barber{
+	icon = 'icons/turf/f13floors2.dmi';
+	icon_state = "bluerustychess2"
+	},
+/area/f13/bunker/bighornbunker)
 "bPq" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/cable{
@@ -5226,6 +5233,7 @@
 /obj/effect/spawner/lootdrop/f13/rare_weps,
 /obj/effect/spawner/lootdrop/f13/rare_armor,
 /obj/effect/spawner/lootdrop/f13/rare_armor,
+/obj/effect/spawner/lootdrop/f13/rare_melee,
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/bunker)
 "cyQ" = (
@@ -5737,6 +5745,7 @@
 /obj/effect/spawner/lootdrop/f13/rare,
 /obj/effect/spawner/lootdrop/f13/rare,
 /obj/item/card/midbounty,
+/obj/effect/spawner/lootdrop/f13/rare_melee,
 /turf/open/floor/plasteel/barber{
 	icon = 'icons/turf/f13floors2.dmi';
 	icon_state = "bluerustychess2"
@@ -7211,6 +7220,13 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/indestructible/ground/outside/dirt,
 /area/f13/wasteland/enclavehelipad)
+"dkS" = (
+/obj/item/clothing/head/helmet/f13/power_armor/t51b,
+/obj/item/clothing/suit/armor/power_armor/t51b,
+/turf/open/floor/plating/f13/inside/mountain{
+	icon_state = "mountain2"
+	},
+/area/f13/underground/cave)
 "dkV" = (
 /obj/machinery/light/broken,
 /obj/effect/decal/cleanable/dirt/dust,
@@ -10427,6 +10443,7 @@
 /obj/structure/table/wood,
 /obj/item/flashlight/lantern,
 /obj/effect/spawner/lootdrop/f13/rare,
+/obj/effect/spawner/lootdrop/f13/rare_melee,
 /turf/open/floor/holofloor/carpet,
 /area/f13/bunker)
 "eGp" = (
@@ -11686,6 +11703,7 @@
 /area/f13/brotherhood/rnd)
 "fle" = (
 /obj/structure/bed/double,
+/obj/effect/spawner/lootdrop/f13/rare_artifacts,
 /turf/open/floor/wood_worn/wood_worn_dark,
 /area/f13/building)
 "fln" = (
@@ -13815,11 +13833,6 @@
 /turf/open/floor/plasteel/cult,
 /area/f13/building)
 "ghb" = (
-/obj/machinery/porta_turret/f13/turret_556/burstfire/raider{
-	desc = "It makes no sense. And yet, it is. Hidden amongst the brush and darkness lies a fully automatic turret, waiting for prey. It seems to be old- even older than other turrets. And yet, it works flawlessly.";
-	faction = list("tunneler");
-	name = "ancient turret"
-	},
 /obj/structure/table/reinforced{
 	color = "#3c2c21"
 	},
@@ -16295,6 +16308,7 @@
 /obj/machinery/button/door{
 	id = 93
 	},
+/obj/effect/spawner/lootdrop/f13/rare_weps,
 /turf/open/floor/plasteel/barber{
 	icon = 'icons/turf/f13floors2.dmi';
 	icon_state = "bluerustychess2"
@@ -18098,6 +18112,18 @@
 	icon_state = "tealwhdirty_chess2"
 	},
 /area/f13/brotherhood/leisure)
+"imH" = (
+/obj/structure/closet/secure_closet/goodies{
+	anchorable = 0;
+	anchored = 1;
+	name = "loot locker";
+	req_access_txt = "150";
+	req_one_access_txt = "150"
+	},
+/obj/item/clothing/suit/armor/power_armor/t45b/hotrod,
+/obj/item/clothing/head/helmet/f13/power_armor/t45b/hotrod,
+/turf/open/floor/plasteel/cult,
+/area/f13/building)
 "imJ" = (
 /obj/structure/flora/ausbushes/grassybush,
 /turf/open/floor/grass,
@@ -20533,6 +20559,7 @@
 /obj/machinery/shower{
 	dir = 4
 	},
+/obj/effect/spawner/lootdrop/f13/rare_melee,
 /turf/open/floor/plasteel/barber{
 	icon = 'icons/turf/f13floors2.dmi';
 	icon_state = "bluerustychess2"
@@ -20884,6 +20911,8 @@
 /obj/structure/table/wood,
 /obj/item/storage/fancy/candle_box,
 /obj/effect/spawner/lootdrop/f13/rare,
+/obj/item/clothing/suit/armor/power_armor/t60/pineapple,
+/obj/item/clothing/head/helmet/f13/heavy/salvaged_pa/t60,
 /turf/open/floor/carpet{
 	icon_state = "carpetsymbol"
 	},
@@ -23035,7 +23064,6 @@
 "kFo" = (
 /obj/structure/bed,
 /obj/item/bedsheet/hos,
-/obj/effect/spawner/lootdrop/f13/rare_unique,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/building)
 "kFp" = (
@@ -25698,11 +25726,6 @@
 /obj/structure/table/reinforced{
 	color = "#3c2c21"
 	},
-/obj/machinery/porta_turret/f13/turret_556/burstfire/raider{
-	desc = "It makes no sense. And yet, it is. Hidden amongst the brush and darkness lies a fully automatic turret, waiting for prey. It seems to be old- even older than other turrets. And yet, it works flawlessly.";
-	faction = list("tunneler");
-	name = "ancient turret"
-	},
 /turf/open/floor/plasteel/cult,
 /area/f13/underground/cave/tunnelertemple/void)
 "lRP" = (
@@ -25740,6 +25763,14 @@
 	icon_state = "tealwhdirty_chess2"
 	},
 /area/f13/brotherhood/leisure)
+"lSm" = (
+/obj/structure/chair/f13chair1,
+/obj/effect/spawner/lootdrop/f13/rare_weps,
+/obj/effect/spawner/lootdrop/f13/rare_armor,
+/turf/open/floor/f13{
+	icon_state = "greendirtyfull"
+	},
+/area/f13/building)
 "lSv" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/fakelattice,
@@ -28445,6 +28476,8 @@
 /obj/structure/closet/crate/secure/engineering,
 /obj/effect/turf_decal/bot,
 /obj/effect/spawner/lootdrop/f13/rare,
+/obj/item/clothing/head/helmet/f13/power_armor/t45b,
+/obj/item/clothing/suit/armor/power_armor/t45b,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vault1,
 /area/f13/building)
 "neN" = (
@@ -29060,11 +29093,6 @@
 	dir = 8
 	},
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/nest/randomized{
-	randomizer_difficulty = 1;
-	randomizer_kind = "high level robots";
-	randomizer_tag = "Radioshack Radicals"
-	},
 /turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,
 /area/f13/building)
 "nsZ" = (
@@ -30478,6 +30506,9 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/spawner/lootdrop/f13/uncommon,
 /obj/effect/spawner/lootdrop/f13/uncommon,
+/obj/effect/spawner/lootdrop/f13/rare_armor,
+/obj/effect/spawner/lootdrop/f13/rare_weps,
+/obj/effect/spawner/lootdrop/f13/rare_melee,
 /turf/open/floor/f13{
 	icon_state = "greendirtyfull"
 	},
@@ -33764,6 +33795,7 @@
 /obj/structure/table/wood/fancy/blackred,
 /obj/item/reagent_containers/glass/beaker/unholywater,
 /obj/effect/spawner/lootdrop/f13/uncommon,
+/obj/effect/spawner/lootdrop/f13/rare_artifacts,
 /turf/open/floor/wood_fancy/wood_fancy_dark,
 /area/f13/building)
 "pwk" = (
@@ -33784,6 +33816,7 @@
 /obj/effect/decal/waste{
 	icon_state = "goo10"
 	},
+/obj/effect/spawner/lootdrop/f13/rare_melee,
 /turf/open/floor/plasteel/f13{
 	icon_state = "yellowrustyfull"
 	},
@@ -35918,6 +35951,10 @@
 	icon_state = "plating"
 	},
 /area/f13/bunker)
+"qrA" = (
+/obj/effect/spawner/lootdrop/f13/rare_artifacts,
+/turf/open/floor/wood_fancy/wood_fancy_dark,
+/area/f13/building)
 "qrT" = (
 /obj/structure/closet/fridge,
 /obj/effect/spawner/lootdrop/f13/foodspawner,
@@ -36041,6 +36078,14 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/brotherhood/offices1st)
+"quA" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/spawner/lootdrop/f13/uncommon,
+/obj/effect/spawner/lootdrop/f13/rare_artifacts,
+/turf/open/floor/f13{
+	icon_state = "greendirtyfull"
+	},
+/area/f13/building)
 "quH" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/flora/junglebush/b,
@@ -39009,12 +39054,9 @@
 /turf/open/floor/plasteel/f13/vault_floor/misc/cafeteria,
 /area/f13/enclave)
 "rMR" = (
-/obj/structure/nest/supermutant,
-/turf/open/floor/plasteel/barber{
-	icon = 'icons/turf/f13floors2.dmi';
-	icon_state = "bluerustychess2"
-	},
-/area/f13/bunker/bighornbunker)
+/obj/effect/spawner/lootdrop/f13/rare_weps,
+/turf/open/floor/plating/tunnel,
+/area/f13/radiation)
 "rMX" = (
 /obj/structure/cable{
 	icon_state = "0-4"
@@ -39084,7 +39126,6 @@
 /obj/item/candle{
 	pixel_x = -7
 	},
-/obj/machinery/porta_turret/f13/turret_556/burstfire/raider,
 /turf/open/floor/clockwork/reebe{
 	desc = "Cool coloured plating. You can feel it gently vibrating, as if machinery is on the other side.";
 	name = "cool metal floor"
@@ -40929,9 +40970,12 @@
 /turf/open/floor/f13/wood,
 /area/f13/bunker)
 "sFE" = (
-/obj/machinery/porta_turret/f13/turret_9mm/burstfire/raider,
-/turf/closed/wall/f13/wood,
-/area/f13/brotherhood/rnd)
+/obj/effect/spawner/lootdrop/f13/rare_weps,
+/turf/open/floor/plasteel/barber{
+	icon = 'icons/turf/f13floors2.dmi';
+	icon_state = "bluerustychess2"
+	},
+/area/f13/bunker/bighornbunker)
 "sFG" = (
 /mob/living/simple_animal/hostile/vault/dweller,
 /turf/open/floor/plasteel/f13/vault_floor/plating,
@@ -46652,6 +46696,8 @@
 	health = 500;
 	maxHealth = 500
 	},
+/obj/item/clothing/head/helmet/f13/power_armor/t60,
+/obj/item/clothing/suit/armor/power_armor/t60,
 /turf/open/floor/bronze{
 	name = "floor"
 	},
@@ -47868,16 +47914,9 @@
 	},
 /area/f13/building)
 "vOO" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/nest/randomized{
-	randomizer_difficulty = 1;
-	randomizer_kind = "high level robots";
-	randomizer_tag = "Radioshack Radicals"
-	},
-/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
-	name = "metal plating"
-	},
-/area/f13/building)
+/obj/effect/spawner/lootdrop/f13/rare_melee,
+/turf/open/indestructible/ground/outside/dirt,
+/area/f13/wasteland/enclavehelipad)
 "vOS" = (
 /obj/machinery/processor,
 /turf/open/floor/plasteel/cafeteria,
@@ -47986,6 +48025,13 @@
 /obj/structure/flora/ausbushes/lavendergrass,
 /turf/open/floor/grass,
 /area/f13/underground/cave/vault/fourfivefour)
+"vSX" = (
+/obj/effect/decal/cleanable/dirt{
+	color = "#363636"
+	},
+/mob/living/simple_animal/hostile/trog/tunneler,
+/turf/open/floor/plasteel/cult,
+/area/f13/underground/cave/tunnelertemple)
 "vTr" = (
 /obj/structure/fans/tiny{
 	pixel_y = -33
@@ -49426,7 +49472,6 @@
 /obj/structure/table/reinforced{
 	color = "#3c2c21"
 	},
-/obj/item/drone_shell/ancient,
 /obj/effect/spawner/lootdrop/f13/uncommon,
 /turf/open/floor/plasteel/cult,
 /area/f13/underground/cave/tunnelertemple)
@@ -50285,7 +50330,6 @@
 /obj/item/candle{
 	pixel_x = 7
 	},
-/obj/machinery/porta_turret/f13/turret_556/burstfire/raider,
 /turf/open/floor/clockwork/reebe{
 	desc = "Cool coloured plating. You can feel it gently vibrating, as if machinery is on the other side.";
 	name = "cool metal floor"
@@ -50559,6 +50603,11 @@
 	icon_state = "floorrusty"
 	},
 /area/f13/building)
+"xbD" = (
+/obj/structure/spacevine,
+/mob/living/simple_animal/hostile/trog/tunneler,
+/turf/open/floor/plasteel/cult,
+/area/f13/underground/cave/tunnelertemple/void)
 "xbP" = (
 /obj/structure/lattice{
 	layer = 3
@@ -50793,7 +50842,6 @@
 /obj/item/gun/ballistic/automatic/sportcarbine,
 /obj/item/gun/ballistic/automatic/sportcarbine,
 /obj/structure/rack/shelf_wood,
-/obj/effect/spawner/lootdrop/f13/rare_unique,
 /obj/effect/spawner/lootdrop/f13/uncommon,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
 	color = "#d9cdb9";
@@ -51035,6 +51083,12 @@
 	icon_state = "floorrusty"
 	},
 /area/f13/brotherhood/dorms)
+"xrA" = (
+/obj/structure/spider/stickyweb,
+/obj/effect/spawner/lootdrop/f13/rare_weps,
+/obj/effect/spawner/lootdrop/f13/rare_armor,
+/turf/open/floor/plating/tunnel,
+/area/f13/radiation)
 "xrE" = (
 /obj/structure/toilet{
 	pixel_y = 10
@@ -51825,6 +51879,7 @@
 /obj/item/storage/book/bible,
 /obj/item/clothing/suit/armor/light/duster/robe_hubologist,
 /obj/effect/spawner/lootdrop/f13/rare,
+/obj/effect/spawner/lootdrop/f13/rare_weps,
 /turf/open/floor/holofloor/carpet,
 /area/f13/bunker)
 "xKO" = (
@@ -52351,6 +52406,13 @@
 	icon_state = "rubblepillar"
 	},
 /area/f13/building)
+"xXE" = (
+/obj/effect/turf_decal/weather/dirt{
+	dir = 9
+	},
+/mob/living/simple_animal/hostile/trog/tunneler,
+/turf/open/floor/plasteel/cult,
+/area/f13/underground/cave/tunnelertemple/void)
 "xXS" = (
 /obj/machinery/door/airlock/hatch{
 	icon = 'icons/obj/doors/airlocks/centcom/centcom.dmi';
@@ -63278,7 +63340,7 @@ egf
 grA
 tKf
 cCj
-cCj
+dkS
 cCj
 cCj
 yfm
@@ -65117,7 +65179,7 @@ whv
 rLB
 nLk
 pCN
-nLk
+imH
 rLB
 nLk
 nLk
@@ -69221,7 +69283,7 @@ unL
 pEe
 pEe
 fKb
-pEe
+qrA
 pEe
 pEe
 pEe
@@ -78515,7 +78577,7 @@ iys
 iys
 iys
 iys
-iys
+vOO
 bpQ
 uFe
 eTQ
@@ -78888,7 +78950,7 @@ bRa
 vMz
 ptZ
 vOy
-qlU
+cDc
 qlU
 iyP
 vOy
@@ -79139,15 +79201,15 @@ whv
 whv
 whv
 vOy
-tIZ
+xbD
 tIZ
 bRa
 gSv
-wbK
+xXE
 vOy
-xmO
 qlU
-xmO
+qlU
+qlU
 vOy
 vOy
 vOy
@@ -79920,7 +79982,7 @@ vOy
 qlU
 qlU
 qlU
-trR
+qlU
 qlU
 vOy
 qlU
@@ -80201,7 +80263,7 @@ rvr
 ilX
 qRQ
 xov
-vOO
+lwU
 lwU
 bhK
 niM
@@ -80423,7 +80485,7 @@ whv
 whv
 whv
 vOy
-xmO
+qlU
 qlU
 qlU
 qlU
@@ -80439,7 +80501,7 @@ pal
 qlU
 qlU
 qlU
-qlU
+cDc
 vOy
 whv
 whv
@@ -80916,7 +80978,7 @@ qVs
 qVs
 qVs
 xba
-tyK
+oZa
 xba
 xba
 xba
@@ -81437,7 +81499,7 @@ tQU
 tyK
 rbf
 mNQ
-tyK
+oZa
 tyK
 tyK
 rbf
@@ -81980,7 +82042,7 @@ qlU
 qlU
 qlU
 qlU
-xmO
+qlU
 qlU
 vOy
 whv
@@ -82143,7 +82205,7 @@ whv
 whv
 lwM
 xKc
-giC
+rMR
 wjE
 xeU
 odl
@@ -82200,7 +82262,7 @@ whv
 xba
 rbf
 xba
-tQU
+vSX
 rbf
 rbf
 rbf
@@ -82399,7 +82461,7 @@ whv
 whv
 whv
 lwM
-odl
+xrA
 rkB
 oxa
 uhJ
@@ -82947,7 +83009,7 @@ whv
 iiN
 iiN
 iiN
-opU
+pYo
 pYo
 iiN
 whv
@@ -84036,7 +84098,7 @@ qlU
 qlU
 qlU
 qlU
-xmO
+qlU
 qlU
 vOy
 whv
@@ -84747,7 +84809,7 @@ nVJ
 nVJ
 iiN
 pYo
-opU
+pYo
 iiN
 whv
 whv
@@ -85828,15 +85890,15 @@ qlU
 dzf
 qlU
 qlU
-trR
+qlU
 qlU
 qlU
 qlU
 sjV
 qlU
-trR
 qlU
 qlU
+cDc
 vOy
 whv
 rvr
@@ -86031,7 +86093,7 @@ iiN
 iiN
 iiN
 iiN
-opU
+pYo
 nVJ
 iiN
 iiN
@@ -86857,7 +86919,7 @@ qlU
 qlU
 qlU
 qlU
-xmO
+qlU
 qlU
 pal
 qlU
@@ -87292,7 +87354,7 @@ whv
 whv
 pta
 ksj
-pYo
+bPg
 onF
 iot
 sxZ
@@ -87603,7 +87665,7 @@ xba
 lFX
 lFX
 tyK
-tyK
+oZa
 tyK
 lFX
 lFX
@@ -87622,8 +87684,8 @@ vMz
 oTw
 wKz
 nIu
+cDc
 qlU
-xmO
 qlU
 qlU
 qlU
@@ -88345,7 +88407,7 @@ pYo
 nVJ
 nVJ
 pYo
-opU
+pYo
 iiN
 whv
 whv
@@ -88837,7 +88899,7 @@ lwM
 osT
 uvZ
 dpm
-pYo
+sFE
 rZN
 gsu
 onF
@@ -88917,7 +88979,7 @@ whv
 vOy
 kXF
 wwV
-qlU
+cDc
 skv
 wwV
 vOy
@@ -89613,7 +89675,7 @@ aOW
 sxZ
 pYo
 pYo
-rMR
+pYo
 pYo
 lwM
 pYo
@@ -106591,7 +106653,7 @@ eoP
 uWa
 uWa
 csk
-csk
+uWa
 uWa
 mvb
 uWa
@@ -109137,7 +109199,7 @@ whv
 whv
 whv
 daP
-tJY
+lSm
 fGk
 ltx
 pro
@@ -109657,7 +109719,7 @@ daP
 mGa
 uWa
 njd
-cSb
+quA
 eBM
 gRh
 bfx
@@ -110772,7 +110834,7 @@ uhr
 sYc
 uhr
 erd
-sFE
+erd
 hJK
 mad
 nnp
@@ -111800,7 +111862,7 @@ uhr
 sYc
 uhr
 erd
-sFE
+erd
 hJK
 nKk
 qdl
