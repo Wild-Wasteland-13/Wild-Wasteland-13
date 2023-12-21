@@ -2670,6 +2670,11 @@
 /obj/item/reagent_containers/food/snacks/meat/slab/human,
 /turf/open/indestructible/ground/outside/ruins,
 /area/f13/caves)
+"ccH" = (
+/turf/open/floor/grass{
+	color = "#444444"
+	},
+/area/f13/caves)
 "ccL" = (
 /obj/structure/table/wood,
 /obj/effect/spawner/lootdrop/f13/common,
@@ -83431,7 +83436,7 @@ dtb
 dtb
 dtb
 dtb
-rpp
+ccH
 oDh
 oDh
 oDh
