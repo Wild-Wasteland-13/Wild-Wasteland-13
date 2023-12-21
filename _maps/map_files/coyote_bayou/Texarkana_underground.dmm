@@ -13413,6 +13413,9 @@
 /obj/effect/spawner/lootdrop/glowstick,
 /obj/effect/spawner/lootdrop/glowstick,
 /obj/effect/spawner/lootdrop/f13/uncommon,
+/obj/machinery/porta_turret/f13/turret_22lr/burstfire/raider{
+	name = "Bottom-Feeder Market Turret"
+	},
 /turf/open/indestructible/ground/inside/subway,
 /area/f13/building/sewers)
 "hfO" = (
@@ -18868,8 +18871,10 @@
 /turf/open/floor/plating,
 /area/f13/building/museum)
 "kJT" = (
-/mob/living/simple_animal/hostile/raider/ranged/boss/blueberrybates,
-/turf/open/indestructible/ground/inside/subway,
+/obj/machinery/workbench/advanced,
+/turf/open/floor/f13{
+	icon_state = "greenrustyfull"
+	},
 /area/f13/building/sewers)
 "kKi" = (
 /obj/structure/table/glass,
@@ -21719,9 +21724,6 @@
 "mrH" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/table/wood/junk,
-/obj/machinery/porta_turret/f13/turret_22lr/burstfire/raider{
-	name = "Bottom-Feeder Market Turret"
-	},
 /obj/effect/spawner/lootdrop/f13/uncommon,
 /turf/open/indestructible/ground/inside/subway,
 /area/f13/building/sewers)
@@ -26100,7 +26102,7 @@
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/caves)
 "pfJ" = (
-/obj/machinery/workbench/advanced,
+/obj/machinery/workbench,
 /turf/open/floor/plasteel/f13/vault_floor/dark{
 	icon_state = "darkrusty"
 	},
@@ -33732,6 +33734,12 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /obj/item/storage/trash_stack,
+/turf/open/indestructible/ground/inside/subway,
+/area/f13/building/sewers)
+"tIP" = (
+/mob/living/simple_animal/hostile/raider/ranged/boss/blueberrybates{
+	name = "Strawberry Stacy from the Bottom-Feeder"
+	},
 /turf/open/indestructible/ground/inside/subway,
 /area/f13/building/sewers)
 "tIQ" = (
@@ -85398,7 +85406,7 @@ pwE
 bsu
 ptn
 gcv
-gcv
+kJT
 blM
 blM
 blM
@@ -86436,7 +86444,7 @@ kyV
 xul
 pry
 kyV
-kyV
+tIP
 kyV
 pry
 yiL
@@ -86692,7 +86700,7 @@ blM
 njF
 eXI
 pry
-kJT
+kyV
 ijd
 pry
 pry
