@@ -1934,6 +1934,14 @@
 	color = "#779999"
 	},
 /area/f13/building/massfusion)
+"bxj" = (
+/obj/effect/turf_decal/weather/dirt{
+	dir = 8
+	},
+/turf/open/floor/grass{
+	color = "#444444"
+	},
+/area/f13/building/tribal)
 "bxk" = (
 /obj/structure/rack,
 /obj/effect/spawner/lootdrop/f13/uncommon,
@@ -2264,6 +2272,15 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/carpet/royalblack,
 /area/f13/building/hospital/clinic/nash)
+"bMk" = (
+/obj/structure/flora/tallgrass1,
+/obj/effect/turf_decal/weather/dirt{
+	dir = 1
+	},
+/turf/open/floor/grass{
+	color = "#444444"
+	},
+/area/f13/building/tribal)
 "bMK" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/button/door{
@@ -6067,6 +6084,9 @@
 "eLX" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/flora/ausbushes/ppflowers,
+/obj/effect/turf_decal/weather/dirt{
+	dir = 4
+	},
 /turf/open/floor/grass{
 	color = "#444444"
 	},
@@ -6507,6 +6527,7 @@
 /area/f13/building/abandoned)
 "fdQ" = (
 /obj/structure/flora/ausbushes/ppflowers,
+/obj/effect/turf_decal/weather/dirt,
 /turf/open/floor/grass{
 	color = "#444444"
 	},
@@ -7676,6 +7697,15 @@
 	},
 /turf/open/transparent/openspace,
 /area/f13/wasteland)
+"gac" = (
+/obj/structure/flora/tallgrass1,
+/obj/effect/turf_decal/weather/dirt{
+	dir = 4
+	},
+/turf/open/floor/grass{
+	color = "#444444"
+	},
+/area/f13/building/tribal)
 "gah" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/campfire/stove{
@@ -8457,6 +8487,14 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/dark,
 /area/f13/building/mall)
+"gDr" = (
+/obj/effect/turf_decal/weather/dirt{
+	dir = 4
+	},
+/turf/open/floor/grass{
+	color = "#444444"
+	},
+/area/f13/building/tribal)
 "gDt" = (
 /obj/structure/window/fulltile/house{
 	icon_state = "housewindowbrokenvertical"
@@ -10351,6 +10389,15 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/wood_common,
 /area/f13/building/abandoned)
+"hQO" = (
+/obj/structure/flora/tallgrass1,
+/obj/effect/turf_decal/weather/dirt{
+	dir = 8
+	},
+/turf/open/floor/grass{
+	color = "#444444"
+	},
+/area/f13/building/tribal)
 "hRp" = (
 /obj/structure/table/wood,
 /turf/open/floor/f13{
@@ -10867,6 +10914,9 @@
 /area/f13/building)
 "ioD" = (
 /obj/structure/flora/ausbushes/sparsegrass,
+/obj/effect/turf_decal/weather/dirt{
+	dir = 1
+	},
 /turf/open/floor/grass{
 	color = "#444444"
 	},
@@ -11927,6 +11977,15 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/plating,
 /area/f13/building/mall)
+"jaa" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/weather/dirt{
+	dir = 4
+	},
+/turf/open/floor/grass{
+	color = "#444444"
+	},
+/area/f13/building/tribal)
 "jaf" = (
 /obj/structure/nest/securitron,
 /obj/machinery/light{
@@ -14072,9 +14131,7 @@
 	name = "riverbed soil";
 	yieldmod = 1.3
 	},
-/turf/open/floor/grass{
-	color = "#444444"
-	},
+/turf/open/floor/plating/dirt,
 /area/f13/wasteland)
 "kCN" = (
 /obj/structure/rack/shelf_metal,
@@ -14418,6 +14475,12 @@
 /obj/structure/decoration/rag,
 /turf/closed/wall/f13/wood,
 /area/f13/building)
+"kPN" = (
+/obj/effect/turf_decal/weather/dirt,
+/turf/open/floor/grass{
+	color = "#444444"
+	},
+/area/f13/building/tribal)
 "kQF" = (
 /obj/effect/decal/cleanable/dirt{
 	color = "#363636"
@@ -24872,6 +24935,15 @@
 	name = "Reinforced prison wall"
 	},
 /area/f13/wasteland)
+"sSR" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/weather/dirt{
+	dir = 1
+	},
+/turf/open/floor/grass{
+	color = "#444444"
+	},
+/area/f13/building/tribal)
 "sTp" = (
 /obj/machinery/light/small{
 	dir = 4
@@ -27132,6 +27204,14 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/blue/whitebluefull,
 /area/f13/building/hospital)
+"uxv" = (
+/obj/effect/turf_decal/weather/dirt{
+	dir = 1
+	},
+/turf/open/floor/grass{
+	color = "#444444"
+	},
+/area/f13/building/tribal)
 "uxL" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/simple_door/interior,
@@ -28128,6 +28208,9 @@
 /obj/structure/flora/ausbushes/sparsegrass,
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/flora/ausbushes/ppflowers,
+/obj/effect/turf_decal/weather/dirt{
+	dir = 4
+	},
 /turf/open/floor/grass{
 	color = "#444444"
 	},
@@ -31245,14 +31328,12 @@
 /turf/open/floor/wood_wide,
 /area/f13/building)
 "xTy" = (
-/obj/machinery/hydroponics/soil{
-	name = "riverbed soil";
-	yieldmod = 1.3
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/weather/dirt,
+/turf/open/floor/grass{
+	color = "#444444"
 	},
-/turf/open/indestructible/ground/outside/dirt{
-	color = "#9c9c9c"
-	},
-/area/f13/wasteland)
+/area/f13/building/tribal)
 "xTG" = (
 /obj/structure/railing{
 	color = "#A47449";
@@ -37964,12 +38045,12 @@ oez
 pXV
 pSB
 hwt
-fCH
+jaa
 eLX
-pSB
+gDr
 vpi
-pSB
-mQZ
+gDr
+gac
 eVI
 jYv
 jFI
@@ -38220,14 +38301,14 @@ oez
 oez
 sqS
 mQZ
-fCH
+xTy
 kCD
 kCD
 kCD
 kCD
 kCD
 kCD
-fCH
+sSR
 fCH
 phh
 tiD
@@ -38477,7 +38558,7 @@ yeY
 yeY
 ykM
 pSB
-fCH
+xTy
 kCD
 kCD
 kCD
@@ -38741,7 +38822,7 @@ kCD
 kCD
 kCD
 kCD
-pSB
+uxv
 xti
 uWP
 eWb
@@ -38991,7 +39072,7 @@ mNn
 mNn
 mNn
 mNn
-pSB
+kPN
 kCD
 kCD
 kCD
@@ -39248,14 +39329,14 @@ mNn
 mNn
 mNn
 mNn
-pSB
+kPN
 kCD
 kCD
 kCD
 kCD
 kCD
 kCD
-mQZ
+bMk
 pSB
 pjG
 bYj
@@ -39505,14 +39586,14 @@ mNn
 mNn
 mNn
 mNn
-fCH
-kCD
-kCD
 xTy
 kCD
 kCD
 kCD
-fCH
+kCD
+kCD
+kCD
+sSR
 fCH
 daP
 lZQ
@@ -39763,12 +39844,12 @@ mNn
 ieY
 ieY
 hwt
-pSB
-mQZ
-pSB
-pSB
-pSB
-pSB
+bxj
+hQO
+bxj
+bxj
+bxj
+bxj
 eVI
 jPp
 jFI
