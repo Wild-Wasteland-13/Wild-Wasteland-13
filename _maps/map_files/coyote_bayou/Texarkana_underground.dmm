@@ -1676,11 +1676,9 @@
 	},
 /area/f13/building/sewers)
 "bfe" = (
-/obj/structure/nest/raider/melee{
-	pixel_y = 32
-	},
+/mob/living/simple_animal/hostile/raider/ranged,
 /turf/open/indestructible/ground/inside/subway,
-/area/f13/building/sewers)
+/area/f13/tunnel)
 "bgb" = (
 /obj/effect/spawner/lootdrop/trash,
 /obj/effect/decal/cleanable/dirt{
@@ -10742,6 +10740,19 @@
 /obj/structure/lattice/catwalk,
 /turf/open/water,
 /area/f13/building/sewers)
+"frS" = (
+/mob/living/simple_animal/hostile/raider/baseball{
+	desc = "A burly looking Junker armed with a crude fist-weapon.";
+	icon_dead = "junker_scrapper";
+	icon_gib = "junker_scrapper";
+	icon_living = "junker_scrapper";
+	icon_state = "junker_scrapper";
+	name = "Junker Scrapper"
+	},
+/turf/open/floor/f13{
+	icon_state = "greenrustyfull"
+	},
+/area/f13/building/sewers)
 "frY" = (
 /obj/structure/simple_door/wood,
 /turf/open/floor/f13/wood,
@@ -17278,6 +17289,10 @@
 	},
 /turf/closed/wall/r_wall/rust,
 /area/f13/building)
+"jDU" = (
+/mob/living/simple_animal/hostile/raider/ranged,
+/turf/open/indestructible/ground/inside/subway,
+/area/f13/building/sewers)
 "jDW" = (
 /obj/structure/obstacle/barbedwire/end,
 /turf/open/indestructible/ground/inside/subway,
@@ -18697,6 +18712,12 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/yellow/yellowchess/yellowchess2,
 /area/f13/caves)
+"kCU" = (
+/mob/living/simple_animal/hostile/raider/ranged/boss/blueberrybates{
+	name = "Strawberry Stacy from the Bottom-Feeder"
+	},
+/turf/open/indestructible/ground/inside/subway,
+/area/f13/building/sewers)
 "kCX" = (
 /obj/structure/sign/warning,
 /obj/structure/timeddoor,
@@ -18871,8 +18892,13 @@
 /turf/open/floor/plating,
 /area/f13/building/museum)
 "kJT" = (
-/mob/living/simple_animal/hostile/raider/ranged/boss/blueberrybates{
-	name = "Strawberry Stacy from the Bottom-Feeder"
+/mob/living/simple_animal/hostile/raider/baseball{
+	desc = "A burly looking Junker armed with a crude fist-weapon.";
+	icon_dead = "junker_scrapper";
+	icon_gib = "junker_scrapper";
+	icon_living = "junker_scrapper";
+	icon_state = "junker_scrapper";
+	name = "Junker Scrapper"
 	},
 /turf/open/indestructible/ground/inside/subway,
 /area/f13/building/sewers)
@@ -23077,6 +23103,7 @@
 	dir = 1;
 	pixel_y = 12
 	},
+/mob/living/simple_animal/hostile/raider/ranged,
 /turf/open/indestructible/ground/inside/subway,
 /area/f13/building/sewers)
 "njI" = (
@@ -23448,12 +23475,6 @@
 /obj/structure/chalkboard,
 /turf/open/indestructible/ground/inside/subway,
 /area/f13/tunnel)
-"nvk" = (
-/obj/machinery/workbench/advanced,
-/turf/open/floor/f13{
-	icon_state = "greenrustyfull"
-	},
-/area/f13/building/sewers)
 "nvA" = (
 /obj/effect/decal/cleanable/dirt{
 	color = "#363636"
@@ -26044,6 +26065,12 @@
 	icon_state = "greenrustyfull"
 	},
 /area/f13/caves)
+"peq" = (
+/obj/machinery/workbench/advanced,
+/turf/open/floor/f13{
+	icon_state = "greenrustyfull"
+	},
+/area/f13/building/sewers)
 "peA" = (
 /obj/effect/decal/cleanable/oil/slippery,
 /obj/machinery/porta_turret/syndicate/vehicle_turret{
@@ -31582,6 +31609,13 @@
 /obj/effect/spawner/lootdrop/f13/uncommon,
 /turf/open/floor/wood_wide/wood_wide_dark,
 /area/f13/building/sewers)
+"suO" = (
+/obj/effect/decal/cleanable/dirt,
+/mob/living/simple_animal/hostile/raider/baseball,
+/turf/open/floor/f13{
+	icon_state = "greenrustyfull"
+	},
+/area/f13/building/sewers)
 "suZ" = (
 /obj/machinery/light{
 	dir = 1
@@ -36837,6 +36871,12 @@
 	icon_state = "darkrustysolid"
 	},
 /area/f13/building/massfusion)
+"vNX" = (
+/mob/living/simple_animal/hostile/raider/firefighter,
+/turf/open/floor/f13{
+	icon_state = "greenrustyfull"
+	},
+/area/f13/building/sewers)
 "vOh" = (
 /obj/item/mine/explosive,
 /turf/open/water,
@@ -38954,6 +38994,13 @@
 	color = "#779999"
 	},
 /area/f13/building)
+"xdQ" = (
+/obj/effect/decal/cleanable/dirt,
+/mob/living/simple_animal/hostile/raider/ranged/biker,
+/turf/open/floor/plasteel/f13/vault_floor/dark{
+	icon_state = "darkrusty"
+	},
+/area/f13/building/sewers)
 "xeh" = (
 /obj/structure/girder/reinforced,
 /turf/open/indestructible/ground/inside/mountain,
@@ -79250,7 +79297,7 @@ blM
 izx
 kyV
 blM
-bfe
+kyV
 pry
 kyV
 gLW
@@ -80281,7 +80328,7 @@ blM
 blM
 ccw
 kyV
-kyV
+jDU
 pwE
 rpA
 rpA
@@ -82077,7 +82124,7 @@ dzm
 bsC
 bsC
 bsC
-aah
+bfe
 aah
 jeq
 okf
@@ -83876,7 +83923,7 @@ oRd
 pry
 kyV
 jZC
-ezq
+xdQ
 tYU
 tYU
 pfJ
@@ -85406,7 +85453,7 @@ pwE
 bsu
 ptn
 gcv
-nvk
+peq
 blM
 blM
 blM
@@ -86444,7 +86491,7 @@ kyV
 xul
 pry
 kyV
-kJT
+kCU
 kyV
 pry
 yiL
@@ -86947,7 +86994,7 @@ bKb
 pwE
 blM
 hXn
-hXn
+suO
 gcv
 blM
 blM
@@ -87219,7 +87266,7 @@ kXx
 kXx
 pFE
 kyV
-kyV
+kJT
 pwE
 vRN
 rpA
@@ -87460,11 +87507,11 @@ aah
 bKb
 pwE
 blM
-gcv
+frS
 aYX
 gcv
 gcv
-gcv
+vNX
 gcv
 dDV
 blM
