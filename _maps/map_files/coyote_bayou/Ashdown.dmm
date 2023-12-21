@@ -7631,12 +7631,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/f13/wood,
 /area/f13/building/abandoned)
-"duh" = (
-/obj/machinery/porta_turret/f13/turret_22lr/burstfire/raider,
-/turf/open/indestructible/ground/outside/sidewalk{
-	icon_state = "horizontaltopbordertop0"
-	},
-/area/f13/wasteland)
 "dui" = (
 /obj/machinery/light,
 /turf/open/floor/f13/wood,
@@ -20294,6 +20288,12 @@
 	icon_state = "floordirty"
 	},
 /area/f13/building)
+"iZF" = (
+/obj/machinery/porta_turret/f13/turret_22lr/burstfire/raider,
+/turf/open/indestructible/ground/outside/sidewalk{
+	icon_state = "horizontalbottomborderbottom0"
+	},
+/area/f13/wasteland)
 "jap" = (
 /turf/open/floor/f13{
 	icon_state = "bluedirtychess2"
@@ -36360,6 +36360,12 @@
 /obj/structure/spider/cocoon,
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/building/abandoned)
+"qkF" = (
+/obj/machinery/porta_turret/f13/turret_22lr/burstfire/raider,
+/turf/open/indestructible/ground/outside/sidewalk{
+	icon_state = "horizontaltopbordertop0"
+	},
+/area/f13/wasteland)
 "qkI" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/item/trash/f13/blamco,
@@ -42499,12 +42505,6 @@
 	},
 /turf/open/floor/f13/wood,
 /area/f13/building/abandoned)
-"tay" = (
-/obj/machinery/porta_turret/f13/turret_22lr/burstfire/raider,
-/turf/open/indestructible/ground/outside/sidewalk{
-	icon_state = "horizontalbottomborderbottom0"
-	},
-/area/f13/wasteland)
 "taA" = (
 /obj/structure/dresser,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
@@ -51527,18 +51527,8 @@
 /area/f13/building/abandoned)
 "xjS" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/porta_turret/syndicate/vehicle_turret{
-	desc = "An ancient ballistic turret - it looks rusted, yet stil functional. Safe to assume it's still operational, given the fact it's shooting at you.";
-	faction = list("wastebot");
-	lethal_projectile = /obj/item/projectile/bullet/a762/sport/simple;
-	lethal_projectile_sound = 'sound/f13weapons/auto5.ogg';
-	name = "ancient turret";
-	scan_range = 9;
-	stun_projectile = /obj/item/projectile/bullet/a762/sport/simple;
-	stun_projectile_sound = 'sound/f13weapons/auto5.ogg';
-	throw_range = 9
-	},
 /obj/structure/table,
+/obj/machinery/porta_turret/f13/turret_22lr/burstfire/raider,
 /turf/open/indestructible/ground/outside/savannah,
 /area/f13/wasteland)
 "xjV" = (
@@ -80190,11 +80180,11 @@ mYI
 mYI
 mYI
 hyW
-duh
+qkF
 bxV
 sZm
 bJy
-tay
+iZF
 uvV
 mYI
 mex
