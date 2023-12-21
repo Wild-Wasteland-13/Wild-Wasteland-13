@@ -25231,6 +25231,10 @@
 	name = "the watering hole"
 	},
 /area/f13/wasteland/nash)
+"crn" = (
+/obj/machinery/vending/medical,
+/turf/closed/wall/f13/coyote/darkwoodwall,
+/area/f13/building/hospital/clinic/nash)
 "cro" = (
 /obj/structure/table/wood,
 /obj/item/storage/backpack/satchel/leather,
@@ -30527,10 +30531,6 @@
 /obj/effect/spawner/lootdrop/f13/common,
 /turf/open/indestructible/ground/inside/dirt,
 /area/f13/wasteland)
-"dyR" = (
-/obj/machinery/mineral/wasteland_vendor/medical,
-/turf/closed/wall/f13/coyote/darkwoodwall,
-/area/f13/building/hospital/clinic/nash)
 "dyW" = (
 /turf/open/indestructible/ground/outside/road{
 	icon_state = "horizontaltopborderbottom2right"
@@ -87742,10 +87742,6 @@
 /obj/structure/spacevine,
 /turf/open/indestructible/ground/outside/gravel,
 /area/f13/wasteland/city/nash/redriverdepotroad)
-"qek" = (
-/obj/machinery/vending/medical,
-/turf/closed/wall/f13/coyote/darkwoodwall,
-/area/f13/building/hospital/clinic/nash)
 "qen" = (
 /turf/open/indestructible/ground/outside/road{
 	icon_state = "verticalinnermainbottom"
@@ -103466,6 +103462,15 @@
 	light_color = null;
 	color = "#FFBB77";
 	name = "the watering hole"
+	},
+/area/f13/wasteland)
+"tzF" = (
+/obj/structure/flora/grass/wasteland{
+	icon_state = "tall_grass_3"
+	},
+/turf/open/indestructible/ground/outside/roaddirt{
+	dir = 8;
+	icon_state = "innerpavement"
 	},
 /area/f13/wasteland)
 "tzK" = (
@@ -123033,14 +123038,9 @@
 	},
 /area/f13/building/coyote/nash/cornerdiner)
 "xTK" = (
-/obj/structure/flora/grass/wasteland{
-	icon_state = "tall_grass_3"
-	},
-/turf/open/indestructible/ground/outside/roaddirt{
-	dir = 8;
-	icon_state = "innerpavement"
-	},
-/area/f13/wasteland)
+/obj/machinery/mineral/wasteland_vendor/medical,
+/turf/closed/wall/f13/coyote/darkwoodwall,
+/area/f13/building/hospital/clinic/nash)
 "xTO" = (
 /obj/effect/turf_decal/weather/dirt{
 	color = "#a98c5d";
@@ -131435,7 +131435,7 @@ xNd
 ewG
 ewG
 xNd
-dyR
+xTK
 cLg
 bGz
 nTr
@@ -131696,7 +131696,7 @@ xNd
 xNd
 nZP
 nZP
-qek
+crn
 pxr
 szj
 lJK
@@ -187590,9 +187590,9 @@ rXR
 ctv
 abI
 hHo
-xTK
-xTK
-xTK
+tzF
+tzF
+tzF
 sYA
 pRE
 xJp

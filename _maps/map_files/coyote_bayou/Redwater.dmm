@@ -1028,17 +1028,7 @@
 /obj/effect/decal/cleanable/blood/gibs/down{
 	icon_state = "gib3-old"
 	},
-/obj/machinery/porta_turret/syndicate/vehicle_turret{
-	desc = "An improvised ballistic turret - it looks exceptionally shoddy, yet stil functional. Safe to assume it's a repaired security system from whatever this place once was";
-	faction = list("raider");
-	lethal_projectile = /obj/item/projectile/bullet/a762/sport/simple;
-	lethal_projectile_sound = 'sound/f13weapons/auto5.ogg';
-	name = "Repaired Turret";
-	scan_range = 9;
-	stun_projectile = /obj/item/projectile/bullet/a762/sport/simple;
-	stun_projectile_sound = 'sound/f13weapons/auto5.ogg';
-	throw_range = 9
-	},
+/obj/machinery/porta_turret/f13/turret_22lr/burstfire/raider,
 /turf/open/indestructible/ground/outside/road,
 /area/f13/building)
 "auB" = (
@@ -2961,15 +2951,6 @@
 /obj/effect/spawner/lootdrop/f13/uncommon,
 /turf/open/floor/wood_common,
 /area/f13/building/tribal)
-"beZ" = (
-/obj/effect/decal/cleanable/blood/gibs/down{
-	icon_state = "gib3-old"
-	},
-/obj/structure/barricade/sandbags,
-/turf/open/indestructible/ground/outside/road{
-	icon_state = "horizontalinnermain0"
-	},
-/area/f13/wasteland/redwater)
 "bff" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/decal/cleanable/dirt/dust,
@@ -12636,12 +12617,6 @@
 /obj/item/seeds/cannabis,
 /turf/open/indestructible/ground/outside/desert,
 /area/f13/building)
-"erj" = (
-/obj/structure/barricade/sandbags,
-/turf/open/indestructible/ground/outside/road{
-	icon_state = "horizontalinnermain0"
-	},
-/area/f13/wasteland/redwater)
 "erl" = (
 /obj/effect/turf_decal/weather/dirt,
 /obj/structure/simple_door/tentflap_cloth,
@@ -30921,25 +30896,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood_common,
 /area/f13/wasteland/redwater)
-"kMj" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/spawner/lootdrop/f13/uncommon,
-/obj/effect/spawner/lootdrop/f13/uncommon,
-/obj/machinery/porta_turret/syndicate/vehicle_turret{
-	desc = "An improvised ballistic turret - it looks exceptionally shoddy, yet stil functional. Safe to assume it's a repaired security system from whatever this place once was";
-	faction = list("raider");
-	lethal_projectile = /obj/item/projectile/bullet/a762/sport/simple;
-	lethal_projectile_sound = 'sound/f13weapons/auto5.ogg';
-	name = "Repaired Turret";
-	scan_range = 9;
-	stun_projectile = /obj/item/projectile/bullet/a762/sport/simple;
-	stun_projectile_sound = 'sound/f13weapons/auto5.ogg';
-	throw_range = 9
-	},
-/turf/open/indestructible/ground/outside/road{
-	icon_state = "horizontalinnermain0"
-	},
-/area/f13/wasteland/redwater)
 "kMv" = (
 /obj/structure/chair/f13chair1{
 	dir = 4
@@ -35414,7 +35370,6 @@
 /turf/open/indestructible/ground/outside/desert,
 /area/f13/building)
 "mma" = (
-/obj/structure/barricade/sandbags,
 /turf/open/indestructible/ground/outside/sidewalk{
 	icon_state = "outerborder - S"
 	},
@@ -40395,13 +40350,6 @@
 	},
 /turf/open/indestructible/ground/outside/sidewalk,
 /area/f13/building/abandoned)
-"ocV" = (
-/obj/structure/barricade/sandbags,
-/obj/structure/barricade/sandbags,
-/turf/open/indestructible/ground/outside/road{
-	icon_state = "horizontalinnermain0"
-	},
-/area/f13/wasteland/redwater)
 "ocY" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/indestructible/ground/outside/gravel{
@@ -43689,13 +43637,6 @@
 	},
 /turf/closed/wall/f13/wood/interior,
 /area/f13/building)
-"pnm" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/barricade/sandbags,
-/turf/open/indestructible/ground/outside/road{
-	icon_state = "horizontalinnermain0"
-	},
-/area/f13/wasteland/redwater)
 "pnp" = (
 /obj/effect/decal/cleanable/dirt{
 	color = "#363636"
@@ -58264,17 +58205,7 @@
 	},
 /area/f13/wasteland/redwater)
 "umi" = (
-/obj/machinery/porta_turret/syndicate/vehicle_turret{
-	desc = "An improvised ballistic turret - it looks exceptionally shoddy, yet stil functional. Safe to assume it's a repaired security system from whatever this place once was";
-	faction = list("raider");
-	lethal_projectile = /obj/item/projectile/bullet/a762/sport/simple;
-	lethal_projectile_sound = 'sound/f13weapons/auto5.ogg';
-	name = "Repaired Turret";
-	scan_range = 9;
-	stun_projectile = /obj/item/projectile/bullet/a762/sport/simple;
-	stun_projectile_sound = 'sound/f13weapons/auto5.ogg';
-	throw_range = 9
-	},
+/obj/machinery/porta_turret/f13/turret_22lr/burstfire/raider,
 /turf/open/indestructible/ground/outside/road,
 /area/f13/building)
 "umB" = (
@@ -94287,9 +94218,9 @@ wHE
 wHE
 wHE
 wHE
-vGM
+wHE
 mma
-erj
+dzx
 fAQ
 dzx
 dzx
@@ -94544,9 +94475,9 @@ iuL
 fBz
 dzx
 dzx
-pnm
-kMj
-ocV
+fAQ
+fAQ
+dzx
 flv
 flv
 dzx
@@ -94801,9 +94732,9 @@ eKN
 aFo
 gbg
 dzx
-pnm
-pnm
-erj
+fAQ
+fAQ
+dzx
 dzx
 dzx
 flv
@@ -96344,9 +96275,9 @@ iuL
 sfN
 gbg
 dzx
-erj
-erj
-erj
+dzx
+dzx
+dzx
 gbg
 flv
 hDV
@@ -96601,9 +96532,9 @@ gbg
 sfN
 fAQ
 ymh
-hDV
-kMj
-pnm
+pvD
+fAQ
+fAQ
 dzx
 gbg
 hDV
@@ -96859,8 +96790,8 @@ hKP
 iqt
 hKP
 pkF
-beZ
-hDV
+gbg
+pvD
 fAQ
 dzx
 qLO

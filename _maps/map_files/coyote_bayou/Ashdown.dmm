@@ -2231,20 +2231,10 @@
 	},
 /area/f13/building)
 "bdp" = (
-/obj/machinery/porta_turret/syndicate/vehicle_turret{
-	desc = "An ancient ballistic turret - it looks rusted, yet stil functional. Safe to assume it's still operational, given the fact it's shooting at you.";
-	faction = list("wastebot");
-	lethal_projectile = /obj/item/projectile/bullet/a762/sport/simple;
-	lethal_projectile_sound = 'sound/f13weapons/auto5.ogg';
-	name = "ancient turret";
-	scan_range = 9;
-	stun_projectile = /obj/item/projectile/bullet/a762/sport/simple;
-	stun_projectile_sound = 'sound/f13weapons/auto5.ogg';
-	throw_range = 9
-	},
 /obj/structure/table/reinforced{
 	color = "#c1b6a5"
 	},
+/obj/machinery/porta_turret/f13/turret_22lr/burstfire/raider,
 /turf/open/floor/f13{
 	color = "#ffe9de";
 	icon_state = "darkrusty";
@@ -7641,6 +7631,12 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/f13/wood,
 /area/f13/building/abandoned)
+"duh" = (
+/obj/machinery/porta_turret/f13/turret_22lr/burstfire/raider,
+/turf/open/indestructible/ground/outside/sidewalk{
+	icon_state = "horizontaltopbordertop0"
+	},
+/area/f13/wasteland)
 "dui" = (
 /obj/machinery/light,
 /turf/open/floor/f13/wood,
@@ -18483,17 +18479,7 @@
 /area/f13/building)
 "ilV" = (
 /obj/structure/table,
-/obj/machinery/porta_turret/syndicate/vehicle_turret{
-	desc = "An ancient ballistic turret - it looks rusted, yet stil functional. Safe to assume it's still operational, given the fact it's shooting at you.";
-	faction = list("wastebot");
-	lethal_projectile = /obj/item/projectile/bullet/a762/sport/simple;
-	lethal_projectile_sound = 'sound/f13weapons/auto5.ogg';
-	name = "ancient turret";
-	scan_range = 9;
-	stun_projectile = /obj/item/projectile/bullet/a762/sport/simple;
-	stun_projectile_sound = 'sound/f13weapons/auto5.ogg';
-	throw_range = 9
-	},
+/obj/machinery/porta_turret/f13/turret_22lr/burstfire/raider,
 /turf/open/indestructible/ground/outside/sidewalk{
 	icon_state = "verticalrightborderright2bottom"
 	},
@@ -20201,17 +20187,7 @@
 	},
 /area/f13/building/abandoned)
 "iXB" = (
-/obj/machinery/porta_turret/syndicate/vehicle_turret{
-	desc = "An ancient ballistic turret - it looks rusted, yet stil functional. Safe to assume it's still operational, given the fact it's shooting at you.";
-	faction = list("wastebot");
-	lethal_projectile = /obj/item/projectile/bullet/a762/sport/simple;
-	lethal_projectile_sound = 'sound/f13weapons/auto5.ogg';
-	name = "ancient turret";
-	scan_range = 9;
-	stun_projectile = /obj/item/projectile/bullet/a762/sport/simple;
-	stun_projectile_sound = 'sound/f13weapons/auto5.ogg';
-	throw_range = 9
-	},
+/obj/machinery/porta_turret/f13/turret_22lr/burstfire/raider,
 /turf/open/floor/f13{
 	icon_state = "yellowrustychess"
 	},
@@ -35609,17 +35585,7 @@
 "pOE" = (
 /obj/structure/table,
 /obj/effect/spawner/lootdrop/f13/uncommon,
-/obj/machinery/porta_turret/syndicate/vehicle_turret{
-	desc = "An ancient ballistic turret - it looks rusted, yet stil functional. Safe to assume it's still operational, given the fact it's shooting at you.";
-	faction = list("wastebot");
-	lethal_projectile = /obj/item/projectile/bullet/a762/sport/simple;
-	lethal_projectile_sound = 'sound/f13weapons/auto5.ogg';
-	name = "ancient turret";
-	scan_range = 9;
-	stun_projectile = /obj/item/projectile/bullet/a762/sport/simple;
-	stun_projectile_sound = 'sound/f13weapons/auto5.ogg';
-	throw_range = 9
-	},
+/obj/machinery/porta_turret/f13/turret_22lr/burstfire/raider,
 /turf/open/indestructible/ground/outside/road{
 	icon_state = "shadowleft"
 	},
@@ -42533,6 +42499,12 @@
 	},
 /turf/open/floor/f13/wood,
 /area/f13/building/abandoned)
+"tay" = (
+/obj/machinery/porta_turret/f13/turret_22lr/burstfire/raider,
+/turf/open/indestructible/ground/outside/sidewalk{
+	icon_state = "horizontalbottomborderbottom0"
+	},
+/area/f13/wasteland)
 "taA" = (
 /obj/structure/dresser,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
@@ -80218,11 +80190,11 @@ mYI
 mYI
 mYI
 hyW
-roR
+duh
 bxV
 sZm
 bJy
-wWG
+tay
 uvV
 mYI
 mex
