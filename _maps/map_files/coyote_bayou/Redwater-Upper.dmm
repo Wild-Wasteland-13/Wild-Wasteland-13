@@ -119,7 +119,11 @@
 /area/f13/wasteland)
 "dn" = (
 /obj/structure/nest/gecko/tribal/guard,
-/turf/open/indestructible/ground/outside/dirt/harsh,
+/turf/open/indestructible/ground/outside/gravel{
+	color = "#B7ABAB";
+	footstep = "dirt";
+	name = "rocky dirt"
+	},
 /area/f13/wasteland)
 "ds" = (
 /obj/structure/chair/wood{
@@ -171,7 +175,11 @@
 /turf/open/floor/f13/wood,
 /area/f13/building/firetower)
 "ei" = (
-/turf/open/indestructible/ground/outside/dirt/harsh,
+/turf/open/indestructible/ground/outside/gravel{
+	color = "#B7ABAB";
+	footstep = "dirt";
+	name = "rocky dirt"
+	},
 /area/f13/wasteland)
 "eq" = (
 /obj/structure/railing{
@@ -362,7 +370,11 @@
 "kB" = (
 /obj/effect/spawner/lootdrop/f13/uncommon,
 /obj/effect/spawner/lootdrop/f13/uncommon,
-/turf/open/indestructible/ground/outside/dirt/harsh,
+/turf/open/indestructible/ground/outside/gravel{
+	color = "#B7ABAB";
+	footstep = "dirt";
+	name = "rocky dirt"
+	},
 /area/f13/wasteland)
 "kQ" = (
 /obj/structure/closet/cabinet,
@@ -511,7 +523,11 @@
 /area/f13/village/overpass_village)
 "oR" = (
 /mob/living/simple_animal/hostile/gecko/tribal/hunter,
-/turf/open/indestructible/ground/outside/dirt/harsh,
+/turf/open/indestructible/ground/outside/gravel{
+	color = "#B7ABAB";
+	footstep = "dirt";
+	name = "rocky dirt"
+	},
 /area/f13/wasteland)
 "ps" = (
 /obj/machinery/workbench,
@@ -555,7 +571,11 @@
 /obj/effect/decal/cleanable/dirt{
 	color = "000000"
 	},
-/turf/open/indestructible/ground/outside/dirt/harsh,
+/turf/open/indestructible/ground/outside/gravel{
+	color = "#B7ABAB";
+	footstep = "dirt";
+	name = "rocky dirt"
+	},
 /area/f13/caves)
 "qo" = (
 /obj/structure/chair/wood{
@@ -857,7 +877,11 @@
 /obj/effect/decal/cleanable/dirt{
 	color = "000000"
 	},
-/turf/open/indestructible/ground/outside/dirt/harsh,
+/turf/open/indestructible/ground/outside/gravel{
+	color = "#B7ABAB";
+	footstep = "dirt";
+	name = "rocky dirt"
+	},
 /area/f13/caves)
 "ye" = (
 /obj/effect/decal/cleanable/dirt{
@@ -896,7 +920,11 @@
 /area/f13/wasteland)
 "yH" = (
 /obj/effect/spawner/lootdrop/f13/rare,
-/turf/open/indestructible/ground/outside/dirt/harsh,
+/turf/open/indestructible/ground/outside/gravel{
+	color = "#B7ABAB";
+	footstep = "dirt";
+	name = "rocky dirt"
+	},
 /area/f13/wasteland)
 "yI" = (
 /obj/structure/railing{
@@ -1238,7 +1266,11 @@
 /area/f13/wasteland)
 "Gd" = (
 /mob/living/simple_animal/hostile/gecko/tribal/hunter,
-/turf/open/indestructible/ground/outside/dirt/harsh,
+/turf/open/indestructible/ground/outside/gravel{
+	color = "#B7ABAB";
+	footstep = "dirt";
+	name = "rocky dirt"
+	},
 /area/f13/caves)
 "Gw" = (
 /obj/structure/railing{
@@ -1478,7 +1510,11 @@
 	},
 /area/f13/village/overpass_village)
 "Oe" = (
-/turf/open/indestructible/ground/outside/dirt/harsh,
+/turf/open/indestructible/ground/outside/gravel{
+	color = "#B7ABAB";
+	footstep = "dirt";
+	name = "rocky dirt"
+	},
 /area/f13/caves)
 "Og" = (
 /obj/structure/barricade/tentclothedge{
@@ -1587,7 +1623,11 @@
 "PJ" = (
 /obj/effect/turf_decal/weather/sand,
 /obj/item/pickaxe,
-/turf/open/indestructible/ground/outside/dirt/harsh,
+/turf/open/indestructible/ground/outside/gravel{
+	color = "#B7ABAB";
+	footstep = "dirt";
+	name = "rocky dirt"
+	},
 /area/f13/caves)
 "PP" = (
 /turf/open/floor/plating/f13/outside/road{
@@ -1785,7 +1825,11 @@
 /obj/effect/decal/cleanable/dirt{
 	color = "000000"
 	},
-/turf/open/indestructible/ground/outside/dirt/harsh,
+/turf/open/indestructible/ground/outside/gravel{
+	color = "#B7ABAB";
+	footstep = "dirt";
+	name = "rocky dirt"
+	},
 /area/f13/caves)
 "VO" = (
 /obj/effect/decal/cleanable/dirt{
