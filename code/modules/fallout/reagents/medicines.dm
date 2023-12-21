@@ -1,4 +1,4 @@
-/* 
+/*
  * Stimpak Juice
  * Initial insta-heal
  * Some lingering heal over time
@@ -52,6 +52,7 @@
 	color = "#eb0000"
 	taste_description = "numbness"
 	metabolization_rate = 5 * REAGENTS_METABOLISM //13 ticks, for 26 damage after 26 healing
+	overdose_threshold = 30
 	value = REAGENT_VALUE_COMMON
 	ghoulfriendly = TRUE
 
@@ -69,12 +70,20 @@
 	..()
 
 /datum/reagent/medicine/fake_stimpak/on_mob_life(mob/living/carbon/M)
-		M.adjustBruteLoss(1*REM)
-		M.adjustFireLoss(1*REM)
+		M.adjustBruteLoss(-0.5*REM)
+		M.adjustFireLoss(-0.5*REM)
 		. = TRUE
 		..()
 
-/* 
+// Overdose makes you barflock yourself
+/datum/reagent/medicine/fake_stimpak/overdose_process(mob/living/carbon/M)
+	if(M.disgust < 80)
+		M.adjust_disgust(10)
+	..()
+	. = TRUE
+
+
+/*
  * Super Stimpak Juice
  * Initial insta-heal
  * Fixes up cuts like a weaker sanguirite
@@ -128,7 +137,7 @@
 	M.adjustOrganLoss(ORGAN_SLOT_HEART, 4*REM)
 	if((M.getOrganLoss(ORGAN_SLOT_HEART) >= 20*REM) && prob(8))
 		var/superstim_od_message = pick(
-			"You feel like someone punched you in the chest, but from the inside.", 
+			"You feel like someone punched you in the chest, but from the inside.",
 			"You breathe heavily, yet still feel winded.",
 			"Your heart stops for a moment.",
 			"You feel an agonizing shudder in your chest.")
@@ -171,7 +180,7 @@
 	..()
 	. = TRUE
 
-/* 
+/*
  * Healing Powder
  * Bicaridine and Kelotane, in one chem
  * Heals either brute or burn, whichever's higher
@@ -202,7 +211,7 @@
 	. = TRUE
 	..()
 
-/* 
+/*
  * Healing Poultice
  * Heals both brute and burn
  * Seals up cuts
@@ -241,7 +250,7 @@
 	M.adjustToxLoss(4)
 	if((M.getToxLoss() >= 30) && prob(8))
 		var/poultice_od_message = pick(
-			"Burning red streaks form on your skin.", 
+			"Burning red streaks form on your skin.",
 			"You feel a searing pain shoot through your skin.",
 			"You feel like your blood's been replaced with acid. It burns.")
 		to_chat(M, span_notice("[poultice_od_message]"))
@@ -670,7 +679,7 @@
 		var/datum/reagent/R = A
 		if(R != src)
 			M.reagents.remove_reagent(R.type,3)
-	
+
 	M.disgust = max(M.disgust, 100) // instant violent pain
 	M.Dizzy(5*REM)
 	M.Jitter(5*REM)
