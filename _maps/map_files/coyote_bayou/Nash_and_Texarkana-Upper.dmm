@@ -4000,6 +4000,11 @@
 	icon_state = "whitegreenrustychess"
 	},
 /area/f13/building/hospital)
+"dhn" = (
+/turf/open/floor/grass{
+	color = "#444444"
+	},
+/area/f13/caves)
 "dhW" = (
 /obj/structure/spacevine{
 	name = "vines"
@@ -20743,11 +20748,6 @@
 	color = "#444444"
 	},
 /area/f13/wasteland)
-"pMU" = (
-/turf/open/floor/grass{
-	color = "#444444"
-	},
-/area/f13/caves)
 "pNo" = (
 /obj/item/twohanded/required/kirbyplants/random,
 /turf/open/floor/wood_wide,
@@ -83412,7 +83412,7 @@ dtb
 dtb
 dtb
 dtb
-pMU
+dhn
 oDh
 oDh
 oDh

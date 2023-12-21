@@ -26551,10 +26551,6 @@
 	icon_state = "darkdirtysolid"
 	},
 /area/f13/caves)
-"cEn" = (
-/obj/machinery/vending/medical,
-/turf/closed/wall/f13/coyote/darkwoodwall,
-/area/f13/building/hospital/clinic/nash)
 "cEo" = (
 /obj/structure/window/fulltile/house/broken,
 /obj/structure/spacevine,
@@ -87746,6 +87742,10 @@
 /obj/structure/spacevine,
 /turf/open/indestructible/ground/outside/gravel,
 /area/f13/wasteland/city/nash/redriverdepotroad)
+"qek" = (
+/obj/machinery/vending/medical,
+/turf/closed/wall/f13/coyote/darkwoodwall,
+/area/f13/building/hospital/clinic/nash)
 "qen" = (
 /turf/open/indestructible/ground/outside/road{
 	icon_state = "verticalinnermainbottom"
@@ -131696,7 +131696,7 @@ xNd
 xNd
 nZP
 nZP
-cEn
+qek
 pxr
 szj
 lJK
