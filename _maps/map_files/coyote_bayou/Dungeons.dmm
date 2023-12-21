@@ -1366,10 +1366,6 @@
 /obj/machinery/vending/cola/starkist,
 /turf/open/floor/plasteel/f13/vault_floor/misc/cafeteria,
 /area/f13/vault)
-"aCJ" = (
-/obj/structure/flora/wasteplant/wild_feracactus,
-/turf/open/floor/grass,
-/area/f13/underground/cave/vault/fourfivefour)
 "aCT" = (
 /obj/structure/cable{
 	icon_state = "2-8"
@@ -20190,6 +20186,10 @@
 	},
 /turf/open/floor/wood_common,
 /area/f13/brotherhood/operations)
+"jmo" = (
+/obj/structure/flora/wasteplant/wild_feracactus,
+/turf/open/floor/grass,
+/area/f13/underground/cave/vault/fourfivefour)
 "jmS" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/cable{
@@ -90313,7 +90313,7 @@ xBQ
 xBQ
 xBQ
 jWs
-aCJ
+jmo
 rZb
 xBQ
 rpb

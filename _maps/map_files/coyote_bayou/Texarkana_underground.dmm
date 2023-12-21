@@ -18871,10 +18871,10 @@
 /turf/open/floor/plating,
 /area/f13/building/museum)
 "kJT" = (
-/obj/machinery/workbench/advanced,
-/turf/open/floor/f13{
-	icon_state = "greenrustyfull"
+/mob/living/simple_animal/hostile/raider/ranged/boss/blueberrybates{
+	name = "Strawberry Stacy from the Bottom-Feeder"
 	},
+/turf/open/indestructible/ground/inside/subway,
 /area/f13/building/sewers)
 "kKi" = (
 /obj/structure/table/glass,
@@ -23448,6 +23448,12 @@
 /obj/structure/chalkboard,
 /turf/open/indestructible/ground/inside/subway,
 /area/f13/tunnel)
+"nvk" = (
+/obj/machinery/workbench/advanced,
+/turf/open/floor/f13{
+	icon_state = "greenrustyfull"
+	},
+/area/f13/building/sewers)
 "nvA" = (
 /obj/effect/decal/cleanable/dirt{
 	color = "#363636"
@@ -33734,12 +33740,6 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /obj/item/storage/trash_stack,
-/turf/open/indestructible/ground/inside/subway,
-/area/f13/building/sewers)
-"tIP" = (
-/mob/living/simple_animal/hostile/raider/ranged/boss/blueberrybates{
-	name = "Strawberry Stacy from the Bottom-Feeder"
-	},
 /turf/open/indestructible/ground/inside/subway,
 /area/f13/building/sewers)
 "tIQ" = (
@@ -85406,7 +85406,7 @@ pwE
 bsu
 ptn
 gcv
-kJT
+nvk
 blM
 blM
 blM
@@ -86444,7 +86444,7 @@ kyV
 xul
 pry
 kyV
-tIP
+kJT
 kyV
 pry
 yiL
