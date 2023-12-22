@@ -3316,14 +3316,6 @@
 /obj/effect/spawner/lootdrop/f13/uncommon,
 /turf/open/floor/plasteel/f13/stone/rugged,
 /area/f13/building)
-"cDt" = (
-/mob/living/simple_animal/hostile/raider/cultist/ranged/shotgun{
-	name = "Eyth"
-	},
-/turf/open/floor/f13/wood{
-	icon_state = "housewood2-broken"
-	},
-/area/f13/building)
 "cDC" = (
 /obj/effect/turf_decal/weather/dirt{
 	color = "#a98c5d";
@@ -11194,12 +11186,6 @@
 	icon_state = "ruinswindowvertical"
 	},
 /turf/open/transparent/openspace,
-/area/f13/building)
-"ixx" = (
-/mob/living/simple_animal/hostile/raider/cultist/melee,
-/turf/open/floor/f13{
-	icon_state = "neutralrustyfull"
-	},
 /area/f13/building)
 "ixA" = (
 /obj/structure/simple_door/house,
@@ -20816,6 +20802,12 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/f13/vault_floor/misc/cmo,
 /area/f13/building)
+"pQF" = (
+/mob/living/simple_animal/hostile/raider/cultist/melee,
+/turf/open/floor/f13{
+	icon_state = "neutralrustyfull"
+	},
+/area/f13/building)
 "pQI" = (
 /obj/effect/validball_spawner,
 /turf/open/floor/f13/wood,
@@ -22015,6 +22007,14 @@
 /obj/structure/wreck/trash/machinepiletwo,
 /turf/open/floor/plasteel/f13/vault_floor/blue,
 /area/f13/building/mall)
+"qKt" = (
+/mob/living/simple_animal/hostile/raider/cultist/ranged/shotgun{
+	name = "Eyth"
+	},
+/turf/open/floor/f13/wood{
+	icon_state = "housewood2-broken"
+	},
+/area/f13/building)
 "qKv" = (
 /obj/machinery/blackbox_recorder{
 	name = "data unit"
@@ -81599,12 +81599,12 @@ pog
 pky
 pog
 pog
-ixx
+pQF
 pog
 pog
 pky
 pky
-ixx
+pQF
 pog
 tpK
 oez
@@ -81848,7 +81848,7 @@ ctb
 lXH
 xVM
 xMi
-cDt
+qKt
 umG
 sdI
 acu

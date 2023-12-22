@@ -28691,6 +28691,12 @@
 	icon_state = "darkrustysolid"
 	},
 /area/f13/building/massfusion)
+"qId" = (
+/obj/item/locked_box/armor/tier1_3,
+/turf/open/floor/f13{
+	icon_state = "reddirtyfull"
+	},
+/area/f13/caves)
 "qIg" = (
 /obj/item/soap,
 /obj/structure/rack,
@@ -37419,12 +37425,6 @@
 /obj/item/card/lowbounty,
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/tunnel)
-"wiP" = (
-/obj/item/locked_box/armor/tier1_3,
-/turf/open/floor/f13{
-	icon_state = "reddirtyfull"
-	},
-/area/f13/caves)
 "wiW" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/spawner/lootdrop/f13/common,
@@ -68797,7 +68797,7 @@ tkZ
 jGk
 aaa
 aaA
-wiP
+qId
 mjz
 mjz
 mjz

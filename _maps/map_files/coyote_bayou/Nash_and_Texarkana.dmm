@@ -53379,13 +53379,11 @@
 /turf/open/indestructible/ground/outside/gravel,
 /area/f13/caves)
 "iCU" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/mob/living/simple_animal/hostile/raider/cultist/melee,
-/turf/open/floor/f13{
-	icon_state = "floorrusty"
+/obj/structure/barricade/sandbags,
+/turf/open/indestructible/ground/outside/sidewalk{
+	icon_state = "outerpavementcorner - N"
 	},
-/area/f13/building)
+/area/f13/wasteland)
 "iCV" = (
 /obj/effect/turf_decal/weather/dirt,
 /obj/effect/turf_decal/weather/dirt{
@@ -105824,12 +105822,6 @@
 /obj/effect/spawner/lootdrop/f13/uncommon,
 /turf/open/indestructible/ground/inside/dirt,
 /area/f13/wasteland/city)
-"tZe" = (
-/obj/structure/barricade/sandbags,
-/turf/open/indestructible/ground/outside/sidewalk{
-	icon_state = "outerpavementcorner - N"
-	},
-/area/f13/wasteland)
 "tZl" = (
 /obj/structure/sink{
 	icon_state = "water";
@@ -108735,17 +108727,6 @@
 	},
 /turf/open/floor/f13/wood,
 /area/f13/building/abandoned)
-"uKo" = (
-/obj/structure/window/fulltile/wood/broken{
-	desc = "Feed me! FEED ME!";
-	layer = 2;
-	name = "feed trough"
-	},
-/obj/structure/flora/ausbushes/grassybush{
-	layer = 2.1
-	},
-/turf/open/indestructible/ground/outside/desert,
-/area/f13/wasteland)
 "uKu" = (
 /obj/structure/barricade/wooden,
 /turf/open/indestructible/ground/outside/road{
@@ -112705,6 +112686,17 @@
 	icon_state = "horizontalinnermain0"
 	},
 /area/f13/wasteland/city)
+"vGU" = (
+/obj/structure/window/fulltile/wood/broken{
+	desc = "Feed me! FEED ME!";
+	layer = 2;
+	name = "feed trough"
+	},
+/obj/structure/flora/ausbushes/grassybush{
+	layer = 2.1
+	},
+/turf/open/indestructible/ground/outside/desert,
+/area/f13/wasteland)
 "vHc" = (
 /obj/structure/fence{
 	dir = 4
@@ -114261,6 +114253,14 @@
 	},
 /turf/open/floor/grass,
 /area/f13/wasteland)
+"vYP" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/mob/living/simple_animal/hostile/raider/cultist/melee,
+/turf/open/floor/f13{
+	icon_state = "floorrusty"
+	},
+/area/f13/building)
 "vYZ" = (
 /obj/structure/closet/cabinet,
 /obj/item/clothing/suit/jacket/miljacket,
@@ -137772,7 +137772,7 @@ adf
 adf
 adf
 adf
-tZe
+iCU
 xLC
 xLC
 lak
@@ -152261,8 +152261,8 @@ xTo
 aWs
 wZC
 quX
-uKo
-uKo
+vGU
+vGU
 nCn
 lGJ
 cIY
@@ -174167,7 +174167,7 @@ bko
 iDe
 ajS
 lcq
-iCU
+vYP
 syg
 fFf
 nri
