@@ -204,15 +204,6 @@
 /obj/effect/turf_decal/weather/dirt,
 /turf/open/indestructible/ground/outside/savannah,
 /area/f13/wasteland)
-"aex" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/mob/living/simple_animal/hostile/raider/tribal,
-/turf/open/indestructible/ground/outside/sidewalk{
-	icon_state = "horizontalbottomborderbottom0"
-	},
-/area/f13/wasteland/city)
 "aeM" = (
 /obj/machinery/light/small{
 	dir = 1;
@@ -875,12 +866,6 @@
 	icon_state = "horizontaltopborderbottom0"
 	},
 /area/f13/wasteland)
-"atR" = (
-/mob/living/simple_animal/hostile/raider/junker,
-/turf/open/indestructible/ground/outside/graveldirt{
-	dir = 8
-	},
-/area/f13/building)
 "auk" = (
 /obj/machinery/microwave/stove,
 /turf/open/floor/f13/wood{
@@ -1646,11 +1631,11 @@
 /turf/open/indestructible/ground/outside/desert,
 /area/f13/wasteland)
 "aME" = (
-/mob/living/simple_animal/hostile/raider/ranged/biker,
-/turf/open/indestructible/ground/outside/road{
-	icon_state = "horizontalinnermain0"
+/mob/living/simple_animal/hostile/raider/ranged/sulphiteranged,
+/turf/open/indestructible/ground/outside/graveldirt{
+	dir = 8
 	},
-/area/f13/wasteland/city)
+/area/f13/wasteland)
 "aMG" = (
 /obj/structure/window/fulltile/ruins,
 /turf/open/indestructible/ground/outside/sidewalk{
@@ -6225,6 +6210,12 @@
 	},
 /turf/open/floor/f13/wood,
 /area/f13/building)
+"cQL" = (
+/mob/living/simple_animal/hostile/raider/junker,
+/turf/open/indestructible/ground/outside/dirt/dark{
+	icon_state = "dirtfull_dark"
+	},
+/area/f13/wasteland)
 "cQO" = (
 /obj/structure/wreck/trash/engine,
 /obj/effect/decal/cleanable/dirt,
@@ -8486,6 +8477,10 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/indestructible/ground/outside/graveldirt,
 /area/f13/building/abandoned)
+"dMg" = (
+/mob/living/simple_animal/hostile/raider,
+/turf/open/floor/f13/wood,
+/area/f13/building)
 "dMs" = (
 /turf/open/floor/f13{
 	icon_state = "greenrustyfull"
@@ -9140,6 +9135,11 @@
 	},
 /turf/open/floor/grass,
 /area/f13/wasteland)
+"dYF" = (
+/obj/effect/decal/cleanable/dirt,
+/mob/living/simple_animal/hostile/raider/ranged/legendary,
+/turf/open/floor/f13/wood,
+/area/f13/building)
 "dYO" = (
 /obj/structure/barricade/wooden/strong,
 /obj/structure/tires/two,
@@ -9760,6 +9760,12 @@
 	},
 /turf/closed/wall/f13/store,
 /area/f13/building)
+"eoE" = (
+/mob/living/simple_animal/hostile/raider/firefighter,
+/turf/open/indestructible/ground/outside/road{
+	icon_state = "horizontalbottombordertop0"
+	},
+/area/f13/wasteland/city)
 "eoK" = (
 /obj/structure/table/reinforced{
 	color = "#c1b6a5"
@@ -15437,10 +15443,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/water,
 /area/f13/city)
-"gNz" = (
-/mob/living/simple_animal/hostile/raider,
-/turf/open/floor/f13/wood,
-/area/f13/building)
 "gND" = (
 /obj/structure/chair/stool{
 	dir = 1;
@@ -18580,11 +18582,11 @@
 	},
 /area/f13/building)
 "inx" = (
-/mob/living/simple_animal/hostile/raider/cultist,
+/mob/living/simple_animal/hostile/raider/firefighter,
 /turf/open/indestructible/ground/outside/dirt/dark{
 	icon_state = "dirtfull_dark"
 	},
-/area/f13/building)
+/area/f13/wasteland)
 "inC" = (
 /obj/structure/cargocrate,
 /obj/structure/cargocrate{
@@ -27431,9 +27433,11 @@
 	},
 /area/f13/wasteland/city)
 "mhl" = (
-/obj/effect/decal/cleanable/dirt,
-/mob/living/simple_animal/hostile/raider/ranged/legendary,
-/turf/open/floor/f13/wood,
+/obj/effect/turf_decal/stripes/line,
+/mob/living/simple_animal/hostile/ghoul/scorched/ranged,
+/turf/open/floor/f13{
+	icon_state = "greenrustyfull"
+	},
 /area/f13/building)
 "mhv" = (
 /obj/effect/decal/cleanable/dirt,
@@ -27768,6 +27772,10 @@
 	},
 /turf/open/indestructible/ground/outside/savannah,
 /area/f13/wasteland)
+"mqi" = (
+/mob/living/simple_animal/hostile/raider/ranged,
+/turf/open/floor/f13/wood,
+/area/f13/building)
 "mqq" = (
 /obj/structure/lattice/catwalk,
 /obj/effect/decal/cleanable/dirt,
@@ -28964,11 +28972,11 @@
 /turf/open/floor/f13/wood,
 /area/f13/building)
 "mTj" = (
-/mob/living/simple_animal/hostile/raider/firefighter,
-/turf/open/indestructible/ground/outside/dirt/dark{
-	icon_state = "dirtfull_dark"
+/mob/living/simple_animal/hostile/raider/junker,
+/turf/open/indestructible/ground/outside/graveldirt{
+	dir = 8
 	},
-/area/f13/wasteland)
+/area/f13/building)
 "mTD" = (
 /obj/structure/table/wood/poker,
 /turf/open/floor/f13/wood,
@@ -31874,12 +31882,6 @@
 /obj/structure/flora/brushwoodalt,
 /turf/open/indestructible/ground/outside/desert,
 /area/f13/caves)
-"ojC" = (
-/mob/living/simple_animal/hostile/raider/junker,
-/turf/open/indestructible/ground/outside/dirt/dark{
-	icon_state = "dirtfull_dark"
-	},
-/area/f13/wasteland)
 "ojU" = (
 /obj/structure/reagent_dispensers/barrel{
 	name = "water barrel";
@@ -33236,7 +33238,7 @@
 "oPr" = (
 /mob/living/simple_animal/hostile/raider/firefighter,
 /turf/open/indestructible/ground/outside/road{
-	icon_state = "horizontalbottombordertop0"
+	icon_state = "horizontalinnermain0"
 	},
 /area/f13/wasteland/city)
 "oPu" = (
@@ -38803,8 +38805,8 @@
 /turf/open/floor/plating/rust,
 /area/f13/building)
 "rtJ" = (
-/mob/living/simple_animal/hostile/raider/ranged,
-/turf/open/floor/f13/wood,
+/mob/living/simple_animal/hostile/raider/sulphite,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/building)
 "rtY" = (
 /obj/effect/decal/cleanable/dirt,
@@ -43682,9 +43684,14 @@
 	},
 /area/f13/wasteland/city)
 "tBP" = (
-/mob/living/simple_animal/hostile/raider/sulphite,
-/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
-/area/f13/building)
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/mob/living/simple_animal/hostile/raider/tribal,
+/turf/open/indestructible/ground/outside/sidewalk{
+	icon_state = "horizontalbottomborderbottom0"
+	},
+/area/f13/wasteland/city)
 "tBR" = (
 /obj/structure/railing{
 	dir = 8
@@ -45877,12 +45884,6 @@
 	icon_state = "bluedirtychess"
 	},
 /area/f13/building/abandoned)
-"uyu" = (
-/mob/living/simple_animal/hostile/raider/firefighter,
-/turf/open/indestructible/ground/outside/road{
-	icon_state = "horizontalinnermain0"
-	},
-/area/f13/wasteland/city)
 "uyv" = (
 /obj/effect/turf_decal/weather/dirt,
 /obj/structure/flora/grass/coyote/one{
@@ -48970,13 +48971,6 @@
 	name = "the watering hole"
 	},
 /area/f13/wasteland)
-"vYS" = (
-/obj/effect/turf_decal/stripes/line,
-/mob/living/simple_animal/hostile/ghoul/scorched/ranged,
-/turf/open/floor/f13{
-	icon_state = "greenrustyfull"
-	},
-/area/f13/building)
 "vYU" = (
 /obj/structure/spacevine,
 /mob/living/simple_animal/hostile/trog/sporecarrier,
@@ -50088,11 +50082,11 @@
 	},
 /area/f13/wasteland)
 "wAj" = (
-/mob/living/simple_animal/hostile/raider/ranged/sulphiteranged,
-/turf/open/indestructible/ground/outside/graveldirt{
-	dir = 8
+/mob/living/simple_animal/hostile/raider/cultist,
+/turf/open/indestructible/ground/outside/dirt/dark{
+	icon_state = "dirtfull_dark"
 	},
-/area/f13/wasteland)
+/area/f13/building)
 "wAl" = (
 /obj/structure/flora/tallgrass7,
 /obj/effect/turf_decal/weather/dirt{
@@ -50916,6 +50910,12 @@
 	icon_state = "horizontaloutermain2right"
 	},
 /area/f13/wasteland)
+"wUU" = (
+/mob/living/simple_animal/hostile/raider/ranged/biker,
+/turf/open/indestructible/ground/outside/road{
+	icon_state = "horizontalinnermain0"
+	},
+/area/f13/wasteland/city)
 "wUW" = (
 /obj/structure/decoration/rag{
 	icon_state = "skulls";
@@ -76921,7 +76921,7 @@ nxz
 qlm
 vTw
 rlG
-aME
+wUU
 cMz
 cMz
 fWP
@@ -79230,7 +79230,7 @@ pww
 eoT
 wOb
 btQ
-oPr
+eoE
 mvE
 hQj
 hQj
@@ -79998,7 +79998,7 @@ bGv
 oBL
 rqv
 guq
-uyu
+oPr
 cMz
 cMz
 btQ
@@ -80259,7 +80259,7 @@ wuc
 wuc
 bcS
 bZb
-aex
+tBP
 kWe
 tps
 svh
@@ -82045,7 +82045,7 @@ eaC
 qdG
 nSg
 cTB
-tBP
+rtJ
 nSg
 rQO
 xmw
@@ -82564,7 +82564,7 @@ swL
 qkL
 xbT
 gRS
-gNz
+dMg
 rtl
 oaw
 rtl
@@ -83585,7 +83585,7 @@ mYI
 mYI
 eaC
 ogV
-atR
+mTj
 iUs
 eHO
 iUs
@@ -84872,7 +84872,7 @@ eaC
 oQm
 iFQ
 mAz
-ojC
+cQL
 dyV
 njr
 dyV
@@ -85384,7 +85384,7 @@ vAy
 vAy
 eaC
 oQm
-wAj
+aME
 qao
 dyV
 dyV
@@ -85904,7 +85904,7 @@ dyV
 sNi
 dyV
 njr
-mTj
+inx
 icp
 wAi
 iFQ
@@ -87443,7 +87443,7 @@ oJS
 oPW
 hOt
 gau
-inx
+wAj
 gau
 gau
 hNv
@@ -90284,7 +90284,7 @@ oGw
 eWp
 oGw
 vPy
-vYS
+mhl
 iAX
 iAX
 iAX
@@ -90532,7 +90532,7 @@ tBA
 sUw
 tBA
 oaw
-rtJ
+mqi
 exK
 uiH
 gVD
@@ -91555,7 +91555,7 @@ nSg
 nSg
 kzG
 moP
-mhl
+dYF
 kHv
 skM
 tBA

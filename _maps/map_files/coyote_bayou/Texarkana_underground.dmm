@@ -7372,6 +7372,8 @@
 /obj/structure/bed/mattress{
 	icon_state = "mattress4"
 	},
+/obj/item/card/midbounty,
+/obj/item/locked_box/weapon/range/tier1_3,
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/tunnel)
 "des" = (
@@ -20356,12 +20358,6 @@
 /area/f13/caves)
 "lDP" = (
 /turf/open/floor/plasteel/f13/vault_floor/dark/darksolid,
-/area/f13/caves)
-"lDV" = (
-/obj/item/locked_box/armor/tier1_3,
-/turf/open/floor/f13{
-	icon_state = "reddirtyfull"
-	},
 /area/f13/caves)
 "lEu" = (
 /obj/item/storage/trash_stack,
@@ -37423,6 +37419,12 @@
 /obj/item/card/lowbounty,
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/tunnel)
+"wiP" = (
+/obj/item/locked_box/armor/tier1_3,
+/turf/open/floor/f13{
+	icon_state = "reddirtyfull"
+	},
+/area/f13/caves)
 "wiW" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/spawner/lootdrop/f13/common,
@@ -39567,6 +39569,7 @@
 	pixel_x = -15;
 	pixel_y = -5
 	},
+/obj/item/locked_box/weapon/range/tier1_3,
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/caves)
 "xAi" = (
@@ -68794,7 +68797,7 @@ tkZ
 jGk
 aaa
 aaA
-lDV
+wiP
 mjz
 mjz
 mjz

@@ -3316,6 +3316,14 @@
 /obj/effect/spawner/lootdrop/f13/uncommon,
 /turf/open/floor/plasteel/f13/stone/rugged,
 /area/f13/building)
+"cDt" = (
+/mob/living/simple_animal/hostile/raider/cultist/ranged/shotgun{
+	name = "Eyth"
+	},
+/turf/open/floor/f13/wood{
+	icon_state = "housewood2-broken"
+	},
+/area/f13/building)
 "cDC" = (
 /obj/effect/turf_decal/weather/dirt{
 	color = "#a98c5d";
@@ -7549,12 +7557,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/f13/wood,
 /area/f13/building)
-"fVO" = (
-/mob/living/simple_animal/hostile/raider/cultist/melee,
-/turf/open/floor/f13{
-	icon_state = "neutralrustyfull"
-	},
-/area/f13/building)
 "fVT" = (
 /obj/structure/sink{
 	dir = 8;
@@ -8754,14 +8756,6 @@
 /obj/structure/chair/office/dark,
 /turf/open/floor/f13/wood{
 	icon_state = "housewood2"
-	},
-/area/f13/building)
-"gOG" = (
-/mob/living/simple_animal/hostile/raider/cultist/ranged/shotgun{
-	name = "Eyth"
-	},
-/turf/open/floor/f13/wood{
-	icon_state = "housewood2-broken"
 	},
 /area/f13/building)
 "gPh" = (
@@ -11200,6 +11194,12 @@
 	icon_state = "ruinswindowvertical"
 	},
 /turf/open/transparent/openspace,
+/area/f13/building)
+"ixx" = (
+/mob/living/simple_animal/hostile/raider/cultist/melee,
+/turf/open/floor/f13{
+	icon_state = "neutralrustyfull"
+	},
 /area/f13/building)
 "ixA" = (
 /obj/structure/simple_door/house,
@@ -81599,12 +81599,12 @@ pog
 pky
 pog
 pog
-fVO
+ixx
 pog
 pog
 pky
 pky
-fVO
+ixx
 pog
 tpK
 oez
@@ -81848,7 +81848,7 @@ ctb
 lXH
 xVM
 xMi
-gOG
+cDt
 umG
 sdI
 acu

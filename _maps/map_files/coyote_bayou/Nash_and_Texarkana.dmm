@@ -53379,11 +53379,13 @@
 /turf/open/indestructible/ground/outside/gravel,
 /area/f13/caves)
 "iCU" = (
-/obj/structure/barricade/sandbags,
-/turf/open/indestructible/ground/outside/sidewalk{
-	icon_state = "outerpavementcorner - N"
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/mob/living/simple_animal/hostile/raider/cultist/melee,
+/turf/open/floor/f13{
+	icon_state = "floorrusty"
 	},
-/area/f13/wasteland)
+/area/f13/building)
 "iCV" = (
 /obj/effect/turf_decal/weather/dirt,
 /obj/effect/turf_decal/weather/dirt{
@@ -60851,14 +60853,6 @@
 	icon_state = "floorrustysolid"
 	},
 /area/f13/building/coyote/nash/museum/groundfloor)
-"knK" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/mob/living/simple_animal/hostile/raider/cultist/melee,
-/turf/open/floor/f13{
-	icon_state = "floorrusty"
-	},
-/area/f13/building)
 "knR" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/marking,
@@ -105830,6 +105824,12 @@
 /obj/effect/spawner/lootdrop/f13/uncommon,
 /turf/open/indestructible/ground/inside/dirt,
 /area/f13/wasteland/city)
+"tZe" = (
+/obj/structure/barricade/sandbags,
+/turf/open/indestructible/ground/outside/sidewalk{
+	icon_state = "outerpavementcorner - N"
+	},
+/area/f13/wasteland)
 "tZl" = (
 /obj/structure/sink{
 	icon_state = "water";
@@ -108735,6 +108735,17 @@
 	},
 /turf/open/floor/f13/wood,
 /area/f13/building/abandoned)
+"uKo" = (
+/obj/structure/window/fulltile/wood/broken{
+	desc = "Feed me! FEED ME!";
+	layer = 2;
+	name = "feed trough"
+	},
+/obj/structure/flora/ausbushes/grassybush{
+	layer = 2.1
+	},
+/turf/open/indestructible/ground/outside/desert,
+/area/f13/wasteland)
 "uKu" = (
 /obj/structure/barricade/wooden,
 /turf/open/indestructible/ground/outside/road{
@@ -120105,17 +120116,6 @@
 /obj/structure/flora/chomp/bones/lrock3,
 /turf/open/indestructible/ground/outside/desert,
 /area/f13/caves)
-"xly" = (
-/obj/structure/window/fulltile/wood/broken{
-	desc = "Feed me! FEED ME!";
-	layer = 2;
-	name = "feed trough"
-	},
-/obj/structure/flora/ausbushes/grassybush{
-	layer = 2.1
-	},
-/turf/open/indestructible/ground/outside/desert,
-/area/f13/wasteland)
 "xlz" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/flora/junglebush,
@@ -137772,7 +137772,7 @@ adf
 adf
 adf
 adf
-iCU
+tZe
 xLC
 xLC
 lak
@@ -152261,8 +152261,8 @@ xTo
 aWs
 wZC
 quX
-xly
-xly
+uKo
+uKo
 nCn
 lGJ
 cIY
@@ -174167,7 +174167,7 @@ bko
 iDe
 ajS
 lcq
-knK
+iCU
 syg
 fFf
 nri
