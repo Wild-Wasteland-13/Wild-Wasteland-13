@@ -5304,6 +5304,14 @@
 "czW" = (
 /turf/open/floor/plasteel/dark,
 /area/f13/vault)
+"cAe" = (
+/obj/structure/ladder/unbreakable/rune{
+	color = "#FF2200f";
+	id = "cult";
+	height = 2
+	},
+/turf/open/indestructible/ground/inside/mountain,
+/area/f13/building)
 "cAh" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
@@ -8577,6 +8585,7 @@
 /area/f13/building)
 "dON" = (
 /obj/effect/turf_decal/weather/dirt,
+/obj/effect/spawner/lootdrop/f13/uncommon_artifacts,
 /turf/open/indestructible/ground/outside/water,
 /area/f13/building)
 "dPd" = (
@@ -46575,6 +46584,7 @@
 /area/f13/brotherhood/dorms)
 "viF" = (
 /obj/structure/healingfountain,
+/obj/effect/spawner/lootdrop/f13/uncommon_artifacts,
 /turf/open/floor/grass,
 /area/f13/building)
 "viG" = (
@@ -105273,7 +105283,7 @@ whv
 whv
 ltw
 pHT
-ble
+cAe
 ble
 ble
 ble

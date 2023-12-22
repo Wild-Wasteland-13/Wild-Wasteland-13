@@ -25138,7 +25138,7 @@
 /mob/living/simple_animal/chicken{
 	name = "rad-chicken"
 	},
-/turf/open/floor/grass,
+/turf/open/indestructible/ground/outside/desert,
 /area/f13/wasteland)
 "cqT" = (
 /obj/effect/decal/cleanable/dirt,
@@ -37947,7 +37947,7 @@
 	color = "#9c9c9c"
 	},
 /obj/effect/spawner/lootdrop/f13/uncommon,
-/turf/open/floor/grass,
+/turf/open/indestructible/ground/inside/dirt,
 /area/f13/building/abandoned)
 "fie" = (
 /obj/effect/turf_decal/weather/dirt{
@@ -40584,7 +40584,7 @@
 /obj/structure/fence/corner{
 	dir = 8
 	},
-/turf/open/floor/grass,
+/turf/open/indestructible/ground/outside/desert,
 /area/f13/wasteland)
 "fMR" = (
 /obj/effect/decal/cleanable/dirt,
@@ -77479,6 +77479,17 @@
 	icon_state = "innermaincornerouter - W"
 	},
 /area/f13/wasteland/city)
+"nQi" = (
+/obj/structure/window/fulltile/wood/broken{
+	desc = "Feed me! FEED ME!";
+	layer = 2;
+	name = "feed trough"
+	},
+/obj/structure/flora/ausbushes/grassybush{
+	layer = 2.1
+	},
+/turf/open/indestructible/ground/outside/desert,
+/area/f13/wasteland)
 "nQl" = (
 /turf/open/indestructible/ground/outside/sidewalk{
 	icon_state = "outerbordercorner - N"
@@ -119120,6 +119131,12 @@
 /obj/structure/flora/junglebush/large,
 /turf/open/floor/grass,
 /area/f13/wasteland/nash)
+"xat" = (
+/obj/structure/barricade/sandbags,
+/turf/open/indestructible/ground/outside/sidewalk{
+	icon_state = "outerpavementcorner - N"
+	},
+/area/f13/wasteland)
 "xav" = (
 /obj/structure/spacevine,
 /turf/open/indestructible/ground/outside/road{
@@ -122329,7 +122346,7 @@
 /obj/machinery/hydroponics/soil{
 	color = "#9c9c9c"
 	},
-/turf/open/floor/grass,
+/turf/open/indestructible/ground/inside/dirt,
 /area/f13/building/abandoned)
 "xLK" = (
 /obj/machinery/light/small/broken{
@@ -137501,7 +137518,7 @@ cuI
 cuI
 cuI
 cuI
-alm
+azq
 tsh
 jyD
 sgr
@@ -137758,7 +137775,7 @@ adf
 adf
 adf
 adf
-alm
+xat
 xLC
 xLC
 lak
@@ -151219,8 +151236,8 @@ sdn
 sdn
 sdn
 hCc
-rnr
-rnr
+jxM
+jxM
 fMN
 mKY
 mph
@@ -151477,8 +151494,8 @@ xLJ
 xLJ
 quX
 cqS
-opQ
-hyv
+kDk
+nCn
 cIY
 wmW
 lDy
@@ -151733,9 +151750,9 @@ xLJ
 xLJ
 xLJ
 quX
-cIY
+xLC
 cqS
-hyv
+nCn
 cIY
 pdC
 gcc
@@ -151990,9 +152007,9 @@ vXc
 rYj
 bPp
 nPF
-cIY
-cIY
-hyv
+xLC
+xLC
+nCn
 cIY
 ngH
 ara
@@ -152247,9 +152264,9 @@ xTo
 aWs
 wZC
 quX
-aiR
-aiR
-hyv
+nQi
+nQi
+nCn
 lGJ
 cIY
 cIY
