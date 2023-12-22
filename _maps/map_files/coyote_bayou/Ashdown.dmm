@@ -24880,12 +24880,6 @@
 	icon_state = "graveldirtedge"
 	},
 /area/f13/wasteland)
-"kWS" = (
-/obj/machinery/porta_turret/f13/turret_22lr/burstfire/raider,
-/turf/open/indestructible/ground/outside/sidewalk{
-	icon_state = "horizontaltopbordertop0"
-	},
-/area/f13/wasteland)
 "kXh" = (
 /obj/structure/closet,
 /obj/effect/decal/cleanable/dirt/dust,
@@ -41576,6 +41570,12 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/indestructible/ground/outside/graveldirt{
 	dir = 4
+	},
+/area/f13/wasteland)
+"sGy" = (
+/obj/machinery/porta_turret/f13/turret_22lr/burstfire/raider,
+/turf/open/indestructible/ground/outside/sidewalk{
+	icon_state = "horizontaltopbordertop0"
 	},
 /area/f13/wasteland)
 "sGz" = (
@@ -80174,7 +80174,7 @@ mYI
 mYI
 mYI
 hyW
-kWS
+sGy
 bxV
 sZm
 bJy
