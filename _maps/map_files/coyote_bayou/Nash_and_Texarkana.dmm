@@ -53379,13 +53379,11 @@
 /turf/open/indestructible/ground/outside/gravel,
 /area/f13/caves)
 "iCU" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/mob/living/simple_animal/hostile/raider/cultist/melee,
-/turf/open/floor/f13{
-	icon_state = "floorrusty"
+/obj/structure/barricade/sandbags,
+/turf/open/indestructible/ground/outside/sidewalk{
+	icon_state = "outerpavementcorner - N"
 	},
-/area/f13/building)
+/area/f13/wasteland)
 "iCV" = (
 /obj/effect/turf_decal/weather/dirt,
 /obj/effect/turf_decal/weather/dirt{
@@ -59883,17 +59881,6 @@
 	},
 /turf/open/floor/grass,
 /area/f13/wasteland)
-"kci" = (
-/obj/structure/window/fulltile/wood/broken{
-	desc = "Feed me! FEED ME!";
-	layer = 2;
-	name = "feed trough"
-	},
-/obj/structure/flora/ausbushes/grassybush{
-	layer = 2.1
-	},
-/turf/open/indestructible/ground/outside/desert,
-/area/f13/wasteland)
 "kcx" = (
 /turf/open/indestructible/ground/outside/snow,
 /area/f13/wasteland/nash)
@@ -60437,12 +60424,6 @@
 	icon_state = "bar"
 	},
 /area/f13/building)
-"kiT" = (
-/obj/structure/barricade/sandbags,
-/turf/open/indestructible/ground/outside/sidewalk{
-	icon_state = "outerpavementcorner - N"
-	},
-/area/f13/wasteland)
 "kiU" = (
 /obj/structure/flora/tree/jungle{
 	color = "#d9b51c"
@@ -60870,6 +60851,14 @@
 	icon_state = "floorrustysolid"
 	},
 /area/f13/building/coyote/nash/museum/groundfloor)
+"knK" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/mob/living/simple_animal/hostile/raider/cultist/melee,
+/turf/open/floor/f13{
+	icon_state = "floorrusty"
+	},
+/area/f13/building)
 "knR" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/marking,
@@ -120116,6 +120105,17 @@
 /obj/structure/flora/chomp/bones/lrock3,
 /turf/open/indestructible/ground/outside/desert,
 /area/f13/caves)
+"xly" = (
+/obj/structure/window/fulltile/wood/broken{
+	desc = "Feed me! FEED ME!";
+	layer = 2;
+	name = "feed trough"
+	},
+/obj/structure/flora/ausbushes/grassybush{
+	layer = 2.1
+	},
+/turf/open/indestructible/ground/outside/desert,
+/area/f13/wasteland)
 "xlz" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/flora/junglebush,
@@ -137772,7 +137772,7 @@ adf
 adf
 adf
 adf
-kiT
+iCU
 xLC
 xLC
 lak
@@ -152261,8 +152261,8 @@ xTo
 aWs
 wZC
 quX
-kci
-kci
+xly
+xly
 nCn
 lGJ
 cIY
@@ -174167,7 +174167,7 @@ bko
 iDe
 ajS
 lcq
-iCU
+knK
 syg
 fFf
 nri
