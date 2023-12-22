@@ -15877,6 +15877,12 @@
 	},
 /turf/open/floor/plasteel/freezer,
 /area/f13/caves)
+"iGI" = (
+/obj/item/locked_box/armor/tier1_3,
+/turf/open/floor/f13{
+	icon_state = "reddirtyfull"
+	},
+/area/f13/caves)
 "iGJ" = (
 /obj/structure/barricade/wooden/strong,
 /obj/effect/decal/cleanable/greenglow,
@@ -28691,12 +28697,6 @@
 	icon_state = "darkrustysolid"
 	},
 /area/f13/building/massfusion)
-"qId" = (
-/obj/item/locked_box/armor/tier1_3,
-/turf/open/floor/f13{
-	icon_state = "reddirtyfull"
-	},
-/area/f13/caves)
 "qIg" = (
 /obj/item/soap,
 /obj/structure/rack,
@@ -68797,7 +68797,7 @@ tkZ
 jGk
 aaa
 aaA
-qId
+iGI
 mjz
 mjz
 mjz
