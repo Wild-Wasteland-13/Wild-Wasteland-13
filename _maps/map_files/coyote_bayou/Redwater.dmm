@@ -2128,6 +2128,11 @@
 	},
 /turf/open/floor/grass,
 /area/f13/wasteland/redwater)
+"aRs" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/nest/molerat,
+/turf/open/floor/grass,
+/area/f13/wasteland/redwater)
 "aRt" = (
 /obj/effect/turf_decal/weather/dirt{
 	dir = 9
@@ -2532,11 +2537,6 @@
 	},
 /obj/effect/decal/cleanable/blood/gibs/down{
 	icon_state = "gib3-old"
-	},
-/obj/structure/ladder/unbreakable/rune{
-	color = "#FF2200f";
-	id = "cult";
-	height = 2
 	},
 /turf/open/floor/plasteel/cult,
 /area/f13/building/tribal)
@@ -3132,6 +3132,16 @@
 	icon_state = "car_rubish1"
 	},
 /turf/open/indestructible/ground/outside/gravel,
+/area/f13/wasteland/redwater)
+"bhV" = (
+/obj/effect/decal/cleanable/dirt,
+/mob/living/simple_animal/hostile/handy/protectron{
+	name = "red rocket assistant";
+	color = "#EE0000"
+	},
+/turf/open/indestructible/ground/outside/sidewalk{
+	icon_state = "outerborder - N"
+	},
 /area/f13/wasteland/redwater)
 "biw" = (
 /obj/structure/flora/rock/pile/largejungle,
@@ -4546,7 +4556,6 @@
 /turf/open/floor/grass,
 /area/f13/wasteland/town)
 "bDT" = (
-/obj/structure/flora/grass/jungle/b,
 /mob/living/simple_animal/hostile/mirelurk/baby,
 /turf/open/water,
 /area/f13/caves)
@@ -7581,11 +7590,6 @@
 	name = "stagnant water"
 	},
 /area/f13/building/tribal)
-"cDH" = (
-/obj/structure/flora/grass/jungle,
-/mob/living/simple_animal/hostile/mirelurk/baby,
-/turf/open/water,
-/area/f13/caves)
 "cDJ" = (
 /obj/effect/spawner/lootdrop/clothing_high,
 /turf/open/floor/plasteel/barber{
@@ -9031,6 +9035,11 @@
 	icon_state = "yellowrustyfull"
 	},
 /area/f13/building)
+"dds" = (
+/obj/structure/flora/grass/jungle,
+/mob/living/simple_animal/hostile/mirelurk/baby,
+/turf/open/water,
+/area/f13/caves)
 "ddJ" = (
 /obj/structure/flora/ausbushes/fernybush,
 /obj/structure/flora/ausbushes/grassybush,
@@ -9041,7 +9050,7 @@
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/building)
 "ddZ" = (
-/mob/living/simple_animal/hostile/mirelurk/baby,
+/obj/structure/nest/mirelurk,
 /turf/open/water,
 /area/f13/caves)
 "dek" = (
@@ -14903,9 +14912,7 @@
 	},
 /area/f13/building)
 "feS" = (
-/obj/structure/closet,
-/obj/effect/spawner/lootdrop/f13/rare_weps,
-/obj/effect/spawner/lootdrop/f13/rare_armor,
+/obj/structure/nest/mirelurk,
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/caves)
 "feV" = (
@@ -20393,7 +20400,9 @@
 /turf/open/indestructible/ground/outside/water,
 /area/f13/wasteland/redwater)
 "hds" = (
-/mob/living/simple_animal/hostile/mirelurk/hunter,
+/obj/structure/closet,
+/obj/effect/spawner/lootdrop/f13/rare_weps,
+/obj/effect/spawner/lootdrop/f13/rare_armor,
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/caves)
 "hdy" = (
@@ -22075,11 +22084,6 @@
 /obj/structure/closet/fridge,
 /turf/open/floor/wood_common,
 /area/f13/building)
-"hHy" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/nest/molerat,
-/turf/open/floor/grass,
-/area/f13/wasteland/redwater)
 "hHB" = (
 /obj/structure/chair{
 	icon_state = "chair";
@@ -23024,15 +23028,6 @@
 /obj/structure/table/wood,
 /turf/open/floor/wood_common,
 /area/f13/building)
-"hXY" = (
-/mob/living/simple_animal/hostile/handy/protectron{
-	name = "red rocket assistant";
-	color = "#EE0000"
-	},
-/turf/open/indestructible/ground/outside/sidewalk{
-	icon_state = "outerborder - E"
-	},
-/area/f13/wasteland/redwater)
 "hYd" = (
 /obj/effect/decal/cleanable/dirt,
 /mob/living/simple_animal/hostile/renegade/engie,
@@ -23596,9 +23591,14 @@
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/caves)
 "ihR" = (
-/obj/structure/nest/mirelurk,
-/turf/open/water,
-/area/f13/caves)
+/mob/living/simple_animal/hostile/handy/protectron{
+	name = "red rocket assistant";
+	color = "#EE0000"
+	},
+/turf/open/indestructible/ground/outside/sidewalk{
+	icon_state = "outerborder - E"
+	},
+/area/f13/wasteland/redwater)
 "iib" = (
 /mob/living/simple_animal/hostile/renegade/soldier,
 /turf/open/floor/grass,
@@ -24240,13 +24240,6 @@
 	icon_state = "bluedirtychess2"
 	},
 /area/f13/wasteland)
-"itN" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/nest/mirelurk,
-/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
-	icon_state = "floorrustysolid"
-	},
-/area/f13/caves)
 "ius" = (
 /obj/effect/turf_decal/weather/dirt{
 	dir = 9
@@ -29703,8 +29696,11 @@
 /turf/open/floor/grass,
 /area/f13/wasteland/town)
 "kmL" = (
-/mob/living/simple_animal/hostile/mirelurk,
-/turf/open/water,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/nest/mirelurk,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
+	icon_state = "floorrustysolid"
+	},
 /area/f13/caves)
 "kmN" = (
 /obj/structure/guncase{
@@ -34141,11 +34137,8 @@
 	},
 /area/f13/wasteland/redwater)
 "lQC" = (
-/obj/effect/decal/cleanable/dirt,
-/mob/living/simple_animal/hostile/mirelurk/baby,
-/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
-	icon_state = "floorrustysolid"
-	},
+/mob/living/simple_animal/hostile/mirelurk/hunter,
+/turf/open/water,
 /area/f13/caves)
 "lQP" = (
 /obj/structure/table/reinforced,
@@ -36941,6 +36934,15 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/wood_common,
 /area/f13/building)
+"mNb" = (
+/mob/living/simple_animal/hostile/handy/protectron{
+	name = "red rocket assistant";
+	color = "#EE0000"
+	},
+/turf/open/indestructible/ground/outside/road{
+	icon_state = "verticalinnermain2"
+	},
+/area/f13/wasteland/redwater)
 "mNf" = (
 /obj/effect/decal/waste{
 	icon_state = "goo11"
@@ -38000,10 +38002,6 @@
 /obj/item/kirbyplants/random,
 /turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,
 /area/f13/building)
-"nkS" = (
-/mob/living/simple_animal/hostile/mirelurk/hunter,
-/turf/open/water,
-/area/f13/caves)
 "nla" = (
 /obj/effect/turf_decal/weather/dirt{
 	dir = 6
@@ -39371,8 +39369,11 @@
 	},
 /area/f13/building/tribal)
 "nMf" = (
-/obj/structure/nest/mirelurk,
-/turf/open/indestructible/ground/inside/mountain,
+/obj/effect/decal/cleanable/dirt,
+/mob/living/simple_animal/hostile/mirelurk/baby,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
+	icon_state = "floorrustysolid"
+	},
 /area/f13/caves)
 "nMv" = (
 /obj/effect/decal/cleanable/dirt/dust,
@@ -39578,6 +39579,10 @@
 /obj/structure/flora/twig2,
 /turf/open/floor/grass,
 /area/f13/wasteland/redwater)
+"nQr" = (
+/mob/living/simple_animal/hostile/mirelurk,
+/turf/open/water,
+/area/f13/caves)
 "nQv" = (
 /turf/open/floor/plasteel/cult{
 	color = "#FFA600";
@@ -41778,6 +41783,10 @@
 /obj/structure/flora/rock/pile/largejungle,
 /turf/open/floor/grass,
 /area/f13/wasteland/redwater)
+"oDz" = (
+/mob/living/simple_animal/hostile/mirelurk/hunter,
+/turf/open/indestructible/ground/inside/mountain,
+/area/f13/caves)
 "oDF" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/item/storage/trash_stack{
@@ -45739,6 +45748,11 @@
 /obj/machinery/mineral/wasteland_vendor/crafting,
 /turf/open/indestructible/ground/outside/road,
 /area/f13/wasteland)
+"qbn" = (
+/obj/structure/flora/grass/jungle,
+/obj/structure/nest/mirelurk,
+/turf/open/water,
+/area/f13/caves)
 "qbr" = (
 /obj/structure/flora/ausbushes/fullgrass,
 /obj/effect/turf_decal/weather/dirt,
@@ -48377,6 +48391,11 @@
 /obj/structure/bed/old,
 /turf/open/floor/wood_common,
 /area/f13/building)
+"qWr" = (
+/obj/structure/flora/grass/jungle/b,
+/mob/living/simple_animal/hostile/mirelurk/baby,
+/turf/open/water,
+/area/f13/caves)
 "qWD" = (
 /obj/structure/rack,
 /obj/item/seeds/poppy/broc,
@@ -50411,11 +50430,6 @@
 	},
 /turf/open/floor/wood_common,
 /area/f13/bar)
-"rBU" = (
-/obj/structure/flora/grass/jungle,
-/obj/structure/nest/mirelurk,
-/turf/open/water,
-/area/f13/caves)
 "rCc" = (
 /obj/structure/destructible/tribal_torch/wall/lit{
 	dir = 4
@@ -61855,15 +61869,6 @@
 	icon_state = "bar"
 	},
 /area/f13/building/abandoned)
-"vCz" = (
-/mob/living/simple_animal/hostile/handy/protectron{
-	name = "red rocket assistant";
-	color = "#EE0000"
-	},
-/turf/open/indestructible/ground/outside/road{
-	icon_state = "verticalinnermain2"
-	},
-/area/f13/wasteland/redwater)
 "vCE" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood/gibs/down{
@@ -64883,16 +64888,6 @@
 	},
 /turf/open/floor/plating/dirt,
 /area/f13/wasteland/town)
-"wFc" = (
-/obj/effect/decal/cleanable/dirt,
-/mob/living/simple_animal/hostile/handy/protectron{
-	name = "red rocket assistant";
-	color = "#EE0000"
-	},
-/turf/open/indestructible/ground/outside/sidewalk{
-	icon_state = "outerborder - N"
-	},
-/area/f13/wasteland/redwater)
 "wFf" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/closed/wall/f13/ruins,
@@ -88311,7 +88306,7 @@ aXu
 aXu
 aXu
 ejr
-hHy
+aRs
 ejr
 oBP
 oBP
@@ -91398,7 +91393,7 @@ hni
 hni
 vsU
 yiU
-hXY
+ihR
 tss
 xBc
 eZE
@@ -92162,7 +92157,7 @@ aXu
 aXu
 xWj
 sfZ
-vCz
+mNb
 nNT
 gll
 gll
@@ -93454,7 +93449,7 @@ hni
 qNA
 hni
 gll
-wFc
+bhV
 tss
 xFY
 kRH
@@ -110337,7 +110332,7 @@ tRd
 taB
 hgo
 soH
-bDT
+qWr
 soH
 fKr
 taB
@@ -110594,7 +110589,7 @@ mCc
 tRd
 taB
 soH
-ihR
+ddZ
 soH
 fKr
 nSX
@@ -112152,9 +112147,9 @@ mDn
 pME
 qWV
 ydU
-lQC
+nMf
 taB
-feS
+hds
 mUC
 tRd
 tRd
@@ -112394,7 +112389,7 @@ mUC
 nmb
 soH
 bCs
-ihR
+ddZ
 mUC
 tRd
 mUC
@@ -112410,7 +112405,7 @@ nCr
 anP
 lOs
 hgo
-nMf
+feS
 wqb
 mUC
 tRd
@@ -112662,7 +112657,7 @@ bCs
 pop
 bCs
 pop
-nkS
+lQC
 kRF
 nwS
 lWp
@@ -113176,10 +113171,10 @@ bCs
 pop
 bCs
 bCs
-cDH
+dds
 bCs
 bCs
-ddZ
+bDT
 bCs
 bCs
 kRF
@@ -113420,7 +113415,7 @@ tRd
 tRd
 tRd
 mUC
-ddZ
+bDT
 bCs
 soH
 hgo
@@ -113437,7 +113432,7 @@ bCs
 pop
 vgY
 vgY
-hds
+oDz
 bCs
 qBC
 mUC
@@ -113696,7 +113691,7 @@ nwS
 xle
 kao
 kao
-feS
+hds
 mUC
 tRd
 tRd
@@ -113945,7 +113940,7 @@ bCs
 kRF
 nmb
 tNE
-itN
+kmL
 iSh
 bCs
 anP
@@ -114467,7 +114462,7 @@ nCr
 anP
 qJf
 hgo
-feS
+hds
 mUC
 tRd
 tRd
@@ -115474,7 +115469,7 @@ xlj
 nmb
 lmG
 bCs
-rBU
+qbn
 iZt
 soH
 pop
@@ -115482,7 +115477,7 @@ soH
 bCs
 iZt
 pop
-kmL
+nQr
 soH
 soH
 mUC
@@ -115740,7 +115735,7 @@ mUC
 mUC
 mUC
 taB
-nMf
+feS
 taB
 mUC
 mCc

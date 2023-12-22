@@ -44774,7 +44774,6 @@
 /obj/structure/railing{
 	dir = 8
 	},
-/mob/living/simple_animal/hostile/raider/baseball,
 /turf/open/floor/f13{
 	icon_state = "floorrusty"
 	},
@@ -53382,10 +53381,7 @@
 "iCU" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/railing{
-	dir = 8
-	},
+/mob/living/simple_animal/hostile/raider/cultist/melee,
 /turf/open/floor/f13{
 	icon_state = "floorrusty"
 	},
@@ -59887,6 +59883,17 @@
 	},
 /turf/open/floor/grass,
 /area/f13/wasteland)
+"kci" = (
+/obj/structure/window/fulltile/wood/broken{
+	desc = "Feed me! FEED ME!";
+	layer = 2;
+	name = "feed trough"
+	},
+/obj/structure/flora/ausbushes/grassybush{
+	layer = 2.1
+	},
+/turf/open/indestructible/ground/outside/desert,
+/area/f13/wasteland)
 "kcx" = (
 /turf/open/indestructible/ground/outside/snow,
 /area/f13/wasteland/nash)
@@ -60430,6 +60437,12 @@
 	icon_state = "bar"
 	},
 /area/f13/building)
+"kiT" = (
+/obj/structure/barricade/sandbags,
+/turf/open/indestructible/ground/outside/sidewalk{
+	icon_state = "outerpavementcorner - N"
+	},
+/area/f13/wasteland)
 "kiU" = (
 /obj/structure/flora/tree/jungle{
 	color = "#d9b51c"
@@ -77479,17 +77492,6 @@
 	icon_state = "innermaincornerouter - W"
 	},
 /area/f13/wasteland/city)
-"nQi" = (
-/obj/structure/window/fulltile/wood/broken{
-	desc = "Feed me! FEED ME!";
-	layer = 2;
-	name = "feed trough"
-	},
-/obj/structure/flora/ausbushes/grassybush{
-	layer = 2.1
-	},
-/turf/open/indestructible/ground/outside/desert,
-/area/f13/wasteland)
 "nQl" = (
 /turf/open/indestructible/ground/outside/sidewalk{
 	icon_state = "outerbordercorner - N"
@@ -115751,6 +115753,7 @@
 /obj/structure/railing/corner{
 	dir = 4
 	},
+/mob/living/simple_animal/hostile/raider/cultist/melee,
 /turf/open/floor/f13{
 	icon_state = "floorrusty"
 	},
@@ -119131,12 +119134,6 @@
 /obj/structure/flora/junglebush/large,
 /turf/open/floor/grass,
 /area/f13/wasteland/nash)
-"xat" = (
-/obj/structure/barricade/sandbags,
-/turf/open/indestructible/ground/outside/sidewalk{
-	icon_state = "outerpavementcorner - N"
-	},
-/area/f13/wasteland)
 "xav" = (
 /obj/structure/spacevine,
 /turf/open/indestructible/ground/outside/road{
@@ -137775,7 +137772,7 @@ adf
 adf
 adf
 adf
-xat
+kiT
 xLC
 xLC
 lak
@@ -152264,8 +152261,8 @@ xTo
 aWs
 wZC
 quX
-nQi
-nQi
+kci
+kci
 nCn
 lGJ
 cIY
@@ -173914,7 +173911,7 @@ biI
 jAx
 bon
 gIG
-iCU
+afS
 fvp
 aRp
 bnO
@@ -174170,9 +174167,9 @@ bko
 iDe
 ajS
 lcq
-fFf
+iCU
 syg
-aaM
+fFf
 nri
 bnO
 afS
@@ -175200,7 +175197,7 @@ cHG
 kvO
 gVp
 fFf
-fFf
+aaM
 vGm
 bnO
 fdL

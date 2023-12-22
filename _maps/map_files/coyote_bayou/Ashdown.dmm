@@ -1631,7 +1631,7 @@
 /turf/open/indestructible/ground/outside/desert,
 /area/f13/wasteland)
 "aME" = (
-/mob/living/simple_animal/hostile/raider/firefighter,
+/mob/living/simple_animal/hostile/raider/junker,
 /turf/open/indestructible/ground/outside/dirt/dark{
 	icon_state = "dirtfull_dark"
 	},
@@ -8041,13 +8041,6 @@
 	},
 /turf/open/floor/carpet/red,
 /area/f13/building/abandoned)
-"dDX" = (
-/obj/effect/turf_decal/stripes/line,
-/mob/living/simple_animal/hostile/ghoul/scorched/ranged,
-/turf/open/floor/f13{
-	icon_state = "greenrustyfull"
-	},
-/area/f13/building)
 "dEa" = (
 /obj/structure/bed/mattress{
 	icon_state = "mattress2"
@@ -12559,11 +12552,6 @@
 	},
 /turf/open/floor/grass,
 /area/f13/wasteland)
-"fAf" = (
-/obj/effect/decal/cleanable/dirt,
-/mob/living/simple_animal/hostile/raider/ranged/legendary,
-/turf/open/floor/f13/wood,
-/area/f13/building)
 "fAA" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/machinery/chem_heater,
@@ -15507,6 +15495,12 @@
 /turf/open/floor/plasteel/barber{
 	icon = 'icons/turf/f13floors2.dmi';
 	icon_state = "bluerustychess2"
+	},
+/area/f13/building)
+"gOV" = (
+/mob/living/simple_animal/hostile/raider/junker,
+/turf/open/indestructible/ground/outside/graveldirt{
+	dir = 8
 	},
 /area/f13/building)
 "gPc" = (
@@ -18487,10 +18481,6 @@
 	icon_state = "verticalrightborderright2bottom"
 	},
 /area/f13/wasteland)
-"ilY" = (
-/mob/living/simple_animal/hostile/raider,
-/turf/open/floor/f13/wood,
-/area/f13/building)
 "ime" = (
 /turf/open/indestructible/ground/outside/sidewalk{
 	icon_state = "outerbordercorner - N"
@@ -18577,7 +18567,8 @@
 	},
 /area/f13/building)
 "inx" = (
-/mob/living/simple_animal/hostile/raider/ranged,
+/obj/effect/decal/cleanable/dirt,
+/mob/living/simple_animal/hostile/raider/ranged/legendary,
 /turf/open/floor/f13/wood,
 /area/f13/building)
 "inC" = (
@@ -27426,11 +27417,9 @@
 	},
 /area/f13/wasteland/city)
 "mhl" = (
-/mob/living/simple_animal/hostile/raider/ranged/sulphiteranged,
-/turf/open/indestructible/ground/outside/graveldirt{
-	dir = 8
-	},
-/area/f13/wasteland)
+/mob/living/simple_animal/hostile/raider,
+/turf/open/floor/f13/wood,
+/area/f13/building)
 "mhv" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/weather/dirt{
@@ -28573,12 +28562,6 @@
 	},
 /turf/open/floor/grass,
 /area/f13/wasteland)
-"mJl" = (
-/mob/living/simple_animal/hostile/raider/junker,
-/turf/open/indestructible/ground/outside/dirt/dark{
-	icon_state = "dirtfull_dark"
-	},
-/area/f13/wasteland)
 "mJr" = (
 /obj/structure/chair/booth{
 	icon_state = "booth_south_east"
@@ -28966,12 +28949,9 @@
 /turf/open/floor/f13/wood,
 /area/f13/building)
 "mTj" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/mob/living/simple_animal/hostile/raider/tribal,
-/turf/open/indestructible/ground/outside/sidewalk{
-	icon_state = "horizontalbottomborderbottom0"
+/mob/living/simple_animal/hostile/raider/firefighter,
+/turf/open/indestructible/ground/outside/road{
+	icon_state = "horizontalbottombordertop0"
 	},
 /area/f13/wasteland/city)
 "mTD" = (
@@ -33233,11 +33213,9 @@
 	},
 /area/f13/building/abandoned)
 "oPr" = (
-/mob/living/simple_animal/hostile/raider/firefighter,
-/turf/open/indestructible/ground/outside/road{
-	icon_state = "horizontalbottombordertop0"
-	},
-/area/f13/wasteland/city)
+/mob/living/simple_animal/hostile/raider/sulphite,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
+/area/f13/building)
 "oPu" = (
 /obj/structure/fence{
 	pixel_y = 1
@@ -34466,6 +34444,12 @@
 	dir = 6
 	},
 /area/f13/wasteland)
+"pqi" = (
+/mob/living/simple_animal/hostile/raider/firefighter,
+/turf/open/indestructible/ground/outside/road{
+	icon_state = "horizontalinnermain0"
+	},
+/area/f13/wasteland/city)
 "pqH" = (
 /obj/dugpit,
 /turf/open/indestructible/ground/outside/savannah,
@@ -37220,12 +37204,6 @@
 	icon_state = "floorrustysolid"
 	},
 /area/f13/building/abandoned)
-"qFY" = (
-/mob/living/simple_animal/hostile/raider/junker,
-/turf/open/indestructible/ground/outside/graveldirt{
-	dir = 8
-	},
-/area/f13/building)
 "qGr" = (
 /obj/structure/barricade/wooden/planks/pregame,
 /obj/structure/window/fulltile/house/broken,
@@ -37624,6 +37602,10 @@
 	icon_state = "whitegreenrustychess"
 	},
 /area/f13/building/abandoned)
+"qQm" = (
+/mob/living/simple_animal/hostile/raider/ranged,
+/turf/open/floor/f13/wood,
+/area/f13/building)
 "qQx" = (
 /obj/machinery/light/lampost,
 /turf/open/indestructible/ground/outside/sidewalk{
@@ -38808,9 +38790,10 @@
 /turf/open/floor/plating/rust,
 /area/f13/building)
 "rtJ" = (
-/mob/living/simple_animal/hostile/raider/cultist,
-/turf/open/indestructible/ground/outside/dirt/dark{
-	icon_state = "dirtfull_dark"
+/obj/effect/turf_decal/stripes/line,
+/mob/living/simple_animal/hostile/ghoul/scorched/ranged,
+/turf/open/floor/f13{
+	icon_state = "greenrustyfull"
 	},
 /area/f13/building)
 "rtY" = (
@@ -40813,12 +40796,6 @@
 /obj/structure/spacevine,
 /turf/closed/wall/f13/store,
 /area/f13/building/abandoned)
-"snV" = (
-/mob/living/simple_animal/hostile/raider/firefighter,
-/turf/open/indestructible/ground/outside/road{
-	icon_state = "horizontalinnermain0"
-	},
-/area/f13/wasteland/city)
 "sog" = (
 /obj/structure/spacevine,
 /turf/closed/wall/f13/wood/house,
@@ -43695,11 +43672,11 @@
 	},
 /area/f13/wasteland/city)
 "tBP" = (
-/mob/living/simple_animal/hostile/raider/ranged/biker,
-/turf/open/indestructible/ground/outside/road{
-	icon_state = "horizontalinnermain0"
+/mob/living/simple_animal/hostile/raider/firefighter,
+/turf/open/indestructible/ground/outside/dirt/dark{
+	icon_state = "dirtfull_dark"
 	},
-/area/f13/wasteland/city)
+/area/f13/wasteland)
 "tBR" = (
 /obj/structure/railing{
 	dir = 8
@@ -48459,6 +48436,12 @@
 	},
 /turf/open/floor/grass,
 /area/f13/wasteland)
+"vMQ" = (
+/mob/living/simple_animal/hostile/raider/ranged/sulphiteranged,
+/turf/open/indestructible/ground/outside/graveldirt{
+	dir = 8
+	},
+/area/f13/wasteland)
 "vMW" = (
 /obj/machinery/light{
 	dir = 4
@@ -50090,8 +50073,10 @@
 	},
 /area/f13/wasteland)
 "wAj" = (
-/mob/living/simple_animal/hostile/raider/sulphite,
-/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
+/mob/living/simple_animal/hostile/raider/cultist,
+/turf/open/indestructible/ground/outside/dirt/dark{
+	icon_state = "dirtfull_dark"
+	},
 /area/f13/building)
 "wAl" = (
 /obj/structure/flora/tallgrass7,
@@ -52505,6 +52490,12 @@
 	icon_state = "horizontalbottomborderbottom0"
 	},
 /area/f13/wasteland/city)
+"xHR" = (
+/mob/living/simple_animal/hostile/raider/ranged/biker,
+/turf/open/indestructible/ground/outside/road{
+	icon_state = "horizontalinnermain0"
+	},
+/area/f13/wasteland/city)
 "xHT" = (
 /obj/structure/chair/office/dark{
 	dir = 8
@@ -52891,6 +52882,15 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/f13/wood,
 /area/f13/building/abandoned)
+"xPx" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/mob/living/simple_animal/hostile/raider/tribal,
+/turf/open/indestructible/ground/outside/sidewalk{
+	icon_state = "horizontalbottomborderbottom0"
+	},
+/area/f13/wasteland/city)
 "xPF" = (
 /obj/structure/simple_door,
 /turf/open/floor/plasteel/blueyellow,
@@ -76921,7 +76921,7 @@ nxz
 qlm
 vTw
 rlG
-tBP
+xHR
 cMz
 cMz
 fWP
@@ -79230,7 +79230,7 @@ pww
 eoT
 wOb
 btQ
-oPr
+mTj
 mvE
 hQj
 hQj
@@ -79998,7 +79998,7 @@ bGv
 oBL
 rqv
 guq
-snV
+pqi
 cMz
 cMz
 btQ
@@ -80259,7 +80259,7 @@ wuc
 wuc
 bcS
 bZb
-mTj
+xPx
 kWe
 tps
 svh
@@ -82045,7 +82045,7 @@ eaC
 qdG
 nSg
 cTB
-wAj
+oPr
 nSg
 rQO
 xmw
@@ -82564,7 +82564,7 @@ swL
 qkL
 xbT
 gRS
-ilY
+mhl
 rtl
 oaw
 rtl
@@ -83585,7 +83585,7 @@ mYI
 mYI
 eaC
 ogV
-qFY
+gOV
 iUs
 eHO
 iUs
@@ -84872,7 +84872,7 @@ eaC
 oQm
 iFQ
 mAz
-mJl
+aME
 dyV
 njr
 dyV
@@ -85384,7 +85384,7 @@ vAy
 vAy
 eaC
 oQm
-mhl
+vMQ
 qao
 dyV
 dyV
@@ -85904,7 +85904,7 @@ dyV
 sNi
 dyV
 njr
-aME
+tBP
 icp
 wAi
 iFQ
@@ -87443,7 +87443,7 @@ oJS
 oPW
 hOt
 gau
-rtJ
+wAj
 gau
 gau
 hNv
@@ -90284,7 +90284,7 @@ oGw
 eWp
 oGw
 vPy
-dDX
+rtJ
 iAX
 iAX
 iAX
@@ -90532,7 +90532,7 @@ tBA
 sUw
 tBA
 oaw
-inx
+qQm
 exK
 uiH
 gVD
@@ -91555,7 +91555,7 @@ nSg
 nSg
 kzG
 moP
-fAf
+inx
 kHv
 skM
 tBA
