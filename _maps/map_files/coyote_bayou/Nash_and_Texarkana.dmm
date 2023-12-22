@@ -624,10 +624,6 @@
 	icon_state = "yellowrustysolid"
 	},
 /area/f13/building/coyote/nash/massfus/groundfloor/west)
-"acI" = (
-/obj/machinery/vending/medical,
-/turf/closed/wall/f13/coyote/darkwoodwall,
-/area/f13/building/hospital/clinic/nash)
 "acJ" = (
 /obj/structure/frame/machine,
 /turf/open/floor/plasteel/barber{
@@ -47554,6 +47550,10 @@
 	icon_state = "horizontaloutermain2"
 	},
 /area/f13/wasteland/city/nash/theloop)
+"hqd" = (
+/obj/machinery/vending/medical,
+/turf/closed/wall/f13/coyote/darkwoodwall,
+/area/f13/building/hospital/clinic/nash)
 "hqj" = (
 /obj/structure/window/fulltile/house{
 	dir = 2;
@@ -102051,10 +102051,6 @@
 /obj/effect/decal/waste,
 /turf/open/floor/f13/wood,
 /area/f13/building/abandoned)
-"tmg" = (
-/obj/machinery/mineral/wasteland_vendor/medical,
-/turf/closed/wall/f13/coyote/darkwoodwall,
-/area/f13/building/hospital/clinic/nash)
 "tmp" = (
 /obj/structure/window/fulltile/wood{
 	layer = 3
@@ -123041,6 +123037,10 @@
 	icon_state = "verticalinnermain2"
 	},
 /area/f13/building/coyote/nash/cornerdiner)
+"xTK" = (
+/obj/machinery/mineral/wasteland_vendor/medical,
+/turf/closed/wall/f13/coyote/darkwoodwall,
+/area/f13/building/hospital/clinic/nash)
 "xTO" = (
 /obj/effect/turf_decal/weather/dirt{
 	color = "#a98c5d";
@@ -131435,7 +131435,7 @@ xNd
 ewG
 ewG
 xNd
-tmg
+xTK
 cLg
 bGz
 nTr
@@ -131696,7 +131696,7 @@ xNd
 xNd
 nZP
 nZP
-acI
+hqd
 pxr
 szj
 lJK

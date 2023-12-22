@@ -12659,12 +12659,6 @@
 	name = "the watering hole"
 	},
 /area/f13/wasteland)
-"fCR" = (
-/obj/machinery/porta_turret/f13/turret_22lr/burstfire/raider,
-/turf/open/indestructible/ground/outside/sidewalk{
-	icon_state = "horizontaltopbordertop0"
-	},
-/area/f13/wasteland)
 "fDo" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/indestructible/ground/inside/mountain,
@@ -24884,6 +24878,12 @@
 /turf/open/indestructible/ground/outside/graveldirt{
 	dir = 9;
 	icon_state = "graveldirtedge"
+	},
+/area/f13/wasteland)
+"kWS" = (
+/obj/machinery/porta_turret/f13/turret_22lr/burstfire/raider,
+/turf/open/indestructible/ground/outside/sidewalk{
+	icon_state = "horizontaltopbordertop0"
 	},
 /area/f13/wasteland)
 "kXh" = (
@@ -80174,7 +80174,7 @@ mYI
 mYI
 mYI
 hyW
-fCR
+kWS
 bxV
 sZm
 bJy
