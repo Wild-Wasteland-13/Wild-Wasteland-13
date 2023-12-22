@@ -14,7 +14,7 @@ SUBSYSTEM_DEF(autotransfer)
 	var/allow_vote_transfer = FALSE
 	var/min_end_vote_time = INFINITY // lol
 
-	var/use_config = FALSE // if TRUE, use config values instead of the above - cus fuck the config
+	var/use_config = True // if TRUE, use config values instead of the above - cus fuck the config
 
 /datum/controller/subsystem/autotransfer/Initialize(timeofday)
 	// hi I'm Dan and I say fuck the config
