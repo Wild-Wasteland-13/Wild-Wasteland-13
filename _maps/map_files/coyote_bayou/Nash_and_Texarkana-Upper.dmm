@@ -14785,11 +14785,6 @@
 /obj/item/twohanded/required/kirbyplants/random,
 /turf/open/floor/plasteel/f13/vault_floor/white,
 /area/f13/building/hospital/clinic/nash)
-"leG" = (
-/turf/open/floor/grass{
-	color = "#444444"
-	},
-/area/f13/caves)
 "lfe" = (
 /obj/structure/table/wood,
 /obj/effect/decal/cleanable/dirt/dust,
@@ -20748,6 +20743,11 @@
 	color = "#444444"
 	},
 /area/f13/wasteland)
+"pMU" = (
+/turf/open/floor/grass{
+	color = "#444444"
+	},
+/area/f13/caves)
 "pNo" = (
 /obj/item/twohanded/required/kirbyplants/random,
 /turf/open/floor/wood_wide,
@@ -83412,7 +83412,7 @@ dtb
 dtb
 dtb
 dtb
-leG
+pMU
 oDh
 oDh
 oDh

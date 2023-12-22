@@ -12659,6 +12659,12 @@
 	name = "the watering hole"
 	},
 /area/f13/wasteland)
+"fCR" = (
+/obj/machinery/porta_turret/f13/turret_22lr/burstfire/raider,
+/turf/open/indestructible/ground/outside/sidewalk{
+	icon_state = "horizontaltopbordertop0"
+	},
+/area/f13/wasteland)
 "fDo" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/indestructible/ground/inside/mountain,
@@ -20288,12 +20294,6 @@
 	icon_state = "floordirty"
 	},
 /area/f13/building)
-"iZF" = (
-/obj/machinery/porta_turret/f13/turret_22lr/burstfire/raider,
-/turf/open/indestructible/ground/outside/sidewalk{
-	icon_state = "horizontalbottomborderbottom0"
-	},
-/area/f13/wasteland)
 "jap" = (
 /turf/open/floor/f13{
 	icon_state = "bluedirtychess2"
@@ -31670,10 +31670,10 @@
 	},
 /area/f13/building)
 "ogf" = (
-/obj/structure/mirror{
-	pixel_x = -27
+/obj/machinery/porta_turret/f13/turret_22lr/burstfire/raider,
+/turf/open/indestructible/ground/outside/sidewalk{
+	icon_state = "horizontalbottomborderbottom0"
 	},
-/turf/open/floor/grass,
 /area/f13/wasteland)
 "ogk" = (
 /obj/machinery/light/small/broken{
@@ -36360,12 +36360,6 @@
 /obj/structure/spider/cocoon,
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/building/abandoned)
-"qkF" = (
-/obj/machinery/porta_turret/f13/turret_22lr/burstfire/raider,
-/turf/open/indestructible/ground/outside/sidewalk{
-	icon_state = "horizontaltopbordertop0"
-	},
-/area/f13/wasteland)
 "qkI" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/item/trash/f13/blamco,
@@ -52602,7 +52596,7 @@
 /area/f13/wasteland)
 "xKg" = (
 /obj/machinery/door/unpowered/securedoor,
-/turf/open/floor/grass,
+/turf/open/floor/plasteel,
 /area/f13/building/abandoned)
 "xKp" = (
 /obj/effect/decal/cleanable/dirt,
@@ -80180,11 +80174,11 @@ mYI
 mYI
 mYI
 hyW
-qkF
+fCR
 bxV
 sZm
 bJy
-iZF
+ogf
 uvV
 mYI
 mex
@@ -90477,7 +90471,7 @@ mYI
 mYI
 mYI
 mYI
-ogf
+mYI
 rZl
 mex
 mex
