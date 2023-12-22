@@ -5304,14 +5304,6 @@
 "czW" = (
 /turf/open/floor/plasteel/dark,
 /area/f13/vault)
-"cAe" = (
-/obj/structure/ladder/unbreakable/rune{
-	color = "#FF2200f";
-	id = "cult";
-	height = 2
-	},
-/turf/open/indestructible/ground/inside/mountain,
-/area/f13/building)
 "cAh" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
@@ -23337,7 +23329,9 @@
 /turf/open/floor/plasteel/f13/vault_floor/white,
 /area/f13/vault)
 "kJM" = (
-/obj/structure/simple_door/metal/fence,
+/obj/structure/simple_door/metal/fence{
+	dir = 2
+	},
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/brotherhood/operations)
 "kJR" = (
@@ -49490,6 +49484,14 @@
 	icon_state = "darkyellowfull"
 	},
 /area/f13/brotherhood/rnd)
+"wzb" = (
+/obj/structure/ladder/unbreakable/rune{
+	color = "#FF2200f";
+	id = "cult";
+	height = 2
+	},
+/turf/open/indestructible/ground/inside/mountain,
+/area/f13/building)
 "wzj" = (
 /obj/structure/table,
 /obj/machinery/light/small,
@@ -105283,7 +105285,7 @@ whv
 whv
 ltw
 pHT
-cAe
+wzb
 ble
 ble
 ble
