@@ -155,16 +155,19 @@
 	unit_name = "copper coin"
 	material_id = /datum/material/f13cash
 	export_types = list(/obj/item/stack/f13Cash/caps)
+	k_elasticity = 0/1000
 
 /datum/export/material/f13cash/silver
 	init_cost = 100
 	unit_name = "silver coin"
 	export_types = list(/obj/item/stack/f13Cash/denarius)
+	k_elasticity = 0/1000
 
 /datum/export/material/f13cash/gold
 	init_cost = 1000
 	unit_name = "gold coin"
 	export_types = list(/obj/item/stack/f13Cash/aureus)
+	k_elasticity = 0/1000
 
 /datum/export/material/f13cash/scrip
 	init_cost = 5 // Texarkana Trade Union scrip. They like people using their money because economics or something; 1 copper = 2 scrip; if abused again, set to 5
