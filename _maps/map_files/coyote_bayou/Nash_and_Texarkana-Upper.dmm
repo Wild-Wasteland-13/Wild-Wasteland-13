@@ -29041,6 +29041,12 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/white,
 /area/f13/building/hospital/clinic/nash)
+"wbm" = (
+/obj/structure/closet,
+/obj/effect/spawner/lootdrop/f13/rare_weps,
+/obj/effect/spawner/lootdrop/f13/rare_armor,
+/turf/open/indestructible/ground/outside/roof,
+/area/f13/building/massfusion)
 "wbn" = (
 /obj/machinery/light/small{
 	dir = 4;
@@ -30519,12 +30525,6 @@
 	icon_state = "rubbleplate"
 	},
 /area/f13/wasteland)
-"xjl" = (
-/obj/structure/closet,
-/obj/effect/spawner/lootdrop/f13/rare_weps,
-/obj/effect/spawner/lootdrop/f13/rare_armor,
-/turf/open/indestructible/ground/outside/roof,
-/area/f13/building/massfusion)
 "xjq" = (
 /obj/vertibird{
 	dir = 8;
@@ -79607,7 +79607,7 @@ vje
 vje
 vje
 oDo
-xjl
+wbm
 aab
 gGa
 qPu
@@ -80121,7 +80121,7 @@ vje
 vje
 vje
 oDo
-xjl
+wbm
 bcY
 ygG
 gGa

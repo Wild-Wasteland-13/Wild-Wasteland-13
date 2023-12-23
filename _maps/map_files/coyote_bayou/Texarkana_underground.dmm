@@ -1031,8 +1031,8 @@
 /obj/structure/showcase/horrific_experiment{
 	icon_state = "pod_1"
 	},
-/turf/open/floor/f13{
-	icon_state = "grass2"
+/turf/open/floor/plasteel/f13/vault_floor/floor{
+	icon_state = "floorrusty"
 	},
 /area/f13/caves)
 "aEk" = (
@@ -2252,8 +2252,8 @@
 /area/f13/building/tribal)
 "bxs" = (
 /obj/structure/showcase/horrific_experiment,
-/turf/open/floor/f13{
-	icon_state = "grass2"
+/turf/open/floor/plasteel/f13/vault_floor/floor{
+	icon_state = "floorrusty"
 	},
 /area/f13/caves)
 "bxt" = (
@@ -35898,8 +35898,8 @@
 	desc = "Some sort of pod. You wonder what could have been in that.";
 	icon_state = "pod_0"
 	},
-/turf/open/floor/f13{
-	icon_state = "grass2"
+/turf/open/floor/plasteel/f13/vault_floor/floor{
+	icon_state = "floorrusty"
 	},
 /area/f13/caves)
 "viu" = (
@@ -69580,7 +69580,7 @@ iAq
 cWp
 aaA
 vir
-aaA
+hJb
 bxs
 aaA
 vBY

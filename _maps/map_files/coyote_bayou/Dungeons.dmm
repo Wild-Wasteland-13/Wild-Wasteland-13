@@ -4810,8 +4810,11 @@
 /turf/open/floor/carpet/royalblack,
 /area/f13/underground/cave/tunnelertemple/void)
 "cof" = (
-/mob/living/simple_animal/hostile/handy/assaultron{
-	name = "Moonoi"
+/obj/effect/decal/cleanable/dirt,
+/mob/living/simple_animal/hostile/securitron/sentrybot/nsb/riot{
+	desc = "A horrid creation capable of ultimate destruction.";
+	health = 600;
+	name = "Comrade Wheel-Xing"
 	},
 /turf/open/floor/f13{
 	icon_state = "greendirtyfull"
@@ -4999,11 +5002,8 @@
 /turf/open/floor/plasteel/f13/vault_floor/plating,
 /area/f13/brotherhood/medical)
 "csk" = (
-/obj/effect/decal/cleanable/dirt,
-/mob/living/simple_animal/hostile/securitron/sentrybot/nsb/riot{
-	desc = "A horrid creation capable of ultimate destruction.";
-	health = 600;
-	name = "Comrade Wheel-Xing"
+/mob/living/simple_animal/hostile/handy/assaultron{
+	name = "Moonoi"
 	},
 /turf/open/floor/f13{
 	icon_state = "greendirtyfull"
@@ -107127,7 +107127,7 @@ hlU
 hlU
 uWa
 uWa
-cof
+csk
 uWa
 uWa
 hlU
@@ -107380,7 +107380,7 @@ daP
 daP
 daP
 cWB
-csk
+cof
 uWa
 uWa
 uWa
