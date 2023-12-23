@@ -4810,8 +4810,9 @@
 /turf/open/floor/carpet/royalblack,
 /area/f13/underground/cave/tunnelertemple/void)
 "cof" = (
-/obj/structure/nest/securitron,
-/mob/living/simple_animal/hostile/securitron,
+/mob/living/simple_animal/hostile/handy/assaultron{
+	name = "Moonoi"
+	},
 /turf/open/floor/f13{
 	icon_state = "greendirtyfull"
 	},
@@ -4998,7 +4999,12 @@
 /turf/open/floor/plasteel/f13/vault_floor/plating,
 /area/f13/brotherhood/medical)
 "csk" = (
-/obj/structure/nest/protectron,
+/obj/effect/decal/cleanable/dirt,
+/mob/living/simple_animal/hostile/securitron/sentrybot/nsb/riot{
+	desc = "A horrid creation capable of ultimate destruction.";
+	health = 600;
+	name = "Comrade Wheel-Xing"
+	},
 /turf/open/floor/f13{
 	icon_state = "greendirtyfull"
 	},
@@ -6167,16 +6173,6 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood/tracks{
 	icon_state = "floor4-old"
-	},
-/turf/open/floor/f13{
-	icon_state = "greendirtyfull"
-	},
-/area/f13/building)
-"cPv" = (
-/mob/living/simple_animal/hostile/securitron/sentrybot/nsb/riot{
-	desc = "A horrid creation capable of ultimate destruction.";
-	health = 600;
-	name = "Comrade Wheel-Xing"
 	},
 /turf/open/floor/f13{
 	icon_state = "greendirtyfull"
@@ -7512,7 +7508,9 @@
 /area/f13/bunker)
 "dpV" = (
 /obj/effect/decal/cleanable/dirt,
-/mob/living/simple_animal/hostile/handy/assaultron,
+/mob/living/simple_animal/hostile/handy/assaultron{
+	name = "Moonoi"
+	},
 /turf/open/floor/f13{
 	icon_state = "reddirtyfull"
 	},
@@ -8834,7 +8832,9 @@
 /area/f13/building)
 "dUu" = (
 /obj/effect/decal/cleanable/glass,
-/mob/living/simple_animal/hostile/handy/assaultron,
+/mob/living/simple_animal/hostile/handy/assaultron{
+	name = "Moonoi"
+	},
 /turf/open/floor/f13{
 	dir = 10;
 	icon_state = "redmark"
@@ -10853,14 +10853,6 @@
 	icon_state = "casino"
 	},
 /area/f13/brotherhood/offices2nd)
-"ePy" = (
-/obj/structure/nest/securitron,
-/mob/living/simple_animal/hostile/securitron,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/f13{
-	icon_state = "greendirtyfull"
-	},
-/area/f13/building)
 "ePI" = (
 /mob/living/simple_animal/hostile/chinese,
 /obj/effect/decal/waste{
@@ -11935,7 +11927,9 @@
 	},
 /area/f13/bunker)
 "fpQ" = (
-/mob/living/simple_animal/hostile/handy/assaultron,
+/mob/living/simple_animal/hostile/handy/assaultron{
+	name = "Moonoi"
+	},
 /turf/open/floor/f13{
 	icon_state = "reddirtyfull"
 	},
@@ -34599,7 +34593,9 @@
 	},
 /area/f13/building)
 "pKC" = (
-/mob/living/simple_animal/hostile/handy/assaultron,
+/mob/living/simple_animal/hostile/handy/assaultron{
+	name = "Moonoi"
+	},
 /turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/f13/building)
 "pLp" = (
@@ -38568,7 +38564,9 @@
 /turf/open/floor/wood_common,
 /area/f13/brotherhood/offices1st)
 "rvE" = (
-/mob/living/simple_animal/hostile/handy/assaultron,
+/mob/living/simple_animal/hostile/handy/assaultron{
+	name = "Moonoi"
+	},
 /turf/open/floor/f13{
 	icon_state = "redrustyfull"
 	},
@@ -50367,7 +50365,9 @@
 /area/f13/bunker)
 "wSX" = (
 /obj/effect/decal/cleanable/dirt,
-/mob/living/simple_animal/hostile/handy/assaultron,
+/mob/living/simple_animal/hostile/handy/assaultron{
+	name = "Moonoi"
+	},
 /turf/open/indestructible/ground/inside/subway,
 /area/f13/building)
 "wTk" = (
@@ -106865,13 +106865,13 @@ daP
 daP
 daP
 daP
-cof
+uWa
 bVe
 cQj
 eoP
 uWa
 uWa
-csk
+uWa
 uWa
 uWa
 mvb
@@ -107127,7 +107127,7 @@ hlU
 hlU
 uWa
 uWa
-uWa
+cof
 uWa
 uWa
 hlU
@@ -107380,13 +107380,13 @@ daP
 daP
 daP
 cWB
-hlU
+csk
 uWa
 uWa
 uWa
 uWa
 uWa
-cPv
+uWa
 hlU
 hnI
 uWa
@@ -107636,7 +107636,7 @@ uWa
 daP
 whv
 daP
-ePy
+hlU
 qmB
 nEn
 rss

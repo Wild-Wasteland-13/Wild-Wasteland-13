@@ -16287,12 +16287,6 @@
 /obj/effect/turf_decal/stripes/white/box,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/building)
-"mnc" = (
-/obj/structure/closet,
-/obj/effect/spawner/lootdrop/f13/rare_weps,
-/obj/effect/spawner/lootdrop/f13/rare_armor,
-/turf/open/indestructible/ground/outside/roof,
-/area/f13/building/massfusion)
 "mnK" = (
 /obj/structure/rack/shelf_metal,
 /obj/effect/spawner/lootdrop/f13/armor/costumes,
@@ -30525,6 +30519,12 @@
 	icon_state = "rubbleplate"
 	},
 /area/f13/wasteland)
+"xjl" = (
+/obj/structure/closet,
+/obj/effect/spawner/lootdrop/f13/rare_weps,
+/obj/effect/spawner/lootdrop/f13/rare_armor,
+/turf/open/indestructible/ground/outside/roof,
+/area/f13/building/massfusion)
 "xjq" = (
 /obj/vertibird{
 	dir = 8;
@@ -79607,7 +79607,7 @@ vje
 vje
 vje
 oDo
-mnc
+xjl
 aab
 gGa
 qPu
@@ -80121,7 +80121,7 @@ vje
 vje
 vje
 oDo
-mnc
+xjl
 bcY
 ygG
 gGa
