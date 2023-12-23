@@ -1173,7 +1173,7 @@
 /obj/structure/glowshroom/shadowshroom,
 /obj/effect/decal/cleanable/glitter/blue,
 /obj/effect/decal/cleanable/glitter/blue,
-/turf/open/indestructible/ground/outside/dirt,
+/turf/open/floor/grass/fairy/blue,
 /area/f13/caves)
 "aKH" = (
 /obj/machinery/power/apc{
@@ -1513,7 +1513,7 @@
 "aYd" = (
 /obj/structure/flora/tree/jungle,
 /obj/effect/decal/cleanable/glitter/blue,
-/turf/open/indestructible/ground/outside/dirt,
+/turf/open/floor/grass/fairy/blue,
 /area/f13/caves)
 "aYQ" = (
 /obj/structure/spider/stickyweb,
@@ -1604,7 +1604,7 @@
 "bae" = (
 /obj/structure/glowshroom,
 /obj/effect/decal/cleanable/glitter/blue,
-/turf/open/indestructible/ground/outside/dirt,
+/turf/open/floor/grass/fairy/blue,
 /area/f13/caves)
 "bao" = (
 /obj/structure/wreck/trash/five_tires,
@@ -1943,7 +1943,7 @@
 "bpD" = (
 /obj/structure/flora/ausbushes/sparsegrass,
 /obj/effect/decal/cleanable/glitter/blue,
-/turf/open/indestructible/ground/outside/dirt,
+/turf/open/floor/grass/fairy/blue,
 /area/f13/caves)
 "bpI" = (
 /mob/living/simple_animal/hostile/supermutant/rangedmutant,
@@ -2275,9 +2275,6 @@
 /obj/structure/reagent_dispensers/beerkeg,
 /turf/open/floor/f13/wood,
 /area/f13/tunnel)
-"bxU" = (
-/turf/open/indestructible/ground/outside/dirt,
-/area/f13/caves)
 "bxV" = (
 /obj/machinery/light/small,
 /turf/open/floor/f13/wood,
@@ -2291,7 +2288,7 @@
 	dir = 8
 	},
 /obj/effect/turf_decal/weather/dirt,
-/turf/open/indestructible/ground/outside/dirt,
+/turf/open/floor/grass/fairy/blue,
 /area/f13/caves)
 "byp" = (
 /obj/machinery/light/small,
@@ -2349,7 +2346,7 @@
 "bzP" = (
 /obj/structure/glowshroom/shadowshroom,
 /obj/effect/decal/cleanable/glitter/blue,
-/turf/open/indestructible/ground/outside/dirt,
+/turf/open/floor/grass/fairy/blue,
 /area/f13/caves)
 "bzQ" = (
 /obj/effect/decal/remains/human,
@@ -5064,7 +5061,7 @@
 /obj/effect/turf_decal/weather/dirt{
 	dir = 4
 	},
-/turf/open/indestructible/ground/outside/dirt,
+/turf/open/floor/grass/fairy/blue,
 /area/f13/caves)
 "bSG" = (
 /obj/structure/simple_door/metal/dirtystore,
@@ -8177,7 +8174,7 @@
 	dir = 1
 	},
 /obj/effect/decal/cleanable/glitter/blue,
-/turf/open/indestructible/ground/outside/dirt,
+/turf/open/floor/grass/fairy/blue,
 /area/f13/caves)
 "dHk" = (
 /obj/structure/lattice/catwalk,
@@ -8631,7 +8628,7 @@
 	dir = 2
 	},
 /obj/effect/decal/cleanable/glitter/blue,
-/turf/open/indestructible/ground/outside/dirt,
+/turf/open/floor/grass/fairy/blue,
 /area/f13/caves)
 "dXk" = (
 /mob/living/simple_animal/hostile/supermutant/rangedmutant,
@@ -9784,7 +9781,7 @@
 "eKB" = (
 /obj/structure/flora/ausbushes/leafybush,
 /obj/effect/decal/cleanable/glitter/blue,
-/turf/open/indestructible/ground/outside/dirt,
+/turf/open/floor/grass/fairy/blue,
 /area/f13/caves)
 "eLf" = (
 /obj/structure/wreck/trash/four_barrels,
@@ -9807,7 +9804,7 @@
 	id = "catslugladder";
 	name = "Damp Ladder"
 	},
-/turf/open/indestructible/ground/outside/dirt,
+/turf/open/floor/grass/fairy/blue,
 /area/f13/caves)
 "eLJ" = (
 /obj/structure/reagent_dispensers/barrel/explosive,
@@ -10377,7 +10374,7 @@
 "fdT" = (
 /obj/structure/flora/wasteplant/wild_broc,
 /obj/effect/decal/cleanable/glitter/blue,
-/turf/open/indestructible/ground/outside/dirt,
+/turf/open/floor/grass/fairy/blue,
 /area/f13/caves)
 "fej" = (
 /obj/structure/rack/shelf_wood,
@@ -11196,7 +11193,7 @@
 "fKy" = (
 /obj/structure/flora/wasteplant/wild_agave,
 /obj/effect/decal/cleanable/glitter/blue,
-/turf/open/indestructible/ground/outside/dirt,
+/turf/open/floor/grass/fairy/blue,
 /area/f13/caves)
 "fKA" = (
 /obj/effect/decal/cleanable/dirt,
@@ -11515,7 +11512,7 @@
 /area/f13/building/trainstation)
 "fUp" = (
 /obj/structure/flora/ausbushes/stalkybush,
-/turf/open/indestructible/ground/outside/dirt,
+/turf/open/floor/grass/fairy/blue,
 /area/f13/caves)
 "fUL" = (
 /obj/structure/rack,
@@ -11689,7 +11686,7 @@
 /area/f13/building)
 "gby" = (
 /obj/structure/flora/ausbushes/brflowers,
-/turf/open/indestructible/ground/outside/dirt,
+/turf/open/floor/grass/fairy/blue,
 /area/f13/caves)
 "gbC" = (
 /obj/structure/rack/shelf_metal,
@@ -14965,7 +14962,7 @@
 /area/f13/caves)
 "ihc" = (
 /obj/structure/flora/wasteplant/fever_blossom,
-/turf/open/indestructible/ground/outside/dirt,
+/turf/open/floor/grass/fairy/blue,
 /area/f13/caves)
 "ihn" = (
 /obj/structure/nest/raider/melee,
@@ -15773,7 +15770,7 @@
 	light_color = "#4F7942";
 	light_range = 3
 	},
-/turf/open/indestructible/ground/outside/dirt,
+/turf/open/floor/grass/fairy/blue,
 /area/f13/caves)
 "iEn" = (
 /obj/structure/disposalpipe/segment,
@@ -16131,7 +16128,7 @@
 /area/f13/caves)
 "iPe" = (
 /obj/structure/flora/wasteplant/wild_agave,
-/turf/open/indestructible/ground/outside/dirt,
+/turf/open/floor/grass/fairy/blue,
 /area/f13/caves)
 "iQn" = (
 /obj/structure/table/wood,
@@ -17114,7 +17111,7 @@
 "jzg" = (
 /obj/structure/spacevine,
 /obj/effect/decal/cleanable/glitter/blue,
-/turf/open/indestructible/ground/outside/dirt,
+/turf/open/floor/grass/fairy/blue,
 /area/f13/caves)
 "jzi" = (
 /obj/effect/decal/cleanable/blood{
@@ -19566,7 +19563,7 @@
 /obj/structure/flora/wasteplant/wild_agave,
 /obj/structure/flora/grass/jungle,
 /obj/effect/decal/cleanable/glitter/blue,
-/turf/open/indestructible/ground/outside/dirt,
+/turf/open/floor/grass/fairy/blue,
 /area/f13/caves)
 "lfB" = (
 /obj/structure/reagent_dispensers/barrel/dangerous,
@@ -19875,7 +19872,7 @@
 "lpi" = (
 /obj/structure/flora/grass/jungle,
 /obj/effect/decal/cleanable/glitter/blue,
-/turf/open/indestructible/ground/outside/dirt,
+/turf/open/floor/grass/fairy/blue,
 /area/f13/caves)
 "lpo" = (
 /obj/structure/lattice/catwalk,
@@ -20496,7 +20493,7 @@
 /area/f13/caves)
 "lIh" = (
 /obj/structure/flora/grass/jungle,
-/turf/open/indestructible/ground/outside/dirt,
+/turf/open/floor/grass/fairy/blue,
 /area/f13/caves)
 "lIr" = (
 /turf/open/floor/plasteel/f13{
@@ -20717,7 +20714,7 @@
 	light_range = 3
 	},
 /obj/effect/decal/cleanable/glitter/blue,
-/turf/open/indestructible/ground/outside/dirt,
+/turf/open/floor/grass/fairy/blue,
 /area/f13/caves)
 "lPe" = (
 /obj/structure/ladder/unbreakable{
@@ -21108,7 +21105,7 @@
 "lYE" = (
 /obj/structure/flora/big_bush,
 /obj/effect/decal/cleanable/glitter/blue,
-/turf/open/indestructible/ground/outside/dirt,
+/turf/open/floor/grass/fairy/blue,
 /area/f13/caves)
 "lYK" = (
 /obj/effect/decal/cleanable/dirt,
@@ -21216,7 +21213,7 @@
 "mbZ" = (
 /obj/structure/flora/wasteplant/wild_fungus,
 /obj/effect/decal/cleanable/glitter/blue,
-/turf/open/indestructible/ground/outside/dirt,
+/turf/open/floor/grass/fairy/blue,
 /area/f13/caves)
 "mcp" = (
 /obj/structure/dresser,
@@ -21378,7 +21375,7 @@
 /area/f13/caves)
 "mhF" = (
 /obj/structure/flora/ausbushes/sparsegrass,
-/turf/open/indestructible/ground/outside/dirt,
+/turf/open/floor/grass/fairy/blue,
 /area/f13/caves)
 "mip" = (
 /obj/structure/barricade/wooden/strong,
@@ -21747,7 +21744,7 @@
 /area/f13/building/sewers)
 "mtW" = (
 /mob/living/simple_animal/pet/catslug,
-/turf/open/indestructible/ground/outside/dirt,
+/turf/open/floor/grass/fairy/blue,
 /area/f13/caves)
 "muw" = (
 /obj/effect/decal/cleanable/dirt,
@@ -22168,7 +22165,7 @@
 "mGs" = (
 /obj/structure/flora/ausbushes/sunnybush,
 /obj/effect/decal/cleanable/glitter/blue,
-/turf/open/indestructible/ground/outside/dirt,
+/turf/open/floor/grass/fairy/blue,
 /area/f13/caves)
 "mGC" = (
 /obj/structure/flora/grass/coyote/eight,
@@ -24823,7 +24820,7 @@
 "oul" = (
 /obj/item/key,
 /obj/item/lock_construct,
-/turf/open/indestructible/ground/outside/dirt,
+/turf/open/floor/grass/fairy/blue,
 /area/f13/caves)
 "ouC" = (
 /obj/structure/grille,
@@ -25673,7 +25670,7 @@
 "oUN" = (
 /obj/item/lock_construct,
 /obj/item/key,
-/turf/open/indestructible/ground/outside/dirt,
+/turf/open/floor/grass/fairy/blue,
 /area/f13/caves)
 "oUV" = (
 /obj/effect/decal/cleanable/dirt,
@@ -25858,7 +25855,7 @@
 "oZF" = (
 /obj/structure/flora/ausbushes/sparsegrass,
 /mob/living/simple_animal/pet/catslug,
-/turf/open/indestructible/ground/outside/dirt,
+/turf/open/floor/grass/fairy/blue,
 /area/f13/caves)
 "oZK" = (
 /obj/structure/table/wood/settler,
@@ -26697,7 +26694,7 @@
 	},
 /area/f13/tunnel)
 "pzv" = (
-/turf/open/floor/grass/fairy/purple,
+/turf/open/floor/grass/fairy/blue,
 /area/f13/caves)
 "pzz" = (
 /obj/item/trash/f13/bubblegum,
@@ -27180,7 +27177,7 @@
 "pNO" = (
 /mob/living/simple_animal/pet/catslug,
 /obj/effect/decal/cleanable/glitter/blue,
-/turf/open/indestructible/ground/outside/dirt,
+/turf/open/floor/grass/fairy/blue,
 /area/f13/caves)
 "pOx" = (
 /obj/item/reagent_containers/hypospray/medipen/stimpak{
@@ -28316,7 +28313,7 @@
 /area/f13/caves)
 "qwf" = (
 /obj/structure/flora/ausbushes,
-/turf/open/indestructible/ground/outside/dirt,
+/turf/open/floor/grass/fairy/blue,
 /area/f13/caves)
 "qwk" = (
 /obj/effect/decal/cleanable/dirt,
@@ -30632,7 +30629,7 @@
 /obj/structure/flora/tree/jungle,
 /obj/effect/decal/cleanable/glitter/blue,
 /obj/effect/decal/cleanable/glitter/blue,
-/turf/open/indestructible/ground/outside/dirt,
+/turf/open/floor/grass/fairy/blue,
 /area/f13/caves)
 "rUA" = (
 /obj/structure/reagent_dispensers/barrel/dangerous,
@@ -31986,7 +31983,7 @@
 /area/f13/tunnel)
 "sJA" = (
 /obj/structure/glowshroom/shadowshroom,
-/turf/open/indestructible/ground/outside/dirt,
+/turf/open/floor/grass/fairy/blue,
 /area/f13/caves)
 "sJK" = (
 /obj/structure/rack,
@@ -33905,7 +33902,7 @@
 "tTL" = (
 /obj/structure/spacevine,
 /obj/structure/flora/ausbushes/sunnybush,
-/turf/open/indestructible/ground/outside/dirt,
+/turf/open/floor/grass/fairy/blue,
 /area/f13/caves)
 "tTM" = (
 /obj/structure/spider/stickyweb{
@@ -34360,7 +34357,7 @@
 /area/f13/building)
 "uhE" = (
 /obj/structure/flora/wasteplant/wild_broc,
-/turf/open/indestructible/ground/outside/dirt,
+/turf/open/floor/grass/fairy/blue,
 /area/f13/caves)
 "uhX" = (
 /obj/effect/decal/remains/human,
@@ -34802,7 +34799,7 @@
 /obj/structure/flora/ausbushes/stalkybush,
 /obj/structure/flora/ausbushes/sparsegrass,
 /obj/effect/decal/cleanable/glitter/blue,
-/turf/open/indestructible/ground/outside/dirt,
+/turf/open/floor/grass/fairy/blue,
 /area/f13/caves)
 "uxg" = (
 /obj/effect/decal/cleanable/dirt,
@@ -34856,7 +34853,7 @@
 /area/f13/caves)
 "uAh" = (
 /obj/structure/flora/grass/wasteland,
-/turf/open/indestructible/ground/outside/dirt,
+/turf/open/floor/grass/fairy/blue,
 /area/f13/caves)
 "uAp" = (
 /obj/structure/nest/fireant,
@@ -35103,7 +35100,7 @@
 /area/f13/building/museum)
 "uHX" = (
 /obj/structure/spacevine,
-/turf/open/indestructible/ground/outside/dirt,
+/turf/open/floor/grass/fairy/blue,
 /area/f13/caves)
 "uIh" = (
 /turf/open/floor/f13{
@@ -35122,7 +35119,7 @@
 /area/f13/caves)
 "uIx" = (
 /obj/effect/decal/cleanable/glitter/blue,
-/turf/open/indestructible/ground/outside/dirt,
+/turf/open/floor/grass/fairy/blue,
 /area/f13/caves)
 "uIB" = (
 /obj/structure/wreck/trash/engine,
@@ -38401,7 +38398,7 @@
 "wPD" = (
 /obj/structure/flora/wasteplant/fever_blossom,
 /obj/effect/decal/cleanable/glitter/blue,
-/turf/open/indestructible/ground/outside/dirt,
+/turf/open/floor/grass/fairy/blue,
 /area/f13/caves)
 "wPI" = (
 /obj/structure/wreck/trash/machinepile,
@@ -38779,7 +38776,7 @@
 /area/f13/tunnel)
 "xcG" = (
 /obj/structure/bed/wooden,
-/turf/open/indestructible/ground/outside/dirt,
+/turf/open/floor/grass/fairy/blue,
 /area/f13/caves)
 "xcJ" = (
 /obj/item/clothing/mask/cigarette/rollie/cannabis,
@@ -39318,7 +39315,7 @@
 /area/f13/building)
 "xsZ" = (
 /obj/structure/simple_door/tent,
-/turf/open/indestructible/ground/outside/dirt,
+/turf/open/floor/grass/fairy/blue,
 /area/f13/caves)
 "xtc" = (
 /obj/effect/spawner/lootdrop/f13/alcoholspawner,
@@ -39808,7 +39805,7 @@
 /area/f13/building/hospital)
 "xGz" = (
 /obj/structure/flora/ausbushes/sunnybush,
-/turf/open/indestructible/ground/outside/dirt,
+/turf/open/floor/grass/fairy/blue,
 /area/f13/caves)
 "xGB" = (
 /obj/structure/simple_door/metal/ventilation{
@@ -40471,7 +40468,7 @@
 /area/f13/tunnel)
 "xZr" = (
 /obj/structure/glowshroom,
-/turf/open/indestructible/ground/outside/dirt,
+/turf/open/floor/grass/fairy/blue,
 /area/f13/caves)
 "xZt" = (
 /obj/structure/disposalpipe/segment,
@@ -49133,9 +49130,9 @@ aae
 aae
 aaa
 nrb
-bxU
+pzv
 xZr
-bxU
+pzv
 nrb
 aaa
 aae
@@ -49391,7 +49388,7 @@ aaa
 aaa
 nrb
 xcG
-bxU
+pzv
 oUN
 nrb
 aaa
@@ -49901,16 +49898,16 @@ aae
 aaa
 nrb
 xZr
-bxU
+pzv
 nrb
 xZr
-bxU
-bxU
+pzv
+pzv
 uAh
 qwf
 kUy
 oEu
-bxU
+pzv
 lIh
 iFQ
 aaa
@@ -50157,17 +50154,17 @@ aae
 aae
 aaa
 nrb
-bxU
-bxU
+pzv
+pzv
 xsZ
 uAh
 bAg
-bxU
+pzv
 rsY
 rsY
 wPD
 nrb
-bxU
+pzv
 xZr
 iFQ
 aaa
@@ -51186,7 +51183,7 @@ aae
 aaa
 nrb
 xZr
-bxU
+pzv
 xsZ
 bAg
 bae
@@ -51195,7 +51192,7 @@ umS
 eeA
 uAh
 xsZ
-bxU
+pzv
 lIh
 nrb
 aaa
@@ -51453,7 +51450,7 @@ gdK
 xZr
 nrb
 lIh
-bxU
+pzv
 nrb
 aaa
 aae
@@ -51694,7 +51691,7 @@ aae
 aae
 aaa
 aaa
-bxU
+pzv
 aaa
 aaa
 aaa
@@ -51961,7 +51958,7 @@ bAg
 aaa
 aaa
 ihc
-bxU
+pzv
 lpi
 oVY
 aae
@@ -52495,7 +52492,7 @@ aae
 aaa
 aaa
 tQE
-bxU
+pzv
 mRq
 aaa
 aaa
@@ -52977,7 +52974,7 @@ aah
 pwE
 aaa
 aaa
-bxU
+pzv
 yfJ
 dno
 vTH
@@ -53011,7 +53008,7 @@ gby
 bpD
 uIx
 eKB
-bxU
+pzv
 uIx
 uIx
 rnh
@@ -53521,7 +53518,7 @@ aae
 aae
 aae
 aaa
-bxU
+pzv
 fUp
 lYE
 uIx
@@ -54026,7 +54023,7 @@ srM
 wvz
 wvz
 ihc
-bxU
+pzv
 hjs
 hjs
 aaa
@@ -54041,7 +54038,7 @@ uIx
 rUy
 lPc
 uIx
-bxU
+pzv
 rnh
 aah
 aah
@@ -54293,7 +54290,7 @@ aaa
 aaa
 aaa
 aaa
-bxU
+pzv
 uIx
 uIx
 bzP
@@ -54550,11 +54547,11 @@ gGV
 kKE
 kKE
 qEI
-bxU
-bxU
+pzv
+pzv
 uIx
 uIx
-bxU
+pzv
 jug
 rnh
 aah
@@ -54811,7 +54808,7 @@ stc
 ihc
 uIx
 eKB
-bxU
+pzv
 oZF
 rnh
 aah
@@ -55062,7 +55059,7 @@ srM
 srM
 jke
 hjs
-bxU
+pzv
 aaa
 stc
 sJA
@@ -55320,9 +55317,9 @@ isF
 dgF
 hjs
 ihc
-bxU
+pzv
 aaa
-bxU
+pzv
 mhF
 uIx
 bzP
@@ -55561,7 +55558,7 @@ gGV
 hjs
 pDZ
 ihc
-bxU
+pzv
 aaa
 aaa
 aaa
@@ -55579,7 +55576,7 @@ hjs
 hjs
 hjs
 iFQ
-bxU
+pzv
 ihc
 uIx
 uIx
@@ -56068,7 +56065,7 @@ aae
 aae
 aae
 aaa
-bxU
+pzv
 nPx
 hjs
 kKE
@@ -56078,7 +56075,7 @@ srM
 srM
 sUM
 fLp
-bxU
+pzv
 aaa
 tQE
 xCn
@@ -56096,7 +56093,7 @@ xHb
 hRS
 mhF
 mtW
-bxU
+pzv
 ihc
 rnh
 aah
@@ -56351,10 +56348,10 @@ szZ
 xHb
 xHb
 szZ
-bxU
-bxU
-bxU
-bxU
+pzv
+pzv
+pzv
+pzv
 rnh
 aah
 aah
@@ -56608,7 +56605,7 @@ szZ
 xHb
 xHb
 hRS
-bxU
+pzv
 uIx
 aYd
 lPc
@@ -57101,7 +57098,7 @@ aaa
 aae
 aaa
 aaa
-bxU
+pzv
 bAg
 pzv
 izl
@@ -57360,9 +57357,9 @@ aaa
 aaa
 aaa
 tQE
-bxU
+pzv
 uHX
-bxU
+pzv
 mCl
 pDZ
 hjs
@@ -57621,7 +57618,7 @@ aaa
 aaa
 aaa
 tQE
-bxU
+pzv
 uIx
 wPD
 fdT
@@ -57889,7 +57886,7 @@ kKE
 kYY
 oVY
 jzg
-bxU
+pzv
 stc
 stc
 aae
@@ -58141,7 +58138,7 @@ xCn
 lfw
 uIx
 lIh
-bxU
+pzv
 hjs
 oVY
 uIx
