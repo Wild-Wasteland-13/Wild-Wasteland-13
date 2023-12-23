@@ -45647,6 +45647,10 @@
 /turf/open/water,
 /area/f13/enclave)
 "uJZ" = (
+/obj/structure/ladder/unbreakable{
+	height = 2;
+	id = "bosdb"
+	},
 /turf/open/floor/plating/tunnel,
 /area/f13/brotherhood/operations)
 "uKa" = (
@@ -50881,6 +50885,13 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/f13/vault)
+"xdP" = (
+/obj/structure/ladder/unbreakable{
+	height = 1;
+	id = "Vault1"
+	},
+/turf/open/floor/plating/tunnel,
+/area/f13/tunnel)
 "xdX" = (
 /obj/structure/flora/grass/wasteland{
 	icon_state = "tall_grass_3"
@@ -74295,7 +74306,7 @@ iba
 hrZ
 hrZ
 vXu
-sUw
+xdP
 sUw
 vXu
 hrZ
