@@ -245,7 +245,7 @@ GLOBAL_LIST_INIT(wasteland_positions, list(
 	"Far-Lands Tribals",
 	"Wastelander",
 	"Den Waster",
-	"Garland City Waster",
+//	"Garland City Waster",
 	"Radio Operator",
 ))
 
