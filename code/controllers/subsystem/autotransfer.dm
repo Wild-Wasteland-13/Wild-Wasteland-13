@@ -40,11 +40,11 @@ SUBSYSTEM_DEF(autotransfer)
 /datum/controller/subsystem/autotransfer/fire()
 	if(world.time < targettime)
 		return
-	 if(maxvotes == NO_MAXVOTES_CAP || maxvotes > curvotes)
-	 	SSvote.initiate_vote("transfer","server")
-	 	targettime = targettime + voteinterval
-	 	curvotes++
-	 else
-	SSshuttle.autoEnd()
+	if(maxvotes == NO_MAXVOTES_CAP || maxvotes > curvotes)
+		SSvote.initiate_vote("transfer","server")
+		targettime = targettime + voteinterval
+		curvotes++
+	else
+		SSshuttle.autoEnd()
 
 #undef NO_MAXVOTES_CAP
