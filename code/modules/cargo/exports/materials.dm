@@ -150,7 +150,7 @@
 	export_types = list(/obj/item/stack/sheet/animalhide/chitin)
 
 /datum/export/material/f13cash
-	init_cost = 10
+	cost = 10
 	message = ""
 	unit_name = "copper coin"
 	material_id = /datum/material/f13cash
@@ -158,19 +158,19 @@
 	k_elasticity = 0/1000
 
 /datum/export/material/f13cash/silver
-	init_cost = 100
+	cost = 100
 	unit_name = "silver coin"
 	export_types = list(/obj/item/stack/f13Cash/denarius)
 	k_elasticity = 0/1000
 
 /datum/export/material/f13cash/gold
-	init_cost = 1000
+	cost = 1000
 	unit_name = "gold coin"
 	export_types = list(/obj/item/stack/f13Cash/aureus)
 	k_elasticity = 0/1000
 
 /datum/export/material/f13cash/scrip
-	init_cost = 5 // Texarkana Trade Union scrip. They like people using their money because economics or something; 1 copper = 2 scrip; if abused again, set to 5
+	cost = 5 // Texarkana Trade Union scrip. They like people using their money because economics or something; 1 copper = 2 scrip; if abused again, set to 5
 	unit_name = "scrip"
 	export_types = list(/obj/item/stack/f13Cash/ncr)
 	k_elasticity = 0/1000
