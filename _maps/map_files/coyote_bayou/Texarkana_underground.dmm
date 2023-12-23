@@ -2275,6 +2275,9 @@
 /obj/structure/reagent_dispensers/beerkeg,
 /turf/open/floor/f13/wood,
 /area/f13/tunnel)
+"bxU" = (
+/turf/open/floor/grass/fairy/blue,
+/area/f13/caves)
 "bxV" = (
 /obj/machinery/light/small,
 /turf/open/floor/f13/wood,
@@ -26693,9 +26696,6 @@
 	icon_state = "darkrustysolid"
 	},
 /area/f13/tunnel)
-"pzv" = (
-/turf/open/floor/grass/fairy/blue,
-/area/f13/caves)
 "pzz" = (
 /obj/item/trash/f13/bubblegum,
 /obj/effect/decal/cleanable/dirt,
@@ -49130,9 +49130,9 @@ aae
 aae
 aaa
 nrb
-pzv
+bxU
 xZr
-pzv
+bxU
 nrb
 aaa
 aae
@@ -49388,7 +49388,7 @@ aaa
 aaa
 nrb
 xcG
-pzv
+bxU
 oUN
 nrb
 aaa
@@ -49898,16 +49898,16 @@ aae
 aaa
 nrb
 xZr
-pzv
+bxU
 nrb
 xZr
-pzv
-pzv
+bxU
+bxU
 uAh
 qwf
 kUy
 oEu
-pzv
+bxU
 lIh
 iFQ
 aaa
@@ -50154,17 +50154,17 @@ aae
 aae
 aaa
 nrb
-pzv
-pzv
+bxU
+bxU
 xsZ
 uAh
 bAg
-pzv
+bxU
 rsY
 rsY
 wPD
 nrb
-pzv
+bxU
 xZr
 iFQ
 aaa
@@ -51183,7 +51183,7 @@ aae
 aaa
 nrb
 xZr
-pzv
+bxU
 xsZ
 bAg
 bae
@@ -51192,7 +51192,7 @@ umS
 eeA
 uAh
 xsZ
-pzv
+bxU
 lIh
 nrb
 aaa
@@ -51450,7 +51450,7 @@ gdK
 xZr
 nrb
 lIh
-pzv
+bxU
 nrb
 aaa
 aae
@@ -51691,7 +51691,7 @@ aae
 aae
 aaa
 aaa
-pzv
+bxU
 aaa
 aaa
 aaa
@@ -51958,7 +51958,7 @@ bAg
 aaa
 aaa
 ihc
-pzv
+bxU
 lpi
 oVY
 aae
@@ -52492,7 +52492,7 @@ aae
 aaa
 aaa
 tQE
-pzv
+bxU
 mRq
 aaa
 aaa
@@ -52974,7 +52974,7 @@ aah
 pwE
 aaa
 aaa
-pzv
+bxU
 yfJ
 dno
 vTH
@@ -53008,7 +53008,7 @@ gby
 bpD
 uIx
 eKB
-pzv
+bxU
 uIx
 uIx
 rnh
@@ -53518,7 +53518,7 @@ aae
 aae
 aae
 aaa
-pzv
+bxU
 fUp
 lYE
 uIx
@@ -54023,7 +54023,7 @@ srM
 wvz
 wvz
 ihc
-pzv
+bxU
 hjs
 hjs
 aaa
@@ -54038,7 +54038,7 @@ uIx
 rUy
 lPc
 uIx
-pzv
+bxU
 rnh
 aah
 aah
@@ -54290,7 +54290,7 @@ aaa
 aaa
 aaa
 aaa
-pzv
+bxU
 uIx
 uIx
 bzP
@@ -54547,11 +54547,11 @@ gGV
 kKE
 kKE
 qEI
-pzv
-pzv
+bxU
+bxU
 uIx
 uIx
-pzv
+bxU
 jug
 rnh
 aah
@@ -54808,7 +54808,7 @@ stc
 ihc
 uIx
 eKB
-pzv
+bxU
 oZF
 rnh
 aah
@@ -55059,7 +55059,7 @@ srM
 srM
 jke
 hjs
-pzv
+bxU
 aaa
 stc
 sJA
@@ -55317,9 +55317,9 @@ isF
 dgF
 hjs
 ihc
-pzv
+bxU
 aaa
-pzv
+bxU
 mhF
 uIx
 bzP
@@ -55558,7 +55558,7 @@ gGV
 hjs
 pDZ
 ihc
-pzv
+bxU
 aaa
 aaa
 aaa
@@ -55576,7 +55576,7 @@ hjs
 hjs
 hjs
 iFQ
-pzv
+bxU
 ihc
 uIx
 uIx
@@ -56065,7 +56065,7 @@ aae
 aae
 aae
 aaa
-pzv
+bxU
 nPx
 hjs
 kKE
@@ -56075,7 +56075,7 @@ srM
 srM
 sUM
 fLp
-pzv
+bxU
 aaa
 tQE
 xCn
@@ -56093,7 +56093,7 @@ xHb
 hRS
 mhF
 mtW
-pzv
+bxU
 ihc
 rnh
 aah
@@ -56348,10 +56348,10 @@ szZ
 xHb
 xHb
 szZ
-pzv
-pzv
-pzv
-pzv
+bxU
+bxU
+bxU
+bxU
 rnh
 aah
 aah
@@ -56605,7 +56605,7 @@ szZ
 xHb
 xHb
 hRS
-pzv
+bxU
 uIx
 aYd
 lPc
@@ -57098,9 +57098,9 @@ aaa
 aae
 aaa
 aaa
-pzv
+bxU
 bAg
-pzv
+bxU
 izl
 kKE
 fhC
@@ -57357,9 +57357,9 @@ aaa
 aaa
 aaa
 tQE
-pzv
+bxU
 uHX
-pzv
+bxU
 mCl
 pDZ
 hjs
@@ -57618,7 +57618,7 @@ aaa
 aaa
 aaa
 tQE
-pzv
+bxU
 uIx
 wPD
 fdT
@@ -57886,7 +57886,7 @@ kKE
 kYY
 oVY
 jzg
-pzv
+bxU
 stc
 stc
 aae
@@ -58138,7 +58138,7 @@ xCn
 lfw
 uIx
 lIh
-pzv
+bxU
 hjs
 oVY
 uIx

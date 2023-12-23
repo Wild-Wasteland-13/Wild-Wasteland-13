@@ -16287,6 +16287,12 @@
 /obj/effect/turf_decal/stripes/white/box,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/building)
+"mnc" = (
+/obj/structure/closet,
+/obj/effect/spawner/lootdrop/f13/rare_weps,
+/obj/effect/spawner/lootdrop/f13/rare_armor,
+/turf/open/indestructible/ground/outside/roof,
+/area/f13/building/massfusion)
 "mnK" = (
 /obj/structure/rack/shelf_metal,
 /obj/effect/spawner/lootdrop/f13/armor/costumes,
@@ -79601,7 +79607,7 @@ vje
 vje
 vje
 oDo
-qRD
+mnc
 aab
 gGa
 qPu
@@ -80115,7 +80121,7 @@ vje
 vje
 vje
 oDo
-qRD
+mnc
 bcY
 ygG
 gGa
