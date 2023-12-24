@@ -69,63 +69,63 @@
 /datum/design/ammolathe/zip9mm
 	name = "zipgun clip (9mm)"
 	id = "zip9m"
-	materials = list(/datum/material/iron = 2000)
+	materials = list(/datum/material/iron = 1000)
 	build_path = /obj/item/ammo_box/magazine/zipgun
 	category = list("initial", "Simple Magazines", "Handmade Magazines")
 
 /datum/design/ammolathe/m45
 	name = "empty handgun magazine (.45)"
 	id = "m45"
-	materials = list(/datum/material/iron = 2000)
+	materials = list(/datum/material/iron = 1000)
 	build_path = /obj/item/ammo_box/magazine/m45/empty
 	category = list("initial", "Simple Magazines")
 
 /datum/design/ammolathe/m45
 	name = "empty 10mm pistol magazine (10mm)"
 	id = "m10mm_adv"
-	materials = list(/datum/material/iron = 2000)
+	materials = list(/datum/material/iron = 1000)
 	build_path = /obj/item/ammo_box/magazine/m10mm/adv/simple/empty
 	category = list("initial", "Simple Magazines")
 
 /datum/design/ammolathe/m9mm
 	name = "empty 9mm pistol magazine (9mm)"
 	id = "m9mm"
-	materials = list(/datum/material/iron = 2000)
+	materials = list(/datum/material/iron = 1000)
 	build_path = /obj/item/ammo_box/magazine/m9mm/empty
 	category = list("initial", "Simple Magazines", "Handmade Magazines")
 
 /datum/design/ammolathe/m22carbine
 	name = "empty .22 LR carbine magazine (.22 LR)"
 	id = "m22carbine"
-	materials = list(/datum/material/iron = 2000)
+	materials = list(/datum/material/iron = 1000)
 	build_path = /obj/item/ammo_box/magazine/m22/extended/empty
 	category = list("initial", "Simple Magazines", "Handmade Magazines")
 
 /datum/design/ammolathe/speedloader357
 	name = "empty speed loader (.357)"
 	id = "speedloader357"
-	materials = list(/datum/material/iron = 2000)
+	materials = list(/datum/material/iron = 1000)
 	build_path = /obj/item/ammo_box/a357/empty
 	category = list("initial", "Simple Magazines", "Handmade Magazines")
 
 /datum/design/ammolathe/speedloader22
 	name = "empty speed loader (.22 LR)"
 	id = "speedloader22"
-	materials = list(/datum/material/iron = 2000)
+	materials = list(/datum/material/iron = 1000)
 	build_path = /obj/item/ammo_box/c22/empty
 	category = list("initial", "Simple Magazines", "Handmade Magazines")
 
 /datum/design/ammolathe/speedloader44
 	name = "empty speed loader (.44)"
 	id = "speedloader44"
-	materials = list(/datum/material/iron = 2000)
+	materials = list(/datum/material/iron = 1000)
 	build_path = /obj/item/ammo_box/m44/empty
 	category = list("initial", "Simple Magazines", "Handmade Magazines")
 
 /datum/design/ammolathe/speedloader45
 	name = "empty speed loader (.45 ACP)"
 	id = "speedloader45"
-	materials = list(/datum/material/iron = 2000)
+	materials = list(/datum/material/iron = 1000)
 	build_path = /obj/item/ammo_box/c45rev/empty
 	category = list("initial", "Simple Magazines", "Handmade Magazines")
 
@@ -153,28 +153,28 @@
 /datum/design/ammolathe/rifle556
 	name = "empty 20rd rifle magazine (5.56mm)"
 	id = "rifle556"
-	materials = list(/datum/material/iron = 4000)
+	materials = list(/datum/material/iron = 2000)
 	build_path = /obj/item/ammo_box/magazine/m556/rifle/empty
 	category = list("initial", "Simple Magazines")
 
 /datum/design/ammolathe/m9mmds
 	name = "empty doublestack magazine (9mm)"
 	id = "m9mmds"
-	materials = list(/datum/material/iron = 4000)
+	materials = list(/datum/material/iron = 2000)
 	build_path = /obj/item/ammo_box/magazine/m9mm/doublestack/empty
 	category = list("initial", "Simple Magazines")
 
 /datum/design/ammolathe/m556_rifle_small
 	name = "empty small rifle magazine (5.56mm)"
 	id = "m556_rifle_small"
-	materials = list(/datum/material/iron = 4000)
+	materials = list(/datum/material/iron = 2000)
 	build_path = /obj/item/ammo_box/magazine/m556/rifle/small/empty
 	category = list("initial", "Simple Magazines", "Handmade Magazines")
 
 /datum/design/ammolathe/m45magazine
 	name = "empty handgun magazine (.45)"
 	id = "m45magazine"
-	materials = list(/datum/material/iron = 4000)
+	materials = list(/datum/material/iron = 2000)
 	build_path = /obj/item/ammo_box/magazine/m45/empty
 	category = list("initial", "Simple Magazines", "Handmade Magazines")
 
@@ -282,70 +282,70 @@
 /datum/design/ammolathe/tube44
 	name = "empty speed loader tube (.44)"
 	id = "tube44"
-	materials = list(/datum/material/iron = 6000)
+	materials = list(/datum/material/iron = 2000)
 	build_path = /obj/item/ammo_box/tube/m44/empty
 	category = list("initial", "Basic Magazines")
 
 /datum/design/ammolathe/tube357
 	name = "empty speed loader tube (.357)"
 	id = "tube357"
-	materials = list(/datum/material/iron = 6000)
+	materials = list(/datum/material/iron = 2000)
 	build_path = /obj/item/ammo_box/tube/a357/empty
 	category = list("initial", "Basic Magazines", "Handmade Magazines")
 
 /datum/design/ammolathe/m10mm_adv_ext
 	name = "empty 10mm SMG magazine (10mm)"
 	id = "m10mm_adv_ext"
-	materials = list(/datum/material/iron = 4000)
+	materials = list(/datum/material/iron = 2000)
 	build_path = /obj/item/ammo_box/magazine/m10mm/adv/ext/empty
 	category = list("initial", "Basic Magazines")
 
 /datum/design/ammolathe/greasegunmag
 	name = "empty grease submachine gun magazine (.45)"
 	id = "greasegunmag"
-	materials = list(/datum/material/iron = 4000)
+	materials = list(/datum/material/iron = 2000)
 	build_path = /obj/item/ammo_box/magazine/greasegun/empty
 	category = list("initial", "Basic Magazines")
 
 /datum/design/ammolathe/mini_uzimag
 	name = "empty mini uzi magazine (9mm)"
 	id = "mini_uzimag"
-	materials = list(/datum/material/iron = 4000)
+	materials = list(/datum/material/iron = 2000)
 	build_path = /obj/item/ammo_box/magazine/uzim9mm/empty
 	category = list("initial", "Basic Magazines")
 
 /datum/design/ammolathe/rockwellmag
 	name = "empty rockwell magazine (9mm)"
 	id = "rockwellmag"
-	materials = list(/datum/material/iron = 4000)
+	materials = list(/datum/material/iron = 2000)
 	build_path = /obj/item/ammo_box/magazine/uzim9mm/rockwell/empty
 	category = list("initial", "Simple Magazines")
 
 /datum/design/ammolathe/carl_gustafmag
 	name = "empty carl gustaf magazine (10mm)"
 	id = "carl_gustafmag"
-	materials = list(/datum/material/iron = 4000)
+	materials = list(/datum/material/iron = 2000)
 	build_path = /obj/item/ammo_box/magazine/cg45/empty
 	category = list("initial", "Basic Magazines")
 
 /datum/design/ammolathe/pistol22mag
 	name = "empty pistol magazine (.22lr)"
 	id = "pistol22mag"
-	materials = list(/datum/material/iron = 4000)
+	materials = list(/datum/material/iron = 2000)
 	build_path = /obj/item/ammo_box/magazine/m22/empty
 	category = list("initial", "Basic Magazines", "Handmade Magazines")
 
 /datum/design/ammolathe/m45expmagazine
 	name = "empty socom magazine (.45)"
 	id = "m45expmagazine"
-	materials = list(/datum/material/iron = 4000)
+	materials = list(/datum/material/iron = 2000)
 	build_path = /obj/item/ammo_box/magazine/m45/socom/empty
 	category = list("initial", "Basic Magazines")
 
 /datum/design/ammolathe/Thompsonstick
 	name = "empty thompson stick magazine (.45)"
 	id = "Thompsonstick"
-	materials = list(/datum/material/iron = 4000)
+	materials = list(/datum/material/iron = 2000)
 	build_path = /obj/item/ammo_box/magazine/tommygunm45/stick/empty
 	category = list("initial", "Basic Magazines")
 
@@ -500,49 +500,49 @@
 /datum/design/ammolathe/speedloader4570
 	name = "empty speed loader (.45-70)"
 	id = "speedloader4570"
-	materials = list(/datum/material/iron = 4000)
+	materials = list(/datum/material/iron = 2000)
 	build_path = /obj/item/ammo_box/c4570/empty
 	category = list("initial", "Intermediate Magazines", "Handmade Magazines")
 
 /datum/design/ammolathe/tube4570
 	name = "empty speed loader tube (.45-70)"
 	id = "tube4570"
-	materials = list(/datum/material/iron = 6000)
+	materials = list(/datum/material/iron = 2000)
 	build_path = /obj/item/ammo_box/tube/c4570/empty
 	category = list("initial", "Intermediate Magazines")
 
 /datum/design/ammolathe/speedloader45lc
 	name = "empty speed loader (.45 LC)"
 	id = "speedloader45lc"
-	materials = list(/datum/material/iron = 4000)
+	materials = list(/datum/material/iron = 2000)
 	build_path = /obj/item/ammo_box/a45lcrev/empty
 	category = list("initial", "Intermediate Magazines")
 
 /datum/design/ammolathe/d12g
 	name = "empty shotgun drum magazine (12g)"
 	id = "d12g"
-	materials = list(/datum/material/iron = 4000)
+	materials = list(/datum/material/iron = 2000)
 	build_path = /obj/item/ammo_box/magazine/d12g/empty
 	category = list("initial", "Intermediate Magazines")
 
 /datum/design/ammolathe/shotgunmagazines
 	name = "empty shotgun magazine (12g)"
 	id = "saigamagazines"
-	materials = list(/datum/material/iron = 4000)
+	materials = list(/datum/material/iron = 2000)
 	build_path = /obj/item/ammo_box/magazine/saiga
 	category = list("initial", "Intermediate Magazines")
 
 /datum/design/ammolathe/m44m
 	name = "empty handgun magazine (.44 magnum)"
 	id = "m44m"
-	materials = list(/datum/material/iron = 6000)
+	materials = list(/datum/material/iron = 2000)
 	build_path = /obj/item/ammo_box/magazine/m44/empty
 	category = list("initial", "Intermediate Magazines")
 
 /datum/design/ammolathe/m14mm
 	name = "empty handgun magazine (14mm)"
 	id = "m127mm"
-	materials = list(/datum/material/iron = 6000)
+	materials = list(/datum/material/iron = 2000)
 	build_path = /obj/item/ammo_box/magazine/m14mm/empty
 	category = list("initial", "Intermediate Magazines")
 
@@ -550,49 +550,49 @@
 /datum/design/ammolathe/m14mmcustommagazine
 	name = "empty P-36 magazine (14mm)"
 	id = "14mmcustom"
-	materials = list(/datum/material/iron = 6000)
+	materials = list(/datum/material/iron = 2000)
 	build_path = /obj/item/ammo_box/magazine/m14mmcustom/empty
 	category = list("initial", "Basic Magazines")
 
 /datum/design/ammolathe/m5mmpistol
 	name = "empty handgun magazine (5mm)"
 	id = "m5mmcustom"
-	materials = list(/datum/material/iron = 4000)
+	materials = list(/datum/material/iron = 2000)
 	build_path = /obj/item/ammo_box/magazine/m5mmcustom/empty
 	category = list("initial", "Intermediate Magazines")
 
 /datum/design/ammolathe/m47mmpistol
 	name = "empty handgun magazine (4.7mm caseless)"
 	id = "m47mmcustom"
-	materials = list(/datum/material/iron = 4000)
+	materials = list(/datum/material/iron = 2000)
 	build_path = /obj/item/ammo_box/magazine/m47pistol/empty
 	category = list("initial", "Intermediate Magazines")
 
 /datum/design/ammolathe/smg14
 	name = "empty smg magazine (14mm)"
 	id = "m127smg"
-	materials = list(/datum/material/iron = 6000)
+	materials = list(/datum/material/iron = 2000)
 	build_path = /obj/item/ammo_box/magazine/smg14/empty
 	category = list("initial", "Intermediate Magazines")
 
 /datum/design/ammolathe/m22smg
 	name = "empty toploader magazine (.22lr)"
 	id = "m22smg"
-	materials = list(/datum/material/iron = 6000)
+	materials = list(/datum/material/iron = 2000)
 	build_path = /obj/item/ammo_box/magazine/m22smg/empty
 	category = list("initial", "Intermediate Magazines")
 
 /datum/design/ammolathe/m762
 	name = "empty rifle magazine (.308)"
 	id = "m762"
-	materials = list(/datum/material/iron = 6000)
+	materials = list(/datum/material/iron = 2000)
 	build_path = /obj/item/ammo_box/magazine/m308/empty
 	category = list("initial", "Intermediate Magazines")
 
 /datum/design/ammolathe/w308
 	name = "empty sniper rifle magazine (.30-06)"
 	id = "w308"
-	materials = list(/datum/material/iron = 6000)
+	materials = list(/datum/material/iron = 2000)
 	build_path = /obj/item/ammo_box/magazine/w3006/empty
 	category = list("initial", "Intermediate Magazines")
 
@@ -613,28 +613,28 @@
 /datum/design/ammolathe/rev308
 	name = ".308 Speedloader"
 	id = "rev308"
-	materials = list(/datum/material/iron = 6000)
+	materials = list(/datum/material/iron = 1000)
 	build_path = /obj/item/ammo_box/rev308/empty
 	category = list("initial", "Intermediate Magazines", "Handmade Magazines")
 
 /datum/design/ammolathe/amrmag
 	name = "empty anti-material rifle magazine (.50)"
 	id = "amrmagazine"
-	materials = list(/datum/material/iron = 8000)
+	materials = list(/datum/material/iron = 3000)
 	build_path = /obj/item/ammo_box/magazine/amr/empty
 	category = list("initial", "Advanced Magazines")
 
 /datum/design/ammolathe/boysmagazine
 	name = "empty boys magazine (.50)"
 	id = "boysmagazine"
-	materials = list(/datum/material/iron = 8000)
+	materials = list(/datum/material/iron = 3000)
 	build_path = /obj/item/ammo_box/magazine/boys/empty
 	category = list("initial", "Advanced Magazines")
 
 /datum/design/ammolathe/highcalmag
 	name = "empty compact AMR magazine (.50)"
 	id = "highcalmagazine"
-	materials = list(/datum/material/iron = 8000)
+	materials = list(/datum/material/iron = 3000)
 	build_path = /obj/item/ammo_box/magazine/highcaliber/empty
 	category = list("initial", "Advanced Magazines")
 
@@ -686,14 +686,14 @@
 /datum/design/ammolathe/m10mm_p90
 	name = "empty toploader magazine (10mm)"
 	id = "m10mm_p90"
-	materials = list(/datum/material/iron = 6000)
+	materials = list(/datum/material/iron = 3000)
 	build_path = /obj/item/ammo_box/magazine/m10mm_p90/empty
 	category = list("initial", "Advanced Magazines")
 
 /datum/design/ammolathe/smg14stacked
 	name = "empty smg stacked magazine (14mm)"
 	id = "m127ssmg"
-	materials = list(/datum/material/iron = 8000)
+	materials = list(/datum/material/iron = 3000)
 	build_path = /obj/item/ammo_box/magazine/smg14/stacked/empty
 	category = list("initial", "Advanced Magazines")
 
@@ -701,7 +701,7 @@
 /datum/design/ammolathe/rifleassault556
 	name = "empty 30rd rifle magazine (5.56mm)"
 	id = "rifleassault556"
-	materials = list(/datum/material/iron = 8000,
+	materials = list(/datum/material/iron = 3000,
 	/datum/material/titanium = 8000)
 	build_path = /obj/item/ammo_box/magazine/m556/rifle/assault/empty
 	category = list("initial", "Advanced Magazines")
@@ -709,7 +709,7 @@
 /datum/design/ammolathe/rifleassault5mm
 	name = "empty 30rd rifle magazine (5mm)"
 	id = "rifleassault5mm"
-	materials = list(/datum/material/iron = 8000,
+	materials = list(/datum/material/iron = 3000,
 		/datum/material/titanium = 8000)
 	build_path = /obj/item/ammo_box/magazine/m5mm/empty
 	category = list("initial", "Advanced Magazines")
@@ -717,7 +717,7 @@
 /datum/design/ammolathe/rifleassault47mm
 	name = "empty 35 round rifle magazine (4.7mm)"
 	id = "rifleassault47mm"
-	materials = list(/datum/material/iron = 8000,
+	materials = list(/datum/material/iron = 3000,
 		/datum/material/titanium = 8000)
 	build_path = /obj/item/ammo_box/magazine/rifle47mm/empty
 	category = list("initial", "Advanced Magazines")
@@ -726,7 +726,7 @@
 /datum/design/ammolathe/cz535mm
 	name = "empty 240rd cz53 pack (5mm)"
 	id = "cz535mm"
-	materials = list(/datum/material/iron = 24000)
+	materials = list(/datum/material/iron = 12000)
 	build_path = /obj/item/ammo_box/magazine/cz53/empty
 	category = list("initial", "Advanced Magazines")
 
@@ -741,7 +741,7 @@
 /datum/design/ammolathe/m473
 	name = "empty g11 magazine (4.73mm)"
 	id = "m473"
-	materials = list(/datum/material/iron = 6000)
+	materials = list(/datum/material/iron = 3000)
 	build_path = /obj/item/ammo_box/magazine/m473/empty
 	category = list("initial", "Advanced Magazines")
 
@@ -755,14 +755,14 @@
 /datum/design/ammolathe/m762ext
 	name = "empty extended rifle magazine (.308)"
 	id = "m762ext"
-	materials = list(/datum/material/iron = 6000)
+	materials = list(/datum/material/iron = 3000)
 	build_path = /obj/item/ammo_box/magazine/m308/ext/empty
 	category = list("initial", "Advanced Magazines")
 
 /datum/design/ammolathe/rpdmag
 	name = "empty drum magazine (.308)"
 	id = "rpdmag"
-	materials = list(/datum/material/iron = 20000)
+	materials = list(/datum/material/iron = 10000)
 	build_path = /obj/item/ammo_box/magazine/rpd/empty
 	category = list("initial", "Advanced Magazines")
 
@@ -770,49 +770,49 @@
 /datum/design/ammolathe/tommygunm45
 	name = "empty drum magazine (.45)"
 	id = "tommygunm45"
-	materials = list(/datum/material/iron = 8000)
+	materials = list(/datum/material/iron = 3000)
 	build_path = /obj/item/ammo_box/magazine/tommygunm45/empty
 	category = list("initial", "Advanced Magazines")
 
 /datum/design/ammolathe/lmg556
 	name = "empty ammo box (5.56)"
 	id = "lmg556"
-	materials = list(/datum/material/iron = 8000)
+	materials = list(/datum/material/iron = 3000)
 	build_path = /obj/item/ammo_box/magazine/lmg/empty
 	category = list("initial", "Advanced Magazines")
 
 /datum/design/ammolathe/pan47
 	name = "empty pan magazine (.308)"
 	id = "pan47"
-	materials = list(/datum/material/iron = 8000)
+	materials = list(/datum/material/iron = 3000)
 	build_path = /obj/item/ammo_box/magazine/lewis/l47/empty
 	category = list("initial", "Advanced Magazines")
 
 /datum/design/ammolathe/bren
 	name = "empty bren magazine (.308)"
 	id = "bren"
-	materials = list(/datum/material/iron = 8000)
+	materials = list(/datum/material/iron = 3000)
 	build_path = /obj/item/ammo_box/magazine/bren/empty
 	category = list("initial", "Advanced Magazines")
 
 /datum/design/ammolathe/mm762
 	name = "empty ammo belt (.308)"
 	id = "mm762"
-	materials = list(/datum/material/iron = 8000)
+	materials = list(/datum/material/iron = 3000)
 	build_path = /obj/item/ammo_box/magazine/mm308/empty
 	category = list("initial", "Advanced Magazines")
 
 /datum/design/ammolathe/pps_mag
 	name = "empty ppsh magazine (9mm)"
 	id = "pps_mag"
-	materials = list(/datum/material/iron = 6000)
+	materials = list(/datum/material/iron = 3000)
 	build_path = /obj/item/ammo_box/magazine/pps9mm/empty
 	category = list("initial", "Intermediate Magazines")
 
 /datum/design/ammolathe/m2mm_mag
 	name = "2mm Gauss Magazine (empty)"
 	id = "2mm_magazine"
-	materials = list(/datum/material/iron = 25000, /datum/material/titanium = 15000)
+	materials = list(/datum/material/iron = 15000, /datum/material/titanium = 7000)
 	build_path = /obj/item/ammo_box/magazine/m2mm/empty
 	category = list("initial", "Advanced Magazines")
 
@@ -828,14 +828,14 @@
 /datum/design/ammolathe/m2mm_rack
 	name = "2mm Gauss Clip"
 	id = "2mm_clip"
-	materials = list(/datum/material/iron = 12500, /datum/material/titanium = 7500)
+	materials = list(/datum/material/iron = 6500, /datum/material/titanium = 5500)
 	build_path = /obj/item/ammo_box/gauss
 	category = list("initial", "Advanced Ammo")
 
 /datum/design/ammolathe/m2mm_rack_blender
 	name = "2mm Blender Clip"
 	id = "2mm_gauss_clip"
-	materials = list(/datum/material/iron = 12500, /datum/material/titanium = 7500)
+	materials = list(/datum/material/iron = 6500, /datum/material/titanium = 5500)
 	build_path = /obj/item/ammo_box/gauss_blender
 	category = list("initial", "Advanced Ammo")
 
