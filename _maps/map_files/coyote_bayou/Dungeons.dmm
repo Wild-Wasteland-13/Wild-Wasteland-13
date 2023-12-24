@@ -9086,10 +9086,6 @@
 	icon_state = "darkyellowfull"
 	},
 /area/f13/brotherhood/rnd)
-"ear" = (
-/obj/structure/timeddoor/threehours,
-/turf/closed/mineral/random/low_chance,
-/area/f13/caves)
 "eat" = (
 /obj/structure/closet/fridge,
 /obj/effect/spawner/lootdrop/f13/foodspawner,
@@ -14202,10 +14198,6 @@
 	},
 /turf/open/floor/plating/f13/inside,
 /area/f13/brotherhood/operations)
-"grq" = (
-/obj/structure/timeddoor/threehours,
-/turf/closed/mineral/random/low_chance,
-/area/f13/underground/cave/tunnelertemple)
 "gru" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -18939,6 +18931,10 @@
 /obj/machinery/microwave/stove,
 /turf/open/floor/grass,
 /area/f13/underground/cave/vault/fourfivefour)
+"iGe" = (
+/obj/structure/timeddoor/threehours,
+/turf/closed/mineral/random/low_chance,
+/area/f13/underground/cave/tunnelertemple)
 "iGh" = (
 /obj/effect/decal/cleanable/dirt{
 	color = "#363636"
@@ -25051,6 +25047,10 @@
 	},
 /turf/open/floor/grass,
 /area/f13/underground/cave/vault/fourfivefour)
+"lza" = (
+/obj/structure/timeddoor/threehours,
+/turf/closed/mineral/random/low_chance,
+/area/f13/caves)
 "lzc" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/spawner/lootdrop/f13/uncommon,
@@ -84540,15 +84540,15 @@ whv
 whv
 whv
 whv
-ear
-ear
-ear
-ear
-ear
-ear
-ear
+lza
+lza
+lza
+lza
+lza
+lza
+lza
 bIR
-grq
+iGe
 xba
 xba
 xba

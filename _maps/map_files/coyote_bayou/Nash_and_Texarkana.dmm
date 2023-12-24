@@ -7524,6 +7524,12 @@
 	},
 /turf/open/floor/f13/wood,
 /area/f13/ruins)
+"aBk" = (
+/obj/structure/sink{
+	pixel_y = 20
+	},
+/turf/open/floor/plasteel/f13/vault_floor/misc/cmo,
+/area/f13/building)
 "aBl" = (
 /obj/structure/table/wood,
 /obj/effect/spawner/lootdrop/clothing_low,
@@ -20034,8 +20040,14 @@
 /turf/open/floor/f13/wood,
 /area/f13/building/abandoned)
 "bwZ" = (
-/obj/structure/simple_door/interior,
-/turf/open/floor/plasteel/f13/vault_floor/misc/cmo,
+/obj/structure/table/wood,
+/obj/machinery/computer/terminal{
+	dir = 1;
+	pixel_y = 4
+	},
+/turf/open/floor/wood_common{
+	color = "#779999"
+	},
 /area/f13/building)
 "bxc" = (
 /obj/effect/decal/cleanable/dirt/dust,
@@ -26419,8 +26431,11 @@
 /turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/f13/building/hospital)
 "cDf" = (
-/obj/structure/stairs/west{
-	color = "#A47449"
+/obj/structure/chair/office{
+	dir = 4
+	},
+/obj/machinery/light/small{
+	dir = 8
 	},
 /turf/open/floor/wood_common{
 	color = "#779999"
@@ -40563,18 +40578,12 @@
 /turf/open/floor/f13/wood,
 /area/f13/ruins)
 "fNg" = (
-/obj/machinery/shower{
-	dir = 4;
-	icon_state = "shower"
+/obj/structure/stairs/west{
+	color = "#A47449"
 	},
-/obj/structure/decoration/vent{
-	layer = 2.8
+/turf/open/floor/wood_common{
+	color = "#779999"
 	},
-/obj/structure/curtain{
-	color = "#87A392";
-	layer = 5
-	},
-/turf/open/floor/plasteel/f13/vault_floor/misc/cmo,
 /area/f13/building)
 "fNi" = (
 /turf/open/indestructible/ground/outside/road{
@@ -52033,15 +52042,14 @@
 	},
 /area/f13/wasteland)
 "ipd" = (
-/obj/structure/toilet{
-	dir = 1;
-	pixel_y = -1
+/obj/machinery/door/unpowered/securedoor{
+	name = "Townhall";
+	req_access_txt = null;
+	req_one_access_txt = "62"
 	},
-/obj/structure/toilet{
-	dir = 1;
-	pixel_y = -1
+/turf/open/floor/wood_common{
+	color = "#779999"
 	},
-/turf/open/floor/plasteel/f13/vault_floor/misc/cmo,
 /area/f13/building)
 "ipf" = (
 /obj/machinery/smartfridge/bottlerack/lootshelf/diy,
@@ -64516,12 +64524,8 @@
 	},
 /area/f13/wasteland/city)
 "leg" = (
-/obj/structure/table/wood,
-/obj/item/paper_bin,
-/obj/item/pen,
-/turf/open/floor/wood_common{
-	color = "#779999"
-	},
+/obj/structure/simple_door/interior,
+/turf/open/floor/plasteel/f13/vault_floor/misc/cmo,
 /area/f13/building)
 "lek" = (
 /mob/living/simple_animal/hostile/raider/ranged/biker{
@@ -71475,10 +71479,8 @@
 /area/f13/wasteland/city)
 "mCa" = (
 /obj/structure/table/wood,
-/obj/machinery/computer/terminal{
-	dir = 1;
-	pixel_y = 4
-	},
+/obj/item/paper_bin,
+/obj/item/pen,
 /turf/open/floor/wood_common{
 	color = "#779999"
 	},
@@ -71497,8 +71499,16 @@
 /turf/open/floor/carpet/purple,
 /area/f13/ruins)
 "mCB" = (
-/obj/structure/sink{
-	pixel_y = 20
+/obj/machinery/shower{
+	dir = 4;
+	icon_state = "shower"
+	},
+/obj/structure/decoration/vent{
+	layer = 2.8
+	},
+/obj/structure/curtain{
+	color = "#87A392";
+	layer = 5
 	},
 /turf/open/floor/plasteel/f13/vault_floor/misc/cmo,
 /area/f13/building)
@@ -73956,14 +73966,15 @@
 /turf/open/floor/grass,
 /area/f13/wasteland)
 "neN" = (
-/obj/machinery/door/unpowered/securedoor{
-	name = "Townhall";
-	req_access_txt = null;
-	req_one_access_txt = "62"
+/obj/structure/toilet{
+	dir = 1;
+	pixel_y = -1
 	},
-/turf/open/floor/wood_common{
-	color = "#779999"
+/obj/structure/toilet{
+	dir = 1;
+	pixel_y = -1
 	},
+/turf/open/floor/plasteel/f13/vault_floor/misc/cmo,
 /area/f13/building)
 "neO" = (
 /obj/effect/decal/cleanable/dirt,
@@ -128870,7 +128881,7 @@ dFe
 wHO
 wXa
 cGa
-fNg
+mCB
 cGa
 jNw
 bQW
@@ -129127,7 +129138,7 @@ jQC
 xtU
 dnZ
 cGa
-ipd
+neN
 cGa
 bQW
 tsd
@@ -129384,12 +129395,12 @@ xaz
 wzP
 iVW
 cGa
-mCB
+aBk
 cGa
 bQW
-koT
-bQW
-bQW
+cGa
+cGa
+cGa
 qTw
 cxc
 dHu
@@ -129641,7 +129652,7 @@ lqK
 jNw
 cxV
 cGa
-bwZ
+leg
 cGa
 baZ
 cGa
@@ -129899,10 +129910,10 @@ imX
 jNw
 cGa
 dVF
-rul
+cDf
 twY
 cGa
-cDf
+fNg
 cGa
 qTw
 cxc
@@ -130156,10 +130167,10 @@ qzg
 bQW
 cGa
 dVF
-leg
 mCa
+bwZ
 cGa
-neN
+ipd
 cGa
 qTw
 tBD
@@ -130669,11 +130680,11 @@ dJD
 xaz
 jNw
 cGa
-dVF
+usp
 iiJ
 iiJ
 iiJ
-dVF
+pKy
 cGa
 qTw
 tBD
