@@ -4252,8 +4252,10 @@
 /turf/open/indestructible/ground/outside/water,
 /area/f13/underground/cave/vault/fourfivefour)
 "caU" = (
-/obj/machinery/computer/rdconsole/core/vault,
 /obj/effect/spawner/lootdrop/f13/uncommon,
+/obj/machinery/computer/robotics{
+	dir = 1
+	},
 /turf/open/floor/plasteel/f13/vault_floor/purple,
 /area/f13/enclave)
 "caW" = (
