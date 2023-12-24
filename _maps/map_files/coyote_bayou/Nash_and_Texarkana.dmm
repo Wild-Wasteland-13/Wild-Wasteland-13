@@ -95918,6 +95918,10 @@
 "rYo" = (
 /turf/open/indestructible/ground/outside/sidewalk,
 /area/f13/wasteland/city/nash/starterroad)
+"rYs" = (
+/obj/machinery/computer/communications,
+/turf/open/indestructible,
+/area/f13/tcoms)
 "rYz" = (
 /obj/structure/flora/ausbushes/grassybush,
 /obj/effect/turf_decal/weather/dirt{
@@ -189117,7 +189121,7 @@ aae
 aae
 aaa
 aad
-aaj
+rYs
 aaj
 aaj
 aad

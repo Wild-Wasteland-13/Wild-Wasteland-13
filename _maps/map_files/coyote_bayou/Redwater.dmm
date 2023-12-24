@@ -11578,6 +11578,14 @@
 	},
 /turf/open/floor/wood_common,
 /area/f13/building)
+"dYh" = (
+/obj/structure/simple_door/tent,
+/turf/open/indestructible/ground/outside/gravel{
+	color = "#B7ABAB";
+	footstep = "dirt";
+	name = "rocky dirt"
+	},
+/area/f13/building)
 "dYl" = (
 /obj/structure/flora/grass/wasteland{
 	icon_state = "tall_grass_4"
@@ -30860,14 +30868,6 @@
 	icon_state = "outerbordercorner - W"
 	},
 /area/f13/wasteland/redwater)
-"kJo" = (
-/obj/structure/simple_door/tent,
-/turf/open/indestructible/ground/outside/gravel{
-	color = "#B7ABAB";
-	footstep = "dirt";
-	name = "rocky dirt"
-	},
-/area/f13/building)
 "kJp" = (
 /obj/structure/fence{
 	dir = 8
@@ -36780,6 +36780,13 @@
 	},
 /turf/open/indestructible/ground/outside/sidewalk,
 /area/f13/wasteland/redwater)
+"mIf" = (
+/turf/open/indestructible/ground/outside/gravel{
+	color = "#B7ABAB";
+	footstep = "dirt";
+	name = "rocky dirt"
+	},
+/area/f13/building/abandoned)
 "mIg" = (
 /obj/item/clothing/under/f13/police,
 /obj/item/clothing/head/f13/police,
@@ -47556,13 +47563,6 @@
 	icon_state = "verticalinnermain0"
 	},
 /area/f13/building/tribal/cave)
-"qFy" = (
-/turf/open/indestructible/ground/outside/gravel{
-	color = "#B7ABAB";
-	footstep = "dirt";
-	name = "rocky dirt"
-	},
-/area/f13/building/abandoned)
 "qFA" = (
 /obj/structure/reagent_dispensers/barrel/two,
 /turf/open/floor/plasteel/barber{
@@ -90744,8 +90744,8 @@ aXu
 aXu
 fZr
 uQh
-qFy
-qFy
+mIf
+mIf
 uzT
 fZr
 aXu
@@ -91003,7 +91003,7 @@ fZr
 sAe
 xde
 vGf
-qFy
+mIf
 cTV
 flv
 flv
@@ -91258,7 +91258,7 @@ aXu
 aXu
 fZr
 eYd
-qFy
+mIf
 vGf
 fTH
 fZr
@@ -91515,7 +91515,7 @@ aXu
 aXu
 fZr
 kNW
-qFy
+mIf
 sVu
 dZm
 fZr
@@ -91532,7 +91532,7 @@ qSZ
 aXu
 lDJ
 fZr
-qFy
+mIf
 xIg
 dkQ
 flv
@@ -91789,8 +91789,8 @@ aXu
 aXu
 aXu
 alZ
-qFy
-qFy
+mIf
+mIf
 qhr
 aXu
 flv
@@ -92293,7 +92293,7 @@ tsj
 tsj
 tsj
 tsj
-kJo
+dYh
 tsj
 tsj
 tsj
