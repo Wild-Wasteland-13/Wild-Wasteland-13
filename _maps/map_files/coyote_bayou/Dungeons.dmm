@@ -10855,6 +10855,10 @@
 	icon_state = "casino"
 	},
 /area/f13/brotherhood/offices2nd)
+"ePw" = (
+/obj/structure/timeddoor/threehours,
+/turf/closed/mineral/random/low_chance,
+/area/f13/caves)
 "ePI" = (
 /mob/living/simple_animal/hostile/chinese,
 /obj/effect/decal/waste{
@@ -18931,10 +18935,6 @@
 /obj/machinery/microwave/stove,
 /turf/open/floor/grass,
 /area/f13/underground/cave/vault/fourfivefour)
-"iGe" = (
-/obj/structure/timeddoor/threehours,
-/turf/closed/mineral/random/low_chance,
-/area/f13/underground/cave/tunnelertemple)
 "iGh" = (
 /obj/effect/decal/cleanable/dirt{
 	color = "#363636"
@@ -19471,6 +19471,10 @@
 /obj/structure/flora/tree/jungle,
 /turf/open/floor/grass,
 /area/f13/underground/cave/vault/fourfivefour)
+"iTJ" = (
+/obj/structure/timeddoor/threehours,
+/turf/closed/mineral/random/low_chance,
+/area/f13/underground/cave/tunnelertemple)
 "iTM" = (
 /obj/structure/barricade/sandbags,
 /obj/effect/decal/cleanable/dirt,
@@ -25047,10 +25051,6 @@
 	},
 /turf/open/floor/grass,
 /area/f13/underground/cave/vault/fourfivefour)
-"lza" = (
-/obj/structure/timeddoor/threehours,
-/turf/closed/mineral/random/low_chance,
-/area/f13/caves)
 "lzc" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/spawner/lootdrop/f13/uncommon,
@@ -84540,15 +84540,15 @@ whv
 whv
 whv
 whv
-lza
-lza
-lza
-lza
-lza
-lza
-lza
+ePw
+ePw
+ePw
+ePw
+ePw
+ePw
+ePw
 bIR
-iGe
+iTJ
 xba
 xba
 xba

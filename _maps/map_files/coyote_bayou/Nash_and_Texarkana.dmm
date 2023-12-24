@@ -7524,12 +7524,6 @@
 	},
 /turf/open/floor/f13/wood,
 /area/f13/ruins)
-"aBk" = (
-/obj/structure/sink{
-	pixel_y = 20
-	},
-/turf/open/floor/plasteel/f13/vault_floor/misc/cmo,
-/area/f13/building)
 "aBl" = (
 /obj/structure/table/wood,
 /obj/effect/spawner/lootdrop/clothing_low,
@@ -20041,10 +20035,8 @@
 /area/f13/building/abandoned)
 "bwZ" = (
 /obj/structure/table/wood,
-/obj/machinery/computer/terminal{
-	dir = 1;
-	pixel_y = 4
-	},
+/obj/item/paper_bin,
+/obj/item/pen,
 /turf/open/floor/wood_common{
 	color = "#779999"
 	},
@@ -26431,15 +26423,10 @@
 /turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/f13/building/hospital)
 "cDf" = (
-/obj/structure/chair/office{
-	dir = 4
+/obj/structure/sink{
+	pixel_y = 20
 	},
-/obj/machinery/light/small{
-	dir = 8
-	},
-/turf/open/floor/wood_common{
-	color = "#779999"
-	},
+/turf/open/floor/plasteel/f13/vault_floor/misc/cmo,
 /area/f13/building)
 "cDk" = (
 /obj/effect/turf_decal/weather/dirt{
@@ -40578,8 +40565,11 @@
 /turf/open/floor/f13/wood,
 /area/f13/ruins)
 "fNg" = (
-/obj/structure/stairs/west{
-	color = "#A47449"
+/obj/structure/chair/office{
+	dir = 4
+	},
+/obj/machinery/light/small{
+	dir = 8
 	},
 /turf/open/floor/wood_common{
 	color = "#779999"
@@ -51367,7 +51357,14 @@
 	},
 /area/f13/building)
 "iiJ" = (
-/turf/open/floor/carpet/royalblue,
+/obj/structure/table/wood,
+/obj/machinery/computer/terminal{
+	dir = 1;
+	pixel_y = 4
+	},
+/turf/open/floor/wood_common{
+	color = "#779999"
+	},
 /area/f13/building)
 "iiL" = (
 /obj/structure/window/fulltile/store{
@@ -52042,14 +52039,18 @@
 	},
 /area/f13/wasteland)
 "ipd" = (
-/obj/machinery/door/unpowered/securedoor{
-	name = "Townhall";
-	req_access_txt = null;
-	req_one_access_txt = "62"
+/obj/machinery/shower{
+	dir = 4;
+	icon_state = "shower"
 	},
-/turf/open/floor/wood_common{
-	color = "#779999"
+/obj/structure/decoration/vent{
+	layer = 2.8
 	},
+/obj/structure/curtain{
+	color = "#87A392";
+	layer = 5
+	},
+/turf/open/floor/plasteel/f13/vault_floor/misc/cmo,
 /area/f13/building)
 "ipf" = (
 /obj/machinery/smartfridge/bottlerack/lootshelf/diy,
@@ -64524,7 +64525,14 @@
 	},
 /area/f13/wasteland/city)
 "leg" = (
-/obj/structure/simple_door/interior,
+/obj/structure/toilet{
+	dir = 1;
+	pixel_y = -1
+	},
+/obj/structure/toilet{
+	dir = 1;
+	pixel_y = -1
+	},
 /turf/open/floor/plasteel/f13/vault_floor/misc/cmo,
 /area/f13/building)
 "lek" = (
@@ -71478,9 +71486,11 @@
 	},
 /area/f13/wasteland/city)
 "mCa" = (
-/obj/structure/table/wood,
-/obj/item/paper_bin,
-/obj/item/pen,
+/obj/machinery/door/unpowered/securedoor{
+	name = "Townhall";
+	req_access_txt = null;
+	req_one_access_txt = "62"
+	},
 /turf/open/floor/wood_common{
 	color = "#779999"
 	},
@@ -71499,18 +71509,7 @@
 /turf/open/floor/carpet/purple,
 /area/f13/ruins)
 "mCB" = (
-/obj/machinery/shower{
-	dir = 4;
-	icon_state = "shower"
-	},
-/obj/structure/decoration/vent{
-	layer = 2.8
-	},
-/obj/structure/curtain{
-	color = "#87A392";
-	layer = 5
-	},
-/turf/open/floor/plasteel/f13/vault_floor/misc/cmo,
+/turf/open/floor/carpet/royalblue,
 /area/f13/building)
 "mCG" = (
 /obj/effect/decal/cleanable/vomit,
@@ -73966,15 +73965,12 @@
 /turf/open/floor/grass,
 /area/f13/wasteland)
 "neN" = (
-/obj/structure/toilet{
-	dir = 1;
-	pixel_y = -1
+/obj/structure/stairs/west{
+	color = "#A47449"
 	},
-/obj/structure/toilet{
-	dir = 1;
-	pixel_y = -1
+/turf/open/floor/wood_common{
+	color = "#779999"
 	},
-/turf/open/floor/plasteel/f13/vault_floor/misc/cmo,
 /area/f13/building)
 "neO" = (
 /obj/effect/decal/cleanable/dirt,
@@ -95850,6 +95846,10 @@
 	icon_state = "whitedirtysolid"
 	},
 /area/f13/building/coyote/nash/mall/groundfloor)
+"rXs" = (
+/obj/structure/simple_door/interior,
+/turf/open/floor/plasteel/f13/vault_floor/misc/cmo,
+/area/f13/building)
 "rXt" = (
 /obj/structure/chair/right{
 	dir = 8
@@ -128881,7 +128881,7 @@ dFe
 wHO
 wXa
 cGa
-mCB
+ipd
 cGa
 jNw
 bQW
@@ -129138,7 +129138,7 @@ jQC
 xtU
 dnZ
 cGa
-neN
+leg
 cGa
 bQW
 tsd
@@ -129395,7 +129395,7 @@ xaz
 wzP
 iVW
 cGa
-aBk
+cDf
 cGa
 bQW
 cGa
@@ -129652,7 +129652,7 @@ lqK
 jNw
 cxV
 cGa
-leg
+rXs
 cGa
 baZ
 cGa
@@ -129910,10 +129910,10 @@ imX
 jNw
 cGa
 dVF
-cDf
+fNg
 twY
 cGa
-fNg
+neN
 cGa
 qTw
 cxc
@@ -130167,10 +130167,10 @@ qzg
 bQW
 cGa
 dVF
-mCa
 bwZ
+iiJ
 cGa
-ipd
+mCa
 cGa
 qTw
 tBD
@@ -130424,9 +130424,9 @@ eVe
 jNw
 cGa
 dVF
-iiJ
-iiJ
-iiJ
+mCB
+mCB
+mCB
 dVF
 cGa
 qTw
@@ -130681,9 +130681,9 @@ xaz
 jNw
 cGa
 usp
-iiJ
-iiJ
-iiJ
+mCB
+mCB
+mCB
 pKy
 cGa
 qTw
@@ -130938,9 +130938,9 @@ xaz
 imX
 cGa
 dVF
-iiJ
-iiJ
-iiJ
+mCB
+mCB
+mCB
 dVF
 cGa
 qTw
