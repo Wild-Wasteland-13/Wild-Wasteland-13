@@ -9086,6 +9086,10 @@
 	icon_state = "darkyellowfull"
 	},
 /area/f13/brotherhood/rnd)
+"ear" = (
+/obj/structure/timeddoor/threehours,
+/turf/closed/mineral/random/low_chance,
+/area/f13/caves)
 "eat" = (
 /obj/structure/closet/fridge,
 /obj/effect/spawner/lootdrop/f13/foodspawner,
@@ -14198,6 +14202,10 @@
 	},
 /turf/open/floor/plating/f13/inside,
 /area/f13/brotherhood/operations)
+"grq" = (
+/obj/structure/timeddoor/threehours,
+/turf/closed/mineral/random/low_chance,
+/area/f13/underground/cave/tunnelertemple)
 "gru" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -46251,7 +46259,9 @@
 /turf/open/floor/plating/tunnel,
 /area/f13/brotherhood/rnd)
 "uWQ" = (
-/obj/structure/simple_door/metal/fence,
+/obj/structure/simple_door/metal/fence{
+	dir = 1
+	},
 /turf/open/floor/f13{
 	icon_state = "darkdirty"
 	},
@@ -49219,7 +49229,9 @@
 /turf/open/floor/wood_common,
 /area/f13/brotherhood/operations)
 "wrP" = (
-/obj/structure/simple_door/metal/fence,
+/obj/structure/simple_door/metal/fence{
+	dir = 1
+	},
 /turf/open/floor/f13{
 	icon_state = "darkrusty"
 	},
@@ -84528,15 +84540,15 @@ whv
 whv
 whv
 whv
-hrZ
-hrZ
-hrZ
-hrZ
-hrZ
-hrZ
-hrZ
-ghS
-ycq
+ear
+ear
+ear
+ear
+ear
+ear
+ear
+bIR
+grq
 xba
 xba
 xba

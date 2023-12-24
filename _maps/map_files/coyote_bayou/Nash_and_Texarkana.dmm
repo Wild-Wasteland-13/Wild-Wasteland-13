@@ -19642,17 +19642,14 @@
 /turf/open/floor/f13/wood,
 /area/f13/building/abandoned)
 "buu" = (
-/obj/effect/turf_decal/weather/dirt{
-	color = "#a98c5d"
+/obj/structure/railing{
+	color = "#A47449";
+	dir = 4
 	},
-/obj/effect/decal/cleanable/dirt{
-	color = "#363636"
-	},
-/obj/structure/simple_door/repaired,
 /turf/open/floor/wood_common{
 	color = "#779999"
 	},
-/area/f13/building/trader)
+/area/f13/building)
 "bux" = (
 /obj/structure/window/fulltile/store{
 	icon_state = "ruinswindowvertical"
@@ -20037,12 +20034,9 @@
 /turf/open/floor/f13/wood,
 /area/f13/building/abandoned)
 "bwZ" = (
-/obj/structure/flora/chomp/bush2{
-	color = "#224422"
-	},
-/obj/structure/flora/ausbushes/ywflowers,
-/turf/open/floor/grass,
-/area/f13/wasteland/nash)
+/obj/structure/simple_door/interior,
+/turf/open/floor/plasteel/f13/vault_floor/misc/cmo,
+/area/f13/building)
 "bxc" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/structure/closet/crate/bin/trashbin,
@@ -26425,9 +26419,13 @@
 /turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/f13/building/hospital)
 "cDf" = (
-/obj/structure/flora/wild_plant/flower/blue,
-/turf/open/floor/grass,
-/area/f13/wasteland/nash)
+/obj/structure/stairs/west{
+	color = "#A47449"
+	},
+/turf/open/floor/wood_common{
+	color = "#779999"
+	},
+/area/f13/building)
 "cDk" = (
 /obj/effect/turf_decal/weather/dirt{
 	color = "#a98c5d";
@@ -40565,9 +40563,19 @@
 /turf/open/floor/f13/wood,
 /area/f13/ruins)
 "fNg" = (
-/obj/effect/turf_decal/weather/dirt,
-/turf/open/floor/grass,
-/area/f13/wasteland/nash)
+/obj/machinery/shower{
+	dir = 4;
+	icon_state = "shower"
+	},
+/obj/structure/decoration/vent{
+	layer = 2.8
+	},
+/obj/structure/curtain{
+	color = "#87A392";
+	layer = 5
+	},
+/turf/open/floor/plasteel/f13/vault_floor/misc/cmo,
+/area/f13/building)
 "fNi" = (
 /turf/open/indestructible/ground/outside/road{
 	icon_state = "verticalinnermain0"
@@ -51350,15 +51358,8 @@
 	},
 /area/f13/building)
 "iiJ" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/flora/tree/jungle{
-	color = "#d9b51c";
-	pixel_y = -4;
-	pixel_x = -22;
-	name = "Biters Refuge"
-	},
-/turf/open/floor/grass,
-/area/f13/wasteland/nash)
+/turf/open/floor/carpet/royalblue,
+/area/f13/building)
 "iiL" = (
 /obj/structure/window/fulltile/store{
 	icon_state = "housewindowbrokenvertical"
@@ -52032,10 +52033,16 @@
 	},
 /area/f13/wasteland)
 "ipd" = (
-/obj/structure/flora/ausbushes/brflowers,
-/obj/effect/spawner/lootdrop/grille_or_trash,
-/turf/open/floor/grass,
-/area/f13/wasteland/nash)
+/obj/structure/toilet{
+	dir = 1;
+	pixel_y = -1
+	},
+/obj/structure/toilet{
+	dir = 1;
+	pixel_y = -1
+	},
+/turf/open/floor/plasteel/f13/vault_floor/misc/cmo,
+/area/f13/building)
 "ipf" = (
 /obj/machinery/smartfridge/bottlerack/lootshelf/diy,
 /turf/open/floor/f13{
@@ -64509,10 +64516,13 @@
 	},
 /area/f13/wasteland/city)
 "leg" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/flora/wild_plant/flower/purple_two,
-/turf/open/floor/grass,
-/area/f13/wasteland/nash)
+/obj/structure/table/wood,
+/obj/item/paper_bin,
+/obj/item/pen,
+/turf/open/floor/wood_common{
+	color = "#779999"
+	},
+/area/f13/building)
 "lek" = (
 /mob/living/simple_animal/hostile/raider/ranged/biker{
 	desc = "A Junker raider, specialized in spitting out eyebots on the fly with any scrap they can find.";
@@ -71464,13 +71474,15 @@
 	},
 /area/f13/wasteland/city)
 "mCa" = (
-/obj/effect/turf_decal/weather/dirt{
-	color = "#a98c5d";
-	dir = 1
+/obj/structure/table/wood,
+/obj/machinery/computer/terminal{
+	dir = 1;
+	pixel_y = 4
 	},
-/obj/structure/flora/wild_plant/flower/purple_two,
-/turf/open/floor/grass,
-/area/f13/wasteland/nash)
+/turf/open/floor/wood_common{
+	color = "#779999"
+	},
+/area/f13/building)
 "mCo" = (
 /obj/effect/spawner/lootdrop/f13/common,
 /obj/effect/spawner/lootdrop/f13/common,
@@ -71485,10 +71497,11 @@
 /turf/open/floor/carpet/purple,
 /area/f13/ruins)
 "mCB" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/flora/chomp/shrub4,
-/turf/open/floor/grass,
-/area/f13/wasteland/nash)
+/obj/structure/sink{
+	pixel_y = 20
+	},
+/turf/open/floor/plasteel/f13/vault_floor/misc/cmo,
+/area/f13/building)
 "mCG" = (
 /obj/effect/decal/cleanable/vomit,
 /turf/open/floor/f13/wood,
@@ -73943,15 +73956,15 @@
 /turf/open/floor/grass,
 /area/f13/wasteland)
 "neN" = (
-/obj/structure/flora/ausbushes/ywflowers,
-/obj/structure/flora/tree/jungle{
-	color = "#d9b51c";
-	pixel_y = -4;
-	pixel_x = -22;
-	name = "Biters Refuge"
+/obj/machinery/door/unpowered/securedoor{
+	name = "Townhall";
+	req_access_txt = null;
+	req_one_access_txt = "62"
 	},
-/turf/open/floor/grass,
-/area/f13/wasteland/nash)
+/turf/open/floor/wood_common{
+	color = "#779999"
+	},
+/area/f13/building)
 "neO" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -100730,17 +100743,9 @@
 /turf/open/floor/grass,
 /area/f13/wasteland/nash)
 "sYn" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/turf_decal/weather/dirt{
-	color = "#a98c5d";
-	dir = 8
-	},
-/obj/structure/flora/tree/jungle/small{
-	color = "#d9b51c"
-	},
+/obj/structure/simple_door/repaired,
 /turf/open/floor/grass,
-/area/f13/wasteland/nash)
+/area/f13/building/trader)
 "sYs" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -128607,9 +128612,9 @@ sYk
 bzV
 dMA
 cqt
-eaZ
-bQW
-tsd
+cGa
+cGa
+cGa
 tHA
 imX
 xaz
@@ -128864,9 +128869,9 @@ eiJ
 dFe
 wHO
 wXa
-mCa
-bQW
-bQW
+cGa
+fNg
+cGa
 jNw
 bQW
 jNw
@@ -129121,9 +129126,9 @@ kkp
 jQC
 xtU
 dnZ
-bQW
-xaz
-jNw
+cGa
+ipd
+cGa
 bQW
 tsd
 bQW
@@ -129378,9 +129383,9 @@ kkp
 xaz
 wzP
 iVW
-wVt
-imX
-bQW
+cGa
+mCB
+cGa
 bQW
 koT
 bQW
@@ -129635,13 +129640,13 @@ nQm
 lqK
 jNw
 cxV
-tHA
-bQW
-xaz
-crp
-oxw
-oxw
-crp
+cGa
+bwZ
+cGa
+baZ
+cGa
+cGa
+cGa
 qTw
 cxc
 aYT
@@ -129892,13 +129897,13 @@ jbR
 bQW
 imX
 jNw
-fHl
-oxw
-oxw
-crp
-aZy
-bkT
-hHM
+cGa
+dVF
+rul
+twY
+cGa
+cDf
+cGa
 qTw
 cxc
 lGx
@@ -130149,13 +130154,13 @@ kkp
 bQW
 qzg
 bQW
-oxw
-tVO
-bkT
-bdK
-aZy
-bkT
-qlx
+cGa
+dVF
+leg
+mCa
+cGa
+neN
+cGa
 qTw
 tBD
 psq
@@ -130406,13 +130411,13 @@ kkp
 xaz
 eVe
 jNw
-fpQ
-hkC
-cwg
-nqp
-bkT
-bkT
-oxw
+cGa
+dVF
+iiJ
+iiJ
+iiJ
+dVF
+cGa
 qTw
 tBD
 tYN
@@ -130663,13 +130668,13 @@ kkp
 dJD
 xaz
 jNw
-fHl
-bdK
-bdK
-bdK
-erI
-bkT
-oxw
+cGa
+dVF
+iiJ
+iiJ
+iiJ
+dVF
+cGa
 qTw
 tBD
 psq
@@ -130920,13 +130925,13 @@ pjQ
 bQW
 xaz
 imX
-oxw
-tVO
-bkT
-nqp
-bkT
-bkT
-oxw
+cGa
+dVF
+iiJ
+iiJ
+iiJ
+dVF
+cGa
 qTw
 cxc
 ijv
@@ -131177,13 +131182,13 @@ kkp
 imX
 bQW
 tsd
-oxw
-hkC
-cwg
-bdK
-btL
-bkT
-qlx
+cGa
+baZ
+baZ
+ilV
+baZ
+baZ
+cGa
 qTw
 bxH
 tBD
@@ -131434,13 +131439,13 @@ kkp
 bQW
 bQW
 lrZ
-nnh
-oxw
-oxw
-oxw
-fHl
+bVH
 buu
-fHl
+buu
+dVF
+buu
+buu
+bVH
 vov
 cxc
 irg
@@ -131664,7 +131669,7 @@ hJd
 bcI
 dBX
 sUI
-eaZ
+kkp
 iVW
 rFp
 byt
@@ -136829,13 +136834,13 @@ nmQ
 gRc
 fYg
 bQW
-neN
+tHA
 bQW
-bQW
-bQW
-bQW
+xaz
+crp
+oxw
 sYn
-pAI
+crp
 vwy
 mzK
 mzK
@@ -137086,13 +137091,13 @@ awR
 maw
 qHb
 tsd
-bQW
-bQW
-yfx
-iVW
-koT
-iVW
-tgr
+fHl
+oxw
+oxw
+crp
+aZy
+bkT
+hHM
 bHY
 wRm
 jsW
@@ -137343,13 +137348,13 @@ dVF
 hlp
 hxA
 rFt
-bwZ
-iVW
-leg
-bQW
-oDs
-rFt
-jAF
+oxw
+tVO
+bkT
+bdK
+aZy
+bkT
+qlx
 rFt
 cHO
 pYL
@@ -137600,13 +137605,13 @@ dVF
 vhO
 hxA
 bQW
-iVW
-iVW
-bQW
-tsd
-bQW
-bQW
-oDs
+fpQ
+hkC
+cwg
+nqp
+bkT
+bkT
+oxw
 lQs
 svV
 jBP
@@ -137857,13 +137862,13 @@ dVF
 asQ
 hxf
 bQW
-tsd
-bQW
-bQW
-bQW
-imX
-dJD
-ipd
+fHl
+bdK
+bdK
+bdK
+erI
+bkT
+oxw
 bHD
 frN
 gwT
@@ -138114,13 +138119,13 @@ bXh
 bvZ
 hxA
 bQW
-koT
-aJP
-byt
-mCB
-cDf
-iVW
-wRM
+oxw
+tVO
+bkT
+nqp
+bkT
+bkT
+oxw
 sXd
 jUl
 aLl
@@ -138371,13 +138376,13 @@ xul
 tFd
 hxf
 imX
-bQW
-oDs
-yfx
-bQW
-wRM
-iVW
-fNg
+oxw
+hkC
+cwg
+bdK
+btL
+bkT
+qlx
 svV
 eLA
 jDq
@@ -138628,13 +138633,13 @@ mct
 rFt
 tsd
 bQW
-bQW
-bQW
-bQW
-bQW
-iVW
-iiJ
-fNg
+nnh
+oxw
+oxw
+oxw
+fHl
+oxw
+fHl
 qiS
 jDq
 jDq
