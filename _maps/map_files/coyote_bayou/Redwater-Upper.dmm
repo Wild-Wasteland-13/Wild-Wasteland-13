@@ -729,7 +729,11 @@
 /turf/open/floor/f13/wood,
 /area/f13/building/firetower)
 "ud" = (
-/turf/open/indestructible/ground/outside/dirt/harsh,
+/turf/open/indestructible/ground/outside/gravel{
+	color = "#B7ABAB";
+	footstep = "dirt";
+	name = "rocky dirt"
+	},
 /area/f13/building/firetower)
 "uk" = (
 /mob/living/simple_animal/hostile/raider/tribal,

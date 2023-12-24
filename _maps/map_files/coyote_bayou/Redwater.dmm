@@ -68,7 +68,11 @@
 /obj/structure/table,
 /obj/effect/spawner/lootdrop/f13/uncommon,
 /obj/effect/spawner/lootdrop/f13/uncommon,
-/turf/open/indestructible/ground/outside/dirt/harsh,
+/turf/open/indestructible/ground/outside/gravel{
+	color = "#B7ABAB";
+	footstep = "dirt";
+	name = "rocky dirt"
+	},
 /area/f13/building/abandoned)
 "acq" = (
 /obj/structure/closet/fridge,
@@ -2615,7 +2619,11 @@
 "aZQ" = (
 /obj/structure/table,
 /obj/machinery/processor/chopping_block,
-/turf/open/indestructible/ground/outside/desert,
+/turf/open/indestructible/ground/outside/gravel{
+	color = "#B7ABAB";
+	footstep = "dirt";
+	name = "rocky dirt"
+	},
 /area/f13/building)
 "aZU" = (
 /obj/effect/turf_decal/trimline/neutral/line{
@@ -3524,7 +3532,11 @@
 /area/f13/wasteland/redwater)
 "boA" = (
 /obj/effect/spawner/lootdrop/f13/common_tools,
-/turf/open/indestructible/ground/outside/desert,
+/turf/open/indestructible/ground/outside/gravel{
+	color = "#B7ABAB";
+	footstep = "dirt";
+	name = "rocky dirt"
+	},
 /area/f13/building)
 "boG" = (
 /obj/structure/flora/grass/wasteland,
@@ -6254,9 +6266,6 @@
 /obj/effect/decal/remains/human,
 /turf/open/floor/wood_common,
 /area/f13/building/abandoned)
-"cid" = (
-/turf/open/indestructible/ground/outside/dirt/harsh,
-/area/f13/wasteland/redwater)
 "cik" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt/dust,
@@ -6995,7 +7004,11 @@
 "csZ" = (
 /obj/structure/table,
 /obj/effect/spawner/lootdrop/f13/foodspawner,
-/turf/open/indestructible/ground/outside/desert,
+/turf/open/indestructible/ground/outside/gravel{
+	color = "#B7ABAB";
+	footstep = "dirt";
+	name = "rocky dirt"
+	},
 /area/f13/building)
 "ctf" = (
 /obj/structure/toilet{
@@ -8788,7 +8801,11 @@
 "cYQ" = (
 /obj/structure/bed/old,
 /obj/effect/validball_spawner,
-/turf/open/indestructible/ground/outside/desert,
+/turf/open/indestructible/ground/outside/gravel{
+	color = "#B7ABAB";
+	footstep = "dirt";
+	name = "rocky dirt"
+	},
 /area/f13/building)
 "cYX" = (
 /turf/closed/wall/f13/wood,
@@ -9436,9 +9453,10 @@
 /obj/effect/spawner/lootdrop/f13/common,
 /obj/effect/spawner/lootdrop/f13/uncommon,
 /obj/effect/spawner/lootdrop/f13/uncommon,
-/turf/open/indestructible/ground/outside/dirt/harsh{
-	dir = 1;
-	icon_state = "dirt"
+/turf/open/indestructible/ground/outside/gravel{
+	color = "#B7ABAB";
+	footstep = "dirt";
+	name = "rocky dirt"
 	},
 /area/f13/building/abandoned)
 "dll" = (
@@ -11560,10 +11578,6 @@
 	},
 /turf/open/floor/wood_common,
 /area/f13/building)
-"dYh" = (
-/obj/structure/simple_door/room,
-/turf/closed/wall/f13/wood/house,
-/area/f13/building)
 "dYl" = (
 /obj/structure/flora/grass/wasteland{
 	icon_state = "tall_grass_4"
@@ -11673,7 +11687,11 @@
 "dZm" = (
 /obj/structure/closet/crate/wicker,
 /obj/item/reagent_containers/glass/beaker/waterbottle/wataur,
-/turf/open/indestructible/ground/outside/desert,
+/turf/open/indestructible/ground/outside/gravel{
+	color = "#B7ABAB";
+	footstep = "dirt";
+	name = "rocky dirt"
+	},
 /area/f13/building/abandoned)
 "dZu" = (
 /obj/effect/decal/cleanable/dirt,
@@ -12641,7 +12659,11 @@
 /area/f13/wasteland/redwater)
 "ere" = (
 /obj/item/seeds/cannabis,
-/turf/open/indestructible/ground/outside/desert,
+/turf/open/indestructible/ground/outside/gravel{
+	color = "#B7ABAB";
+	footstep = "dirt";
+	name = "rocky dirt"
+	},
 /area/f13/building)
 "erj" = (
 /obj/structure/table/reinforced,
@@ -13026,7 +13048,11 @@
 	pixel_y = 10
 	},
 /obj/item/clothing/mask/cigarette/rollie,
-/turf/open/indestructible/ground/outside/dirt/harsh,
+/turf/open/indestructible/ground/outside/gravel{
+	color = "#B7ABAB";
+	footstep = "dirt";
+	name = "rocky dirt"
+	},
 /area/f13/building/abandoned)
 "ezm" = (
 /obj/effect/decal/cleanable/dirt/dust,
@@ -14546,7 +14572,11 @@
 /obj/structure/chair/wood{
 	dir = 8
 	},
-/turf/open/indestructible/ground/outside/desert,
+/turf/open/indestructible/ground/outside/gravel{
+	color = "#B7ABAB";
+	footstep = "dirt";
+	name = "rocky dirt"
+	},
 /area/f13/building/abandoned)
 "eYh" = (
 /obj/structure/rack,
@@ -16986,7 +17016,11 @@
 /area/f13/building/tribal)
 "fTH" = (
 /obj/structure/junk/small/tv,
-/turf/open/indestructible/ground/outside/desert,
+/turf/open/indestructible/ground/outside/gravel{
+	color = "#B7ABAB";
+	footstep = "dirt";
+	name = "rocky dirt"
+	},
 /area/f13/building/abandoned)
 "fTJ" = (
 /obj/structure/rack,
@@ -20437,7 +20471,11 @@
 /obj/item/storage/belt/utility/gardener,
 /obj/effect/spawner/lootdrop/f13/uncommon,
 /obj/effect/spawner/lootdrop/f13/uncommon,
-/turf/open/indestructible/ground/outside/desert,
+/turf/open/indestructible/ground/outside/gravel{
+	color = "#B7ABAB";
+	footstep = "dirt";
+	name = "rocky dirt"
+	},
 /area/f13/building)
 "hcK" = (
 /obj/structure/flora/grass/coyote/nine,
@@ -21998,7 +22036,11 @@
 /obj/item/reagent_containers/glass/bottle/nutrient/ez,
 /obj/item/reagent_containers/glass/bottle/nutrient/l4z,
 /obj/item/reagent_containers/glass/bottle/nutrient/l4z,
-/turf/open/indestructible/ground/outside/desert,
+/turf/open/indestructible/ground/outside/gravel{
+	color = "#B7ABAB";
+	footstep = "dirt";
+	name = "rocky dirt"
+	},
 /area/f13/building)
 "hEr" = (
 /obj/structure/flora/grass/wasteland{
@@ -22745,7 +22787,11 @@
 /area/f13/building)
 "hTM" = (
 /obj/item/shovel/spade,
-/turf/open/indestructible/ground/outside/desert,
+/turf/open/indestructible/ground/outside/gravel{
+	color = "#B7ABAB";
+	footstep = "dirt";
+	name = "rocky dirt"
+	},
 /area/f13/building)
 "hTN" = (
 /obj/effect/decal/cleanable/dirt{
@@ -23247,7 +23293,11 @@
 /area/f13/wasteland/redwater)
 "ibd" = (
 /obj/machinery/power/floodlight,
-/turf/open/indestructible/ground/outside/desert,
+/turf/open/indestructible/ground/outside/gravel{
+	color = "#B7ABAB";
+	footstep = "dirt";
+	name = "rocky dirt"
+	},
 /area/f13/building)
 "ibl" = (
 /obj/structure/closet/crate/large,
@@ -24213,7 +24263,11 @@
 /area/f13/wasteland/redwater)
 "isg" = (
 /obj/structure/junk/machinery,
-/turf/open/indestructible/ground/outside/desert,
+/turf/open/indestructible/ground/outside/gravel{
+	color = "#B7ABAB";
+	footstep = "dirt";
+	name = "rocky dirt"
+	},
 /area/f13/building)
 "isq" = (
 /obj/structure/flora/grass/wasteland{
@@ -24346,9 +24400,10 @@
 "iuN" = (
 /obj/structure/table/wood,
 /obj/item/flashlight/lantern,
-/turf/open/indestructible/ground/outside/dirt/harsh{
-	dir = 1;
-	icon_state = "dirt"
+/turf/open/indestructible/ground/outside/gravel{
+	color = "#B7ABAB";
+	footstep = "dirt";
+	name = "rocky dirt"
 	},
 /area/f13/building/abandoned)
 "iuP" = (
@@ -24417,8 +24472,8 @@
 /obj/structure/flora/tree/jungle/small{
 	color = "#d9b51c"
 	},
-/turf/open/floor/grass,
-/area/f13/wasteland)
+/turf/closed/wall/f13/wood/house,
+/area/f13/building)
 "ivV" = (
 /obj/effect/turf_decal/weather/dirt{
 	dir = 1
@@ -26088,7 +26143,11 @@
 /area/f13/wasteland/redwater)
 "iVY" = (
 /mob/living/simple_animal/hostile/handy,
-/turf/open/indestructible/ground/outside/desert,
+/turf/open/indestructible/ground/outside/gravel{
+	color = "#B7ABAB";
+	footstep = "dirt";
+	name = "rocky dirt"
+	},
 /area/f13/building)
 "iWh" = (
 /obj/structure/flora/ausbushes/fullgrass,
@@ -28627,7 +28686,11 @@
 /area/f13/wasteland/town)
 "jQI" = (
 /obj/item/reagent_containers/glass/bucket,
-/turf/open/indestructible/ground/outside/desert,
+/turf/open/indestructible/ground/outside/gravel{
+	color = "#B7ABAB";
+	footstep = "dirt";
+	name = "rocky dirt"
+	},
 /area/f13/building)
 "jQM" = (
 /obj/structure/fence{
@@ -29001,7 +29064,11 @@
 /area/f13/building/tribal)
 "jYT" = (
 /obj/effect/decal/remains/human,
-/turf/open/indestructible/ground/outside/desert,
+/turf/open/indestructible/ground/outside/gravel{
+	color = "#B7ABAB";
+	footstep = "dirt";
+	name = "rocky dirt"
+	},
 /area/f13/building)
 "jZb" = (
 /obj/effect/decal/cleanable/dirt,
@@ -30384,7 +30451,11 @@
 /area/f13/wasteland/town)
 "kAs" = (
 /obj/effect/spawner/lootdrop/f13/common_guns,
-/turf/open/indestructible/ground/outside/desert,
+/turf/open/indestructible/ground/outside/gravel{
+	color = "#B7ABAB";
+	footstep = "dirt";
+	name = "rocky dirt"
+	},
 /area/f13/building)
 "kAD" = (
 /obj/structure/table/reinforced,
@@ -30790,8 +30861,12 @@
 	},
 /area/f13/wasteland/redwater)
 "kJo" = (
-/obj/structure/simple_door/room,
-/turf/open/floor/wood_fancy/wood_fancy_dark,
+/obj/structure/simple_door/tent,
+/turf/open/indestructible/ground/outside/gravel{
+	color = "#B7ABAB";
+	footstep = "dirt";
+	name = "rocky dirt"
+	},
 /area/f13/building)
 "kJp" = (
 /obj/structure/fence{
@@ -31078,7 +31153,11 @@
 "kNW" = (
 /obj/structure/bed/wooden,
 /obj/item/bedsheet/black,
-/turf/open/indestructible/ground/outside/desert,
+/turf/open/indestructible/ground/outside/gravel{
+	color = "#B7ABAB";
+	footstep = "dirt";
+	name = "rocky dirt"
+	},
 /area/f13/building/abandoned)
 "kNZ" = (
 /obj/structure/ore_box,
@@ -31852,7 +31931,11 @@
 /area/f13/wasteland/redwater)
 "laA" = (
 /obj/structure/floodlight_frame,
-/turf/open/indestructible/ground/outside/desert,
+/turf/open/indestructible/ground/outside/gravel{
+	color = "#B7ABAB";
+	footstep = "dirt";
+	name = "rocky dirt"
+	},
 /area/f13/building)
 "laI" = (
 /obj/effect/turf_decal/weather/dirt{
@@ -31950,7 +32033,11 @@
 /area/f13/building)
 "lcH" = (
 /obj/item/cultivator,
-/turf/open/indestructible/ground/outside/desert,
+/turf/open/indestructible/ground/outside/gravel{
+	color = "#B7ABAB";
+	footstep = "dirt";
+	name = "rocky dirt"
+	},
 /area/f13/building)
 "lcJ" = (
 /obj/effect/spawner/lootdrop/f13/uncommon_drugs,
@@ -35456,7 +35543,11 @@
 /obj/item/stack/sheet/leather/five,
 /obj/item/stack/sheet/metal/ten,
 /obj/effect/spawner/lootdrop/f13/uncommon,
-/turf/open/indestructible/ground/outside/desert,
+/turf/open/indestructible/ground/outside/gravel{
+	color = "#B7ABAB";
+	footstep = "dirt";
+	name = "rocky dirt"
+	},
 /area/f13/building)
 "mma" = (
 /turf/open/indestructible/ground/outside/sidewalk{
@@ -36689,9 +36780,6 @@
 	},
 /turf/open/indestructible/ground/outside/sidewalk,
 /area/f13/wasteland/redwater)
-"mIf" = (
-/turf/open/indestructible/ground/outside/desert,
-/area/f13/building/abandoned)
 "mIg" = (
 /obj/item/clothing/under/f13/police,
 /obj/item/clothing/head/f13/police,
@@ -41619,7 +41707,11 @@
 /obj/machinery/computer/terminal{
 	dir = 4
 	},
-/turf/open/indestructible/ground/outside/desert,
+/turf/open/indestructible/ground/outside/gravel{
+	color = "#B7ABAB";
+	footstep = "dirt";
+	name = "rocky dirt"
+	},
 /area/f13/building/abandoned)
 "ozd" = (
 /obj/effect/decal/cleanable/dirt,
@@ -41752,9 +41844,6 @@
 	icon_state = "floorrustysolid"
 	},
 /area/f13/building)
-"oBC" = (
-/turf/closed/wall/f13/wood/house,
-/area/f13/wasteland)
 "oBJ" = (
 /obj/structure/flora/grass/jungle,
 /obj/effect/decal/cleanable/dirt,
@@ -41862,7 +41951,11 @@
 "oDl" = (
 /obj/machinery/hydroponics/constructable,
 /obj/item/seeds/cannabis,
-/turf/open/indestructible/ground/outside/desert,
+/turf/open/indestructible/ground/outside/gravel{
+	color = "#B7ABAB";
+	footstep = "dirt";
+	name = "rocky dirt"
+	},
 /area/f13/building)
 "oDp" = (
 /obj/structure/chair/folding,
@@ -42033,7 +42126,11 @@
 "oGh" = (
 /obj/structure/table/rolling,
 /obj/structure/bedsheetbin/empty,
-/turf/open/indestructible/ground/outside/desert,
+/turf/open/indestructible/ground/outside/gravel{
+	color = "#B7ABAB";
+	footstep = "dirt";
+	name = "rocky dirt"
+	},
 /area/f13/building)
 "oGj" = (
 /obj/structure/nest/randomized{
@@ -44421,7 +44518,11 @@
 /obj/effect/spawner/lootdrop/f13/seedspawner,
 /obj/effect/spawner/lootdrop/f13/seedspawner,
 /obj/item/card/lowbounty,
-/turf/open/indestructible/ground/outside/desert,
+/turf/open/indestructible/ground/outside/gravel{
+	color = "#B7ABAB";
+	footstep = "dirt";
+	name = "rocky dirt"
+	},
 /area/f13/building)
 "pAf" = (
 /obj/effect/decal/cleanable/dirt,
@@ -44689,7 +44790,11 @@
 /area/f13/wasteland/redwater)
 "pFn" = (
 /obj/structure/flora/grass/wasteland,
-/turf/open/indestructible/ground/outside/dirt/harsh,
+/turf/open/indestructible/ground/outside/gravel{
+	color = "#B7ABAB";
+	footstep = "dirt";
+	name = "rocky dirt"
+	},
 /area/f13/building/abandoned)
 "pFu" = (
 /obj/effect/turf_decal/weather/dirt{
@@ -46175,9 +46280,10 @@
 /obj/item/radio/tribal{
 	pixel_y = 6
 	},
-/turf/open/indestructible/ground/outside/dirt/harsh{
-	dir = 1;
-	icon_state = "dirt"
+/turf/open/indestructible/ground/outside/gravel{
+	color = "#B7ABAB";
+	footstep = "dirt";
+	name = "rocky dirt"
 	},
 /area/f13/building/abandoned)
 "qhB" = (
@@ -47451,7 +47557,11 @@
 	},
 /area/f13/building/tribal/cave)
 "qFy" = (
-/turf/open/indestructible/ground/outside/dirt/harsh,
+/turf/open/indestructible/ground/outside/gravel{
+	color = "#B7ABAB";
+	footstep = "dirt";
+	name = "rocky dirt"
+	},
 /area/f13/building/abandoned)
 "qFA" = (
 /obj/structure/reagent_dispensers/barrel/two,
@@ -47986,7 +48096,11 @@
 /area/f13/building/tribal/cave)
 "qOx" = (
 /obj/structure/destructible/tribal_torch,
-/turf/open/indestructible/ground/outside/desert,
+/turf/open/indestructible/ground/outside/gravel{
+	color = "#B7ABAB";
+	footstep = "dirt";
+	name = "rocky dirt"
+	},
 /area/f13/building)
 "qOC" = (
 /obj/effect/decal/cleanable/dirt,
@@ -53399,7 +53513,11 @@
 /obj/item/seeds/bamboo,
 /obj/effect/spawner/lootdrop/f13/uncommon,
 /obj/effect/spawner/lootdrop/f13/uncommon,
-/turf/open/indestructible/ground/outside/desert,
+/turf/open/indestructible/ground/outside/gravel{
+	color = "#B7ABAB";
+	footstep = "dirt";
+	name = "rocky dirt"
+	},
 /area/f13/building/abandoned)
 "sAj" = (
 /obj/effect/decal/cleanable/dirt/dust,
@@ -53537,7 +53655,11 @@
 "sDx" = (
 /obj/structure/table,
 /obj/machinery/reagentgrinder,
-/turf/open/indestructible/ground/outside/desert,
+/turf/open/indestructible/ground/outside/gravel{
+	color = "#B7ABAB";
+	footstep = "dirt";
+	name = "rocky dirt"
+	},
 /area/f13/building)
 "sDQ" = (
 /obj/effect/decal/remains/human,
@@ -53661,7 +53783,11 @@
 /area/f13/wasteland/redwater)
 "sFw" = (
 /obj/machinery/microwave/stove,
-/turf/open/indestructible/ground/outside/desert,
+/turf/open/indestructible/ground/outside/gravel{
+	color = "#B7ABAB";
+	footstep = "dirt";
+	name = "rocky dirt"
+	},
 /area/f13/building)
 "sFA" = (
 /obj/effect/decal/cleanable/dirt,
@@ -54336,7 +54462,11 @@
 /area/f13/wasteland/redwater)
 "sRf" = (
 /obj/item/reagent_containers/glass/beaker/waterbottle/empty,
-/turf/open/indestructible/ground/outside/dirt/harsh,
+/turf/open/indestructible/ground/outside/gravel{
+	color = "#B7ABAB";
+	footstep = "dirt";
+	name = "rocky dirt"
+	},
 /area/f13/building/abandoned)
 "sRl" = (
 /obj/structure/flora/grass/wasteland{
@@ -54481,7 +54611,11 @@
 /area/f13/building)
 "sVu" = (
 /obj/effect/validball_spawner,
-/turf/open/indestructible/ground/outside/desert,
+/turf/open/indestructible/ground/outside/gravel{
+	color = "#B7ABAB";
+	footstep = "dirt";
+	name = "rocky dirt"
+	},
 /area/f13/building/abandoned)
 "sVv" = (
 /obj/effect/turf_decal/weather/dirt{
@@ -55792,7 +55926,11 @@
 "tuJ" = (
 /obj/structure/bed/wooden,
 /obj/item/bedsheet/brown,
-/turf/open/indestructible/ground/outside/desert,
+/turf/open/indestructible/ground/outside/gravel{
+	color = "#B7ABAB";
+	footstep = "dirt";
+	name = "rocky dirt"
+	},
 /area/f13/building/abandoned)
 "tuK" = (
 /obj/effect/decal/cleanable/dirt/dust,
@@ -57054,7 +57192,11 @@
 /area/f13/wasteland/town)
 "tSk" = (
 /obj/effect/spawner/lootdrop/f13/common,
-/turf/open/indestructible/ground/outside/desert,
+/turf/open/indestructible/ground/outside/gravel{
+	color = "#B7ABAB";
+	footstep = "dirt";
+	name = "rocky dirt"
+	},
 /area/f13/building)
 "tSm" = (
 /obj/effect/decal/cleanable/dirt,
@@ -58969,7 +59111,11 @@
 /area/f13/wasteland/redwater)
 "uzT" = (
 /obj/structure/destructible/tribal_torch,
-/turf/open/indestructible/ground/outside/desert,
+/turf/open/indestructible/ground/outside/gravel{
+	color = "#B7ABAB";
+	footstep = "dirt";
+	name = "rocky dirt"
+	},
 /area/f13/building/abandoned)
 "uzZ" = (
 /obj/structure/spacevine{
@@ -59085,7 +59231,11 @@
 /obj/effect/spawner/lootdrop/f13/common_mats,
 /obj/effect/spawner/lootdrop/f13/common_mats,
 /obj/effect/spawner/lootdrop/f13/common_mats,
-/turf/open/indestructible/ground/outside/desert,
+/turf/open/indestructible/ground/outside/gravel{
+	color = "#B7ABAB";
+	footstep = "dirt";
+	name = "rocky dirt"
+	},
 /area/f13/building)
 "uBR" = (
 /obj/effect/decal/cleanable/dirt/dust,
@@ -59190,7 +59340,11 @@
 /area/f13/building)
 "uDx" = (
 /obj/machinery/smartfridge/bottlerack/gardentool/primitive,
-/turf/open/indestructible/ground/outside/desert,
+/turf/open/indestructible/ground/outside/gravel{
+	color = "#B7ABAB";
+	footstep = "dirt";
+	name = "rocky dirt"
+	},
 /area/f13/building)
 "uDE" = (
 /obj/effect/turf_decal/weather/dirt,
@@ -59857,7 +60011,11 @@
 /obj/structure/chair/wood{
 	dir = 4
 	},
-/turf/open/indestructible/ground/outside/desert,
+/turf/open/indestructible/ground/outside/gravel{
+	color = "#B7ABAB";
+	footstep = "dirt";
+	name = "rocky dirt"
+	},
 /area/f13/building/abandoned)
 "uQk" = (
 /obj/effect/decal/cleanable/dirt,
@@ -60535,7 +60693,11 @@
 "vby" = (
 /obj/machinery/workbench/mbench,
 /obj/item/crafting/duct_tape,
-/turf/open/indestructible/ground/outside/desert,
+/turf/open/indestructible/ground/outside/gravel{
+	color = "#B7ABAB";
+	footstep = "dirt";
+	name = "rocky dirt"
+	},
 /area/f13/building)
 "vbL" = (
 /obj/effect/decal/cleanable/dirt,
@@ -60945,7 +61107,11 @@
 /obj/structure/rack,
 /obj/effect/spawner/lootdrop/f13/common,
 /obj/effect/spawner/lootdrop/f13/uncommon,
-/turf/open/indestructible/ground/outside/desert,
+/turf/open/indestructible/ground/outside/gravel{
+	color = "#B7ABAB";
+	footstep = "dirt";
+	name = "rocky dirt"
+	},
 /area/f13/building)
 "vkc" = (
 /obj/structure/simple_door/glass,
@@ -60987,7 +61153,11 @@
 /area/f13/building/tribal)
 "vkR" = (
 /obj/item/reagent_containers/glass/bottle/nutrient/empty,
-/turf/open/indestructible/ground/outside/desert,
+/turf/open/indestructible/ground/outside/gravel{
+	color = "#B7ABAB";
+	footstep = "dirt";
+	name = "rocky dirt"
+	},
 /area/f13/building)
 "vla" = (
 /obj/structure/flora/grass/wasteland{
@@ -61079,7 +61249,11 @@
 /area/f13/building)
 "vmP" = (
 /obj/item/reagent_containers/glass/bucket/plastic,
-/turf/open/indestructible/ground/outside/desert,
+/turf/open/indestructible/ground/outside/gravel{
+	color = "#B7ABAB";
+	footstep = "dirt";
+	name = "rocky dirt"
+	},
 /area/f13/building)
 "vmR" = (
 /obj/structure/barricade/wooden,
@@ -61531,10 +61705,6 @@
 	},
 /turf/open/indestructible/ground/outside/desert,
 /area/f13/wasteland/redwater)
-"vvB" = (
-/obj/structure/tires/five,
-/turf/open/floor/grass,
-/area/f13/wasteland)
 "vvY" = (
 /obj/structure/flora/ausbushes/fernybush,
 /obj/effect/turf_decal/weather/dirt{
@@ -61792,7 +61962,11 @@
 /area/f13/wasteland/redwater)
 "vzv" = (
 /obj/machinery/hydroponics/constructable,
-/turf/open/indestructible/ground/outside/desert,
+/turf/open/indestructible/ground/outside/gravel{
+	color = "#B7ABAB";
+	footstep = "dirt";
+	name = "rocky dirt"
+	},
 /area/f13/building)
 "vzA" = (
 /obj/effect/decal/cleanable/dirt/dust,
@@ -62179,7 +62353,11 @@
 /area/f13/building)
 "vGf" = (
 /obj/effect/spawner/lootdrop/f13/common,
-/turf/open/indestructible/ground/outside/desert,
+/turf/open/indestructible/ground/outside/gravel{
+	color = "#B7ABAB";
+	footstep = "dirt";
+	name = "rocky dirt"
+	},
 /area/f13/building/abandoned)
 "vGo" = (
 /obj/effect/decal/cleanable/dirt,
@@ -63261,7 +63439,11 @@
 /obj/effect/spawner/lootdrop/f13/foodspawner,
 /obj/effect/spawner/lootdrop/f13/uncommon,
 /obj/effect/spawner/lootdrop/f13/uncommon,
-/turf/open/indestructible/ground/outside/desert,
+/turf/open/indestructible/ground/outside/gravel{
+	color = "#B7ABAB";
+	footstep = "dirt";
+	name = "rocky dirt"
+	},
 /area/f13/building)
 "vZz" = (
 /obj/effect/decal/remains/human,
@@ -63480,7 +63662,11 @@
 /area/f13/building/tribal)
 "wem" = (
 /obj/item/reagent_containers/glass/bottle/nutrient/rh,
-/turf/open/indestructible/ground/outside/desert,
+/turf/open/indestructible/ground/outside/gravel{
+	color = "#B7ABAB";
+	footstep = "dirt";
+	name = "rocky dirt"
+	},
 /area/f13/building)
 "weC" = (
 /obj/structure/barricade/tentclothedge{
@@ -65442,7 +65628,11 @@
 /obj/item/reagent_containers/glass/beaker/waterbottle,
 /obj/item/reagent_containers/glass/beaker/waterbottle,
 /obj/item/reagent_containers/glass/beaker/waterbottle,
-/turf/open/indestructible/ground/outside/dirt/harsh,
+/turf/open/indestructible/ground/outside/gravel{
+	color = "#B7ABAB";
+	footstep = "dirt";
+	name = "rocky dirt"
+	},
 /area/f13/building/abandoned)
 "wMz" = (
 /obj/structure/window/fulltile/house{
@@ -66279,7 +66469,11 @@
 /area/f13/wasteland/redwater)
 "xde" = (
 /mob/living/simple_animal/hostile/cazador,
-/turf/open/indestructible/ground/outside/desert,
+/turf/open/indestructible/ground/outside/gravel{
+	color = "#B7ABAB";
+	footstep = "dirt";
+	name = "rocky dirt"
+	},
 /area/f13/building/abandoned)
 "xdi" = (
 /obj/effect/decal/marking{
@@ -66809,7 +67003,11 @@
 /area/f13/wasteland/redwater)
 "xmv" = (
 /obj/structure/table,
-/turf/open/indestructible/ground/outside/desert,
+/turf/open/indestructible/ground/outside/gravel{
+	color = "#B7ABAB";
+	footstep = "dirt";
+	name = "rocky dirt"
+	},
 /area/f13/building/abandoned)
 "xmZ" = (
 /obj/effect/decal/cleanable/blood/gibs/down{
@@ -68061,7 +68259,11 @@
 /area/f13/building)
 "xIg" = (
 /obj/structure/chair/bench,
-/turf/open/indestructible/ground/outside/dirt/harsh,
+/turf/open/indestructible/ground/outside/gravel{
+	color = "#B7ABAB";
+	footstep = "dirt";
+	name = "rocky dirt"
+	},
 /area/f13/building/abandoned)
 "xIi" = (
 /turf/open/floor/wood_fancy/wood_fancy_dark,
@@ -69305,7 +69507,11 @@
 /area/f13/building)
 "ygw" = (
 /obj/structure/reagent_dispensers/watertank,
-/turf/open/indestructible/ground/outside/desert,
+/turf/open/indestructible/ground/outside/gravel{
+	color = "#B7ABAB";
+	footstep = "dirt";
+	name = "rocky dirt"
+	},
 /area/f13/building)
 "ygN" = (
 /obj/structure/closet/crate/grave,
@@ -85428,7 +85634,7 @@ eQn
 mbB
 xuE
 qyn
-mFf
+jXx
 sui
 bHQ
 bHQ
@@ -88489,7 +88695,7 @@ aXu
 tsj
 uBI
 tSk
-mKr
+oBu
 vZx
 sFw
 sDx
@@ -88745,8 +88951,8 @@ aXu
 dPt
 tsj
 mlS
-mKr
-mKr
+oBu
+oBu
 kAs
 tSk
 csZ
@@ -88769,7 +88975,7 @@ aXu
 gVT
 flv
 flv
-dYh
+vUq
 rho
 rho
 lkz
@@ -89002,10 +89208,10 @@ qSZ
 aXu
 tsj
 vby
-mKr
+oBu
 boA
 qOx
-mKr
+oBu
 aZQ
 tsj
 rzm
@@ -89543,7 +89749,7 @@ flv
 jXx
 rho
 rho
-kJo
+rho
 rho
 rho
 jXx
@@ -89801,8 +90007,8 @@ bSp
 rXv
 vnP
 jXi
-oBC
-vvB
+jXx
+jXx
 ivR
 hLg
 hLg
@@ -90210,7 +90416,7 @@ oBP
 aXu
 gaB
 gaB
-flv
+sfW
 gaB
 aXu
 aXu
@@ -90538,8 +90744,8 @@ aXu
 aXu
 fZr
 uQh
-mIf
-mIf
+qFy
+qFy
 uzT
 fZr
 aXu
@@ -90726,7 +90932,7 @@ cZh
 cZh
 xjO
 xjO
-gaB
+sfW
 gzd
 gzd
 gaB
@@ -90734,7 +90940,7 @@ cZh
 cZh
 cZh
 dTH
-flv
+sfW
 aXu
 aXu
 wGp
@@ -90797,7 +91003,7 @@ fZr
 sAe
 xde
 vGf
-mIf
+qFy
 cTV
 flv
 flv
@@ -90983,10 +91189,10 @@ xjO
 cZh
 cZh
 cZh
-flv
+sfW
 aXu
 aXu
-flv
+sfW
 xjO
 cZh
 cZh
@@ -91052,7 +91258,7 @@ aXu
 aXu
 fZr
 eYd
-mIf
+qFy
 vGf
 fTH
 fZr
@@ -91309,7 +91515,7 @@ aXu
 aXu
 fZr
 kNW
-mIf
+qFy
 sVu
 dZm
 fZr
@@ -91494,7 +91700,7 @@ aXu
 aXu
 aXu
 gaB
-flv
+sfW
 gaB
 gaB
 aXu
@@ -91503,7 +91709,7 @@ aXu
 aXu
 gaB
 gaB
-flv
+sfW
 gaB
 aXu
 oaJ
@@ -92087,7 +92293,7 @@ tsj
 tsj
 tsj
 tsj
-ckt
+kJo
 tsj
 tsj
 tsj
@@ -92265,7 +92471,7 @@ oBP
 aXu
 aXu
 gaB
-flv
+sfW
 gaB
 gaB
 aXu
@@ -92274,7 +92480,7 @@ aXu
 aXu
 gaB
 gaB
-cid
+sfW
 gaB
 aXu
 aXu
@@ -92339,12 +92545,12 @@ kuw
 aXu
 tsj
 ygw
-mKr
+oBu
 hcE
 vjV
 oGh
 qOx
-mKr
+oBu
 isg
 jQI
 uDx
@@ -92595,7 +92801,7 @@ sUi
 kuw
 aXu
 tsj
-mKr
+oBu
 vmP
 vkR
 ere
@@ -92603,7 +92809,7 @@ iVY
 jYT
 vkR
 hTM
-mKr
+oBu
 pzT
 tsj
 aXu
@@ -92782,10 +92988,10 @@ cZh
 cZh
 cZh
 cZh
-flv
+sfW
 aXu
 aXu
-cid
+sfW
 xjO
 cZh
 cZh
@@ -92856,9 +93062,9 @@ cYQ
 lcH
 vzv
 ibd
-mKr
+oBu
 oDl
-mKr
+oBu
 laA
 wem
 hEp
@@ -93558,7 +93764,7 @@ aXu
 aXu
 oaJ
 gaB
-cid
+sfW
 gaB
 gaB
 aXu

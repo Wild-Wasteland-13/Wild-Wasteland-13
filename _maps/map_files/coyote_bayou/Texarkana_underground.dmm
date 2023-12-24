@@ -9993,8 +9993,6 @@
 "eSc" = (
 /obj/structure/closet,
 /obj/effect/spawner/lootdrop/f13/rare_weps,
-/obj/effect/spawner/lootdrop/f13/rare_weps,
-/obj/effect/spawner/lootdrop/f13/rare_armor,
 /obj/effect/spawner/lootdrop/f13/rare_armor,
 /obj/machinery/light{
 	dir = 8;
@@ -11165,8 +11163,6 @@
 "fII" = (
 /obj/structure/closet,
 /obj/effect/spawner/lootdrop/f13/rare_weps,
-/obj/effect/spawner/lootdrop/f13/rare_weps,
-/obj/effect/spawner/lootdrop/f13/rare_armor,
 /obj/effect/spawner/lootdrop/f13/rare_armor,
 /turf/open/floor/plating/tunnel,
 /area/f13/building/massfusion)
