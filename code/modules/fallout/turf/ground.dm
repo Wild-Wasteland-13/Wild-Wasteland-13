@@ -248,9 +248,9 @@ GLOBAL_LIST_INIT(dirt_loots, list(
 /turf/open/indestructible/ground/outside/desert
 	name = "desert"
 	icon_state = "wasteland"
-	step_sounds = list("human" = "dirtfootsteps")
-	allowed_plants = list(/obj/item/seeds/poppy/broc, /obj/item/seeds/xander, /obj/item/seeds/mutfruit,
-	/obj/item/seeds/feracactus, /obj/item/seeds/corn,/obj/item/seeds/shroom, /obj/item/seeds/agave)
+//	step_sounds = list("human" = "dirtfootsteps")
+//	allowed_plants = list(/obj/item/seeds/poppy/broc, /obj/item/seeds/xander, /obj/item/seeds/mutfruit,
+//	/obj/item/seeds/feracactus, /obj/item/seeds/corn,/obj/item/seeds/shroom, /obj/item/seeds/agave)
 	slowdown = 0.4
 	flags_1 = CAN_HAVE_NATURE | ADJACENCIES_OVERLAY
 	footstep = FOOTSTEP_SAND
