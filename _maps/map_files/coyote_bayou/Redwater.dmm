@@ -24675,7 +24675,10 @@
 	name = "abductor";
 	icon_living = "zetan_soldier";
 	icon_state = "zetan_soldier";
-	icon_dead = "zetan_soldier_dead"
+	icon_dead = "zetan_soldier_dead";
+	faction = list("raider");
+	speak = list("");
+	speak_emote = list("")
 	},
 /turf/open/floor/mineral/abductor,
 /area/f13/wasteland/redwater)
@@ -70269,6 +70272,11 @@
 /obj/effect/spawner/lootdrop/f13/uncommon,
 /turf/open/indestructible/ground/outside/sidewalk,
 /area/f13/building/abandoned)
+"ylS" = (
+/obj/structure/flora/ausbushes/sparsegrass,
+/obj/structure/nest/mirelurk,
+/turf/open/indestructible/ground/inside/mountain,
+/area/f13/caves)
 "ymh" = (
 /turf/open/indestructible/ground/outside/road{
 	icon_state = "horizontalinnermain2"
@@ -113397,7 +113405,7 @@ tRd
 tRd
 tRd
 bCs
-dFA
+lOV
 tRd
 tRd
 tRd
@@ -114940,7 +114948,7 @@ tRd
 tRd
 bCs
 bCs
-dFA
+hgo
 hgo
 hgo
 hgo
@@ -115197,7 +115205,7 @@ tRd
 tRd
 pop
 bCs
-taB
+ylS
 tRd
 tRd
 hgo
