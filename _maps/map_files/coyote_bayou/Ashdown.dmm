@@ -18805,8 +18805,6 @@
 "isk" = (
 /obj/structure/closet,
 /obj/effect/spawner/lootdrop/f13/rare_weps,
-/obj/effect/spawner/lootdrop/f13/rare_weps,
-/obj/effect/spawner/lootdrop/f13/rare_armor,
 /obj/effect/spawner/lootdrop/f13/rare_armor,
 /obj/structure/lattice/catwalk,
 /turf/open/water,
@@ -23501,8 +23499,6 @@
 "krS" = (
 /obj/structure/closet,
 /obj/effect/spawner/lootdrop/f13/rare_weps,
-/obj/effect/spawner/lootdrop/f13/rare_weps,
-/obj/effect/spawner/lootdrop/f13/rare_armor,
 /obj/effect/spawner/lootdrop/f13/rare_armor,
 /turf/open/indestructible/ground/inside/dirt,
 /area/f13/caves)
@@ -24443,8 +24439,6 @@
 "kMc" = (
 /obj/structure/closet,
 /obj/effect/spawner/lootdrop/f13/rare_weps,
-/obj/effect/spawner/lootdrop/f13/rare_weps,
-/obj/effect/spawner/lootdrop/f13/rare_armor,
 /obj/effect/spawner/lootdrop/f13/rare_armor,
 /turf/open/floor/plating/rust,
 /area/f13/building)
@@ -27509,8 +27503,6 @@
 "mje" = (
 /obj/structure/closet,
 /obj/effect/spawner/lootdrop/f13/rare_weps,
-/obj/effect/spawner/lootdrop/f13/rare_weps,
-/obj/effect/spawner/lootdrop/f13/rare_armor,
 /obj/effect/spawner/lootdrop/f13/rare_armor,
 /turf/open/floor/f13{
 	icon_state = "floorrusty"
@@ -29717,8 +29709,6 @@
 "nkg" = (
 /obj/structure/closet,
 /obj/effect/spawner/lootdrop/f13/rare_weps,
-/obj/effect/spawner/lootdrop/f13/rare_weps,
-/obj/effect/spawner/lootdrop/f13/rare_armor,
 /obj/effect/spawner/lootdrop/f13/rare_armor,
 /turf/open/floor/f13/wood,
 /area/f13/building/abandoned)
@@ -32410,8 +32400,6 @@
 "oxo" = (
 /obj/structure/closet,
 /obj/effect/spawner/lootdrop/f13/rare_weps,
-/obj/effect/spawner/lootdrop/f13/rare_weps,
-/obj/effect/spawner/lootdrop/f13/rare_armor,
 /obj/effect/spawner/lootdrop/f13/rare_armor,
 /obj/effect/decal/cleanable/dirt{
 	color = "#363636"
@@ -38609,8 +38597,6 @@
 "rqj" = (
 /obj/structure/closet,
 /obj/effect/spawner/lootdrop/f13/rare_weps,
-/obj/effect/spawner/lootdrop/f13/rare_weps,
-/obj/effect/spawner/lootdrop/f13/rare_armor,
 /obj/effect/spawner/lootdrop/f13/rare_armor,
 /turf/open/floor/carpet,
 /area/f13/building)
@@ -48903,16 +48889,12 @@
 "vXs" = (
 /obj/structure/closet,
 /obj/effect/spawner/lootdrop/f13/rare_weps,
-/obj/effect/spawner/lootdrop/f13/rare_weps,
-/obj/effect/spawner/lootdrop/f13/rare_armor,
 /obj/effect/spawner/lootdrop/f13/rare_armor,
 /turf/open/indestructible/ground/outside/desert,
 /area/f13/wasteland)
 "vXz" = (
 /obj/structure/closet,
 /obj/effect/spawner/lootdrop/f13/rare_weps,
-/obj/effect/spawner/lootdrop/f13/rare_weps,
-/obj/effect/spawner/lootdrop/f13/rare_armor,
 /obj/effect/spawner/lootdrop/f13/rare_armor,
 /turf/open/floor/plasteel/dark,
 /area/f13/building/abandoned)
@@ -52273,8 +52255,6 @@
 "xDb" = (
 /obj/structure/closet,
 /obj/effect/spawner/lootdrop/f13/rare_weps,
-/obj/effect/spawner/lootdrop/f13/rare_weps,
-/obj/effect/spawner/lootdrop/f13/rare_armor,
 /obj/effect/spawner/lootdrop/f13/rare_armor,
 /turf/open/floor/f13{
 	color = "#ffe9de";
@@ -63436,7 +63416,7 @@ uSf
 osb
 oxo
 oxo
-oxo
+osb
 uAp
 qGB
 uSf

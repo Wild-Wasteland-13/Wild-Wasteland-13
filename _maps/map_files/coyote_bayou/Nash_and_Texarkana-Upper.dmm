@@ -22259,14 +22259,6 @@
 /obj/effect/spawner/lootdrop/f13/trash,
 /turf/open/floor/plasteel/f13/vault_floor/neutral/neutralchess,
 /area/f13/building/hospital/clinic/nash)
-"qRD" = (
-/obj/structure/closet,
-/obj/effect/spawner/lootdrop/f13/rare_weps,
-/obj/effect/spawner/lootdrop/f13/rare_weps,
-/obj/effect/spawner/lootdrop/f13/rare_armor,
-/obj/effect/spawner/lootdrop/f13/rare_armor,
-/turf/open/indestructible/ground/outside/roof,
-/area/f13/building/massfusion)
 "qRG" = (
 /obj/effect/decal/waste{
 	icon_state = "goo12"
@@ -24667,8 +24659,6 @@
 "sER" = (
 /obj/structure/closet,
 /obj/effect/spawner/lootdrop/f13/rare_weps,
-/obj/effect/spawner/lootdrop/f13/rare_weps,
-/obj/effect/spawner/lootdrop/f13/rare_armor,
 /obj/effect/spawner/lootdrop/f13/rare_armor,
 /obj/effect/spawner/lootdrop/f13/rare,
 /obj/effect/spawner/lootdrop/f13/rare,
@@ -79190,7 +79180,7 @@ oDo
 beC
 lXn
 bFw
-qRD
+wbm
 qPu
 oDo
 rJd
