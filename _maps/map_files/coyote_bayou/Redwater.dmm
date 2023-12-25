@@ -24686,6 +24686,16 @@
 	},
 /turf/open/indestructible/ground/outside/water/running,
 /area/f13/wasteland/redwater)
+"iwd" = (
+/mob/living/simple_animal/hostile/enclave/scientist{
+	desc = "Some kind of alien.";
+	name = "abductor";
+	icon_living = "zetan_soldier";
+	icon_state = "zetan_soldier";
+	icon_dead = "zetan_soldier_dead"
+	},
+/turf/open/floor/mineral/abductor,
+/area/f13/wasteland/redwater)
 "iwh" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -125683,7 +125693,7 @@ ubO
 hIL
 ubO
 ubO
-ogF
+iwd
 ubO
 ogF
 ogF
