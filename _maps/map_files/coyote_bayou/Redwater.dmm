@@ -17519,7 +17519,7 @@
 /obj/effect/decal/cleanable/blood/gibs/down{
 	icon_state = "gib3-old"
 	},
-/turf/open/floor/grass,
+/turf/open/floor/plating/dirt,
 /area/f13/building)
 "fZH" = (
 /obj/structure/simple_door/metal/store,
@@ -37160,13 +37160,6 @@
 	},
 /turf/open/indestructible/ground/outside/sidewalk,
 /area/f13/wasteland/redwater)
-"mKp" = (
-/obj/machinery/hydroponics/soil{
-	color = "#9c9c9c";
-	pixel_y = 10
-	},
-/turf/open/floor/grass,
-/area/f13/building)
 "mKr" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/indestructible/ground/outside/graveldirt,
@@ -66727,7 +66720,7 @@
 /obj/effect/decal/cleanable/blood/gibs/down{
 	icon_state = "gib3-old"
 	},
-/turf/open/floor/grass,
+/turf/open/floor/plating/dirt,
 /area/f13/building)
 "wZo" = (
 /obj/machinery/shower{
@@ -69310,7 +69303,7 @@
 	color = "#9c9c9c";
 	pixel_y = 10
 	},
-/turf/open/floor/grass,
+/turf/open/floor/plating/dirt,
 /area/f13/building)
 "xUo" = (
 /obj/structure/fence,
@@ -127423,8 +127416,8 @@ dUt
 wZm
 fZC
 xUk
-mKp
-mKp
+wsQ
+wsQ
 iMs
 pNL
 ydY
@@ -127677,11 +127670,11 @@ vDS
 siV
 tXr
 hRg
-mKp
-mKp
-mKp
-mKp
-mKp
+wsQ
+wsQ
+wsQ
+wsQ
+wsQ
 dTN
 naf
 sVN
