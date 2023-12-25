@@ -348,7 +348,7 @@ GLOBAL_LIST_INIT(dirt_loots, list(
 /turf/open/indestructible/ground/outside/dirt
 	name = "dirt"
 	icon = 'icons/fallout/turfs/dirt.dmi'
-	icon_state = ""
+	icon_state = "dirtfull"
 //	step_sounds = list("human" = "dirtfootsteps")
 //	allowed_plants = list(/obj/item/seeds/poppy/broc, /obj/item/seeds/xander, /obj/item/seeds/mutfruit,
 //	/obj/item/seeds/potato, /obj/item/seeds/carrot, /obj/item/seeds/pumpkin, /obj/item/seeds/corn, /obj/item/seeds/agave)
