@@ -248,9 +248,9 @@ GLOBAL_LIST_INIT(dirt_loots, list(
 /turf/open/indestructible/ground/outside/desert
 	name = "desert"
 	icon_state = "wasteland"
-//	step_sounds = list("human" = "dirtfootsteps")
-//	allowed_plants = list(/obj/item/seeds/poppy/broc, /obj/item/seeds/xander, /obj/item/seeds/mutfruit,
-//	/obj/item/seeds/feracactus, /obj/item/seeds/corn,/obj/item/seeds/shroom, /obj/item/seeds/agave)
+	step_sounds = list("human" = "dirtfootsteps")
+	allowed_plants = list(/obj/item/seeds/poppy/broc, /obj/item/seeds/xander, /obj/item/seeds/mutfruit,
+	/obj/item/seeds/feracactus, /obj/item/seeds/corn,/obj/item/seeds/shroom, /obj/item/seeds/agave)
 	slowdown = 0.4
 	flags_1 = CAN_HAVE_NATURE | ADJACENCIES_OVERLAY
 	footstep = FOOTSTEP_SAND
@@ -348,7 +348,7 @@ GLOBAL_LIST_INIT(dirt_loots, list(
 /turf/open/indestructible/ground/outside/dirt
 	name = "dirt"
 	icon = 'icons/fallout/turfs/dirt.dmi'
-	icon_state = "dirtfull"
+	icon_state = ""
 //	step_sounds = list("human" = "dirtfootsteps")
 //	allowed_plants = list(/obj/item/seeds/poppy/broc, /obj/item/seeds/xander, /obj/item/seeds/mutfruit,
 //	/obj/item/seeds/potato, /obj/item/seeds/carrot, /obj/item/seeds/pumpkin, /obj/item/seeds/corn, /obj/item/seeds/agave)
@@ -363,9 +363,9 @@ GLOBAL_LIST_INIT(dirt_loots, list(
 	if(icon_state == "dirtfull")
 		var/MM = text2num(time2text(world.timeofday, "MM"))
 		if(MM == 12 || MM == 1 || MM == 2)
-			name = "snow"
+			name = "dirt"
 			icon = 'icons/fallout/turfs/dirt.dmi'
-			icon_state = "snow[rand(0,12)]"
+			icon_state = "dirtfull"
 			update_icon()
 
 /turf/open/indestructible/ground/outside/dirt/MakeSlippery(wet_setting, min_wet_time, wet_time_to_add, max_wet_time, permanent)
@@ -387,7 +387,7 @@ GLOBAL_LIST_INIT(dirt_loots, list(
 /turf/open/indestructible/ground/outside/dirt_s
 	name = "dirt"
 	icon_state = "bottomleft"
-	icon = 'icons/fallout/turfs/dirtsnow.dmi'
+	icon = 'icons/fallout/turfs/dirt.dmi'
 //	step_sounds = list("human" = "dirtfootsteps")
 
 /turf/open/indestructible/ground/outside/grass_s
@@ -497,7 +497,7 @@ GLOBAL_LIST_INIT(dirt_loots, list(
 	AM.water_act(5)
 
 /turf/open/indestructible/ground/outside/water/Exited(atom/movable/AM, atom/newloc)
-	. = ..()	
+	. = ..()
 	if(istype(AM, /mob/living))
 		var/mob/living/L = AM
 		L.update_water()

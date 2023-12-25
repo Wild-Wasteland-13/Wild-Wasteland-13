@@ -866,7 +866,7 @@
 	fire_sound = 'sound/f13weapons/44mag.ogg'
 	gun_accuracy_zone_type = ZONE_WEIGHT_PRECISION
 /* * * * * * * * * *
-* .44 automag copycats. same as the original one with or without added flavor * 
+* .44 automag copycats. same as the original one with or without added flavor *
 * * * * * * * * */
 
 /obj/item/gun/ballistic/automatic/pistol/automag/m6 //weaker .44, spawn tier.
@@ -1019,7 +1019,7 @@
 
 /obj/item/gun/ballistic/automatic/pistol/needlerpistol
 	name = "NP-149/40"
-	desc = "A NP-149/40 pistol. This unique and odd prototype of a pistol was manufactured by Latos Systems before the way. It uses a peculiar type of ammunition. The ammo itself, when inserted, somehow turns into a set of pink glowing needles. How does Latos Systems do it? Who knows!"
+	desc = "A NP-149/40 pistol. This unique and odd prototype of a pistol was manufactured by Latos Systems before the war. It uses a peculiar type of ammunition. The ammo itself, when inserted, somehow turns into a set of pink glowing needles. How does Latos Systems do it? Who knows!"
 	icon_state = "needlerpistol"
 	item_state = "needlerpistol"
 	icon = 'icons/fallout/objects/guns/ballistic.dmi'
