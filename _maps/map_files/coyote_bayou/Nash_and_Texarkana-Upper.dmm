@@ -12601,6 +12601,10 @@
 	},
 /turf/open/indestructible/ground/outside/roof,
 /area/f13/wasteland/massfusion)
+"jtD" = (
+/obj/item/kirbyplants/random,
+/turf/open/floor/f13/wood,
+/area/f13/building/hospital/clinic/nash)
 "jtI" = (
 /obj/structure/simple_door/wood,
 /turf/open/floor/wood_common,
@@ -14916,10 +14920,6 @@
 	icon_state = "darkrusty"
 	},
 /area/f13/building/massfusion)
-"lib" = (
-/obj/item/kirbyplants/random,
-/turf/open/floor/f13/wood,
-/area/f13/building/hospital/clinic/nash)
 "liC" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/carpet/blue,
@@ -35378,7 +35378,7 @@ xZD
 wIL
 wIL
 psj
-lib
+jtD
 blz
 mLj
 psj
