@@ -1323,12 +1323,7 @@
 	},
 /area/f13/building/massfusion)
 "aPR" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/door/airlock/science/glass{
-	req_one_access_txt = "136";
-	name = "Storage Equipment"
-	},
-/turf/open/floor/plasteel/f13/vault_floor/purple,
+/turf/open/floor/plasteel/f13/vault_floor/dark/darksolid,
 /area/f13/building)
 "aPS" = (
 /obj/effect/spawner/structure/window/reinforced,
@@ -1500,15 +1495,12 @@
 	},
 /area/f13/caves)
 "aYa" = (
-/obj/structure/table/reinforced,
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/barricade/barswindow{
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/f13/vault_floor/purple/side{
 	dir = 4
 	},
-/obj/machinery/door/poddoor/shutters{
-	id = "NashSciencepostFront"
-	},
-/turf/open/floor/plasteel/f13/vault_floor/purple/purplechess,
 /area/f13/building)
 "aYd" = (
 /obj/structure/flora/tree/jungle,
@@ -6574,9 +6566,9 @@
 /turf/open/floor/plasteel/f13/vault_floor/blue/white,
 /area/f13/caves)
 "cBh" = (
-/turf/open/floor/plasteel/f13/vault_floor/purple/side{
-	dir = 4
-	},
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/reagent_dispensers/watertank/high,
+/turf/open/floor/plasteel/f13/vault_floor/purple/side,
 /area/f13/building)
 "cBO" = (
 /mob/living/simple_animal/hostile/raider/baseball,
@@ -8218,6 +8210,7 @@
 /area/f13/caves)
 "dJj" = (
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/reagent_dispensers/watertank/high,
 /turf/open/floor/plasteel/f13/vault_floor/green/white/side{
 	dir = 5
 	},
@@ -10591,7 +10584,7 @@
 	pixel_x = 6;
 	pixel_y = 8
 	},
-/turf/open/floor/plasteel/f13/vault_floor/purple/corner,
+/turf/open/floor/plasteel/f13/vault_floor/purple/side,
 /area/f13/building)
 "fmI" = (
 /obj/structure/curtain{
@@ -15942,13 +15935,6 @@
 	icon_state = "2-i"
 	},
 /area/f13/caves)
-"iJI" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/door/airlock/science/glass{
-	req_one_access_txt = "136"
-	},
-/turf/open/floor/plasteel/f13/vault_floor/purple,
-/area/f13/building)
 "iJQ" = (
 /obj/item/stack/ore/blackpowder/two,
 /turf/open/indestructible/ground/inside/subway,
@@ -19329,14 +19315,6 @@
 	name = "dirty floor"
 	},
 /area/f13/building)
-"kYs" = (
-/obj/structure/chair/f13chair2{
-	dir = 1
-	},
-/turf/open/floor/plasteel/f13/vault_floor/purple/side{
-	dir = 1
-	},
-/area/f13/building)
 "kYG" = (
 /obj/structure/chair/comfy/lime,
 /turf/open/floor/f13{
@@ -19938,12 +19916,6 @@
 /obj/effect/spawner/lootdrop/f13/uncommon,
 /turf/open/indestructible/ground/inside/subway,
 /area/f13/building/sewers)
-"lte" = (
-/obj/machinery/rnd/production/protolathe,
-/turf/open/floor/plasteel/f13/vault_floor/purple/side{
-	dir = 4
-	},
-/area/f13/building)
 "ltl" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/stripes/asteroid/line{
@@ -20770,6 +20742,7 @@
 	},
 /area/f13/building/sewers)
 "lRq" = (
+/obj/structure/reagent_dispensers/watertank/high,
 /turf/open/floor/plasteel/f13/vault_floor/green/white/side{
 	dir = 1
 	},
@@ -20792,18 +20765,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/indestructible/ground/inside/subway,
 /area/f13/building/sewers)
-"lRH" = (
-/obj/structure/table/reinforced,
-/obj/item/stack/sheet/metal/fifty,
-/obj/item/stack/sheet/glass/fifty,
-/obj/item/stack/sheet/metal/fifty,
-/obj/item/stack/sheet/plastic/fifty,
-/obj/item/stack/sheet/glass/fifty,
-/obj/item/stack/sheet/plastic/fifty,
-/turf/open/floor/plasteel/f13/vault_floor/purple/side{
-	dir = 4
-	},
-/area/f13/building)
 "lRL" = (
 /turf/open/floor/plasteel/f13/vault_floor/red{
 	icon_state = "redrustyfull"
@@ -21556,16 +21517,6 @@
 	icon_state = "darkdirtysolid"
 	},
 /area/f13/tunnel)
-"moU" = (
-/obj/machinery/light{
-	dir = 8
-	},
-/obj/structure/table/reinforced,
-/obj/item/storage/toolbox/mechanical,
-/turf/open/floor/plasteel/f13/vault_floor/purple/side{
-	dir = 4
-	},
-/area/f13/building)
 "mpk" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/indestructible/ground/inside/subway,
@@ -26256,12 +26207,6 @@
 /obj/effect/spawner/lootdrop/trash,
 /turf/open/floor/plasteel/f13/vault_floor/dark,
 /area/f13/building/hospital)
-"pnU" = (
-/obj/machinery/computer/rdconsole/core/followers,
-/turf/open/floor/plasteel/f13/vault_floor/purple/corner{
-	dir = 8
-	},
-/area/f13/building)
 "pom" = (
 /obj/structure/simple_door/metal/ventilation{
 	name = "drainage system"
@@ -27932,6 +27877,7 @@
 /area/f13/building/sewers)
 "qlF" = (
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/reagent_dispensers/watertank/high,
 /turf/open/floor/plasteel/f13/vault_floor/green/white/side{
 	dir = 1
 	},
@@ -28337,13 +28283,6 @@
 	icon_state = "yellowdirtyfull"
 	},
 /area/f13/caves)
-"qyE" = (
-/obj/machinery/light{
-	dir = 8
-	},
-/obj/machinery/vending/medical/researchgrants,
-/turf/open/floor/plasteel/f13/vault_floor/purple/corner,
-/area/f13/building)
 "qyT" = (
 /obj/item/bedsheet/random,
 /obj/structure/bed/old,
@@ -29184,11 +29123,11 @@
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/caves)
 "rad" = (
-/obj/structure/chair/office/dark{
-	dir = 4
-	},
-/turf/open/floor/plasteel/f13/vault_floor/purple/side{
-	dir = 8
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/reagent_dispensers/watertank/high,
+/turf/open/floor/plasteel/f13/vault_floor/green/white/side{
+	dir = 1
 	},
 /area/f13/building)
 "raz" = (
@@ -29757,6 +29696,7 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/reagent_dispensers/watertank/high,
 /turf/open/floor/plasteel/f13/vault_floor/purple/side,
 /area/f13/building)
 "rsE" = (
@@ -31289,18 +31229,6 @@
 /turf/open/floor/f13{
 	color = "#818181";
 	icon_state = "floorrustysolid"
-	},
-/area/f13/building)
-"sqg" = (
-/obj/structure/table/reinforced,
-/obj/machinery/button/door{
-	id = "NashSciencepostFront";
-	pixel_x = 7;
-	pixel_y = 2;
-	req_one_access_txt = "136"
-	},
-/turf/open/floor/plasteel/f13/vault_floor/purple/side{
-	dir = 8
 	},
 /area/f13/building)
 "sqG" = (
@@ -34718,16 +34646,6 @@
 /obj/structure/obstacle/jammed_door,
 /turf/open/indestructible/ground/inside/subway,
 /area/f13/tunnel)
-"uwW" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/chair/f13chair2{
-	dir = 1
-	},
-/turf/open/floor/plasteel/f13/vault_floor/purple/side{
-	dir = 1
-	},
-/area/f13/building)
 "uwX" = (
 /obj/structure/rack/shelf_metal,
 /mob/living/simple_animal/bot/cleanbot,
@@ -35022,13 +34940,11 @@
 	},
 /area/f13/caves)
 "uHq" = (
-/obj/structure/table/reinforced,
-/obj/structure/barricade/bars,
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/door/poddoor/shutters{
-	id = "NashSciencepostFront"
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/f13/vault_floor/purple/side{
+	dir = 4
 	},
-/turf/open/floor/plasteel/f13/vault_floor/purple/purplechess,
 /area/f13/building)
 "uHH" = (
 /obj/item/reagent_containers/glass/beaker/waterbottle,
@@ -35889,8 +35805,13 @@
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/caves)
 "vks" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/obj/structure/table/reinforced,
+/obj/item/storage/toolbox/mechanical,
 /turf/open/floor/plasteel/f13/vault_floor/purple/side{
-	dir = 5
+	dir = 1
 	},
 /area/f13/building)
 "vku" = (
@@ -37513,8 +37434,8 @@
 /turf/open/water,
 /area/f13/building/sewers)
 "wnz" = (
-/obj/machinery/rnd/destructive_analyzer,
-/turf/open/floor/plasteel/f13/vault_floor/purple/corner,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/f13/vault_floor/dark/darksolid,
 /area/f13/building)
 "wnP" = (
 /obj/structure/fence{
@@ -42557,7 +42478,7 @@ aae
 aae
 aae
 aae
-weN
+aae
 weN
 bPE
 iad
@@ -42814,11 +42735,11 @@ muT
 aae
 aae
 aae
-bPE
-qyE
-cBh
-lte
-lRH
+aae
+weN
+uHq
+uHq
+uHq
 mMz
 bOb
 pyb
@@ -43071,11 +42992,11 @@ muT
 aae
 aae
 aae
-bPE
-wnz
-pLF
-pLF
-eHs
+aae
+weN
+uHq
+wtH
+uHq
 pLF
 lrn
 tnx
@@ -43328,11 +43249,11 @@ muT
 aae
 aae
 aae
+aae
 weN
-pnU
-rad
-sqg
-rad
+uHq
+wtH
+wtH
 eHs
 uOI
 rbj
@@ -43589,8 +43510,8 @@ nAy
 nAy
 aYa
 uHq
-aYa
-iJI
+uHq
+uHq
 rDO
 xvt
 hQR
@@ -43845,7 +43766,7 @@ ozx
 ozx
 hdY
 xUb
-cBh
+wtH
 wtH
 rPj
 weN
@@ -44110,7 +44031,7 @@ utE
 rkV
 rQT
 tnx
-jRk
+rad
 weN
 aBU
 tqF
@@ -45389,7 +45310,7 @@ eHs
 tqF
 eHs
 eHs
-rYJ
+aPR
 bdY
 fBY
 nXw
@@ -45646,7 +45567,7 @@ bOb
 hFx
 uJL
 tqF
-iJI
+eHs
 hWr
 eHs
 eHs
@@ -45903,7 +45824,7 @@ vzl
 lWk
 hPA
 nLd
-uiz
+wnz
 cMJ
 gAT
 inJ
@@ -46168,9 +46089,9 @@ nAy
 nAy
 iad
 weN
-weN
-aPR
-weN
+hFx
+eHs
+jgR
 rDO
 jLN
 weN
@@ -46427,7 +46348,7 @@ rtD
 bOb
 fmn
 tqF
-uwW
+odB
 hdY
 weN
 weN
@@ -46684,9 +46605,9 @@ qnB
 bOb
 aze
 bat
-kYs
-bPE
-moU
+jgR
+gfY
+mMz
 wtH
 wtH
 uhc
@@ -49509,7 +49430,7 @@ wkP
 sHR
 hBf
 lAY
-mOb
+cBh
 pLF
 pLF
 omO
@@ -49766,7 +49687,7 @@ nkk
 tbF
 kzw
 nNZ
-mOb
+cBh
 eHs
 pLF
 ryO
@@ -50023,7 +49944,7 @@ iqN
 abU
 vQq
 nNZ
-mOb
+cBh
 pLF
 pLF
 cHH

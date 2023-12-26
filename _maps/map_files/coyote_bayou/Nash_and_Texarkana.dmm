@@ -15881,10 +15881,10 @@
 /turf/open/floor/grass,
 /area/f13/wasteland/city)
 "bdn" = (
-/obj/item/twohanded/required/kirbyplants/random,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
+/obj/item/kirbyplants/random,
 /turf/open/floor/carpet/blue,
 /area/f13/building/hospital/clinic/nash)
 "bdo" = (
@@ -53180,7 +53180,7 @@
 	},
 /area/f13/building/coyote/nash/massfus/lobby)
 "iBr" = (
-/obj/item/twohanded/required/kirbyplants/random,
+/obj/item/kirbyplants/random,
 /turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite{
 	icon_state = "showroomfloor";
 	name = "tile"
@@ -108230,7 +108230,7 @@
 	},
 /area/f13/building/coyote/nash/massfus/parkinglot)
 "uGL" = (
-/obj/structure/flora/tree/pine/xmas/presents,
+/obj/structure/flora/tree/pine,
 /turf/open/indestructible/ground/outside/snow,
 /area/f13/wasteland/nash)
 "uGO" = (
@@ -129915,7 +129915,7 @@ bqX
 xNd
 wFd
 vpC
-iBr
+cjb
 vAc
 bcq
 rYZ
@@ -130172,7 +130172,7 @@ isk
 xNd
 coF
 cjb
-cjb
+iBr
 azt
 iAU
 iAU

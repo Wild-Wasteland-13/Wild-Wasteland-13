@@ -13348,8 +13348,8 @@
 	},
 /area/f13/building)
 "jZh" = (
-/obj/item/twohanded/required/kirbyplants/random,
 /obj/effect/decal/cleanable/dirt,
+/obj/item/kirbyplants/random,
 /turf/open/floor/f13/wood,
 /area/f13/building/hospital/clinic/nash)
 "jZv" = (
@@ -14822,7 +14822,7 @@
 /turf/open/floor/plasteel/f13/vault_floor/dark,
 /area/f13/building/mall)
 "lem" = (
-/obj/item/twohanded/required/kirbyplants/random,
+/obj/item/kirbyplants/random,
 /turf/open/floor/plasteel/f13/vault_floor/white,
 /area/f13/building/hospital/clinic/nash)
 "lfe" = (
@@ -14916,6 +14916,10 @@
 	icon_state = "darkrusty"
 	},
 /area/f13/building/massfusion)
+"lib" = (
+/obj/item/kirbyplants/random,
+/turf/open/floor/f13/wood,
+/area/f13/building/hospital/clinic/nash)
 "liC" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/carpet/blue,
@@ -27783,7 +27787,7 @@
 	dir = 4;
 	light_color = "#c1caff"
 	},
-/obj/item/twohanded/required/kirbyplants/random,
+/obj/item/kirbyplants/random,
 /turf/open/floor/carpet/royalblack,
 /area/f13/building/hospital/clinic/nash)
 "uWP" = (
@@ -35374,9 +35378,9 @@ xZD
 wIL
 wIL
 psj
-voa
+lib
 blz
-jZh
+mLj
 psj
 ykS
 ftt
@@ -36918,7 +36922,7 @@ gVp
 oMf
 oMf
 gVp
-lem
+oKe
 dXl
 hHi
 hHi
