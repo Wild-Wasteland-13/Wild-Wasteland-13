@@ -276,7 +276,7 @@
 #define TRAIT_PROSOPAGNOSIA		"prosopagnosia"
 #define TRAIT_DRUNK_HEALING		"drunk_healing"
 #define TRAIT_TAGGER			"tagger"
-#define TRAIT_PHOTOGRAPHER		"photographer"
+//#define TRAIT_PHOTOGRAPHER		"photographer"
 #define TRAIT_JOURNALIST		"journalist"
 #define TRAIT_MUSICIAN			"musician"
 #define TRAIT_SWAMPWIZARD		"swamp_wizard"

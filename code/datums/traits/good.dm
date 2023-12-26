@@ -1694,7 +1694,7 @@ GLOBAL_LIST_INIT(weapons_of_texarkana, list(
 /datum/quirk/ratfriend
 	name = "Beast Friend - Rats"
 	desc = "Rats and wild mice of all kind outright ignore you now."
-	value = 14
+	value = 5
 	category = "Critter Quirks"
 	mechanics = "Rats and mice share their faction with you, meaning they won't do anything about you or care at all that you exist."
 	conflicts = list(
@@ -1718,11 +1718,11 @@ GLOBAL_LIST_INIT(weapons_of_texarkana, list(
 
 /datum/quirk/ratmaster
 	name = "Beast Master - Rats"
-	desc = "Whenever by psychic means or not, you gained ability to control the rats of Wasteland.\
+	desc = "Whenever by psychic means or not, you gained ability to tame the rats of Wasteland.\
 	<br>Taming will make them passive toward other players and tamed fauna (but also makes them a target for wild rats)."
-	value = 18
+	value = 10
 	category = "Critter Quirks"
-	mechanics = "You can summon up rat nests on the fly and order them around! Your rats aren't in the same faction as wild rats though, so they'll fight each other. You can tame the wild ones though, if you're lucky."
+	mechanics = "Tamed rats aren't in the same faction as wild rats though, so they'll fight each other. You can tame the wild ones though, if you're lucky."
 	conflicts = list(
 		/datum/quirk/ratfriend,
 	)
@@ -1732,8 +1732,8 @@ GLOBAL_LIST_INIT(weapons_of_texarkana, list(
 	medical_record_text = "Patient REALLY loves to talk about rats."
 	locked = FALSE
 	var/obj/effect/proc_holder/mob_common/taming_mobs/rat/tame
-	var/obj/effect/proc_holder/mob_common/summon_backup/beastmaster/rat/gather
-	var/obj/effect/proc_holder/mob_common/direct_mobs/beastmaster/rat/moveto
+	//var/obj/effect/proc_holder/mob_common/summon_backup/beastmaster/rat/gather
+	//var/obj/effect/proc_holder/mob_common/direct_mobs/beastmaster/rat/moveto
 	var/obj/effect/proc_holder/mob_common/make_nest/mouse/mouses
 // Damn this action button code structure
 
@@ -1742,10 +1742,10 @@ GLOBAL_LIST_INIT(weapons_of_texarkana, list(
 	H.faction |= list("rat-friend")
 	tame = new
 	H.AddAbility(tame)
-	gather = new
-	H.AddAbility(gather)
-	moveto = new
-	H.AddAbility(moveto)
+	//gather = new
+	//H.AddAbility(gather)
+	//moveto = new
+	//H.AddAbility(moveto)
 	mouses = new
 	H.AddAbility(mouses)
 
@@ -1755,10 +1755,10 @@ GLOBAL_LIST_INIT(weapons_of_texarkana, list(
 		H.faction -= list("rat-friend")
 		H.RemoveAbility(tame)
 		QDEL_NULL(tame)
-		H.RemoveAbility(gather)
-		QDEL_NULL(gather)
-		H.RemoveAbility(moveto)
-		QDEL_NULL(moveto)
+		//H.RemoveAbility(gather)
+		//QDEL_NULL(gather)
+		//H.RemoveAbility(moveto)
+		//QDEL_NULL(moveto)
 		H.RemoveAbility(mouses)
 		QDEL_NULL(mouses)
 
@@ -1789,11 +1789,11 @@ GLOBAL_LIST_INIT(weapons_of_texarkana, list(
 
 /datum/quirk/crittermaster
 	name = "Beast Master - Small Critters"
-	desc = "Whenever by psychic means or not, you gained ability to control roaches, most geckos and molerats (last ones will be initially hostile and needs to be tamed).\
-	<br>Taming will make them passive toward other players and tamed fauna. Young and adult nightstalkers can also be tamed, but not controlled."
-	value = 34
+	desc = "Whenever by psychic means or not, you gained ability to tame roaches, most geckos, molerats and nightstalkers (last two ones will be initially hostile and needs to be tamed).\
+	<br>Taming will make them passive toward other players and tamed fauna."
+	value = 20
 	category = "Critter Quirks"
-	mechanics = "You can tame and order around roaches, geckos (not all of the full variety pack though) and molerats. While unable to attack players with them, they're a great distraction for fighting other mobs with."
+	mechanics = "You can tame roaches, geckos (not all of the full variety pack though) molerats and nightstalkers."
 	conflicts = list(
 		/datum/quirk/critterfriend,
 	)
@@ -1803,18 +1803,18 @@ GLOBAL_LIST_INIT(weapons_of_texarkana, list(
 	medical_record_text = "Patient claims to have a telepathic connection to animals. Sounds like crazy talk."
 	locked = FALSE
 	var/obj/effect/proc_holder/mob_common/taming_mobs/small_critter/tame
-	var/obj/effect/proc_holder/mob_common/summon_backup/beastmaster/small_critter/gather
-	var/obj/effect/proc_holder/mob_common/direct_mobs/beastmaster/small_critter/moveto
+	//var/obj/effect/proc_holder/mob_common/summon_backup/beastmaster/small_critter/gather
+	//var/obj/effect/proc_holder/mob_common/direct_mobs/beastmaster/small_critter/moveto
 
 /datum/quirk/crittermaster/add()
 	var/mob/living/carbon/human/H = quirk_holder
 	H.faction |= list("critter-friend")
 	tame = new
 	H.AddAbility(tame)
-	gather = new
-	H.AddAbility(gather)
-	moveto = new
-	H.AddAbility(moveto)
+	//gather = new
+	//H.AddAbility(gather)
+	//moveto = new
+	//H.AddAbility(moveto)
 
 /datum/quirk/crittermaster/remove()
 	var/mob/living/carbon/human/H = quirk_holder
@@ -1822,10 +1822,10 @@ GLOBAL_LIST_INIT(weapons_of_texarkana, list(
 		H.faction -= list("critter-friend")
 		H.RemoveAbility(tame)
 		QDEL_NULL(tame)
-		H.RemoveAbility(gather)
-		QDEL_NULL(gather)
-		H.RemoveAbility(moveto)
-		QDEL_NULL(moveto)
+		//H.RemoveAbility(gather)
+		//QDEL_NULL(gather)
+		//H.RemoveAbility(moveto)
+		//QDEL_NULL(moveto)
 
 /datum/quirk/wildshape
 	name = "Wild Shape"

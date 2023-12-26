@@ -685,19 +685,19 @@
 	human_only = FALSE
 
 
-/datum/quirk/photographer
-	name = "Photographer"
-	desc = "You carry your camera and personal photo album everywhere you go, and your scrapbooks are legendary among your coworkers."
-	value = 0
-	category = "Lifepath Quirks"
-	mechanics = "Like it says, camera and photo album. The album saves between rounds for you to remember all those good times with. Or cry in six months when you come back and see it again."
-	conflicts = list(
-		/datum/quirk/luddite, // fucker'll steal your soul
-	)
-	mob_trait = TRAIT_PHOTOGRAPHER
-	gain_text = span_notice("You know everything about photography.")
-	lose_text = span_danger("You forget how photo cameras work.")
-	medical_record_text = "Patient mentions photography as a stress-relieving hobby."
+//datum/quirk/photographer
+	//name = "Photographer"
+	//desc = "You carry your camera and personal photo album everywhere you go, and your scrapbooks are legendary among your coworkers."
+	//value = 0
+	//category = "Lifepath Quirks"
+	//mechanics = "Like it says, camera and photo album. The album saves between rounds for you to remember all those good times with. Or cry in six months when you come back and see it again."
+	//conflicts = list(
+		///datum/quirk/luddite, // fucker'll steal your soul
+	//)
+	//mob_trait = TRAIT_PHOTOGRAPHER
+	//gain_text = span_notice("You know everything about photography.")
+	//lose_text = span_danger("You forget how photo cameras work.")
+	//medical_record_text = "Patient mentions photography as a stress-relieving hobby."
 
 /datum/quirk/photographer/on_spawn()
 	var/mob/living/carbon/human/human_holder = quirk_holder
