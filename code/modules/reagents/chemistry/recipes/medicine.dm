@@ -64,8 +64,8 @@ datum/chemical_reaction/rezadone
 
 /datum/chemical_reaction/coagulant_weak_chemistry
 	results = list(/datum/reagent/medicine/coagulant/weak = 1) // Enjoy hitting four buttons for one unit.
-	required_temp = 465.00 // So you can't make it in plastic containers. 
-	required_reagents = list(/datum/reagent/oxygen = 1, /datum/reagent/silicon = 1, /datum/reagent/sodium = 1, /datum/reagent/aluminium = 1) // four parts, is the recipe of Quik-Clot minus the Magnesium. 
+	required_temp = 465.00 // So you can't make it in plastic containers.
+	required_reagents = list(/datum/reagent/oxygen = 1, /datum/reagent/silicon = 1, /datum/reagent/sodium = 1, /datum/reagent/aluminium = 1) // four parts, is the recipe of Quik-Clot minus the Magnesium.
 	mob_react = FALSE // as funny as stopping a heart on seemingly innocent ingredients would be
 
 /datum/chemical_reaction/mine_salve
@@ -411,3 +411,15 @@ datum/chemical_reaction/rezadone
 		/datum/reagent/consumable/xanderjuice = 1,
 		)
 	required_temp = 450
+
+/datum/chemical_reaction/fixer
+	name = "fixer powder"
+	id = /datum/reagent/medicine/fixer
+	results = list(/datum/reagent/medicine/fixer = 10)
+	required_reagents = list(
+		/datum/reagent/carbon = 5,
+		/datum/reagent/iron = 5,
+		/datum/reagent/medicine/pen_acid = 5,
+		/datum/reagent/medicine/antihol = 5,
+		)
+	required_temp = 350
