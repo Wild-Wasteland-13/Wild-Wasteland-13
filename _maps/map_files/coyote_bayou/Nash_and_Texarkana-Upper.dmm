@@ -12601,10 +12601,6 @@
 	},
 /turf/open/indestructible/ground/outside/roof,
 /area/f13/wasteland/massfusion)
-"jtD" = (
-/obj/item/kirbyplants/random,
-/turf/open/floor/f13/wood,
-/area/f13/building/hospital/clinic/nash)
 "jtI" = (
 /obj/structure/simple_door/wood,
 /turf/open/floor/wood_common,
@@ -18817,6 +18813,10 @@
 /obj/structure/rug/carpet3,
 /turf/open/indestructible/ground/outside/roof,
 /area/f13/building/massfusion)
+"ogx" = (
+/obj/item/kirbyplants/random,
+/turf/open/floor/f13/wood,
+/area/f13/building/hospital/clinic/nash)
 "ogS" = (
 /obj/structure/table/reinforced,
 /obj/item/reagent_containers/food/snacks/donut,
@@ -35378,7 +35378,7 @@ xZD
 wIL
 wIL
 psj
-jtD
+ogx
 blz
 mLj
 psj
