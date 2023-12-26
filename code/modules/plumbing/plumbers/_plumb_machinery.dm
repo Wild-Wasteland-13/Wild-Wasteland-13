@@ -16,7 +16,7 @@
 	///Flags for reagents, like INJECTABLE, TRANSPARENT bla bla everything thats in DEFINES/reagents.dm
 	var/reagent_flags = TRANSPARENT
 	///wheter we partake in rcd construction or not
-	var/rcd_constructable = FALSE
+	var/rcd_constructable = TRUE
 	///cost of the plumbing rcd construction
 	var/rcd_cost = 15
 	///delay of constructing it throught the plumbing rcd
@@ -34,7 +34,7 @@
 
 /obj/machinery/plumbing/examine(mob/user)
 	. = ..()
-	. += span_notice("The maximum volume display reads: <b>[reagents.maximum_volume] units</b>.")
+	. += "<span class='notice'>The maximum volume display reads: <b>[reagents.maximum_volume] units</b>.</span>"
 
 /obj/machinery/plumbing/wrench_act(mob/living/user, obj/item/I)
 	..()

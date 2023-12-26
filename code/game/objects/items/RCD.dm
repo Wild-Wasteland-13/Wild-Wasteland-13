@@ -24,7 +24,7 @@ RLD
 	w_class = WEIGHT_CLASS_NORMAL
 	custom_materials = list(/datum/material/iron=100000)
 	req_access_txt = "11"
-	armor = ARMOR_VALUE_GENERIC_ITEM
+	armor = list(MELEE = 0, BULLET = 0, LASER = 0, ENERGY = 0, BOMB = 0, BIO = 0, RAD = 0, FIRE = 100, ACID = 50)
 	resistance_flags = FIRE_PROOF
 	var/datum/effect_system/spark_spread/spark_system
 	var/matter = 0
@@ -33,13 +33,13 @@ RLD
 	var/plasteelmultiplier = 3 //Plasteel is worth 3 times more than glass or metal
 	var/plasmarglassmultiplier = 2 //50% less plasma than in plasteel
 	var/rglassmultiplier = 1.5 //One metal sheet, half a glass sheet
-	var/no_ammo_message = span_warning("The \'Low Ammo\' light on the device blinks yellow.")
+	var/no_ammo_message = "<span class='warning'>The \'Low Ammo\' light on the device blinks yellow.</span>"
 	var/has_ammobar = FALSE	//controls whether or not does update_icon apply ammo indicator overlays
 	var/ammo_sections = 10	//amount of divisions in the ammo indicator overlay/number of ammo indicator states
 	var/custom_range = 7
 	var/upgrade = FALSE
 
-/obj/item/construction/Initialize()
+/obj/item/construction/Initialize(mapload)
 	. = ..()
 	spark_system = new /datum/effect_system/spark_spread
 	spark_system.set_up(5, 0, src)
@@ -65,7 +65,7 @@ RLD
 		var/obj/item/rcd_ammo/R = W
 		var/load = min(R.ammoamt, max_matter - matter)
 		if(load <= 0)
-			to_chat(user, span_warning("[src] can't hold any more matter-units!"))
+			to_chat(user, "<span class='warning'>[src] can't hold any more matter-units!</span>")
 			return
 		R.ammoamt -= load
 		if(R.ammoamt <= 0)
@@ -86,9 +86,9 @@ RLD
 	else if(istype(W, /obj/item/stack/tile/plasteel))
 		loaded = loadwithsheets(W, sheetmultiplier * 0.25, user) // 1 matter for 1 floortile, as 4 tiles are produced from 1 metal
 	if(loaded)
-		to_chat(user, span_notice("[src] now holds [matter]/[max_matter] matter-units."))
+		to_chat(user, "<span class='notice'>[src] now holds [matter]/[max_matter] matter-units.</span>")
 	else if(istype(W, /obj/item/rcd_upgrade))
-		to_chat(user, span_notice("You upgrade the RCD with the [W]!"))
+		to_chat(user, "<span class='notice'>You upgrade the RCD with the [W]!</span>")
 		var/obj/item/rcd_upgrade/rcd_up = W
 		if(!(upgrade & rcd_up.upgrade))
 			upgrade |= rcd_up.upgrade
@@ -105,9 +105,9 @@ RLD
 		S.use(amount_to_use)
 		matter += value*amount_to_use
 		playsound(src.loc, 'sound/machines/click.ogg', 50, 1)
-		to_chat(user, span_notice("You insert [amount_to_use] [S.name] sheets into [src]. "))
+		to_chat(user, "<span class='notice'>You insert [amount_to_use] [S.name] sheets into [src]. </span>")
 		return 1
-	to_chat(user, span_warning("You can't insert any more [S.name] sheets into [src]!"))
+	to_chat(user, "<span class='warning'>You can't insert any more [S.name] sheets into [src]!</span>")
 	return 0
 
 /obj/item/construction/proc/activate()
@@ -145,14 +145,14 @@ RLD
 
 /obj/item/construction/proc/range_check(atom/A, mob/user)
 	if(!(A in range(custom_range, get_turf(user))))
-		to_chat(user, span_warning("The \'Out of Range\' light on [src] blinks red."))
+		to_chat(user, "<span class='warning'>The \'Out of Range\' light on [src] blinks red.</span>")
 		return FALSE
 	var/view_range = user.client ? user.client.view : world.view
 	//if user can't be seen from A (only checks surroundings' opaqueness) and can't see A.
 	//jarring, but it should stop people from targetting atoms they can't see...
 	//excluding darkness, to allow RLD to be used to light pitch black dark areas.
 	if(!((user in view(view_range, A)) || (user in fov_viewers(view_range, A))))
-		to_chat(user, span_warning("You focus, pointing \the [src] at whatever outside your field of vision in that direction... to no avail."))
+		to_chat(user, "<span class='warning'>You focus, pointing \the [src] at whatever outside your field of vision in that direction... to no avail.</span>")
 		return FALSE
 	return TRUE
 
@@ -198,7 +198,7 @@ RLD
 		window_type = /obj/structure/window/fulltile
 		window_type_name = "glass"
 
-	to_chat(user, span_notice("You change \the [src]'s window mode to [window_type_name]."))
+	to_chat(user, "<span class='notice'>You change \the [src]'s window mode to [window_type_name].</span>")
 
 /obj/item/construction/rcd/verb/change_airlock_access(mob/user)
 
@@ -460,7 +460,7 @@ RLD
 				return TRUE
 	qdel(rcd_effect)
 
-/obj/item/construction/rcd/Initialize()
+/obj/item/construction/rcd/Initialize(mapload)
 	. = ..()
 	GLOB.rcd_list += src
 
@@ -520,7 +520,7 @@ RLD
 		else
 			return
 	playsound(src, 'sound/effects/pop.ogg', 50, 0)
-	to_chat(user, span_notice("You change RCD's mode to '[choice]'."))
+	to_chat(user, "<span class='notice'>You change RCD's mode to '[choice]'.</span>")
 
 /obj/item/construction/rcd/proc/target_check(atom/A, mob/user) // only returns true for stuff the device can actually work with
 	if((isturf(A) && A.density && mode==RCD_DECONSTRUCT) || (isturf(A) && !A.density) || (istype(A, /obj/machinery/door/airlock) && mode==RCD_DECONSTRUCT) || istype(A, /obj/structure/grille) || (istype(A, /obj/structure/window) && mode==RCD_DECONSTRUCT) || istype(A, /obj/structure/girder))
@@ -557,12 +557,12 @@ RLD
 		cut_overlays()	//To prevent infinite stacking of overlays
 		add_overlay("[icon_state]_charge[ratio]")
 
-/obj/item/construction/rcd/Initialize()
+/obj/item/construction/rcd/Initialize(mapload)
 	. = ..()
 	update_icon()
 
 /obj/item/construction/rcd/borg
-	no_ammo_message = span_warning("Insufficient charge.")
+	no_ammo_message = "<span class='warning'>Insufficient charge.</span>"
 	desc = "A device used to rapidly build walls and floors."
 	canRturf = TRUE
 	upgrade = TRUE
@@ -695,11 +695,11 @@ RLD
 	var/color_choice = null
 
 
-/obj/item/construction/rld/Initialize()
+/obj/item/construction/rld/Initialize(mapload)
 	. = ..()
 	update_icon()
 
-/obj/item/construction/rld/ui_action_click(mob/user, datum/action/A)
+/obj/item/construction/rld/ui_action_click(mob/user, var/datum/action/A)
 	if(istype(A, /datum/action/item_action/pick_color))
 		color_choice = input(user,"","Choose Color",color_choice) as color
 	else
@@ -715,16 +715,16 @@ RLD
 	switch(mode)
 		if(REMOVE_MODE)
 			mode = LIGHT_MODE
-			to_chat(user, span_notice("You change RLD's mode to 'Permanent Light Construction'."))
+			to_chat(user, "<span class='notice'>You change RLD's mode to 'Permanent Light Construction'.</span>")
 		if(LIGHT_MODE)
 			mode = GLOW_MODE
-			to_chat(user, span_notice("You change RLD's mode to 'Light Launcher'."))
+			to_chat(user, "<span class='notice'>You change RLD's mode to 'Light Launcher'.</span>")
 		if(GLOW_MODE)
 			mode = REMOVE_MODE
-			to_chat(user, span_notice("You change RLD's mode to 'Deconstruct'."))
+			to_chat(user, "<span class='notice'>You change RLD's mode to 'Deconstruct'.</span>")
 
 
-/obj/item/construction/rld/proc/checkdupes(target)
+/obj/item/construction/rld/proc/checkdupes(var/target)
 	. = list()
 	var/turf/checking = get_turf(target)
 	for(var/obj/machinery/light/dupe in checking)
@@ -741,7 +741,7 @@ RLD
 		if(REMOVE_MODE)
 			if(istype(A, /obj/machinery/light/))
 				if(checkResource(deconcost, user))
-					to_chat(user, span_notice("You start deconstructing [A]..."))
+					to_chat(user, "<span class='notice'>You start deconstructing [A]...</span>")
 					user.Beam(A,icon_state="light_beam",time=15)
 					playsound(src.loc, 'sound/machines/click.ogg', 50, 1)
 					if(do_after(user, decondelay, target = A))
@@ -755,7 +755,7 @@ RLD
 			if(iswallturf(A))
 				var/turf/closed/wall/W = A
 				if(checkResource(floorcost, user))
-					to_chat(user, span_notice("You start building a wall light..."))
+					to_chat(user, "<span class='notice'>You start building a wall light...</span>")
 					user.Beam(A,icon_state="light_beam",time=15)
 					playsound(src.loc, 'sound/machines/click.ogg', 50, 1)
 					playsound(src.loc, 'sound/effects/light_flicker.ogg', 50, 0)
@@ -771,7 +771,7 @@ RLD
 							if(start.CanAtmosPass(C) && !dupes.len)
 								candidates += C
 						if(!candidates.len)
-							to_chat(user, span_warning("Valid target not found..."))
+							to_chat(user, "<span class='warning'>Valid target not found...</span>")
 							playsound(src.loc, 'sound/misc/compiler-failure.ogg', 30, 1)
 							return FALSE
 						for(var/turf/open/O in candidates)
@@ -801,7 +801,7 @@ RLD
 			if(isfloorturf(A))
 				var/turf/open/floor/F = A
 				if(checkResource(floorcost, user))
-					to_chat(user, span_notice("You start building a floor light..."))
+					to_chat(user, "<span class='notice'>You start building a floor light...</span>")
 					user.Beam(A,icon_state="light_beam",time=15)
 					playsound(src.loc, 'sound/machines/click.ogg', 50, 1)
 					playsound(src.loc, 'sound/effects/light_flicker.ogg', 50, 1)
@@ -821,7 +821,7 @@ RLD
 		if(GLOW_MODE)
 			if(useResource(launchcost, user))
 				activate()
-				to_chat(user, span_notice("You fire a glowstick!"))
+				to_chat(user, "<span class='notice'>You fire a glowstick!</span>")
 				var/obj/item/flashlight/glowstick/G  = new /obj/item/flashlight/glowstick(start)
 				G.color = color_choice
 				G.light_color = G.color
@@ -853,7 +853,7 @@ RLD
 	upgrade = RCD_UPGRADE_SIMPLE_CIRCUITS
 
 /obj/item/construction/plumbing
-	name = "\improper Plumbing Constructor"
+	name = "Plumbing Constructor"
 	desc = "An expertly modified RCD outfitted to construct plumbing machinery. Reload with compressed matter cartridges."
 	icon = 'icons/obj/tools.dmi'
 	icon_state = "arcd"
@@ -870,13 +870,6 @@ RLD
 	var/list/name_to_type = list()
 	///
 	var/list/machinery_data = list("cost" = list(), "delay" = list())
-
-//Server lag fixer-upper 9000
-/obj/item/construction/plumbing
-	name = "\improper Broken Plumbing Constructor"
-	desc = "An expertly modified RCD outfitted to construct plumbing machinery. Reload with compressed matter cartridges. This one's matter storage seems broken so it won't work anymore."
-	matter = 0
-	max_matter = 0
 
 /obj/item/construction/plumbing/attack_self(mob/user)
 	..()
@@ -895,7 +888,7 @@ RLD
 
 	blueprint = name_to_type[choice]
 	playsound(src, 'sound/effects/pop.ogg', 50, FALSE)
-	to_chat(user, span_notice("You change [name]s blueprint to '[choice]'."))
+	to_chat(user, "<span class='notice'>You change [name]s blueprint to '[choice]'.</span>")
 
 ///pretty much rcd_create, but named differently to make myself feel less bad for copypasting from a sibling-type
 /obj/item/construction/plumbing/proc/create_machine(atom/A, mob/user)
@@ -926,7 +919,7 @@ RLD
 	if(istype(A, /obj/machinery/plumbing))
 		var/obj/machinery/plumbing/P = A
 		if(P.anchored)
-			to_chat(user, span_warning("The [P.name] needs to be unanchored!"))
+			to_chat(user, "<span class='warning'>The [P.name] needs to be unanchored!</span>")
 			return
 		if(do_after(user, 20, target = P))
 			P.deconstruct() //Let's not substract matter
@@ -938,4 +931,3 @@ RLD
 #undef GLOW_MODE
 #undef LIGHT_MODE
 #undef REMOVE_MODE
-
