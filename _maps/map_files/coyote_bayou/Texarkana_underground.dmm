@@ -8926,7 +8926,7 @@
 /obj/machinery/door/airlock/science/glass{
 	req_one_access_txt = "136""124"
 	},
-/turf/open/floor/plasteel/f13/vault_floor/purple/white/whitepurplechess,
+/turf/open/floor/plasteel/f13/vault_floor/white,
 /area/f13/building/hospital/clinic/nash)
 "eif" = (
 /obj/structure/rack/shelf_metal,
@@ -31388,9 +31388,7 @@
 /obj/machinery/door/airlock/science/glass{
 	req_one_access_txt = "136""124"
 	},
-/turf/open/floor/f13{
-	icon_state = "greenrustyfull"
-	},
+/turf/open/floor/plasteel/f13/vault_floor/white,
 /area/f13/building)
 "sty" = (
 /obj/machinery/light{
@@ -35292,9 +35290,10 @@
 /area/f13/building/massfusion)
 "uPd" = (
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/stairs{
-	dir = 1
+/obj/structure/stairs/north{
+	dir = 2
 	},
+/turf/open/floor/plasteel/f13/vault_floor/white,
 /area/f13/building/hospital/clinic/nash)
 "uPp" = (
 /obj/effect/decal/cleanable/dirt,
