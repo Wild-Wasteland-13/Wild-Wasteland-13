@@ -3454,6 +3454,13 @@
 /obj/effect/validball_spawner,
 /obj/effect/spawner/lootdrop/f13/rare,
 /obj/effect/spawner/lootdrop/f13/rare,
+/obj/machinery/button/door{
+	id = "commsroomlockdown";
+	max_integrity = 1000;
+	obj_integrity = 1000;
+	pixel_y = 5;
+	name = "comms room lockdown"
+	},
 /turf/open/floor/plasteel/f13{
 	icon_state = "darkrusty"
 	},

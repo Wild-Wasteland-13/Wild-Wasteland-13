@@ -134,15 +134,7 @@
 /area/f13/building)
 "abV" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/ladder/unbreakable{
-	height = -1;
-	id = "commsoperatoraccess";
-	pixel_y = -4;
-	pixel_x = -1
-	},
-/turf/open/floor/plasteel/f13{
-	icon_state = "darkrustysolid"
-	},
+/turf/open/floor/plasteel/elevatorshaft,
 /area/f13/building/massfusion)
 "acC" = (
 /obj/machinery/door/unpowered/secure_bos,
@@ -1780,7 +1772,7 @@
 /obj/effect/turf_decal/stripes/asteroid/line{
 	dir = 1
 	},
-/obj/effect/turf_decal/vg_decals/numbers/two{
+/obj/effect/turf_decal/vg_decals/numbers/four{
 	pixel_x = -16
 	},
 /turf/open/floor/plasteel/f13{
@@ -2473,7 +2465,7 @@
 /turf/open/floor/engine,
 /area/f13/building)
 "bBR" = (
-/obj/structure/ladder/unbreakable,
+/obj/structure/stairs/north,
 /turf/open/floor/plasteel/barber{
 	icon = 'icons/turf/f13floors2.dmi';
 	icon_state = "bluerustychess2"
@@ -5809,9 +5801,9 @@
 /area/f13/building/massfusion)
 "cjt" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/effect/turf_decal/stripes/asteroid/line,
-/turf/open/floor/plasteel/elevatorshaft,
-/area/f13/building/massfusion)
+/obj/machinery/vending/cigarette,
+/turf/open/floor/plasteel/f13/vault_floor/white,
+/area/f13/building)
 "cjv" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/decoration/rag{
@@ -6267,6 +6259,12 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/f13/wood,
 /area/f13/tunnel)
+"cuD" = (
+/obj/effect/turf_decal/stripes/asteroid/line{
+	dir = 4
+	},
+/turf/open/floor/plasteel/f13/vault_floor/white,
+/area/f13/building/hospital/clinic/nash)
 "cuK" = (
 /obj/machinery/telecomms/hub/preset,
 /turf/open/floor/circuit/telecomms/mainframe,
@@ -6329,12 +6327,9 @@
 /area/f13/caves)
 "cvX" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/ladder/unbreakable{
-	height = 1;
-	id = "plantelevator"
-	},
-/turf/open/floor/plasteel/elevatorshaft,
-/area/f13/building/massfusion)
+/obj/effect/turf_decal/stripes/asteroid/line,
+/turf/open/floor/plasteel/f13/vault_floor/white,
+/area/f13/building/hospital/clinic/nash)
 "cvZ" = (
 /obj/item/stack/sheet/bone,
 /turf/open/indestructible/ground/inside/dirt,
@@ -7085,6 +7080,7 @@
 	pixel_x = -16
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/stripes/asteroid/line,
 /turf/open/floor/plasteel/f13/vault_floor/white,
 /area/f13/building/hospital/clinic/nash)
 "cTO" = (
@@ -7216,6 +7212,13 @@
 	dir = 8
 	},
 /area/f13/caves)
+"cYH" = (
+/obj/structure/ladder/unbreakable{
+	height = 1;
+	id = "plantelevator"
+	},
+/turf/open/floor/plasteel/elevatorshaft,
+/area/f13/building/massfusion)
 "cYM" = (
 /obj/structure/table,
 /turf/open/indestructible/ground/inside/subway,
@@ -7774,6 +7777,9 @@
 /area/f13/bunker)
 "duo" = (
 /obj/machinery/light{
+	dir = 8
+	},
+/obj/effect/turf_decal/stripes/asteroid/line{
 	dir = 8
 	},
 /turf/open/floor/plasteel/f13/vault_floor/white,
@@ -9360,12 +9366,14 @@
 	},
 /area/f13/tunnel)
 "exy" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/turf_decal/stripes/asteroid/line{
-	dir = 8
+/obj/machinery/light{
+	dir = 8;
+	light_color = "#e8eaff"
 	},
-/turf/open/floor/plasteel/elevatorshaft,
-/area/f13/building/massfusion)
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/vending/nukacolavend,
+/turf/open/floor/plasteel/f13/vault_floor/white,
+/area/f13/building)
 "exZ" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood/splatter,
@@ -9633,6 +9641,9 @@
 	dir = 8
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/stripes/asteroid/line{
+	dir = 9
+	},
 /turf/open/floor/plasteel/f13/vault_floor/white,
 /area/f13/building/hospital/clinic/nash)
 "eGm" = (
@@ -11059,6 +11070,9 @@
 	dir = 4
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/stripes/asteroid/line{
+	dir = 4
+	},
 /turf/open/floor/plasteel/f13/vault_floor/white,
 /area/f13/building/hospital/clinic/nash)
 "fCT" = (
@@ -11311,6 +11325,15 @@
 /obj/effect/decal/cleanable/glitter/blue,
 /turf/open/floor/plating/ashplanet/rocky,
 /area/f13/caves)
+"fNo" = (
+/obj/effect/spawner/lootdrop/ammo/fiftypercent,
+/obj/effect/turf_decal/stripes/asteroid/line{
+	dir = 1
+	},
+/turf/open/floor/plasteel/f13{
+	icon_state = "darkrustysolid"
+	},
+/area/f13/building/massfusion)
 "fNr" = (
 /obj/effect/turf_decal/stripes/asteroid/line{
 	dir = 9
@@ -15651,11 +15674,9 @@
 /turf/open/indestructible/ground/inside/subway,
 /area/f13/tunnel)
 "iBR" = (
-/obj/effect/turf_decal/stripes/asteroid/line{
-	dir = 5
-	},
-/turf/open/floor/plasteel/elevatorshaft,
-/area/f13/building/massfusion)
+/obj/effect/turf_decal/stripes/asteroid/line,
+/turf/open/floor/plasteel/f13/vault_floor/white,
+/area/f13/building/hospital/clinic/nash)
 "iCu" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood_mosaic,
@@ -18025,6 +18046,9 @@
 	pixel_x = 16
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/stripes/asteroid/line{
+	dir = 1
+	},
 /turf/open/floor/plasteel/f13/vault_floor/white,
 /area/f13/building/hospital/clinic/nash)
 "kdI" = (
@@ -18310,12 +18334,14 @@
 	},
 /area/f13/building/massfusion)
 "knS" = (
-/obj/effect/turf_decal/weather/dirt{
-	dir = 1
+/obj/machinery/light{
+	dir = 8
 	},
-/obj/effect/turf_decal/weather/dirt,
-/turf/closed/indestructible/f13vaultrusted,
-/area/f13/building)
+/obj/effect/turf_decal/stripes/asteroid/line{
+	dir = 10
+	},
+/turf/open/floor/plasteel/f13/vault_floor/white,
+/area/f13/building/hospital/clinic/nash)
 "knX" = (
 /obj/structure/ladder/unbreakable{
 	height = 1;
@@ -18610,14 +18636,12 @@
 /turf/open/indestructible/ground/inside/subway,
 /area/f13/caves)
 "kAD" = (
+/obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/stripes/asteroid/line{
-	dir = 1
+	dir = 4
 	},
-/obj/machinery/light/small{
-	dir = 1
-	},
-/turf/open/floor/plasteel/elevatorshaft,
-/area/f13/building/massfusion)
+/turf/open/floor/plasteel/f13/vault_floor/white,
+/area/f13/building/hospital/clinic/nash)
 "kBh" = (
 /turf/open/floor/f13{
 	icon_state = "neutralrustyfull"
@@ -21296,6 +21320,7 @@
 /obj/machinery/light/small,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
+/obj/machinery/mineral/wasteland_vendor/advcomponents,
 /turf/open/floor/plasteel/f13/vault_floor/white,
 /area/f13/building)
 "mfC" = (
@@ -23241,13 +23266,12 @@
 /turf/open/floor/plasteel/f13/vault_floor/dark/darksolid,
 /area/f13/tunnel)
 "nss" = (
-/obj/structure/spacevine,
-/obj/effect/turf_decal/weather/dirt,
-/obj/effect/turf_decal/weather/dirt{
-	dir = 1
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/stripes/asteroid/line{
+	dir = 8
 	},
-/turf/closed/indestructible/f13vaultrusted,
-/area/f13/building)
+/turf/open/floor/plasteel/f13/vault_floor/white,
+/area/f13/building/hospital/clinic/nash)
 "nsF" = (
 /obj/structure/chair/stool,
 /obj/effect/decal/cleanable/dirt,
@@ -24295,6 +24319,9 @@
 /obj/machinery/light{
 	dir = 4
 	},
+/obj/effect/turf_decal/stripes/asteroid/line{
+	dir = 6
+	},
 /turf/open/floor/plasteel/f13/vault_floor/white,
 /area/f13/building/hospital/clinic/nash)
 "oco" = (
@@ -24390,6 +24417,17 @@
 /obj/effect/decal/cleanable/oil/slippery,
 /turf/open/indestructible/ground/inside/subway,
 /area/f13/caves)
+"ogs" = (
+/obj/machinery/light/small{
+	dir = 1
+	},
+/obj/structure/nest/protectron{
+	pixel_y = 23
+	},
+/turf/open/floor/plasteel/f13{
+	icon_state = "darkrustysolid"
+	},
+/area/f13/building/massfusion)
 "ogB" = (
 /obj/structure/flora/rock/pile/largejungle{
 	layer = 3.2;
@@ -24871,9 +24909,7 @@
 	light_color = "#884444"
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/f13{
-	icon_state = "darkrustysolid"
-	},
+/turf/open/floor/plasteel/elevatorshaft,
 /area/f13/building/massfusion)
 "oxa" = (
 /obj/structure/sign/stop,
@@ -25035,10 +25071,17 @@
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/caves)
 "oDA" = (
-/obj/effect/turf_decal/stripes/asteroid/line{
-	dir = 4
+/obj/structure/grille/indestructable,
+/obj/structure/window/reinforced/fulltile/indestructable,
+/obj/machinery/door/poddoor/shutters/old{
+	id = "factorybasementwindow";
+	name = "shutters";
+	max_integrity = 3500
 	},
-/turf/open/floor/plasteel/elevatorshaft,
+/obj/structure/timeddoor/sixtyminute,
+/turf/open/floor/plasteel/f13{
+	icon_state = "darkrustysolid"
+	},
 /area/f13/building/massfusion)
 "oDI" = (
 /obj/machinery/light{
@@ -26641,6 +26684,9 @@
 	},
 /obj/structure/table/reinforced,
 /obj/item/construction/plumbing,
+/obj/effect/turf_decal/stripes/asteroid/line{
+	dir = 5
+	},
 /turf/open/floor/plasteel/f13/vault_floor/white,
 /area/f13/building/hospital/clinic/nash)
 "pAe" = (
@@ -30085,6 +30131,10 @@
 	icon_state = "greenrustyfull"
 	},
 /area/f13/building/sewers)
+"rEJ" = (
+/obj/effect/spawner/lootdrop/ammo,
+/turf/closed/indestructible/vaultdoor,
+/area/f13/building/massfusion)
 "rEX" = (
 /obj/machinery/light{
 	dir = 4;
@@ -31680,6 +31730,7 @@
 	max_integrity = 3500
 	},
 /obj/structure/window/reinforced/fulltile/indestructable,
+/obj/structure/timeddoor/sixtyminute,
 /turf/open/floor/plasteel/f13{
 	icon_state = "darkrustysolid"
 	},
@@ -35622,10 +35673,10 @@
 /area/f13/caves)
 "vcq" = (
 /obj/effect/turf_decal/stripes/asteroid/line{
-	dir = 6
+	dir = 1
 	},
-/turf/open/floor/plasteel/elevatorshaft,
-/area/f13/building/massfusion)
+/turf/open/floor/plasteel/f13/vault_floor/white,
+/area/f13/building/hospital/clinic/nash)
 "vct" = (
 /obj/structure/chair/wood/fancy,
 /obj/effect/validball_spawner,
@@ -35910,10 +35961,13 @@
 	},
 /area/f13/building)
 "vly" = (
-/obj/effect/turf_decal/stripes/asteroid/line{
-	dir = 10
+/obj/effect/turf_decal/stripes/asteroid/line,
+/obj/effect/turf_decal/vg_decals/numbers/two{
+	pixel_x = -16
 	},
-/turf/open/floor/plasteel/elevatorshaft,
+/turf/open/floor/plasteel/f13{
+	icon_state = "darkrustysolid"
+	},
 /area/f13/building/massfusion)
 "vmd" = (
 /turf/open/floor/plasteel/f13/vault_floor/yellow,
@@ -37018,11 +37072,12 @@
 /turf/open/floor/engine,
 /area/f13/building)
 "vYu" = (
+/obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/stripes/asteroid/line{
-	dir = 9
+	dir = 1
 	},
-/turf/open/floor/plasteel/elevatorshaft,
-/area/f13/building/massfusion)
+/turf/open/floor/plasteel/f13/vault_floor/white,
+/area/f13/building/hospital/clinic/nash)
 "vYx" = (
 /obj/effect/decal/cleanable/blood/old{
 	icon_state = "gibbearcore"
@@ -37681,8 +37736,8 @@
 "wsL" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/generic,
-/obj/structure/nest/protectron{
-	pixel_y = 23
+/obj/effect/turf_decal/stripes/asteroid/line{
+	dir = 1
 	},
 /turf/open/floor/plasteel/f13{
 	icon_state = "darkrustysolid"
@@ -38626,9 +38681,8 @@
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/tunnel)
 "wZS" = (
-/obj/effect/turf_decal/weather/dirt,
-/turf/closed/indestructible/f13vaultrusted,
-/area/f13/building)
+/turf/open/floor/plasteel/elevatorshaft,
+/area/f13/building/massfusion)
 "wZX" = (
 /obj/structure/sink{
 	dir = 8;
@@ -44096,8 +44150,8 @@ bOO
 bOO
 bOO
 eTA
-nXC
-lxd
+exy
+cjt
 lxd
 lxd
 lxd
@@ -44327,8 +44381,8 @@ bMe
 bMe
 bMe
 bMe
-knS
-wZS
+eTA
+eTA
 fEI
 eTA
 eTA
@@ -44574,15 +44628,15 @@ aae
 aae
 bMe
 eGb
-gQx
-gQx
-gQx
+nss
+nss
+nss
 duo
-gQx
-gQx
-gQx
-gQx
-duo
+nss
+nss
+nss
+nss
+knS
 bMe
 yjT
 lxd
@@ -44830,7 +44884,7 @@ aae
 aae
 aae
 bMe
-gQx
+vYu
 gQx
 gQx
 cPq
@@ -44839,7 +44893,7 @@ cPq
 gQx
 qAh
 gQx
-qAh
+iBR
 ehH
 lxd
 lxd
@@ -45087,7 +45141,7 @@ aae
 aae
 aae
 bMe
-gQx
+vYu
 gQx
 qCK
 gQx
@@ -45096,7 +45150,7 @@ cPq
 cPq
 qCK
 qAh
-qAh
+iBR
 bMe
 azN
 cOZ
@@ -45344,7 +45398,7 @@ aae
 aae
 aae
 bMe
-gQx
+vYu
 qAh
 cPq
 cPq
@@ -45353,9 +45407,9 @@ cPq
 cPq
 gQx
 gQx
-gQx
+cvX
 bMe
-nss
+lXr
 lXr
 eTA
 eTA
@@ -45610,7 +45664,7 @@ cPq
 cPq
 gQx
 gQx
-gQx
+cvX
 bMe
 msw
 gcv
@@ -45858,7 +45912,7 @@ aae
 aae
 aae
 bMe
-qAh
+vcq
 gQx
 cPq
 cPq
@@ -46115,7 +46169,7 @@ aae
 aae
 aae
 bMe
-gQx
+vYu
 gQx
 uPd
 pyr
@@ -46124,7 +46178,7 @@ cPq
 cPq
 gQx
 gQx
-gQx
+cvX
 bMe
 msw
 hXn
@@ -46372,7 +46426,7 @@ aae
 aae
 aae
 bMe
-gQx
+vYu
 gQx
 qCK
 gQx
@@ -46381,7 +46435,7 @@ qAh
 gQx
 qCK
 gQx
-gQx
+cvX
 bMe
 msw
 hXn
@@ -46629,7 +46683,7 @@ nNV
 aae
 aae
 bMe
-qAh
+vcq
 gQx
 gQx
 gQx
@@ -46638,7 +46692,7 @@ qAh
 gQx
 gQx
 gQx
-gQx
+cvX
 bMe
 kUl
 oJH
@@ -46887,14 +46941,14 @@ aae
 aae
 bMe
 pzF
-qAh
-gQx
-gQx
+cuD
+kAD
+kAD
 fCF
-gQx
-gQx
-gQx
-qAh
+kAD
+kAD
+kAD
+cuD
 obM
 bMe
 kUl
@@ -87362,10 +87416,10 @@ crm
 iKx
 pDI
 ueb
-vYu
-exy
-vly
 pDI
+lIX
+pDI
+ueb
 pDI
 xlU
 pDI
@@ -87619,10 +87673,10 @@ ciC
 gDx
 irQ
 ueb
-kAD
-cvX
-cjt
-mcX
+pDI
+nOj
+nOj
+rEJ
 pDI
 ckm
 mcX
@@ -87876,10 +87930,10 @@ nOj
 jlQ
 qet
 ueb
-iBR
-oDA
-vcq
 pDI
+pDI
+pDI
+ueb
 pDI
 pDI
 pDI
@@ -88133,9 +88187,9 @@ rEX
 uwi
 pDI
 ueb
-ueb
-qUT
-ueb
+pDI
+nOj
+pDI
 ueb
 pDI
 pjG
@@ -88394,7 +88448,7 @@ tbP
 pDI
 pDI
 ueb
-eow
+ogs
 cjG
 pDI
 ckL
@@ -88906,8 +88960,8 @@ fjf
 xZu
 nej
 ciC
-pDI
-ueb
+eUw
+xZu
 wsL
 xlU
 pDI
@@ -89163,9 +89217,9 @@ eUw
 xZu
 isq
 pDI
-pDI
-ueb
-iKx
+vly
+xZu
+fNo
 eOg
 pDI
 bRc
@@ -89692,10 +89746,10 @@ msT
 pDI
 vUa
 qUT
-nOj
-nOj
-nOj
-nOj
+abV
+abV
+abV
+abV
 ueb
 aae
 aae
@@ -89950,9 +90004,9 @@ nOj
 qAO
 qUT
 owZ
-pDI
+cYH
 abV
-nOj
+abV
 ueb
 aae
 aae
@@ -90206,10 +90260,10 @@ iRs
 pDI
 dPu
 ueb
-pDI
-nOj
-pDI
-nOj
+wZS
+abV
+wZS
+abV
 ueb
 xwF
 xwF
@@ -91226,7 +91280,7 @@ ckn
 qlt
 pDI
 cgt
-qlt
+oDA
 pDI
 ivR
 fSI
@@ -91483,7 +91537,7 @@ tZD
 qlt
 pDI
 mwi
-qlt
+oDA
 pDI
 xIP
 xIP
@@ -91740,7 +91794,7 @@ ckn
 qlt
 pDI
 pDI
-qlt
+oDA
 pDI
 ivR
 fSI
@@ -91997,7 +92051,7 @@ ckw
 ueb
 tbP
 nOj
-qlt
+oDA
 pDI
 pDI
 nOj

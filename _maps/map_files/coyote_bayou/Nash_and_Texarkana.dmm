@@ -804,12 +804,11 @@
 /turf/open/floor/f13/wood,
 /area/f13/building/coyote/nash/greenhouse)
 "adt" = (
-/obj/machinery/light/small{
-	dir = 1
-	},
 /obj/structure/timeddoor/sixtyminute,
-/turf/open/floor/plasteel/elevatorshaft,
-/area/f13/building/coyote/nash/massfus/groundfloor/west)
+/turf/open/floor/plasteel/f13{
+	icon_state = "darkrustysolid"
+	},
+/area/f13/building/massfusion)
 "adu" = (
 /obj/structure/stairs{
 	dir = 4
@@ -13789,8 +13788,12 @@
 	},
 /area/f13/building/coyote/nash/massfus/sidebuilding)
 "aVj" = (
-/obj/structure/timeddoor/sixtyminute,
-/turf/open/floor/plasteel/elevatorshaft,
+/obj/structure/closet/crate/large,
+/obj/effect/spawner/lootdrop/f13/rare,
+/obj/effect/spawner/lootdrop/f13/rare,
+/turf/open/floor/plasteel/f13{
+	icon_state = "yellowrustysolid"
+	},
 /area/f13/building/coyote/nash/massfus/groundfloor/west)
 "aVl" = (
 /turf/open/transparent/openspace,
@@ -27090,6 +27093,7 @@
 	dir = 8;
 	pixel_y = 0
 	},
+/obj/structure/timeddoor/sixtyminute,
 /turf/open/floor/plasteel/f13{
 	icon_state = "darkrustysolid"
 	},
@@ -42746,6 +42750,12 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood/old,
+/obj/machinery/light{
+	bulb_colour = "#BC8F8F";
+	dir = 4;
+	light_color = "#BC8F8F";
+	name = "bar light"
+	},
 /turf/open/floor/plasteel/f13/vault_floor/white,
 /area/f13/building/hospital/clinic/nash)
 "gnC" = (
@@ -43774,14 +43784,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/closed/wall/f13/wood/interior,
 /area/f13/building/bank)
-"gzC" = (
-/obj/effect/mob_spawn/human/corpse,
-/turf/open/indestructible/ground/outside/water{
-	light_color = null;
-	color = "#FFBB77";
-	name = "the watering hole"
-	},
-/area/f13/building/sewers)
 "gzG" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/indestructible/ground/outside/road{
@@ -47204,10 +47206,12 @@
 /turf/open/floor/wood_common,
 /area/f13/building/coyote/nash/school/groundfloor)
 "hmU" = (
-/obj/effect/decal/cleanable/blood/tracks,
-/obj/structure/timeddoor/sixtyminute,
+/obj/structure/ladder/unbreakable{
+	height = 2;
+	id = "plantelevator"
+	},
 /turf/open/floor/plasteel/elevatorshaft,
-/area/f13/building/coyote/nash/massfus/groundfloor/west)
+/area/f13/building/coyote/nash/massfus/sidebuilding)
 "hnb" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/table/wood,
@@ -61000,7 +61004,6 @@
 /turf/open/floor/f13/wood,
 /area/f13/building/abandoned)
 "kqA" = (
-/obj/effect/mob_spawn/human/corpse,
 /obj/effect/decal/cleanable/blood,
 /obj/effect/decal/cleanable/vomit,
 /turf/open/floor/f13/wood,
@@ -62960,6 +62963,20 @@
 	icon_state = "whitegreenrustychess"
 	},
 /area/f13/ruins)
+"kMT" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light{
+	bulb_colour = "#BC8F8F";
+	dir = 4;
+	light_color = "#BC8F8F";
+	name = "bar light"
+	},
+/obj/structure/sink{
+	dir = 4;
+	pixel_x = 10
+	},
+/turf/open/floor/plasteel/f13/vault_floor/white,
+/area/f13/building/hospital/clinic/nash)
 "kMU" = (
 /obj/effect/turf_decal/weather/dirt{
 	dir = 1
@@ -68082,12 +68099,10 @@
 /turf/open/floor/grass,
 /area/f13/wasteland)
 "lRR" = (
-/obj/structure/ladder/unbreakable{
-	height = 2;
-	id = "plantelevator"
-	},
 /obj/effect/decal/cleanable/blood/drip,
-/turf/open/floor/plasteel/elevatorshaft,
+/turf/open/floor/plasteel/f13{
+	icon_state = "yellowrustysolid"
+	},
 /area/f13/building/coyote/nash/massfus/groundfloor/west)
 "lRT" = (
 /obj/structure/closet/fridge,
@@ -102756,6 +102771,7 @@
 /obj/machinery/light{
 	dir = 4
 	},
+/obj/structure/timeddoor/sixtyminute,
 /turf/open/floor/plasteel/f13{
 	icon_state = "darkrustysolid"
 	},
@@ -106201,8 +106217,7 @@
 	},
 /area/f13/wasteland/city/nash/downtown)
 "uhI" = (
-/obj/structure/ladder/unbreakable,
-/turf/open/indestructible/ground/inside/subway,
+/turf/open/transparent/openspace,
 /area/f13/caves)
 "uhN" = (
 /obj/effect/decal/cleanable/dirt{
@@ -119739,7 +119754,6 @@
 /turf/open/floor/wood_fancy/wood_fancy_light,
 /area/f13/building/bank)
 "xjD" = (
-/obj/effect/mob_spawn/human/corpse,
 /obj/structure/bed/mattress{
 	icon_state = "mattress4";
 	pixel_y = -2
@@ -128093,7 +128107,7 @@ snZ
 kkp
 uHu
 ugE
-utB
+kMT
 xNd
 cGK
 rTj
@@ -128607,7 +128621,7 @@ cxc
 qML
 uHu
 hGn
-tPz
+bhr
 tPz
 nZx
 cdS
@@ -168041,7 +168055,7 @@ eiK
 oPb
 aae
 kEb
-gzC
+dSf
 wBO
 vpi
 vpi
@@ -170880,7 +170894,7 @@ trX
 trX
 trX
 aVj
-aVj
+cbo
 aVj
 geK
 drI
@@ -171136,9 +171150,9 @@ ehB
 afg
 tAd
 rQv
-adt
+cbo
 lRR
-hmU
+cbo
 aHV
 pXk
 iCI
@@ -171394,7 +171408,7 @@ ehB
 gPv
 rQv
 aVj
-aVj
+cbo
 aVj
 geK
 fPS
@@ -174727,7 +174741,7 @@ dSf
 adG
 aeP
 aeP
-dBY
+adt
 cVW
 acQ
 jEC
@@ -174984,7 +174998,7 @@ dSf
 adG
 srl
 aeP
-dBY
+adt
 cVW
 acQ
 nBD
@@ -175241,7 +175255,7 @@ dSf
 adG
 aeP
 aeP
-dBY
+adt
 cVW
 acQ
 iKm
@@ -176054,7 +176068,7 @@ eiE
 auX
 hAB
 xUS
-hAB
+hmU
 hiB
 gqt
 gqt
