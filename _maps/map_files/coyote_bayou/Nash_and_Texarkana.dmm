@@ -362,9 +362,14 @@
 /turf/closed/wall/mineral/concrete/blastproof,
 /area/f13/building/massfusion)
 "abz" = (
-/mob/living/simple_animal/hostile/wolf/alpha/playable,
+/obj/structure/flora/ausbushes/grassybush,
+/obj/structure/nest/randomized{
+	randomizer_difficulty = 1;
+	randomizer_kind = "OP mobs";
+	randomizer_tag = "RRAD Ramblers"
+	},
 /turf/open/floor/grass,
-/area/f13/wasteland)
+/area/f13/wasteland/coyote/nash/southeastcornercamp)
 "abB" = (
 /obj/structure/curtain,
 /turf/open/floor/plasteel/barber{
@@ -1849,10 +1854,9 @@
 /turf/closed/wall/r_wall/rust,
 /area/f13/building/abandoned)
 "ahE" = (
-/obj/structure/nest/randomized{
-	randomizer_difficulty = 1;
-	randomizer_kind = "OP mobs";
-	randomizer_tag = "RRAD Ramblers"
+/mob/living/simple_animal/hostile/securitron/sentrybot{
+	health = 500;
+	name = "annihilator sentry bot"
 	},
 /turf/open/floor/plasteel/f13/vault_floor/dark{
 	icon_state = "darkdirty"
@@ -4284,11 +4288,6 @@
 /obj/structure/flora/ausbushes/leafybush,
 /turf/open/floor/grass,
 /area/f13/wasteland/nash)
-"aqx" = (
-/obj/effect/decal/cleanable/dirt,
-/mob/living/simple_animal/hostile/raider/junker/creator,
-/turf/open/floor/plating,
-/area/f13/building/abandoned)
 "aqy" = (
 /obj/structure/sign/poster/prewar/poster74{
 	pixel_y = 32
@@ -7000,7 +6999,7 @@
 /area/f13/wasteland)
 "azt" = (
 /obj/effect/decal/cleanable/dirt,
-/turf/closed/wall/f13/coyote/darkwoodwall,
+/turf/closed/wall/f13/store,
 /area/f13/building/hospital/clinic/nash)
 "azu" = (
 /obj/structure/car/rubbish3,
@@ -7445,13 +7444,6 @@
 /obj/effect/spawner/lootdrop/f13/uncommon,
 /turf/open/floor/f13/wood,
 /area/f13/ruins)
-"aAU" = (
-/obj/effect/decal/cleanable/dirt,
-/mob/living/simple_animal/hostile/raider/tribal,
-/turf/open/floor/f13/wood{
-	icon_state = "housewood3-broken"
-	},
-/area/f13/building/abandoned)
 "aAV" = (
 /obj/structure/flora/ausbushes/ppflowers,
 /turf/open/indestructible/ground/outside/desert,
@@ -12932,11 +12924,6 @@
 /obj/effect/decal/cleanable/dirt{
 	color = "#363636"
 	},
-/obj/structure/nest/randomized{
-	randomizer_difficulty = 1;
-	randomizer_kind = "mid level mobs";
-	randomizer_tag = "Texarkana Residential District 1"
-	},
 /obj/effect/decal/cleanable/blood/drip,
 /turf/open/floor/f13{
 	icon_state = "redrustyfull"
@@ -13298,16 +13285,17 @@
 /turf/open/floor/f13/wood,
 /area/f13/building/abandoned)
 "aTF" = (
-/mob/living/simple_animal/hostile/ghoul,
+/obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/decal/cleanable/dirt{
 	color = "#363636"
 	},
-/obj/effect/decal/cleanable/dirt{
-	color = "#363636"
+/obj/structure/nest/randomized{
+	randomizer_difficulty = 1;
+	randomizer_kind = "mid level mobs";
+	randomizer_tag = "Texarkana Residential District 1"
 	},
 /turf/open/floor/f13{
-	dir = 10;
-	icon_state = "redmark"
+	icon_state = "redrustyfull"
 	},
 /area/f13/building/coyote/nash/school/groundfloor)
 "aTG" = (
@@ -14614,10 +14602,9 @@
 /turf/open/indestructible/ground/outside/dirthole,
 /area/f13/wasteland/city/nash/starterroad)
 "aYw" = (
-/obj/structure/nest/randomized{
-	randomizer_difficulty = 1;
-	randomizer_kind = "OP mobs";
-	randomizer_tag = "RRAD Ramblers"
+/mob/living/simple_animal/hostile/securitron/sentrybot{
+	health = 500;
+	name = "annihilator sentry bot"
 	},
 /turf/open/floor/plasteel/vault,
 /area/f13/ruins)
@@ -15211,15 +15198,13 @@
 	},
 /area/f13/wasteland)
 "baE" = (
-/obj/structure/nest/randomized{
-	randomizer_difficulty = 1;
-	randomizer_kind = "low level mobs";
-	randomizer_tag = "Diner Dangers"
+/obj/effect/decal/cleanable/dirt,
+/mob/living/simple_animal/hostile/securitron/sentrybot{
+	health = 500;
+	name = "annihilator sentry bot"
 	},
-/turf/open/floor/f13{
-	icon_state = "bluedirtychess2"
-	},
-/area/f13/building/abandoned)
+/turf/open/indestructible/ground/outside/desert,
+/area/f13/wasteland)
 "baF" = (
 /obj/machinery/light,
 /turf/open/floor/plasteel/f13/vault_floor/misc/cafeteria,
@@ -16170,10 +16155,9 @@
 /area/f13/building/hospital)
 "beg" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/nest/randomized{
-	randomizer_difficulty = 1;
-	randomizer_kind = "OP mobs";
-	randomizer_tag = "RRAD Ramblers"
+/mob/living/simple_animal/hostile/securitron/sentrybot{
+	health = 500;
+	name = "annihilator sentry bot"
 	},
 /turf/open/floor/plasteel/f13/vault_floor/dark{
 	icon_state = "darkdirty"
@@ -18280,6 +18264,7 @@
 "bmg" = (
 /obj/machinery/hydroponics/soil,
 /obj/structure/flora/grass/wasteland,
+/obj/structure/flora/wasteplant/wild_buffalogourd,
 /turf/open/indestructible/ground/inside/dirt,
 /area/f13/building/coyote/nash/greenhouse)
 "bmh" = (
@@ -18807,10 +18792,15 @@
 /area/f13/wasteland)
 "bpj" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/nest/raider{
-	pixel_x = -1
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/nest/randomized{
+	randomizer_difficulty = 1;
+	randomizer_kind = "mid level mobs";
+	randomizer_tag = "Texarkana Residential District 1"
 	},
-/turf/open/floor/f13/wood,
+/turf/open/floor/f13{
+	icon_state = "bluedirtychess2"
+	},
 /area/f13/building/abandoned)
 "bpn" = (
 /obj/structure/chair/left{
@@ -21147,14 +21137,11 @@
 /turf/open/indestructible/ground/outside/desert,
 /area/f13/caves)
 "bFl" = (
-/mob/living/simple_animal/hostile/ghoul,
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/effect/decal/cleanable/dirt{
-	color = "#363636"
+/mob/living/simple_animal/hostile/handy/assaultron,
+/turf/open/indestructible/ground/outside/sidewalk{
+	icon_state = "verticalrightborderright0"
 	},
-/obj/effect/decal/cleanable/blood/drip,
-/turf/open/floor/wood_common,
-/area/f13/building/coyote/nash/school/groundfloor)
+/area/f13/wasteland)
 "bFu" = (
 /obj/structure/car/rubbish3{
 	layer = 5;
@@ -21764,10 +21751,6 @@
 	icon_state = "wasteland33"
 	},
 /area/f13/wasteland/city)
-"bMc" = (
-/mob/living/simple_animal/hostile/raider/baseball,
-/turf/open/floor/f13/wood,
-/area/f13/building/abandoned)
 "bMi" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/indestructible/ground/outside/road{
@@ -21998,7 +21981,7 @@
 "bOQ" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
-/turf/closed/wall/f13/coyote/darkwoodwall,
+/turf/closed/wall/f13/store,
 /area/f13/building/hospital/clinic/nash)
 "bOY" = (
 /obj/effect/turf_decal/weather/dirt{
@@ -22117,7 +22100,11 @@
 	},
 /area/f13/wasteland/city/nash/theloop)
 "bQP" = (
-/mob/living/simple_animal/hostile/raider/junker,
+/obj/structure/nest/randomized{
+	randomizer_difficulty = 1;
+	randomizer_kind = "OP mobs";
+	randomizer_tag = "RRAD Ramblers"
+	},
 /turf/open/floor/f13/wood,
 /area/f13/building/abandoned)
 "bQS" = (
@@ -22919,12 +22906,13 @@
 	},
 /area/f13/wasteland/city)
 "cam" = (
-/mob/living/simple_animal/hostile/ghoul,
-/obj/effect/decal/cleanable/dirt/dust,
-/turf/open/floor/f13{
-	icon_state = "redrustyfull"
+/obj/structure/nest/randomized{
+	randomizer_difficulty = 1;
+	randomizer_kind = "OP mobs";
+	randomizer_tag = "RRAD Ramblers"
 	},
-/area/f13/building/coyote/nash/school/groundfloor)
+/turf/open/floor/carpet/black,
+/area/f13/building/abandoned)
 "can" = (
 /obj/structure/flora/grass/wasteland{
 	icon_state = "tall_grass_6"
@@ -23152,6 +23140,10 @@
 /turf/open/floor/f13/wood,
 /area/f13/ruins)
 "ccU" = (
+/obj/structure/barricade/wooden/strong,
+/obj/structure/barricade/wooden/planks/pregame,
+/obj/structure/barricade/wooden/crude,
+/obj/structure/simple_door/metal/iron,
 /turf/open/indestructible/ground/outside/road{
 	icon_state = "horizontalbottombordertop3"
 	},
@@ -24498,10 +24490,9 @@
 	dir = 4;
 	pixel_x = -9
 	},
-/obj/structure/nest/randomized{
-	randomizer_difficulty = 1;
-	randomizer_kind = "OP mobs";
-	randomizer_tag = "RRAD Ramblers"
+/mob/living/simple_animal/hostile/securitron/sentrybot{
+	health = 500;
+	name = "annihilator sentry bot"
 	},
 /turf/open/indestructible/ground/outside/sidewalk{
 	icon_state = "horizontaloutermain0"
@@ -24641,6 +24632,11 @@
 /obj/effect/turf_decal/trimline/neutral/line{
 	dir = 1;
 	pixel_y = -10
+	},
+/obj/structure/nest/randomized{
+	randomizer_difficulty = 1;
+	randomizer_kind = "mid level mobs";
+	randomizer_tag = "Texarkana Residential District 1"
 	},
 /turf/open/floor/wood_wide,
 /area/f13/building/coyote/nash/school/groundfloor)
@@ -25208,7 +25204,7 @@
 /area/f13/wasteland/nash)
 "crn" = (
 /obj/machinery/vending/medical,
-/turf/closed/wall/f13/coyote/darkwoodwall,
+/turf/closed/wall/f13/store,
 /area/f13/building/hospital/clinic/nash)
 "cro" = (
 /obj/structure/table/wood,
@@ -25992,7 +25988,6 @@
 	dir = 4
 	},
 /obj/effect/decal/cleanable/dirt,
-/mob/living/simple_animal/hostile/raider/junker/creator,
 /turf/open/floor/f13/wood{
 	icon_state = "housewood2-broken"
 	},
@@ -26364,10 +26359,19 @@
 /turf/open/floor/carpet/black,
 /area/f13/building)
 "cBJ" = (
-/obj/effect/decal/cleanable/dirt,
-/mob/living/simple_animal/hostile/raider/thief,
-/turf/open/floor/f13/wood,
-/area/f13/building/abandoned)
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt{
+	color = "#363636"
+	},
+/obj/structure/nest/randomized{
+	randomizer_difficulty = 1;
+	randomizer_kind = "mid level mobs";
+	randomizer_tag = "Texarkana Residential District 1"
+	},
+/turf/open/floor/wood_common{
+	icon_state = "common-broken5"
+	},
+/area/f13/building/coyote/nash/school/groundfloor)
 "cBK" = (
 /obj/structure/chair/f13chair2{
 	dir = 4
@@ -26687,10 +26691,10 @@
 	},
 /area/f13/wasteland/city/nash/starterroad)
 "cGK" = (
-/obj/structure/table,
-/obj/item/stock_parts/chem_cartridge/pristine,
-/obj/item/stock_parts/chem_cartridge/pristine,
-/turf/open/floor/carpet/blue,
+/obj/structure/curtain,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/f13/vault_floor/white,
 /area/f13/building/hospital/clinic/nash)
 "cGL" = (
 /obj/effect/decal/cleanable/dirt,
@@ -26993,10 +26997,9 @@
 	},
 /area/f13/building/abandoned)
 "cJJ" = (
-/obj/structure/nest/randomized{
-	randomizer_difficulty = 1;
-	randomizer_kind = "OP mobs";
-	randomizer_tag = "RRAD Ramblers"
+/mob/living/simple_animal/hostile/securitron/sentrybot{
+	health = 500;
+	name = "annihilator sentry bot"
 	},
 /turf/open/indestructible/ground/outside/road{
 	icon_state = "verticalleftborderright0"
@@ -28219,7 +28222,7 @@
 	light_color = "#e8eaff"
 	},
 /obj/effect/spawner/lootdrop/f13/trash,
-/turf/open/floor/plasteel/f13/vault_floor/white,
+/turf/open/floor/carpet/blue,
 /area/f13/building/hospital/clinic/nash)
 "cYB" = (
 /obj/structure/flora/ausbushes/grassybush,
@@ -29013,16 +29016,15 @@
 /area/f13/wasteland)
 "dhz" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/nest/raider/melee{
-	pixel_y = 32
-	},
-/turf/open/floor/f13/wood,
-/area/f13/building/abandoned)
+/obj/structure/closet/crate/freezer/blood,
+/turf/open/floor/carpet/blue,
+/area/f13/building/hospital/clinic/nash)
 "dhE" = (
-/obj/structure/flora/grass/coyote/one,
-/mob/living/simple_animal/hostile/raider/sulphite,
-/turf/open/floor/grass,
-/area/f13/wasteland/coyote/nash/southeastcornercamp)
+/mob/living/simple_animal/hostile/handy/gutsy,
+/turf/open/floor/f13{
+	icon_state = "darkdirtysolid"
+	},
+/area/f13/ruins)
 "dhJ" = (
 /obj/structure/flora/grass/wasteland{
 	icon_state = "tall_grass_2";
@@ -29405,7 +29407,7 @@
 "dmQ" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/vomit,
-/turf/open/floor/plasteel/f13/vault_floor/white,
+/turf/open/floor/carpet/blue,
 /area/f13/building/hospital/clinic/nash)
 "dmT" = (
 /turf/open/indestructible/ground/outside/road{
@@ -30478,7 +30480,7 @@
 /area/f13/wasteland)
 "dyR" = (
 /obj/machinery/mineral/wasteland_vendor/medical,
-/turf/closed/wall/f13/coyote/darkwoodwall,
+/turf/closed/wall/f13/store,
 /area/f13/building/hospital/clinic/nash)
 "dyW" = (
 /turf/open/indestructible/ground/outside/road{
@@ -31927,6 +31929,7 @@
 /obj/structure/flora/grass/wasteland,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/spawner/lootdrop/f13/common,
+/obj/structure/flora/wasteplant/wild_coyote,
 /turf/open/indestructible/ground/inside/dirt,
 /area/f13/building/coyote/nash/greenhouse)
 "dNF" = (
@@ -32443,6 +32446,11 @@
 /obj/effect/spawner/lootdrop/f13/uncommon,
 /obj/effect/spawner/lootdrop/f13/uncommon,
 /obj/item/card/lowbounty,
+/obj/structure/nest/randomized{
+	randomizer_difficulty = 1;
+	randomizer_kind = "OP mobs";
+	randomizer_tag = "RRAD Ramblers"
+	},
 /turf/open/floor/f13/wood,
 /area/f13/building/abandoned)
 "dTj" = (
@@ -32766,8 +32774,8 @@
 "dYt" = (
 /obj/structure/nest/randomized{
 	randomizer_difficulty = 1;
-	randomizer_kind = "low level mobs";
-	randomizer_tag = "Diner Dangers"
+	randomizer_kind = "mid level mobs";
+	randomizer_tag = "Texarkana Residential District 1"
 	},
 /turf/open/floor/grass,
 /area/f13/wasteland)
@@ -34065,13 +34073,6 @@
 /turf/open/floor/f13{
 	icon_state = "hydrofloor"
 	},
-/area/f13/building/abandoned)
-"eoJ" = (
-/obj/structure/bed/mattress{
-	icon_state = "mattress5"
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/f13/wood,
 /area/f13/building/abandoned)
 "eoL" = (
 /obj/effect/decal/cleanable/dirt,
@@ -38541,12 +38542,13 @@
 /turf/open/floor/wood_common,
 /area/f13/building)
 "frC" = (
-/obj/effect/decal/cleanable/dirt/dust,
-/mob/living/simple_animal/hostile/ghoul/reaver,
-/turf/open/floor/f13{
-	icon_state = "redrustyfull"
+/obj/structure/nest/randomized{
+	randomizer_difficulty = 1;
+	randomizer_kind = "OP mobs";
+	randomizer_tag = "RRAD Ramblers"
 	},
-/area/f13/building/coyote/nash/school/groundfloor)
+/turf/open/floor/grass,
+/area/f13/wasteland/coyote/nash/southeastcornercamp)
 "frF" = (
 /obj/structure/flora/grass/wasteland{
 	icon_state = "tall_grass_3"
@@ -39214,6 +39216,7 @@
 /area/f13/wasteland)
 "fyw" = (
 /obj/machinery/hydroponics/soil,
+/obj/structure/flora/wasteplant/wild_mesquite,
 /turf/open/indestructible/ground/inside/dirt,
 /area/f13/building/coyote/nash/greenhouse)
 "fyx" = (
@@ -40399,7 +40402,7 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/f13/vault_floor/white,
+/turf/open/floor/carpet/blue,
 /area/f13/building/hospital/clinic/nash)
 "fLq" = (
 /obj/effect/decal/cleanable/dirt,
@@ -41266,11 +41269,10 @@
 /area/f13/building/abandoned)
 "fUY" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/nest/gecko,
-/turf/open/indestructible/ground/outside/sidewalk{
-	icon_state = "verticalrightborderright0"
-	},
-/area/f13/wasteland/city)
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/curtain,
+/turf/open/floor/plasteel/f13/vault_floor/white,
+/area/f13/building/hospital/clinic/nash)
 "fVe" = (
 /obj/machinery/light/small/broken{
 	dir = 4
@@ -41645,12 +41647,11 @@
 	},
 /area/f13/building)
 "fYy" = (
-/obj/structure/table,
-/obj/item/clothing/neck/stethoscope,
-/obj/item/clothing/neck/stethoscope,
-/obj/item/storage/box/medicine/stimpaks/stimpaks5,
+/obj/structure/curtain,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/carpet/blue,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/f13/vault_floor/white,
 /area/f13/building/hospital/clinic/nash)
 "fYE" = (
 /obj/effect/decal/cleanable/dirt,
@@ -42059,13 +42060,13 @@
 /turf/open/indestructible/ground/outside/gravel,
 /area/f13/building)
 "gdd" = (
-/obj/machinery/iv_drip/telescopic,
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/light{
-	dir = 8
+/obj/structure/nest/randomized{
+	randomizer_difficulty = 1;
+	randomizer_kind = "OP mobs";
+	randomizer_tag = "RRAD Ramblers"
 	},
-/turf/open/floor/carpet/blue,
-/area/f13/building/hospital/clinic/nash)
+/turf/open/indestructible/ground/outside/gravel,
+/area/f13/wasteland/coyote/nash/southeastcornercamp)
 "gdj" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/nest/randomized{
@@ -44017,10 +44018,6 @@
 	},
 /turf/open/floor/f13/wood,
 /area/f13/building/coyote/nash/mall/groundfloor)
-"gBC" = (
-/obj/structure/nest/raider,
-/turf/open/floor/f13/wood,
-/area/f13/building/abandoned)
 "gBE" = (
 /obj/effect/decal/cleanable/dirt{
 	color = "000000"
@@ -46513,11 +46510,27 @@
 /turf/open/floor/grass,
 /area/f13/wasteland)
 "hel" = (
-/obj/structure/nest/ghoul{
-	layer = 2.07
+/obj/structure/closet/locker/oldstyle,
+/obj/item/storage/box/beakers{
+	pixel_x = 7;
+	pixel_y = 11
 	},
-/turf/open/floor/grass,
-/area/f13/wasteland)
+/obj/item/storage/box/pillbottles{
+	pixel_x = 10;
+	pixel_y = 7
+	},
+/obj/item/storage/box/syringes,
+/obj/item/storage/box/medsprays{
+	pixel_x = -3;
+	pixel_y = 13
+	},
+/obj/item/stock_parts/chem_cartridge/pristine,
+/obj/item/stock_parts/chem_cartridge/pristine,
+/turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite{
+	icon_state = "showroomfloor";
+	name = "tile"
+	},
+/area/f13/building/hospital/clinic/nash)
 "heo" = (
 /obj/structure/chair/right,
 /turf/open/floor/f13{
@@ -51122,9 +51135,14 @@
 /turf/open/floor/carpet,
 /area/f13/building/coyote/nash/mall/groundfloor)
 "ifU" = (
-/mob/living/simple_animal/hostile/raider/baseball,
-/turf/open/floor/f13/wood{
-	icon_state = "housewood2"
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/nest/randomized{
+	randomizer_difficulty = 1;
+	randomizer_kind = "OP mobs";
+	randomizer_tag = "RRAD Ramblers"
+	},
+/turf/open/floor/f13{
+	icon_state = "whitegreenrustychess"
 	},
 /area/f13/building/abandoned)
 "ifV" = (
@@ -54446,9 +54464,16 @@
 	},
 /area/f13/wasteland/city)
 "iPs" = (
-/mob/living/simple_animal/hostile/skeleton,
-/turf/open/indestructible/ground/inside/mountain,
-/area/f13/caves)
+/obj/effect/decal/cleanable/dirt{
+	color = "#363636"
+	},
+/obj/structure/nest/randomized{
+	randomizer_difficulty = 1;
+	randomizer_kind = "OP mobs";
+	randomizer_tag = "RRAD Ramblers"
+	},
+/turf/open/floor/f13/wood,
+/area/f13/building/abandoned)
 "iPt" = (
 /obj/machinery/light/small/broken{
 	dir = 8
@@ -54636,12 +54661,11 @@
 	},
 /area/f13/wasteland/city/nash/theloop)
 "iRk" = (
-/obj/structure/flora/rock/pile/largejungle,
-/obj/structure/flora/tree/jungle{
-	color = "#d9b51c"
+/obj/structure/barricade/sandbags,
+/turf/open/floor/f13{
+	icon_state = "floorrusty"
 	},
-/turf/open/floor/grass,
-/area/f13/wasteland/nash)
+/area/f13/building)
 "iRm" = (
 /turf/open/indestructible/ground/outside/sidewalk{
 	icon_state = "verticalrightborderrightbottom"
@@ -55494,12 +55518,10 @@
 /turf/open/transparent/glass/reinforced,
 /area/f13/building/massfusion)
 "jaG" = (
-/obj/structure/flora/grass/wasteland{
-	icon_state = "tall_grass_4"
-	},
-/mob/living/simple_animal/hostile/raider/tribal,
-/turf/open/floor/grass,
-/area/f13/wasteland/coyote/nash/southeastcornercamp)
+/obj/structure/curtain,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/f13/vault_floor/white,
+/area/f13/building/hospital/clinic/nash)
 "jaV" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/rack,
@@ -56185,10 +56207,9 @@
 /area/f13/bar/nash)
 "jjJ" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/nest/randomized{
-	randomizer_difficulty = 1;
-	randomizer_kind = "OP mobs";
-	randomizer_tag = "RRAD Ramblers"
+/mob/living/simple_animal/hostile/securitron/sentrybot{
+	health = 500;
+	name = "annihilator sentry bot"
 	},
 /turf/open/floor/f13{
 	icon_state = "darkdirtysolid"
@@ -58098,9 +58119,13 @@
 	},
 /area/f13/ruins)
 "jHQ" = (
-/obj/structure/nest/raider,
-/turf/open/floor/carpet/black,
-/area/f13/building/abandoned)
+/obj/structure/nest/randomized{
+	randomizer_difficulty = 1;
+	randomizer_kind = "OP mobs";
+	randomizer_tag = "RRAD Ramblers"
+	},
+/turf/open/indestructible/ground/inside/mountain,
+/area/f13/caves)
 "jHR" = (
 /obj/structure/flora/tree/jungle/small{
 	color = "#d9b51c"
@@ -58125,10 +58150,6 @@
 "jIa" = (
 /obj/structure/chair/wood,
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/nest/raider/melee{
-	pixel_y = 32
-	},
-/mob/living/simple_animal/hostile/raider/legendary,
 /turf/open/floor/f13/wood,
 /area/f13/building/abandoned)
 "jIe" = (
@@ -58530,7 +58551,9 @@
 /turf/open/floor/plasteel/f13/vault_floor/neutral/neutralsolid,
 /area/f13/building/abandoned)
 "jNP" = (
-/obj/structure/flora/tree/jungle/small,
+/obj/machinery/hydroponics/soil/pot,
+/obj/machinery/hydroponics/soil/pot,
+/obj/structure/flora/wasteplant/wild_prickly,
 /turf/open/floor/f13/wood,
 /area/f13/building/coyote/nash/greenhouse)
 "jNQ" = (
@@ -61300,10 +61323,9 @@
 	},
 /area/f13/building/abandoned)
 "ktl" = (
-/obj/structure/nest/raider,
-/mob/living/simple_animal/hostile/raider/firefighter,
-/turf/open/floor/f13/wood,
-/area/f13/building/abandoned)
+/mob/living/simple_animal/hostile/handy/assaultron,
+/turf/open/indestructible/ground/outside/desert,
+/area/f13/wasteland)
 "ktq" = (
 /obj/structure/chair/office/dark{
 	dir = 8
@@ -61367,10 +61389,9 @@
 /turf/open/floor/grass,
 /area/f13/wasteland/city)
 "kub" = (
-/obj/structure/nest/randomized{
-	randomizer_difficulty = 1;
-	randomizer_kind = "OP mobs";
-	randomizer_tag = "RRAD Ramblers"
+/mob/living/simple_animal/hostile/securitron/sentrybot{
+	health = 500;
+	name = "annihilator sentry bot"
 	},
 /turf/open/floor/f13{
 	icon_state = "darkdirtysolid"
@@ -62099,16 +62120,6 @@
 	},
 /turf/open/indestructible/ground/outside/desert,
 /area/f13/wasteland/city/nash/downtown)
-"kCF" = (
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/structure/nest/raider{
-	pixel_x = -1;
-	pixel_y = 29
-	},
-/turf/open/floor/f13{
-	icon_state = "whitegreenrustychess"
-	},
-/area/f13/building/abandoned)
 "kCL" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/f13{
@@ -63395,14 +63406,6 @@
 /obj/structure/junk/small/table,
 /turf/open/floor/f13/wood,
 /area/f13/building/abandoned)
-"kSu" = (
-/obj/structure/closet/crate/freezer/blood,
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/sign/painting/library{
-	pixel_y = 35
-	},
-/turf/open/floor/plasteel/f13/vault_floor/white,
-/area/f13/building/hospital/clinic/nash)
 "kSv" = (
 /obj/structure/flora/grass/wasteland{
 	icon_state = "tall_grass_6"
@@ -63940,13 +63943,11 @@
 	},
 /area/f13/building/coyote/nash/massfus/groundfloor/east)
 "kYD" = (
-/mob/living/simple_animal/hostile/ghoul/reaver,
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/effect/decal/cleanable/dirt{
-	color = "#363636"
+/obj/structure/flora/tree/jungle/small{
+	color = "#d9b51c"
 	},
-/turf/open/floor/wood_common,
-/area/f13/building/coyote/nash/school/groundfloor)
+/turf/closed/wall/f13/store,
+/area/f13/building/hospital/clinic/nash)
 "kYE" = (
 /obj/machinery/mineral/processing_unit{
 	input_dir = 8;
@@ -64403,10 +64404,9 @@
 /area/f13/building/abandoned)
 "lcS" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/nest/randomized{
-	randomizer_difficulty = 1;
-	randomizer_kind = "OP mobs";
-	randomizer_tag = "RRAD Ramblers"
+/mob/living/simple_animal/hostile/securitron/sentrybot{
+	health = 500;
+	name = "annihilator sentry bot"
 	},
 /turf/open/indestructible/ground/outside/road,
 /area/f13/wasteland)
@@ -68513,8 +68513,13 @@
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/building/coyote/nash/massfus/sidebuilding)
 "lVT" = (
-/mob/living/simple_animal/hostile/raider/ranged,
-/turf/open/floor/f13/wood,
+/obj/structure/barricade/wooden,
+/obj/structure/barricade/wooden/crude,
+/obj/structure/barricade/wooden/planks,
+/obj/structure/barricade/bars,
+/turf/open/indestructible/ground/outside/road{
+	icon_state = "horizontalbottombordertop3"
+	},
 /area/f13/building/abandoned)
 "lWe" = (
 /obj/effect/decal/cleanable/dirt{
@@ -69047,7 +69052,6 @@
 /obj/machinery/light/small{
 	dir = 8
 	},
-/mob/living/simple_animal/hostile/raider/legendary,
 /turf/open/floor/f13/wood,
 /area/f13/building/abandoned)
 "mbR" = (
@@ -69334,7 +69338,11 @@
 /area/f13/building/abandoned)
 "meH" = (
 /obj/effect/decal/cleanable/dirt/dust,
-/mob/living/simple_animal/hostile/raider/baseball,
+/obj/structure/nest/randomized{
+	randomizer_difficulty = 1;
+	randomizer_kind = "OP mobs";
+	randomizer_tag = "RRAD Ramblers"
+	},
 /turf/open/floor/f13/wood,
 /area/f13/building/abandoned)
 "meL" = (
@@ -71009,7 +71017,7 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/f13/vault_floor/white,
+/turf/open/floor/carpet/blue,
 /area/f13/building/hospital/clinic/nash)
 "mwm" = (
 /obj/effect/decal/cleanable/dirt,
@@ -71271,10 +71279,13 @@
 /turf/open/floor/f13/wood,
 /area/f13/ruins)
 "mzt" = (
-/mob/living/simple_animal/hostile/ghoul/reaver,
-/obj/effect/decal/cleanable/dirt/dust,
-/turf/open/floor/wood_common,
-/area/f13/building/coyote/nash/school/groundfloor)
+/obj/structure/nest/randomized{
+	randomizer_difficulty = 1;
+	randomizer_kind = "OP mobs";
+	randomizer_tag = "RRAD Ramblers"
+	},
+/turf/open/floor/plating/dirt,
+/area/f13/wasteland)
 "mzK" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/indestructible/ground/outside/gravel{
@@ -71390,10 +71401,17 @@
 	},
 /area/f13/caves)
 "mAJ" = (
-/obj/effect/decal/cleanable/dirt/dust,
-/mob/living/simple_animal/hostile/raider/sulphite,
-/turf/open/floor/f13/wood,
-/area/f13/building/abandoned)
+/obj/structure/nest/randomized{
+	randomizer_difficulty = 1;
+	randomizer_kind = "OP mobs";
+	randomizer_tag = "RRAD Ramblers"
+	},
+/turf/open/indestructible/ground/outside/water{
+	light_color = null;
+	color = "#FFBB77";
+	name = "the watering hole"
+	},
+/area/f13/caves)
 "mBc" = (
 /obj/structure/spacevine,
 /obj/structure/spacevine,
@@ -72279,10 +72297,11 @@
 /area/f13/building/coyote/nash/mall/groundfloor)
 "mMc" = (
 /obj/effect/decal/cleanable/dirt,
+/obj/machinery/iv_drip/telescopic,
 /obj/effect/decal/cleanable/dirt,
-/mob/living/simple_animal/hostile/raider/tribal,
-/turf/open/floor/grass,
-/area/f13/wasteland/coyote/nash/southeastcornercamp)
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/carpet/blue,
+/area/f13/building/hospital/clinic/nash)
 "mMi" = (
 /obj/structure/flora/grass/jungle,
 /obj/effect/decal/cleanable/dirt,
@@ -72617,15 +72636,9 @@
 	},
 /area/f13/building/tribal)
 "mQx" = (
-/obj/structure/nest/randomized{
-	randomizer_difficulty = 1;
-	randomizer_kind = "OP mobs";
-	randomizer_tag = "RRAD Ramblers"
-	},
-/turf/open/indestructible/ground/outside/road{
-	icon_state = "horizontalbottombordertop0"
-	},
-/area/f13/wasteland)
+/obj/structure/window/fulltile/house,
+/turf/closed/wall/f13/store,
+/area/f13/building/hospital/clinic/nash)
 "mQC" = (
 /obj/structure/flora/grass/wasteland{
 	icon_state = "tall_grass_4"
@@ -72805,17 +72818,6 @@
 	icon_state = "outerpavement - W"
 	},
 /area/f13/building/coyote/nash/massfus/parkinglot)
-"mSA" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/nest/randomized{
-	randomizer_difficulty = 1;
-	randomizer_kind = "OP mobs";
-	randomizer_tag = "RRAD Ramblers"
-	},
-/turf/open/floor/f13{
-	icon_state = "floorrusty"
-	},
-/area/f13/ruins)
 "mSJ" = (
 /obj/structure/table/wood,
 /obj/item/stamp/captain{
@@ -77067,10 +77069,13 @@
 /turf/open/indestructible/ground/outside/desert,
 /area/f13/caves)
 "nNs" = (
-/obj/effect/decal/cleanable/dirt,
-/mob/living/simple_animal/hostile/raider/firefighter,
+/obj/structure/nest/randomized{
+	randomizer_difficulty = 1;
+	randomizer_kind = "OP mobs";
+	randomizer_tag = "RRAD Ramblers"
+	},
 /turf/open/floor/grass,
-/area/f13/wasteland/coyote/nash/southeastcornercamp)
+/area/f13/wasteland)
 "nNt" = (
 /obj/structure/flora/ausbushes/grassybush,
 /obj/structure/flora/grass/wasteland{
@@ -77141,12 +77146,9 @@
 /turf/open/floor/grass,
 /area/f13/wasteland)
 "nOn" = (
-/obj/structure/flora/grass/wasteland{
-	icon_state = "tall_grass_4"
-	},
-/mob/living/simple_animal/hostile/raider/ranged,
-/turf/open/indestructible/ground/outside/gravel,
-/area/f13/wasteland/coyote/nash/southeastcornercamp)
+/mob/living/simple_animal/hostile/handy/gutsy,
+/turf/open/floor/plasteel/f13/vault_floor/dark,
+/area/f13/ruins)
 "nOt" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/weather/dirt{
@@ -78082,11 +78084,7 @@
 	},
 /area/f13/wasteland/city)
 "nZx" = (
-/obj/machinery/door/unpowered/securedoor{
-	name = "Clinic";
-	req_access_txt = null;
-	req_one_access_txt = "124"
-	},
+/obj/structure/curtain,
 /turf/open/floor/plasteel/f13/vault_floor/white,
 /area/f13/building/hospital/clinic/nash)
 "nZD" = (
@@ -78820,11 +78818,16 @@
 	},
 /area/f13/wasteland/city)
 "ogL" = (
-/obj/structure/nest/raider/melee,
-/turf/open/floor/f13/wood{
-	icon_state = "housewood2"
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/mob/living/simple_animal/hostile/securitron/sentrybot{
+	health = 500;
+	name = "annihilator sentry bot"
 	},
-/area/f13/building/abandoned)
+/turf/open/floor/f13{
+	icon_state = "floorrusty"
+	},
+/area/f13/ruins)
 "ogQ" = (
 /obj/structure/simple_door/glass{
 	name = "Representative's Office"
@@ -80215,12 +80218,12 @@
 /turf/open/floor/wood_common,
 /area/f13/ruins)
 "owP" = (
-/obj/structure/flora/grass/wasteland{
-	icon_state = "tall_grass_3"
+/mob/living/simple_animal/hostile/securitron/sentrybot{
+	health = 500;
+	name = "annihilator sentry bot"
 	},
-/mob/living/simple_animal/hostile/raider/tribal,
-/turf/open/indestructible/ground/outside/gravel,
-/area/f13/wasteland/coyote/nash/southeastcornercamp)
+/turf/open/indestructible/ground/outside/desert,
+/area/f13/wasteland)
 "owU" = (
 /obj/structure/flora/grass/wasteland{
 	icon_state = "tall_grass_3"
@@ -84843,7 +84846,7 @@
 	color = "#a98c5d";
 	dir = 8
 	},
-/turf/closed/wall/f13/coyote/darkwoodwall,
+/turf/closed/wall/f13/store,
 /area/f13/building/hospital/clinic/nash)
 "pxv" = (
 /obj/effect/decal/cleanable/dirt,
@@ -85334,12 +85337,12 @@
 	},
 /area/f13/building)
 "pBT" = (
-/obj/structure/chair/wood{
-	dir = 1
+/obj/effect/decal/cleanable/dirt,
+/mob/living/simple_animal/hostile/handy/gutsy,
+/turf/open/floor/f13{
+	icon_state = "darkdirtysolid"
 	},
-/mob/living/simple_animal/hostile/raider/sulphite,
-/turf/open/floor/f13/wood,
-/area/f13/building/abandoned)
+/area/f13/ruins)
 "pCb" = (
 /obj/structure/table/wood,
 /obj/item/mining_scanner,
@@ -86103,15 +86106,6 @@
 	icon_state = "outermaincornerouter - S"
 	},
 /area/f13/wasteland/city)
-"pLB" = (
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/effect/decal/cleanable/blood/old,
-/obj/effect/decal/cleanable/dirt{
-	color = "#363636"
-	},
-/mob/living/simple_animal/hostile/raider/sulphite,
-/turf/open/floor/f13/wood,
-/area/f13/building/abandoned)
 "pLE" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/wood_common{
@@ -86237,13 +86231,10 @@
 /turf/open/floor/grass,
 /area/f13/wasteland/nash)
 "pMA" = (
-/obj/structure/nest/randomized{
-	randomizer_difficulty = 1;
-	randomizer_kind = "OP mobs";
-	randomizer_tag = "RRAD Ramblers"
-	},
-/turf/open/indestructible/ground/outside/desert,
-/area/f13/wasteland)
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/vending/medical/becomingnook,
+/turf/open/floor/carpet/blue,
+/area/f13/building/hospital/clinic/nash)
 "pMH" = (
 /obj/effect/turf_decal/weather/dirt{
 	color = "#a98c5d"
@@ -87023,11 +87014,6 @@
 "pXf" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/nest/randomized{
-	randomizer_difficulty = 1;
-	randomizer_kind = "OP mobs";
-	randomizer_tag = "RRAD Ramblers"
-	},
 /turf/open/indestructible/ground/outside/sidewalk,
 /area/f13/wasteland)
 "pXk" = (
@@ -87474,20 +87460,6 @@
 	icon_state = "greenrustychess"
 	},
 /area/f13/building/coyote/nash/massfus/sidebuilding)
-"qdw" = (
-/obj/structure/table,
-/obj/item/storage/pill_bottle/chem_tin/mentats,
-/obj/item/storage/pill_bottle/chem_tin/mentats/berry,
-/obj/item/storage/pill_bottle/chem_tin/mentats/grape,
-/obj/item/storage/pill_bottle/chem_tin/mentats/orange,
-/obj/item/reagent_containers/blood/radaway,
-/obj/item/reagent_containers/blood/radaway,
-/obj/item/reagent_containers/blood/radaway,
-/obj/item/reagent_containers/blood/radaway,
-/obj/item/reagent_containers/blood/radaway,
-/obj/item/reagent_containers/blood/radaway,
-/turf/open/floor/carpet/blue,
-/area/f13/building/hospital/clinic/nash)
 "qdy" = (
 /obj/effect/turf_decal/huge{
 	dir = 4
@@ -88550,8 +88522,6 @@
 /area/f13/wasteland/coyote/nash/southeastcornercamp)
 "qoH" = (
 /obj/structure/closet/cabinet,
-/obj/effect/spawner/lootdrop/f13/armor/clothes,
-/obj/effect/spawner/lootdrop/f13/armor/clothes,
 /turf/open/floor/carpet/black,
 /area/f13/building/abandoned)
 "qoU" = (
@@ -91182,6 +91152,7 @@
 "qTr" = (
 /obj/machinery/hydroponics/soil/orange,
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/flora/wasteplant/wild_tato,
 /turf/open/indestructible/ground/inside/dirt,
 /area/f13/building/coyote/nash/greenhouse)
 "qTs" = (
@@ -92765,10 +92736,9 @@
 /turf/open/indestructible/ground/outside/gravel,
 /area/f13/wasteland/city/nash/downtown)
 "rlr" = (
-/mob/living/simple_animal/hostile/ghoul,
-/obj/structure/spacevine,
-/turf/open/floor/grass,
-/area/f13/wasteland)
+/obj/structure/flora/grass/jungle,
+/turf/closed/wall/f13/store,
+/area/f13/building/hospital/clinic/nash)
 "rls" = (
 /obj/effect/turf_decal/weather/dirt{
 	color = "#a98c5d";
@@ -95157,7 +95127,7 @@
 /area/f13/building/coyote/nash/massfus/groundfloor/west)
 "rQw" = (
 /obj/effect/spawner/lootdrop/f13/trash,
-/turf/open/floor/plasteel/f13/vault_floor/white,
+/turf/open/floor/carpet/blue,
 /area/f13/building/hospital/clinic/nash)
 "rQx" = (
 /obj/machinery/shower{
@@ -96369,10 +96339,10 @@
 /turf/open/floor/grass,
 /area/f13/wasteland)
 "sea" = (
-/obj/effect/decal/cleanable/dirt/dust,
-/mob/living/simple_animal/hostile/raider/tribal,
-/turf/open/floor/f13/wood,
-/area/f13/building/abandoned)
+/obj/machinery/hydroponics/soil,
+/obj/structure/flora/wasteplant/wild_agave,
+/turf/open/indestructible/ground/inside/dirt,
+/area/f13/building/coyote/nash/greenhouse)
 "sei" = (
 /obj/effect/turf_decal/weather/dirt{
 	dir = 9
@@ -98555,9 +98525,15 @@
 /turf/open/indestructible/ground/outside/desert,
 /area/f13/caves)
 "sBD" = (
-/mob/living/simple_animal/hostile/raider/tribal,
-/turf/open/floor/grass,
-/area/f13/wasteland/coyote/nash/southeastcornercamp)
+/obj/structure/nest/randomized{
+	randomizer_difficulty = 1;
+	randomizer_kind = "OP mobs";
+	randomizer_tag = "RRAD Ramblers"
+	},
+/turf/open/floor/f13/wood{
+	icon_state = "housewood3-broken"
+	},
+/area/f13/building/abandoned)
 "sBE" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/structure/table/rolling,
@@ -98624,27 +98600,16 @@
 /turf/closed/wall/mineral/brick,
 /area/f13/building/abandoned)
 "sCb" = (
-/obj/structure/table/glass,
-/obj/item/storage/box/beakers{
-	pixel_x = 7;
-	pixel_y = 11
-	},
-/obj/item/storage/box/medsprays{
-	pixel_x = -3;
-	pixel_y = 13
-	},
-/obj/item/storage/box/pillbottles{
-	pixel_x = 10;
-	pixel_y = 7
-	},
-/obj/item/storage/box/syringes,
 /obj/machinery/light{
 	dir = 8
 	},
-/turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite{
-	icon_state = "showroomfloor";
-	name = "tile"
+/obj/structure/railing{
+	color = "#A47449";
+	dir = 4;
+	pixel_y = 0;
+	pixel_x = 2
 	},
+/turf/open/transparent/openspace,
 /area/f13/building/hospital/clinic/nash)
 "sCd" = (
 /obj/effect/decal/cleanable/dirt,
@@ -99157,13 +99122,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/f13/vault_floor/dark,
 /area/f13/ruins)
-"sIy" = (
-/obj/effect/decal/cleanable/dirt,
-/mob/living/simple_animal/hostile/raider/junker,
-/turf/open/floor/f13/wood{
-	icon_state = "housewood2-broken"
-	},
-/area/f13/building/abandoned)
 "sIz" = (
 /obj/structure/bed/mattress{
 	icon_state = "mattress2"
@@ -102113,10 +102071,9 @@
 /area/f13/wasteland)
 "tpq" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/nest/randomized{
-	randomizer_difficulty = 1;
-	randomizer_kind = "OP mobs";
-	randomizer_tag = "RRAD Ramblers"
+/mob/living/simple_animal/hostile/securitron/sentrybot{
+	health = 500;
+	name = "annihilator sentry bot"
 	},
 /turf/open/floor/plasteel/vault,
 /area/f13/ruins)
@@ -102795,13 +102752,6 @@
 	icon_state = "horizontalinnermain0"
 	},
 /area/f13/building/coyote/nash/massfus/parkinglot)
-"tvG" = (
-/obj/effect/decal/cleanable/dirt/dust,
-/mob/living/simple_animal/hostile/raider/baseball,
-/turf/open/floor/f13{
-	icon_state = "whitegreenrustychess"
-	},
-/area/f13/building/abandoned)
 "tvK" = (
 /obj/machinery/light{
 	dir = 4
@@ -103258,14 +103208,15 @@
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/building/sewers)
 "tzM" = (
-/obj/structure/flora/grass/wasteland{
-	icon_state = "tall_grass_6"
+/obj/structure/nest/randomized{
+	randomizer_difficulty = 1;
+	randomizer_kind = "OP mobs";
+	randomizer_tag = "RRAD Ramblers"
 	},
-/obj/structure/nest/ghoul{
-	layer = 2.07
+/turf/open/floor/f13/wood{
+	icon_state = "housewood2"
 	},
-/turf/open/floor/grass,
-/area/f13/wasteland)
+/area/f13/building/abandoned)
 "tzQ" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/flora/ausbushes/fullgrass,
@@ -103477,10 +103428,14 @@
 	},
 /area/f13/building/coyote/nash/museum/groundfloor)
 "tBN" = (
-/mob/living/simple_animal/hostile/ghoul,
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/decal/cleanable/dirt{
 	color = "#363636"
+	},
+/obj/structure/nest/randomized{
+	randomizer_difficulty = 1;
+	randomizer_kind = "mid level mobs";
+	randomizer_tag = "Texarkana Residential District 1"
 	},
 /turf/open/floor/wood_common,
 /area/f13/building/coyote/nash/school/groundfloor)
@@ -104113,9 +104068,12 @@
 	},
 /area/f13/building/abandoned)
 "tIt" = (
-/obj/machinery/vending/medical/becomingnook,
-/turf/open/floor/plasteel/f13/vault_floor/white,
-/area/f13/building/hospital/clinic/nash)
+/mob/living/simple_animal/hostile/securitron/sentrybot{
+	health = 500;
+	name = "annihilator sentry bot"
+	},
+/turf/open/indestructible/ground/outside/sidewalk,
+/area/f13/wasteland)
 "tIE" = (
 /obj/machinery/power/terminal{
 	dir = 4;
@@ -105833,11 +105791,11 @@
 	},
 /area/f13/wasteland/city)
 "ubM" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/iv_drip/telescopic,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/carpet/blue,
-/area/f13/building/hospital/clinic/nash)
+/mob/living/simple_animal/hostile/handy/assaultron,
+/turf/open/indestructible/ground/outside/sidewalk{
+	icon_state = "verticaloutermain1"
+	},
+/area/f13/wasteland)
 "ubQ" = (
 /obj/effect/decal/cleanable/oil/slippery{
 	pixel_x = -10
@@ -106243,12 +106201,9 @@
 	},
 /area/f13/wasteland/city/nash/downtown)
 "uhI" = (
-/mob/living/simple_animal/hostile/ghoul/reaver,
-/obj/effect/decal/cleanable/dirt/dust,
-/turf/open/floor/f13{
-	icon_state = "redrustyfull"
-	},
-/area/f13/building/coyote/nash/school/groundfloor)
+/obj/structure/ladder/unbreakable,
+/turf/open/indestructible/ground/inside/subway,
+/area/f13/caves)
 "uhN" = (
 /obj/effect/decal/cleanable/dirt{
 	color = "#363636"
@@ -106316,10 +106271,6 @@
 	},
 /turf/open/floor/grass,
 /area/f13/wasteland/coyote/nash/southeastcornercamp)
-"uiG" = (
-/mob/living/simple_animal/hostile/raider/firefighter,
-/turf/open/floor/f13/wood,
-/area/f13/building/abandoned)
 "uiH" = (
 /obj/structure/table,
 /turf/open/floor/f13/wood,
@@ -106440,7 +106391,11 @@
 /area/f13/wasteland/coyote/nash/southeastcornercamp)
 "ukY" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/nest/raider/melee,
+/obj/structure/nest/randomized{
+	randomizer_difficulty = 1;
+	randomizer_kind = "OP mobs";
+	randomizer_tag = "RRAD Ramblers"
+	},
 /turf/open/floor/f13/wood,
 /area/f13/building/abandoned)
 "uld" = (
@@ -107253,16 +107208,16 @@
 "uvY" = (
 /obj/machinery/trading_machine/medical,
 /obj/effect/decal/cleanable/dirt,
-/turf/closed/wall/f13/coyote/darkwoodwall,
+/turf/closed/wall/f13/store,
 /area/f13/building/hospital/clinic/nash)
 "uvZ" = (
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/effect/decal/cleanable/dirt{
-	color = "#363636"
+/obj/effect/decal/cleanable/dirt,
+/mob/living/simple_animal/hostile/securitron/sentrybot{
+	health = 500;
+	name = "annihilator sentry bot"
 	},
-/obj/structure/nest/raider/melee,
-/turf/open/floor/f13/wood,
-/area/f13/building/abandoned)
+/turf/open/floor/grass,
+/area/f13/wasteland)
 "uwd" = (
 /obj/effect/turf_decal/weather/dirt{
 	dir = 1
@@ -108286,9 +108241,8 @@
 /turf/open/floor/grass,
 /area/f13/caves)
 "uHu" = (
-/obj/structure/flora/chomp/thicket4,
-/turf/open/floor/grass,
-/area/f13/wasteland/nash)
+/turf/closed/wall/f13/store,
+/area/f13/building/hospital/clinic/nash)
 "uHy" = (
 /obj/item/clothing/head/welding,
 /obj/item/clothing/head/welding,
@@ -108658,7 +108612,12 @@
 	},
 /area/f13/wasteland/city)
 "uLS" = (
-/obj/structure/nest/raider/boss,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/nest/randomized{
+	randomizer_difficulty = 1;
+	randomizer_kind = "OP mobs";
+	randomizer_tag = "RRAD Ramblers"
+	},
 /turf/open/floor/f13/wood{
 	icon_state = "housewood4-broken"
 	},
@@ -109575,10 +109534,9 @@
 /turf/open/floor/f13/wood,
 /area/f13/building/abandoned)
 "uWZ" = (
-/obj/structure/nest/randomized{
-	randomizer_difficulty = 1;
-	randomizer_kind = "OP mobs";
-	randomizer_tag = "RRAD Ramblers"
+/mob/living/simple_animal/hostile/securitron/sentrybot{
+	health = 500;
+	name = "annihilator sentry bot"
 	},
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/ruins)
@@ -111702,9 +111660,11 @@
 /turf/open/floor/plasteel/f13/vault_floor/misc/bar,
 /area/f13/building/abandoned)
 "vxy" = (
-/obj/structure/nest/raider/boss,
-/turf/open/floor/f13/wood,
-/area/f13/building/abandoned)
+/obj/machinery/iv_drip/telescopic,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/carpet/blue,
+/area/f13/building/hospital/clinic/nash)
 "vxz" = (
 /obj/structure/rack,
 /obj/item/storage/toolbox/mechanical/old,
@@ -113860,9 +113820,11 @@
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/caves)
 "vWY" = (
-/mob/living/simple_animal/hostile/raider/firefighter,
-/turf/open/floor/grass,
-/area/f13/wasteland/coyote/nash/southeastcornercamp)
+/mob/living/simple_animal/hostile/handy/assaultron,
+/turf/open/floor/f13{
+	icon_state = "darkdirtysolid"
+	},
+/area/f13/ruins)
 "vWZ" = (
 /obj/structure/simple_door/metal/dirtystore,
 /turf/open/floor/plasteel/f13{
@@ -116974,10 +116936,9 @@
 /turf/open/floor/f13/wood,
 /area/f13/building/abandoned)
 "wEN" = (
-/obj/structure/nest/randomized{
-	randomizer_difficulty = 1;
-	randomizer_kind = "OP mobs";
-	randomizer_tag = "RRAD Ramblers"
+/mob/living/simple_animal/hostile/securitron/sentrybot{
+	health = 500;
+	name = "annihilator sentry bot"
 	},
 /turf/open/indestructible/ground/outside/sidewalk{
 	icon_state = "verticaloutermain0"
@@ -121322,13 +121283,10 @@
 	},
 /area/f13/wasteland/city/nash/downtown)
 "xBJ" = (
-/obj/item/reagent_containers/pill/patch/jet,
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/f13/wood{
-	icon_state = "housewood4-broken"
-	},
+/obj/structure/closet,
+/obj/effect/spawner/lootdrop/f13/rare_weps,
+/obj/effect/spawner/lootdrop/f13/rare_armor,
+/turf/open/floor/f13/wood,
 /area/f13/building/abandoned)
 "xBP" = (
 /obj/structure/table/reinforced,
@@ -121403,8 +121361,14 @@
 /turf/open/indestructible/ground/outside/road,
 /area/f13/building)
 "xCK" = (
-/obj/structure/nest/raider/melee,
-/turf/open/floor/f13/wood,
+/obj/structure/nest/randomized{
+	randomizer_difficulty = 1;
+	randomizer_kind = "OP mobs";
+	randomizer_tag = "RRAD Ramblers"
+	},
+/turf/open/floor/f13/wood{
+	icon_state = "housewood4-broken"
+	},
 /area/f13/building/abandoned)
 "xCO" = (
 /obj/effect/decal/cleanable/blood/drip,
@@ -122225,7 +122189,9 @@
 /turf/open/floor/grass,
 /area/f13/wasteland/coyote/nash/southeastcornercamp)
 "xNd" = (
-/turf/closed/wall/f13/coyote/darkwoodwall,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/f13/vault_floor/white,
 /area/f13/building/hospital/clinic/nash)
 "xNq" = (
 /obj/structure/barricade/tentleatheredge{
@@ -123088,11 +123054,11 @@
 /turf/open/floor/plasteel/f13/vault_floor/dark,
 /area/f13/building/hospital)
 "xXH" = (
-/obj/structure/nest/raider{
-	pixel_x = -1
+/mob/living/simple_animal/hostile/handy/gutsy,
+/turf/open/indestructible/ground/outside/road{
+	icon_state = "horizontalbottombordertop0"
 	},
-/turf/open/floor/f13/wood,
-/area/f13/building/abandoned)
+/area/f13/wasteland)
 "xXK" = (
 /obj/structure/spacevine,
 /turf/open/indestructible/ground/outside/sidewalk,
@@ -123102,10 +123068,22 @@
 /turf/open/floor/plasteel/cult,
 /area/f13/building/tribal)
 "xXQ" = (
-/mob/living/simple_animal/hostile/ghoul,
-/obj/effect/decal/cleanable/dirt/dust,
-/turf/open/floor/wood_common,
-/area/f13/building/coyote/nash/school/groundfloor)
+/obj/structure/table,
+/obj/item/storage/pill_bottle/chem_tin/mentats,
+/obj/item/storage/pill_bottle/chem_tin/mentats/berry,
+/obj/item/storage/pill_bottle/chem_tin/mentats/grape,
+/obj/item/storage/pill_bottle/chem_tin/mentats/orange,
+/obj/item/reagent_containers/blood/radaway,
+/obj/item/reagent_containers/blood/radaway,
+/obj/item/reagent_containers/blood/radaway,
+/obj/item/reagent_containers/blood/radaway,
+/obj/item/reagent_containers/blood/radaway,
+/obj/item/reagent_containers/blood/radaway,
+/obj/item/clothing/neck/stethoscope,
+/obj/item/clothing/neck/stethoscope,
+/obj/item/storage/pill_bottle/mutadone,
+/turf/open/floor/carpet/blue,
+/area/f13/building/hospital/clinic/nash)
 "xXS" = (
 /obj/structure/flora/ausbushes,
 /turf/open/indestructible/ground/outside/desert,
@@ -124933,8 +124911,8 @@ vkY
 exw
 exw
 wpU
-mSA
-oVt
+exw
+ogL
 oVt
 loW
 ycz
@@ -125081,8 +125059,8 @@ ezS
 ezS
 ezS
 tNk
-tNk
-tNk
+ezS
+ezS
 tNk
 tNk
 tNk
@@ -125097,12 +125075,12 @@ ezS
 ezS
 ezS
 ezS
-tNk
-tNk
-tNk
+ezS
 tNk
 ezS
-ezS
+tNk
+tNk
+tNk
 ezS
 ezS
 ezS
@@ -125177,7 +125155,7 @@ kSd
 bpQ
 vkY
 uIX
-cld
+dhE
 cld
 exw
 vkY
@@ -125336,6 +125314,22 @@ eem
 aaG
 ezS
 ezS
+tNk
+tNk
+tNk
+tNk
+ezS
+ezS
+ezS
+tNk
+tNk
+tNk
+ezS
+ezS
+ezS
+tNk
+ezS
+ezS
 ezS
 tNk
 ezS
@@ -125343,23 +125337,7 @@ ezS
 ezS
 ezS
 tNk
-ezS
-ezS
-ezS
-ezS
-ezS
-ezS
 tNk
-tNk
-ezS
-ezS
-tNk
-tNk
-ezS
-ezS
-ezS
-ezS
-ezS
 ezS
 ezS
 ezS
@@ -125593,30 +125571,30 @@ aII
 aaG
 ezS
 ezS
+tNk
+tNk
+tNk
+tNk
 ezS
 tNk
 ezS
-ezS
-ezS
-ezS
 tNk
-ezS
 ezS
 ezS
 ezS
 ezS
 ezS
 nkX
-tNk
 ezS
 ezS
 ezS
-tNk
-tNk
+ezS
+ezS
 tNk
 tNk
 ezS
 ezS
+tNk
 ezS
 ezS
 ezS
@@ -125712,7 +125690,7 @@ bho
 ffF
 piW
 cld
-bsj
+pBT
 lYQ
 aon
 cIY
@@ -125850,32 +125828,32 @@ aIL
 aaG
 ezS
 ezS
-ezS
+tNk
 tNk
 ezS
 ezS
 ezS
 ezS
+ezS
+tNk
 tNk
 ezS
-ezS
-ezS
-ezS
+tNk
 ezS
 tNk
 qeC
 ezS
 ezS
 ezS
+tNk
+ezS
+tNk
+ezS
+tNk
+ezS
 ezS
 tNk
 tNk
-ezS
-ezS
-ezS
-ezS
-ezS
-ezS
 ezS
 ezS
 aaa
@@ -125969,7 +125947,7 @@ sfk
 vkY
 uwM
 lGh
-jjJ
+bsj
 kYZ
 aon
 aGO
@@ -126115,17 +126093,17 @@ ezS
 ezS
 ezS
 ezS
-ezS
-ezS
 tNk
 tNk
 tNk
 ezS
 ezS
 ezS
-ezS
+tNk
 ezS
 tNk
+tNk
+ezS
 tNk
 ezS
 ezS
@@ -126375,8 +126353,8 @@ nkX
 ezS
 ezS
 ezS
-ezS
-ezS
+tNk
+tNk
 ezS
 ezS
 ezS
@@ -126385,12 +126363,12 @@ ezS
 ezS
 tNk
 tNk
+ezS
+nkX
+ezS
+ezS
+ezS
 tNk
-qeC
-ezS
-ezS
-ezS
-ezS
 ezS
 aaa
 tmX
@@ -126468,7 +126446,7 @@ dSW
 vkY
 gWV
 xOc
-cld
+vWY
 bsj
 tNJ
 vkY
@@ -126634,21 +126612,21 @@ ezS
 ezS
 ezS
 ezS
+tNk
+tNk
+tNk
+ezS
+tNk
+tNk
 ezS
 ezS
 ezS
 ezS
 ezS
+tNk
 ezS
 ezS
-ezS
-ezS
-ezS
-ezS
-ezS
-ezS
-ezS
-ezS
+tNk
 aaa
 gwq
 xbq
@@ -126706,7 +126684,7 @@ aGO
 unm
 cIY
 kVi
-vZI
+uvZ
 cIY
 cIY
 cPl
@@ -126893,17 +126871,17 @@ ezS
 ezS
 ezS
 ezS
+tNk
 ezS
 ezS
-ezS
-ezS
-nkX
-ezS
-ezS
-nkX
+tNk
 qeC
+tNk
 ezS
+qeC
+nkX
 ezS
+tNk
 ezS
 ezS
 aaa
@@ -127155,14 +127133,14 @@ ezS
 ezS
 ezS
 nkX
-nkX
+qeC
 nkX
 ezS
+nkX
+ezS
+tNk
 qeC
 tNk
-ezS
-nkX
-ezS
 aaa
 ubv
 hjs
@@ -127342,15 +127320,15 @@ bQW
 bQW
 lEQ
 bQW
-aJP
-bQW
-jNw
-bQW
-tdV
-rbG
-bQW
-bQW
-tsd
+uHu
+uHu
+rlr
+uHu
+uHu
+uHu
+uHu
+uHu
+kYD
 bQW
 bQW
 bQW
@@ -127412,12 +127390,12 @@ ezS
 ezS
 ezS
 ezS
-ezS
+tNk
 nkX
 ezS
 ezS
 qeC
-dBU
+pmP
 dBU
 nkX
 eTX
@@ -127599,15 +127577,15 @@ yhD
 kiU
 yhD
 cmp
-bQW
-koT
-bQW
-xNd
-xNd
-xNd
-xNd
-xNd
-xNd
+uHu
+hGn
+bhr
+utB
+jaG
+mMc
+vxy
+xXQ
+uHu
 bQW
 hPy
 aEl
@@ -127669,13 +127647,13 @@ vVy
 ezS
 ezS
 nkX
-dBU
-ezS
+pmP
+tNk
 ezS
 nkX
 tNk
 tNk
-dBU
+pmP
 dBU
 aaa
 rwJ
@@ -127857,14 +127835,14 @@ cxc
 wNM
 kkp
 uHu
-iRk
-aJP
+kTH
+xNd
 xNd
 fYy
-ubM
-gdd
-qdw
-xNd
+rTj
+cdS
+bcq
+uHu
 lQu
 bQW
 bQW
@@ -128113,17 +128091,17 @@ fPR
 hMX
 snZ
 kkp
-bQW
-bQW
-bQW
+uHu
+ugE
+utB
 xNd
 cGK
-cdS
-cdS
-cdS
-xNd
-xNd
-xNd
+rTj
+rTj
+dhz
+uHu
+uHu
+uHu
 bQW
 ouv
 ksL
@@ -128370,12 +128348,12 @@ jYR
 thC
 fse
 mmH
-xNd
-xNd
-xNd
-xNd
-xNd
-cdS
+uHu
+uHu
+uHu
+azt
+uHu
+pMA
 cdS
 cdS
 aMz
@@ -128442,11 +128420,11 @@ vVy
 vVy
 ezS
 ezS
-ezS
-ezS
-ezS
+tNk
 tNk
 ezS
+tNk
+tNk
 ezS
 mOm
 pNs
@@ -128627,17 +128605,17 @@ pzH
 hDX
 cxc
 qML
-xNd
+uHu
 hGn
-bhr
+tPz
 tPz
 nZx
-utB
-utB
-utB
+cdS
+cdS
+cdS
 mwl
 cYw
-xNd
+uHu
 rbG
 qTw
 ksL
@@ -128699,11 +128677,11 @@ wsx
 vVy
 vVy
 ezS
-ezS
+tNk
 ezS
 ezS
 tNk
-ezS
+tNk
 ezS
 eTX
 bFk
@@ -128884,17 +128862,17 @@ hDX
 hDX
 cxc
 kkp
-xNd
+uHu
 kTH
 aFs
 utB
-bOQ
-kSu
+fUY
+cdS
 fLo
-tPz
+bcq
 dmQ
 rQw
-xNd
+uHu
 wVt
 qTw
 lTP
@@ -128956,9 +128934,9 @@ miI
 vVy
 vVy
 ezS
-ezS
-ezS
-ezS
+tNk
+tNk
+tNk
 tNk
 dBU
 ezS
@@ -129141,17 +129119,17 @@ uxN
 bhi
 cxc
 eaZ
-xNd
+uHu
 ugE
 gnt
-tIt
-xNd
-xNd
+tPz
+uHu
+uHu
 tEP
 bOQ
 oGu
-xNd
-xNd
+uHu
+uHu
 aJP
 bQW
 cPq
@@ -129213,10 +129191,10 @@ miI
 xDa
 xDa
 ezS
+tNk
+tNk
 ezS
-ezS
-ezS
-qeC
+nkX
 ezS
 gsr
 eTX
@@ -129297,7 +129275,7 @@ rFj
 qrO
 ftx
 pWU
-igF
+xXH
 gZn
 oHM
 rVd
@@ -129398,20 +129376,20 @@ bcy
 mDG
 cxc
 hPg
-xNd
-xNd
-xNd
-xNd
-xNd
+uHu
+uHu
+uHu
+uHu
+uHu
 qAS
 rTj
 bdn
 gvn
-xNd
-xNd
+uHu
+uHu
 azt
-xNd
-xNd
+uHu
+uHu
 get
 nFA
 nFA
@@ -129470,10 +129448,10 @@ miI
 vVy
 vVy
 ezS
+tNk
 ezS
 ezS
-ezS
-qeC
+nkX
 ezS
 dBU
 aaa
@@ -129655,7 +129633,7 @@ baM
 aYT
 ijI
 eaZ
-xNd
+uHu
 sCb
 rkv
 gFz
@@ -129668,7 +129646,7 @@ tKC
 pqC
 oUq
 jml
-xNd
+uHu
 rax
 rLT
 bfD
@@ -129726,10 +129704,10 @@ miI
 vVy
 vVy
 vVy
-ezS
-ezS
-ezS
 tNk
+tNk
+ezS
+ezS
 ezS
 ezS
 xDa
@@ -129912,10 +129890,10 @@ vPP
 vPP
 snZ
 bqX
-xNd
+uHu
 wFd
 vpC
-cjb
+hel
 vAc
 bcq
 rYZ
@@ -129925,7 +129903,7 @@ azt
 pTi
 wyK
 miR
-xNd
+uHu
 rax
 rLT
 mkb
@@ -130068,7 +130046,7 @@ mHp
 qrO
 llw
 aQJ
-mQx
+igF
 cTz
 xYE
 aiN
@@ -130169,20 +130147,20 @@ psq
 bcO
 tBD
 isk
-xNd
+uHu
 coF
 cjb
 iBr
 azt
 iAU
 iAU
-xNd
+uHu
 uMJ
-xNd
+uHu
 wGL
 cOL
 veo
-xNd
+uHu
 rax
 nFA
 oeP
@@ -130239,10 +130217,10 @@ vVy
 vVy
 vVy
 ezS
-tNk
-ezS
 ezS
 tNk
+tNk
+ezS
 tNk
 ezS
 vVy
@@ -130426,7 +130404,7 @@ eAP
 bcy
 tBD
 kkp
-xNd
+uHu
 uBk
 jJv
 cjb
@@ -130435,11 +130413,11 @@ bGz
 bGz
 oHg
 bGz
-xNd
-xNd
-xNd
-xNd
-xNd
+uHu
+uHu
+uHu
+uHu
+uHu
 qTw
 bsh
 vTG
@@ -130496,10 +130474,10 @@ vVy
 vVy
 ezS
 ezS
-qeC
+nkX
 nkX
 tNk
-tNk
+ezS
 ezS
 ezS
 vVy
@@ -130683,7 +130661,7 @@ psq
 bcO
 tBD
 ldT
-xNd
+uHu
 ggm
 vpC
 aYr
@@ -130692,7 +130670,7 @@ bGz
 bGz
 lhP
 vIJ
-ewG
+mQx
 tHA
 aJP
 tHA
@@ -130753,9 +130731,9 @@ vVy
 vVy
 ezS
 ezS
-tNk
-tNk
-tNk
+ezS
+ezS
+ezS
 ezS
 ezS
 ezS
@@ -130827,7 +130805,7 @@ vGN
 sEk
 lpo
 lpo
-hmz
+ubM
 fOH
 hmz
 fOH
@@ -130940,7 +130918,7 @@ hDX
 bcf
 cxc
 boE
-xNd
+uHu
 mAv
 cjb
 jHA
@@ -130949,7 +130927,7 @@ bGz
 mCG
 bGz
 vIJ
-ewG
+mQx
 lJK
 wVt
 hwB
@@ -131010,8 +130988,8 @@ vVy
 vVy
 ezS
 ezS
-tNk
-tNk
+ezS
+ezS
 ezS
 ezS
 ezS
@@ -131197,16 +131175,16 @@ tBD
 tBD
 bxH
 boE
-xNd
+uHu
 ewG
 ewG
-xNd
+uHu
 dyR
 cLg
 bGz
 nTr
 xCW
-xNd
+uHu
 hwB
 bQW
 oHA
@@ -131267,8 +131245,8 @@ vVy
 vVy
 ezS
 ezS
-tNk
-tNk
+ezS
+ezS
 tNk
 tNk
 ezS
@@ -131458,8 +131436,8 @@ aJP
 bQW
 rFt
 kEd
-xNd
-xNd
+uHu
+uHu
 nZP
 nZP
 crn
@@ -131525,7 +131503,7 @@ vVy
 ezS
 ezS
 ezS
-ezS
+tNk
 ezS
 ezS
 vVy
@@ -131780,9 +131758,9 @@ wmE
 vVy
 vVy
 ezS
+tNk
 ezS
-ezS
-ezS
+tNk
 ezS
 ezS
 vVy
@@ -132037,8 +132015,8 @@ wmE
 vVy
 vVy
 ezS
-ezS
-ezS
+tNk
+tNk
 ezS
 ezS
 ezS
@@ -132294,7 +132272,7 @@ wmE
 vVy
 vVy
 ezS
-ezS
+tNk
 ezS
 ezS
 ezS
@@ -133897,7 +133875,7 @@ aum
 aum
 aum
 agp
-tnZ
+bFl
 tnZ
 pPz
 tnZ
@@ -134098,8 +134076,8 @@ ezS
 ezS
 ezS
 ezS
-ezS
-ezS
+tNk
+tNk
 ezS
 ezS
 ezS
@@ -134148,7 +134126,7 @@ ahc
 dcy
 xYE
 rVd
-rVd
+tIt
 rVd
 oHM
 oHM
@@ -134355,9 +134333,9 @@ ezS
 ezS
 ezS
 ezS
+tNk
 ezS
-ezS
-ezS
+tNk
 ezS
 ezS
 ezS
@@ -134434,9 +134412,9 @@ hHj
 xLC
 xcW
 xLC
-xLC
+owP
 odm
-pMA
+xLC
 xLC
 cuI
 cuI
@@ -134612,9 +134590,9 @@ ezS
 ezS
 ezS
 ezS
+tNk
 ezS
-ezS
-ezS
+tNk
 ezS
 ezS
 tNk
@@ -134870,9 +134848,9 @@ ezS
 ezS
 ezS
 ezS
-ezS
-ezS
-ezS
+tNk
+tNk
+tNk
 tNk
 ezS
 qeC
@@ -135127,8 +135105,8 @@ ezS
 ezS
 ezS
 ezS
-ezS
-ezS
+tNk
+tNk
 ezS
 nkX
 nkX
@@ -135204,7 +135182,7 @@ wxi
 cnn
 aoR
 xLC
-xLC
+ktl
 ccl
 xLC
 xLC
@@ -135709,8 +135687,8 @@ nvn
 tzq
 xLC
 kvC
-pMA
-odm
+xLC
+baE
 xLC
 xLC
 ygD
@@ -136267,7 +136245,7 @@ ctU
 ncM
 bAh
 dXb
-baE
+iEK
 qNC
 ntS
 qrl
@@ -136455,7 +136433,7 @@ akb
 swu
 cuI
 sIp
-rSW
+nOn
 anm
 sIp
 hul
@@ -136782,7 +136760,7 @@ cIY
 bOg
 dYE
 gTt
-ieG
+bpj
 qNC
 nyy
 hCc
@@ -137040,7 +137018,7 @@ ccb
 ehY
 haR
 iEK
-baE
+iEK
 lEJ
 nHm
 qNC
@@ -137300,7 +137278,7 @@ iEK
 iEK
 aqU
 ieG
-ieG
+bpj
 prt
 aqU
 hCc
@@ -137557,7 +137535,7 @@ kwy
 osu
 reB
 qNC
-baE
+iEK
 qNC
 qNH
 hCc
@@ -151299,7 +151277,7 @@ nhE
 sYZ
 iVo
 vmV
-fyw
+sea
 ecc
 bCM
 sYZ
@@ -155473,7 +155451,7 @@ aae
 aaB
 bjo
 bjo
-bjo
+uhI
 bjo
 adz
 acr
@@ -162022,7 +162000,7 @@ nTQ
 qWd
 aSS
 aSS
-aTF
+iEV
 iEV
 cya
 ceC
@@ -162791,17 +162769,17 @@ aRg
 cna
 aSs
 pkn
-aoH
+aTF
 agL
 agL
 aUc
 lYx
 siU
-aVe
+tBN
 aVe
 oSG
 aVe
-vME
+cBJ
 aVe
 hmT
 hAd
@@ -163047,7 +163025,7 @@ wll
 cmE
 asK
 sEZ
-frC
+aST
 aST
 vbs
 rXK
@@ -163058,7 +163036,7 @@ ssj
 qmO
 woN
 hJP
-mzt
+rYR
 aVS
 hmT
 aHo
@@ -163821,7 +163799,7 @@ aSt
 kZN
 aST
 tac
-uhI
+aST
 aCL
 icb
 kgO
@@ -164851,7 +164829,7 @@ cya
 ndv
 rYR
 vha
-bFl
+sRL
 aVe
 sRL
 rYR
@@ -167207,7 +167185,7 @@ lUB
 lUB
 qlM
 fKE
-fUY
+suN
 fKE
 iQW
 ape
@@ -168539,7 +168517,7 @@ fXS
 noz
 opQ
 cIY
-tzM
+opQ
 cIY
 bZK
 bZK
@@ -168797,7 +168775,7 @@ aGO
 cIY
 cIY
 aGO
-rlr
+ctU
 ctU
 cIY
 rhV
@@ -168960,7 +168938,7 @@ aVe
 luA
 jEK
 rYR
-vha
+rYR
 rYR
 lRp
 btX
@@ -169217,8 +169195,8 @@ mLe
 fIL
 jut
 aVK
+vha
 rYR
-xXQ
 wQf
 rcL
 aVe
@@ -169306,7 +169284,7 @@ vwm
 wDR
 hUO
 nkd
-cIY
+nNs
 cIY
 tRt
 kbX
@@ -169578,7 +169556,7 @@ cIY
 opQ
 opQ
 aGO
-abz
+cIY
 cIY
 uqJ
 uqJ
@@ -169993,7 +169971,7 @@ rYR
 aLS
 lYx
 eje
-aVe
+tBN
 aTA
 cya
 iWW
@@ -170091,7 +170069,7 @@ aGO
 aGO
 aGO
 cIY
-aGO
+vZI
 cIY
 sBm
 uqJ
@@ -170250,7 +170228,7 @@ jut
 btX
 lYx
 iLN
-kYD
+aVe
 jxu
 gbz
 lES
@@ -170342,7 +170320,7 @@ ncM
 aGO
 pze
 cIY
-hel
+cIY
 uDx
 cIY
 pdC
@@ -170354,7 +170332,7 @@ hCc
 joq
 cbZ
 upx
-uqJ
+ukY
 uqJ
 hCc
 aae
@@ -170504,7 +170482,7 @@ btX
 aST
 vkZ
 aTH
-cam
+aST
 cya
 uWu
 fyx
@@ -170875,7 +170853,7 @@ aaB
 aaB
 aaB
 aaB
-iPs
+aaB
 aaB
 aae
 aae
@@ -171130,8 +171108,8 @@ hCc
 hCc
 aaB
 aaB
-iPs
 aaB
+jHQ
 aaB
 aaB
 aae
@@ -171388,8 +171366,8 @@ aae
 bit
 aaB
 aaB
-iPs
-iPs
+aaB
+aaB
 bER
 aae
 aae
@@ -173432,7 +173410,7 @@ iBZ
 iAa
 kOz
 lTe
-lTe
+mAJ
 lTe
 iXo
 iXo
@@ -174705,7 +174683,7 @@ aae
 aae
 tBz
 aaB
-aaB
+jHQ
 iAa
 aae
 xqd
@@ -174980,8 +174958,8 @@ aHF
 aHF
 aHF
 oCh
+ukY
 uqJ
-bpj
 oxC
 aHF
 aae
@@ -175206,8 +175184,8 @@ bnO
 nRt
 bhy
 bdT
-afS
-afS
+iRk
+iRk
 bnO
 nDc
 aiZ
@@ -175234,7 +175212,7 @@ aHF
 sgD
 uqJ
 uqJ
-xXH
+oBz
 aHF
 uqJ
 oBz
@@ -175720,8 +175698,8 @@ bnO
 bnO
 aqQ
 aqQ
-ekW
-ekW
+lVT
+lVT
 aqQ
 aqQ
 aqQ
@@ -176255,7 +176233,7 @@ gCg
 aHW
 jze
 lkY
-lkY
+frC
 cKX
 qwI
 lkY
@@ -176492,7 +176470,7 @@ aHF
 aHF
 oBz
 oBz
-ktl
+oBz
 ihz
 ihz
 aqQ
@@ -176750,7 +176728,7 @@ uLU
 oKN
 nwB
 oBz
-ihz
+cam
 ihz
 qoH
 bQo
@@ -176761,7 +176739,7 @@ lkY
 lkY
 lkY
 lkY
-dhE
+hoI
 qwI
 hKZ
 bed
@@ -176770,7 +176748,7 @@ ojq
 qwI
 apy
 mFM
-owP
+ffE
 lkY
 qwI
 vLb
@@ -176783,7 +176761,7 @@ quX
 cki
 cki
 uab
-cki
+mzt
 cki
 quX
 url
@@ -176991,7 +176969,7 @@ tFM
 fzM
 fzM
 bUD
-sBD
+lkY
 qAM
 lkY
 lkY
@@ -177274,7 +177252,7 @@ lZC
 hoI
 lkY
 eyt
-eyt
+abz
 mhc
 lkY
 lkY
@@ -177512,7 +177490,7 @@ dYP
 lkY
 lkY
 lkY
-sBD
+lkY
 mnm
 qwI
 apy
@@ -178049,13 +178027,13 @@ oBz
 ice
 oBz
 aHF
-lVT
+oBz
 qLL
 qdh
 aHF
 lkY
 lkY
-vWY
+lkY
 hzF
 amE
 iHi
@@ -178069,7 +178047,7 @@ guA
 vAP
 oiy
 ygu
-sea
+vXc
 gxV
 vAP
 wzq
@@ -178291,7 +178269,7 @@ hat
 wmb
 amk
 oBz
-uiG
+oBz
 aqQ
 bQo
 ihz
@@ -178303,16 +178281,16 @@ lkY
 lkY
 aHF
 uqJ
-aAU
+lKA
 uqJ
 aHF
 wFy
-cBJ
+uqJ
 oBz
 aHF
 lkY
 lkY
-lkY
+frC
 sFU
 eyt
 ojq
@@ -178551,7 +178529,7 @@ osL
 aqQ
 aqQ
 lqa
-jHQ
+ihz
 bXJ
 aqQ
 lkY
@@ -178580,8 +178558,8 @@ apy
 lkY
 hCc
 xsl
+ifU
 vAP
-kCF
 wyy
 obh
 aqQ
@@ -178837,7 +178815,7 @@ vLb
 lkY
 hCc
 bkV
-tvG
+vAP
 jjy
 vXc
 dcf
@@ -179073,11 +179051,11 @@ aHF
 aUy
 oBz
 oBz
-xCK
+oBz
 uqJ
 uqJ
 vEC
-lFp
+xCK
 oxC
 eYv
 bZe
@@ -179312,7 +179290,7 @@ qwI
 cKX
 nAq
 cTJ
-hzF
+gdd
 hzF
 hzF
 hzF
@@ -179566,7 +179544,7 @@ eyt
 dMi
 qwI
 qwI
-mMc
+wug
 lkY
 hzF
 hzF
@@ -179832,7 +179810,7 @@ lkY
 oPE
 lkY
 qwI
-jaG
+vLb
 nEh
 hzF
 hzF
@@ -180101,7 +180079,7 @@ aHF
 eSm
 oDP
 aHF
-bMc
+oBz
 lKA
 djD
 aHF
@@ -181138,14 +181116,14 @@ uqJ
 qdL
 aHF
 oBz
-vMS
+uLS
 oBz
 aHF
 qwI
 dlt
 lkY
 lkY
-nNs
+qwI
 ffE
 hoI
 kSv
@@ -181384,7 +181362,7 @@ hzF
 cKX
 aHF
 oBz
-oOG
+sBD
 aHF
 aHF
 aHF
@@ -181662,7 +181640,7 @@ bUD
 lkY
 lkY
 hzF
-hzF
+gdd
 hzF
 hzF
 tXW
@@ -181893,7 +181871,7 @@ goM
 lkY
 lkY
 eva
-hzF
+gdd
 cKX
 qwI
 aHF
@@ -181904,7 +181882,7 @@ jIa
 dTi
 ngQ
 aHF
-dhz
+uqJ
 uqJ
 oBz
 aHF
@@ -182157,7 +182135,7 @@ aHF
 atp
 uqJ
 aHF
-eoJ
+xBJ
 pad
 kpA
 jZH
@@ -182396,7 +182374,7 @@ fDw
 iiA
 lkY
 lkY
-lkY
+frC
 kxf
 ldq
 lkY
@@ -182435,7 +182413,7 @@ lkY
 lkY
 gwy
 lkY
-nOn
+eva
 uHB
 hzF
 kSv
@@ -182668,7 +182646,7 @@ hzF
 uHB
 cKX
 aHF
-xCK
+oBz
 uqJ
 uqJ
 tDy
@@ -182676,7 +182654,7 @@ aHF
 dYP
 aHF
 oBz
-oBz
+bQP
 oBz
 jao
 aHF
@@ -183686,10 +183664,10 @@ lkY
 irt
 dYP
 aHF
-ifU
+wBZ
 wBZ
 pDW
-wBZ
+tzM
 oMe
 cuQ
 qwI
@@ -183946,7 +183924,7 @@ aHF
 aHF
 aHF
 aHF
-ogL
+wBZ
 cUa
 aHF
 lkY
@@ -183956,7 +183934,7 @@ lkY
 lkY
 lkY
 lkY
-sBD
+lkY
 lkY
 lkY
 lkY
@@ -184739,7 +184717,7 @@ uqJ
 cff
 dbm
 uqJ
-sIy
+toy
 lID
 aHF
 bUD
@@ -184750,7 +184728,7 @@ aHF
 rFl
 oBz
 oBz
-gBC
+oBz
 tYH
 aHF
 xqd
@@ -184982,7 +184960,7 @@ hzF
 wug
 lkY
 lkY
-lkY
+frC
 lkY
 lkY
 lkY
@@ -184990,7 +184968,7 @@ lkY
 lkY
 aHF
 uwA
-pBT
+auM
 uqJ
 uqJ
 uEA
@@ -185249,11 +185227,11 @@ aHF
 agR
 oOG
 oBz
-oBz
+bQP
 cff
 iEi
 lFp
-uLS
+lFp
 aHF
 aHF
 lkY
@@ -185498,7 +185476,7 @@ hzF
 nfI
 hzF
 lkY
-uxG
+qwI
 lkY
 lkY
 cKX
@@ -185993,7 +185971,7 @@ uqJ
 bkI
 ukY
 bkI
-aqx
+bkI
 uqJ
 aHF
 lkY
@@ -186538,7 +186516,7 @@ auM
 aHF
 aag
 mbN
-vxy
+oBz
 aHF
 lkY
 lkY
@@ -187033,9 +187011,9 @@ dGm
 ebk
 vPE
 anY
+meH
 vXc
-mAJ
-pLB
+rVa
 cFU
 vfw
 gVQ
@@ -187290,7 +187268,7 @@ oOe
 xpi
 anY
 vXc
-uvZ
+anY
 vXc
 vXc
 vXc
@@ -187553,7 +187531,7 @@ qnl
 anY
 cwW
 anY
-ygu
+iPs
 igo
 ebk
 lkY
@@ -188064,7 +188042,7 @@ nPF
 anY
 anY
 anY
-meH
+vXc
 ebk
 vXc
 vfw

@@ -213,13 +213,6 @@
 	smooth = 1
 	},
 /area/f13/building)
-"bv" = (
-/obj/effect/decal/cleanable/dirt/dust,
-/mob/living/simple_animal/hostile/gecko/fire,
-/turf/open/floor/f13/wood{
-	color = "#999999"
-	},
-/area/f13/wasteland)
 "bw" = (
 /obj/effect/turf_decal/weather/dirt{
 	color = "#a98c5d";
@@ -1693,12 +1686,6 @@
 	color = "#a98c5d"
 	},
 /turf/open/indestructible/ground/outside/gravel{
-	color = "#999999"
-	},
-/area/f13/wasteland)
-"kn" = (
-/mob/living/simple_animal/hostile/gecko/legacy/alpha,
-/turf/open/floor/f13/wood{
 	color = "#999999"
 	},
 /area/f13/wasteland)
@@ -5622,13 +5609,6 @@
 /obj/effect/spawner/lootdrop/f13/uncommon,
 /turf/open/indestructible/ground/outside/roof,
 /area/f13/building)
-"Ki" = (
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/structure/nest/gecko,
-/turf/open/floor/f13/wood{
-	color = "#999999"
-	},
-/area/f13/wasteland)
 "Kj" = (
 /turf/open/transparent/openspace,
 /area/f13/building/abandoned)
@@ -5716,12 +5696,6 @@
 	},
 /obj/structure/flora/ausbushes/reedbush,
 /turf/open/indestructible/ground/outside/water,
-/area/f13/wasteland)
-"KZ" = (
-/obj/structure/nest/gecko,
-/turf/open/floor/f13/wood{
-	color = "#999999"
-	},
 /area/f13/wasteland)
 "Le" = (
 /obj/structure/table/wood,
@@ -6542,12 +6516,6 @@
 /obj/machinery/door/unpowered/securedoor,
 /turf/open/floor/plasteel/cult,
 /area/f13/building/tribal)
-"Ql" = (
-/mob/living/simple_animal/hostile/gecko/fire,
-/turf/open/floor/f13/wood{
-	color = "#999999"
-	},
-/area/f13/wasteland)
 "Qm" = (
 /obj/effect/turf_decal/caution/stand_clear{
 	dir = 8
@@ -6997,7 +6965,6 @@
 "SE" = (
 /obj/machinery/smartfridge/bottlerack/seedbin,
 /obj/item/seeds/agave,
-/obj/item/seeds/ambrosia/gaia,
 /obj/item/seeds/apple,
 /obj/item/seeds/bamboo,
 /obj/item/seeds/banana,
@@ -7716,12 +7683,6 @@
 "Wm" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/spawner/lootdrop/trash,
-/turf/open/floor/f13/wood{
-	color = "#999999"
-	},
-/area/f13/wasteland)
-"Wn" = (
-/mob/living/simple_animal/hostile/gecko/big,
 /turf/open/floor/f13/wood{
 	color = "#999999"
 	},
@@ -14310,17 +14271,17 @@ hm
 hm
 hm
 hm
-hm
-hm
-hm
-hm
 Wr
 Wr
 Wr
 Wr
 Wr
 Wr
-hm
+Wr
+Wr
+Wr
+Wr
+Wr
 hm
 hm
 hm
@@ -14567,17 +14528,17 @@ hm
 hm
 hm
 hm
-hm
-hm
-hm
-hm
 Wr
 Wr
 Wr
 Wr
 Wr
 Wr
-hm
+Wr
+Wr
+Wr
+Wr
+Wr
 hm
 hm
 hm
@@ -14824,17 +14785,17 @@ hm
 hm
 hm
 hm
-hm
-hm
-hm
-hm
 Wr
 Wr
 Wr
 Wr
 Wr
 Wr
-hm
+Wr
+Wr
+Wr
+Wr
+Wr
 hm
 hm
 hm
@@ -15081,17 +15042,17 @@ hm
 hm
 hm
 hm
-hm
-hm
-hm
-hm
 Wr
 Wr
 Wr
 Wr
 Wr
 Wr
-hm
+Wr
+Wr
+Wr
+Wr
+Wr
 hm
 hm
 hm
@@ -48735,11 +48696,11 @@ uz
 zz
 dj
 uz
-Ql
+uz
 uz
 dj
 Yc
-KZ
+uz
 uz
 uz
 Ok
@@ -48991,7 +48952,7 @@ uz
 Yc
 dj
 uz
-kn
+uz
 uz
 uz
 uz
@@ -49243,14 +49204,14 @@ hm
 hm
 hm
 CD
-KZ
+uz
 uz
 Yc
 uz
 uz
 XV
 uz
-Ql
+uz
 uz
 zz
 IA
@@ -49503,7 +49464,7 @@ CU
 uz
 uz
 dj
-kn
+uz
 uz
 BV
 JP
@@ -49765,7 +49726,7 @@ uz
 BV
 uz
 uz
-kn
+uz
 dj
 Xj
 uz
@@ -50020,7 +49981,7 @@ KI
 Dx
 hm
 xh
-Wn
+uz
 uz
 Ok
 dj
@@ -50274,7 +50235,7 @@ NQ
 uz
 NV
 uz
-bv
+dj
 uz
 uz
 uz
@@ -50282,7 +50243,7 @@ Ok
 dj
 uz
 uz
-KZ
+uz
 uz
 uz
 Ok
@@ -50786,7 +50747,7 @@ hm
 hm
 CU
 uz
-Ki
+dj
 uz
 Hj
 uz
