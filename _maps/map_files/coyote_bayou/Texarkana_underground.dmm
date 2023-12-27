@@ -26674,6 +26674,7 @@
 /obj/effect/turf_decal/stripes/asteroid/line{
 	dir = 5
 	},
+/obj/item/plunger/reinforced,
 /turf/open/floor/plasteel/f13/vault_floor/white,
 /area/f13/building/hospital/clinic/nash)
 "pAe" = (
