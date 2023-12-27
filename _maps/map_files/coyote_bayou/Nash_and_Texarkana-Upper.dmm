@@ -3454,13 +3454,6 @@
 /obj/effect/validball_spawner,
 /obj/effect/spawner/lootdrop/f13/rare,
 /obj/effect/spawner/lootdrop/f13/rare,
-/obj/machinery/button/door{
-	id = "commsroomlockdown";
-	max_integrity = 1000;
-	obj_integrity = 1000;
-	pixel_y = 5;
-	name = "comms room lockdown"
-	},
 /turf/open/floor/plasteel/f13{
 	icon_state = "darkrusty"
 	},
@@ -5721,6 +5714,19 @@
 	},
 /turf/open/floor/wood_wide,
 /area/f13/building)
+"eBB" = (
+/obj/structure/table/reinforced,
+/obj/machinery/button/door{
+	id = "commsaccessshutters";
+	max_integrity = 1000;
+	obj_integrity = 1000;
+	name = "stairwell shutters";
+	pixel_x = 30
+	},
+/turf/open/floor/plasteel/f13{
+	icon_state = "darkrusty"
+	},
+/area/f13/building/massfusion)
 "eBE" = (
 /obj/machinery/light/small{
 	dir = 8;
@@ -82193,7 +82199,7 @@ qKv
 mGE
 qPu
 hjt
-onr
+eBB
 sXt
 qvL
 qvL

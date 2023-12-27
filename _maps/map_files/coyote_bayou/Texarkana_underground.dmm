@@ -9881,19 +9881,6 @@
 /obj/structure/nest/ghoul,
 /turf/open/floor/f13/wood,
 /area/f13/tunnel)
-"eOb" = (
-/obj/effect/spawner/lootdrop/ammo/fiftypercent,
-/obj/machinery/button/door{
-	id = "commsaccessshutters";
-	max_integrity = 1000;
-	obj_integrity = 1000;
-	name = "stairwell shutters";
-	pixel_x = 30
-	},
-/turf/open/floor/plasteel/f13{
-	icon_state = "darkrustysolid"
-	},
-/area/f13/building/massfusion)
 "eOg" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/rack/shelf_metal,
@@ -89478,7 +89465,7 @@ pDI
 ueb
 rEX
 nOj
-eOb
+iKx
 prr
 ueb
 ueb
