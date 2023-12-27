@@ -22723,11 +22723,6 @@
 /obj/item/stack/cable_coil,
 /turf/open/indestructible/ground/inside/subway,
 /area/f13/building)
-"naU" = (
-/obj/structure/railing/handrail/rusty,
-/obj/effect/decal/cleanable/dirt,
-/turf/closed/indestructible/f13vaultrusted,
-/area/f13/building)
 "nbe" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/item/trash/can,
@@ -44634,7 +44629,7 @@ rXI
 dtS
 fEI
 fEI
-naU
+fEI
 xyL
 bLQ
 xyL
@@ -45906,7 +45901,7 @@ bOb
 cYa
 gcv
 gcv
-kVW
+rte
 mbQ
 iad
 oQP
