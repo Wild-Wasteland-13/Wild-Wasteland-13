@@ -824,6 +824,16 @@
 /obj/structure/simple_door/bunker,
 /turf/open/water,
 /area/f13/tunnel)
+"axB" = (
+/obj/structure/spacevine,
+/obj/machinery/door/airlock/ckey{
+	req_access = "25, 28";
+	name = "Nash public access"
+	},
+/turf/open/floor/f13{
+	icon_state = "greenrustyfull"
+	},
+/area/f13/building/sewers)
 "axC" = (
 /obj/effect/decal/fakelattice,
 /obj/effect/decal/cleanable/dirt/dust,
@@ -931,6 +941,14 @@
 	},
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/caves)
+"aAs" = (
+/obj/machinery/door/unpowered/securedoor{
+	name = "Sewer door";
+	req_access_txt = null;
+	req_one_access_txt = "25, 28"
+	},
+/turf/open/indestructible/ground/inside/subway,
+/area/f13/building/sewers)
 "aAz" = (
 /obj/structure/glowshroom{
 	color = "#4F7942";
@@ -3385,17 +3403,7 @@
 	dir = 8
 	},
 /obj/structure/table,
-/obj/machinery/porta_turret/syndicate/vehicle_turret{
-	desc = "A reprogrammed Rob-Co turret. It still works. Its targetting also seems to have been overriden to target anything not between eight and ten feet and green.";
-	faction = list("hostile","supermutant");
-	lethal_projectile = /obj/item/projectile/bullet/a762/sport/simple;
-	lethal_projectile_sound = 'sound/f13weapons/auto5.ogg';
-	name = "Reprogrammed Turret";
-	scan_range = 9;
-	stun_projectile = /obj/item/projectile/bullet/a762/sport/simple;
-	stun_projectile_sound = 'sound/f13weapons/auto5.ogg';
-	throw_range = 9
-	},
+/obj/machinery/porta_turret/f13/turret_9mm/raider,
 /turf/open/indestructible/ground/inside/subway,
 /area/f13/tunnel)
 "bKD" = (
@@ -3451,18 +3459,8 @@
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/radiation)
 "bKT" = (
-/obj/machinery/porta_turret/syndicate/vehicle_turret{
-	desc = "A reprogrammed Rob-Co turret. It still works. Its targetting also seems to have been overriden to target anything not between eight and ten feet and green.";
-	faction = list("hostile","supermutant");
-	lethal_projectile = /obj/item/projectile/bullet/a762/sport/simple;
-	lethal_projectile_sound = 'sound/f13weapons/auto5.ogg';
-	name = "Reprogrammed Turret";
-	scan_range = 9;
-	stun_projectile = /obj/item/projectile/bullet/a762/sport/simple;
-	stun_projectile_sound = 'sound/f13weapons/auto5.ogg';
-	throw_range = 9
-	},
 /obj/structure/table,
+/obj/machinery/porta_turret/f13/turret_9mm/raider,
 /turf/open/indestructible/ground/inside/subway,
 /area/f13/tunnel)
 "bKU" = (
@@ -9165,6 +9163,13 @@
 	icon_state = "greenrustyfull"
 	},
 /area/f13/building/sewers)
+"ere" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/railing/handrail/rusty{
+	dir = 8
+	},
+/turf/open/water,
+/area/f13/building/sewers)
 "ern" = (
 /obj/structure/flora/chomp/bones/lrock4{
 	pixel_x = -18
@@ -9241,13 +9246,7 @@
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/building/sewers)
 "etj" = (
-/obj/machinery/porta_turret/syndicate/vehicle_turret{
-	desc = "An improvised ballistic turret - it looks exceptionally shoddy, yet stil functional. Safe to assume it's a repaired security system from whatever this place once was";
-	faction = list("raider");
-	name = "Repaired Turret";
-	scan_range = 9;
-	throw_range = 9
-	},
+/obj/machinery/porta_turret/f13/turret_9mm/raider,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/caves)
 "etm" = (
@@ -9612,6 +9611,14 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/plating,
 /area/f13/caves)
+"eFI" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/door/airlock/ckey{
+	req_access = "25, 28";
+	name = "Nash public access"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/white,
+/area/f13/building)
 "eFN" = (
 /turf/closed/wall/r_wall/rust,
 /area/f13/building/sewers)
@@ -9626,17 +9633,7 @@
 /area/f13/building)
 "eFZ" = (
 /obj/machinery/light/broken,
-/obj/machinery/porta_turret/syndicate/vehicle_turret{
-	desc = "An improvised ballistic turret - it looks exceptionally shoddy, yet stil functional. Safe to assume it's a repaired security system from whatever this place once was";
-	faction = list("raider");
-	lethal_projectile = /obj/item/projectile/bullet/a762/sport/simple;
-	lethal_projectile_sound = 'sound/f13weapons/auto5.ogg';
-	name = "Repaired Turret";
-	scan_range = 9;
-	stun_projectile = /obj/item/projectile/bullet/a762/sport/simple;
-	stun_projectile_sound = 'sound/f13weapons/auto5.ogg';
-	throw_range = 9
-	},
+/obj/machinery/porta_turret/f13/turret_9mm/raider,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/caves)
 "eGb" = (
@@ -10333,9 +10330,6 @@
 /obj/structure/flora/tree_timber,
 /turf/open/floor/plating/ashplanet/rocky,
 /area/f13/caves)
-"fcT" = (
-/turf/closed/indestructible/f13vaultrusted,
-/area/f13/building/trainstation)
 "fcV" = (
 /obj/item/bonesetter,
 /turf/open/indestructible/ground/inside/subway,
@@ -12239,17 +12233,6 @@
 /obj/structure/table,
 /obj/machinery/light/fo13colored/Red{
 	dir = 8
-	},
-/obj/machinery/porta_turret/syndicate/vehicle_turret{
-	desc = "A reprogrammed Rob-Co turret. It still works. Its targetting also seems to have been overriden to target anything not between eight and ten feet and green.";
-	faction = list("hostile","supermutant");
-	lethal_projectile = /obj/item/projectile/bullet/a762/sport/simple;
-	lethal_projectile_sound = 'sound/f13weapons/auto5.ogg';
-	name = "Reprogrammed Turret";
-	scan_range = 9;
-	stun_projectile = /obj/item/projectile/bullet/a762/sport/simple;
-	stun_projectile_sound = 'sound/f13weapons/auto5.ogg';
-	throw_range = 9
 	},
 /turf/open/indestructible/ground/inside/subway,
 /area/f13/tunnel)
@@ -16957,17 +16940,6 @@
 	dir = 4
 	},
 /obj/structure/table,
-/obj/machinery/porta_turret/syndicate/vehicle_turret{
-	desc = "A reprogrammed Rob-Co turret. It still works. Its targetting also seems to have been overriden to target anything not between eight and ten feet and green.";
-	faction = list("hostile","supermutant");
-	lethal_projectile = /obj/item/projectile/bullet/a762/sport/simple;
-	lethal_projectile_sound = 'sound/f13weapons/auto5.ogg';
-	name = "Reprogrammed Turret";
-	scan_range = 9;
-	stun_projectile = /obj/item/projectile/bullet/a762/sport/simple;
-	stun_projectile_sound = 'sound/f13weapons/auto5.ogg';
-	throw_range = 9
-	},
 /turf/open/indestructible/ground/inside/subway,
 /area/f13/tunnel)
 "jsN" = (
@@ -17151,17 +17123,7 @@
 "jAc" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/oil/slippery,
-/obj/machinery/porta_turret/syndicate/vehicle_turret{
-	desc = "An improvised ballistic turret - it looks exceptionally shoddy, yet stil functional. Safe to assume it's a repaired security system from whatever this place once was";
-	faction = list("raider");
-	lethal_projectile = /obj/item/projectile/bullet/a762/sport/simple;
-	lethal_projectile_sound = 'sound/f13weapons/auto5.ogg';
-	name = "Repaired Turret";
-	scan_range = 9;
-	stun_projectile = /obj/item/projectile/bullet/a762/sport/simple;
-	stun_projectile_sound = 'sound/f13weapons/auto5.ogg';
-	throw_range = 9
-	},
+/obj/machinery/porta_turret/f13/turret_9mm/raider,
 /turf/open/indestructible/ground/inside/subway,
 /area/f13/caves)
 "jAl" = (
@@ -17888,6 +17850,12 @@
 /obj/item/paper/crumpled/bloody/ruins,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/caves)
+"jXl" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/vending/snack/random,
+/turf/open/floor/plasteel/f13/vault_floor/white,
+/area/f13/building)
 "jXr" = (
 /obj/effect/decal/cleanable/blood/gibs/body,
 /obj/effect/decal/cleanable/blood/gibs/body,
@@ -19688,27 +19656,8 @@
 /obj/machinery/light/fo13colored/Red{
 	dir = 1
 	},
-/obj/machinery/porta_turret/syndicate/vehicle_turret{
-	desc = "A Rob-Co turret, pristene and sleek. Its robotic eyes pass over authorized individuals...onto you.";
-	faction = list("Syndicate");
-	lethal_projectile = /obj/item/projectile/bullet/a762/sport/simple;
-	lethal_projectile_sound = 'sound/f13weapons/auto5.ogg';
-	name = "Containment Turret";
-	scan_range = 9;
-	stun_projectile = /obj/item/projectile/bullet/a762/sport/simple;
-	stun_projectile_sound = 'sound/f13weapons/auto5.ogg';
-	throw_range = 9
-	},
 /turf/open/indestructible/ground/inside/subway,
 /area/f13/tunnel)
-"lis" = (
-/obj/machinery/door/unpowered/securedoor{
-	name = "Sewer door";
-	req_access_txt = null;
-	req_one_access_txt = "25, 28"
-	},
-/turf/open/indestructible/ground/inside/subway,
-/area/f13/building/sewers)
 "liA" = (
 /obj/effect/turf_decal/stripes/line,
 /obj/item/card/midbounty,
@@ -20515,14 +20464,6 @@
 /obj/structure/spider/stickyweb,
 /turf/open/indestructible/ground/inside/subway,
 /area/f13/caves)
-"lHv" = (
-/obj/structure/flora/ausbushes/sparsegrass,
-/obj/structure/lattice/catwalk,
-/obj/structure/railing/handrail/rusty{
-	dir = 8
-	},
-/turf/open/water,
-/area/f13/building/sewers)
 "lIh" = (
 /obj/structure/flora/grass/jungle,
 /turf/open/floor/grass/fairy/blue,
@@ -20614,13 +20555,6 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/dark/darksolid,
 /area/f13/tunnel)
-"lLq" = (
-/obj/structure/lattice/catwalk,
-/obj/structure/railing/handrail/rusty{
-	dir = 4
-	},
-/turf/open/water,
-/area/f13/building/sewers)
 "lLz" = (
 /obj/structure/flora/junglebush/b,
 /turf/open/indestructible/ground/outside/water,
@@ -21868,20 +21802,13 @@
 	},
 /area/f13/building/massfusion)
 "mwr" = (
-/obj/structure/table,
-/obj/machinery/porta_turret/syndicate/vehicle_turret{
-	desc = "A reprogrammed Rob-Co turret. It still works. Its targetting also seems to have been overriden to target anything not between eight and ten feet and green.";
-	faction = list("hostile","supermutant");
-	lethal_projectile = /obj/item/projectile/bullet/a762/sport/simple;
-	lethal_projectile_sound = 'sound/f13weapons/auto5.ogg';
-	name = "Reprogrammed Turret";
-	scan_range = 9;
-	stun_projectile = /obj/item/projectile/bullet/a762/sport/simple;
-	stun_projectile_sound = 'sound/f13weapons/auto5.ogg';
-	throw_range = 9
+/obj/structure/flora/ausbushes/sparsegrass,
+/obj/structure/lattice/catwalk,
+/obj/structure/railing/handrail/rusty{
+	dir = 8
 	},
-/turf/open/indestructible/ground/inside/subway,
-/area/f13/tunnel)
+/turf/open/water,
+/area/f13/building/sewers)
 "mxd" = (
 /obj/machinery/light,
 /obj/structure/cable{
@@ -22103,17 +22030,6 @@
 "mEU" = (
 /obj/structure/table,
 /obj/machinery/light/fo13colored/Red,
-/obj/machinery/porta_turret/syndicate/vehicle_turret{
-	desc = "A reprogrammed Rob-Co turret. It still works. Its targetting also seems to have been overriden to target anything not between eight and ten feet and green.";
-	faction = list("hostile","supermutant");
-	lethal_projectile = /obj/item/projectile/bullet/a762/sport/simple;
-	lethal_projectile_sound = 'sound/f13weapons/auto5.ogg';
-	name = "Reprogrammed Turret";
-	scan_range = 9;
-	stun_projectile = /obj/item/projectile/bullet/a762/sport/simple;
-	stun_projectile_sound = 'sound/f13weapons/auto5.ogg';
-	throw_range = 9
-	},
 /turf/open/indestructible/ground/inside/subway,
 /area/f13/tunnel)
 "mEW" = (
@@ -22513,7 +22429,7 @@
 "mSf" = (
 /obj/structure/lattice/catwalk,
 /obj/structure/railing/handrail/rusty{
-	dir = 8
+	dir = 4
 	},
 /turf/open/water,
 /area/f13/building/sewers)
@@ -25985,17 +25901,6 @@
 /area/f13/caves)
 "peA" = (
 /obj/effect/decal/cleanable/oil/slippery,
-/obj/machinery/porta_turret/syndicate/vehicle_turret{
-	desc = "An improvised ballistic turret - it looks exceptionally shoddy, yet stil functional. Safe to assume it's a repaired security system from whatever this place once was";
-	faction = list("raider");
-	lethal_projectile = /obj/item/projectile/bullet/a762/sport/simple;
-	lethal_projectile_sound = 'sound/f13weapons/auto5.ogg';
-	name = "Repaired Turret";
-	scan_range = 9;
-	stun_projectile = /obj/item/projectile/bullet/a762/sport/simple;
-	stun_projectile_sound = 'sound/f13weapons/auto5.ogg';
-	throw_range = 9
-	},
 /obj/structure/decoration/rag{
 	desc = "A string of bones and skulls.<br>A common warning from tribals and raiders to outsiders.";
 	icon_state = "skulls";
@@ -27943,17 +27848,7 @@
 /obj/effect/decal/cleanable/blood/gibs{
 	icon_state = "gibup1"
 	},
-/obj/machinery/porta_turret/syndicate/vehicle_turret{
-	desc = "An improvised ballistic turret - it looks exceptionally shoddy, yet stil functional. Safe to assume it's a repaired security system from whatever this place once was";
-	faction = list("raider");
-	lethal_projectile = /obj/item/projectile/bullet/a762/sport/simple;
-	lethal_projectile_sound = 'sound/f13weapons/auto5.ogg';
-	name = "Repaired Turret";
-	scan_range = 9;
-	stun_projectile = /obj/item/projectile/bullet/a762/sport/simple;
-	stun_projectile_sound = 'sound/f13weapons/auto5.ogg';
-	throw_range = 9
-	},
+/obj/machinery/porta_turret/f13/turret_9mm/raider,
 /turf/open/floor/plasteel/freezer,
 /area/f13/caves)
 "qlc" = (
@@ -28171,18 +28066,9 @@
 	},
 /area/f13/building/sewers)
 "qrI" = (
-/obj/machinery/porta_turret/syndicate/vehicle_turret{
-	desc = "An improvised ballistic turret - it looks exceptionally shoddy, yet stil functional. Safe to assume it's a repaired security system from whatever this place once was";
-	faction = list("raider");
-	lethal_projectile = /obj/item/projectile/bullet/a762/sport/simple;
-	lethal_projectile_sound = 'sound/f13weapons/auto5.ogg';
-	name = "Repaired Turret";
-	scan_range = 9;
-	stun_projectile = /obj/item/projectile/bullet/a762/sport/simple;
-	stun_projectile_sound = 'sound/f13weapons/auto5.ogg';
-	throw_range = 9
-	},
-/turf/open/floor/plating/tunnel,
+/obj/effect/spawner/lootdrop/f13/uncommon,
+/obj/machinery/porta_turret/f13/turret_9mm/raider,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/caves)
 "qrQ" = (
 /obj/machinery/light,
@@ -28963,14 +28849,6 @@
 /obj/structure/bed/oldalt,
 /turf/open/indestructible/ground/inside/subway,
 /area/f13/caves)
-"qQE" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/door/airlock/ckey{
-	req_access = "25, 28";
-	name = "Nash public access"
-	},
-/turf/open/floor/plasteel/f13/vault_floor/white,
-/area/f13/building)
 "qQF" = (
 /obj/structure/wreck/trash/four_barrels,
 /turf/open/floor/plasteel/f13/vault_floor/red{
@@ -33115,12 +32993,6 @@
 /obj/effect/spawner/lootdrop/clothing_high,
 /turf/open/floor/f13/wood,
 /area/f13/tunnel)
-"tpW" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/vending/snack/random,
-/turf/open/floor/plasteel/f13/vault_floor/white,
-/area/f13/building)
 "tqk" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -35254,17 +35126,7 @@
 "uKR" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/oil/slippery,
-/obj/machinery/porta_turret/syndicate/vehicle_turret{
-	desc = "An improvised ballistic turret - it looks exceptionally shoddy, yet stil functional. Safe to assume it's a repaired security system from whatever this place once was";
-	faction = list("raider");
-	lethal_projectile = /obj/item/projectile/bullet/a762/sport/simple;
-	lethal_projectile_sound = 'sound/f13weapons/auto5.ogg';
-	name = "Repaired Turret";
-	scan_range = 9;
-	stun_projectile = /obj/item/projectile/bullet/a762/sport/simple;
-	stun_projectile_sound = 'sound/f13weapons/auto5.ogg';
-	throw_range = 9
-	},
+/obj/machinery/porta_turret/f13/turret_9mm/raider,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/caves)
 "uKW" = (
@@ -35705,19 +35567,8 @@
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/bunker)
 "vck" = (
-/obj/machinery/porta_turret/syndicate/vehicle_turret{
-	desc = "An improvised ballistic turret - it looks exceptionally shoddy, yet stil functional. Safe to assume it's a repaired security system from whatever this place once was";
-	faction = list("raider");
-	lethal_projectile = /obj/item/projectile/bullet/a762/sport/simple;
-	lethal_projectile_sound = 'sound/f13weapons/auto5.ogg';
-	name = "Repaired Turret";
-	scan_range = 9;
-	stun_projectile = /obj/item/projectile/bullet/a762/sport/simple;
-	stun_projectile_sound = 'sound/f13weapons/auto5.ogg';
-	throw_range = 9
-	},
-/turf/open/indestructible/ground/inside/subway,
-/area/f13/caves)
+/turf/closed/indestructible/f13vaultrusted,
+/area/f13/building/trainstation)
 "vcq" = (
 /obj/effect/turf_decal/stripes/asteroid/line{
 	dir = 1
@@ -37386,17 +37237,7 @@
 	name = "skulls";
 	pixel_x = -32
 	},
-/obj/machinery/porta_turret/syndicate/vehicle_turret{
-	desc = "An improvised ballistic turret - it looks exceptionally shoddy, yet stil functional. Safe to assume it's a repaired security system from whatever this place once was";
-	faction = list("raider");
-	lethal_projectile = /obj/item/projectile/bullet/a762/sport/simple;
-	lethal_projectile_sound = 'sound/f13weapons/auto5.ogg';
-	name = "Repaired Turret";
-	scan_range = 9;
-	stun_projectile = /obj/item/projectile/bullet/a762/sport/simple;
-	stun_projectile_sound = 'sound/f13weapons/auto5.ogg';
-	throw_range = 9
-	},
+/obj/machinery/porta_turret/f13/turret_9mm/raider,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/caves)
 "wfu" = (
@@ -38225,6 +38066,11 @@
 /obj/structure/obstacle/tanktrap,
 /turf/open/floor/plasteel/f13/vault_floor/neutral/corner,
 /area/f13/tunnel)
+"wGn" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/oil/slippery,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
+/area/f13/caves)
 "wGI" = (
 /obj/effect/decal/cleanable/dirt{
 	color = "#363636"
@@ -38443,16 +38289,6 @@
 	color = "#779999"
 	},
 /area/f13/building)
-"wOI" = (
-/obj/structure/spacevine,
-/obj/machinery/door/airlock/ckey{
-	req_access = "25, 28";
-	name = "Nash public access"
-	},
-/turf/open/floor/f13{
-	icon_state = "greenrustyfull"
-	},
-/area/f13/building/sewers)
 "wPm" = (
 /obj/structure/chair/stool/retro/black,
 /obj/effect/decal/cleanable/dirt,
@@ -43945,9 +43781,9 @@ oMS
 oMS
 ehC
 ehC
-fcT
-fcT
-fcT
+vck
+vck
+vck
 eTA
 eTA
 eTA
@@ -44202,9 +44038,9 @@ bOO
 bOO
 ehC
 ehC
-fcT
-fcT
-fcT
+vck
+vck
+vck
 eTA
 exy
 cjt
@@ -45238,7 +45074,7 @@ azN
 cOZ
 cOZ
 cjt
-tpW
+jXl
 mfq
 eTA
 iMZ
@@ -45254,10 +45090,10 @@ qae
 bOb
 hXn
 aem
-lHv
-lHv
-lHv
-mSf
+mwr
+mwr
+mwr
+ere
 nda
 kWF
 eHs
@@ -45475,7 +45311,7 @@ eTA
 eTA
 eTA
 qjZ
-wOI
+axB
 lXr
 eTA
 eTA
@@ -45515,7 +45351,7 @@ dHk
 dHk
 dHk
 dHk
-qQE
+eFI
 aBU
 eHs
 eHs
@@ -45768,10 +45604,10 @@ jfO
 bOb
 cVd
 gcv
-lLq
-lLq
-lLq
-lLq
+mSf
+mSf
+mSf
+mSf
 bPE
 hFx
 uJL
@@ -48803,7 +48639,7 @@ kyV
 kyV
 kyV
 kyV
-lis
+aAs
 gcv
 gcv
 hXn
@@ -50853,7 +50689,7 @@ aae
 aae
 pLf
 pLf
-lis
+aAs
 pLf
 aae
 aae
@@ -56624,7 +56460,7 @@ jGc
 aah
 pwE
 jsm
-mwr
+otu
 pwE
 aah
 aah
@@ -58680,7 +58516,7 @@ aah
 aah
 cug
 wVn
-mwr
+otu
 bEl
 cug
 aah
@@ -61245,7 +61081,7 @@ bFF
 bFF
 pwE
 otu
-mwr
+otu
 pwE
 pwE
 uLs
@@ -76675,7 +76511,7 @@ aae
 aae
 aaa
 bCG
-uKR
+wGn
 uEV
 ktN
 hHu
@@ -76932,7 +76768,7 @@ aae
 aae
 aaa
 bCG
-bRl
+qrI
 uEV
 uEV
 tEt
@@ -78999,7 +78835,7 @@ hHu
 afy
 nND
 qPi
-qrI
+vDJ
 fqT
 rFR
 qWz
@@ -79246,7 +79082,7 @@ aak
 aaa
 aak
 bCG
-vck
+adz
 mpk
 hHu
 bvU

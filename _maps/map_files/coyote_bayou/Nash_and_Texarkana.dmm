@@ -839,7 +839,11 @@
 /turf/open/indestructible/ground/outside/desert,
 /area/f13/wasteland)
 "adz" = (
-/mob/living/simple_animal/hostile/ghoul,
+/obj/structure/nest/randomized{
+	randomizer_difficulty = 1;
+	randomizer_kind = "mid level mobs";
+	randomizer_tag = "Mining Mastards"
+	},
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/caves)
 "adA" = (
@@ -33711,6 +33715,14 @@
 /obj/effect/spawner/lootdrop/f13/uncommon,
 /turf/open/floor/wood_common,
 /area/f13/ruins)
+"ela" = (
+/obj/structure/nest/randomized{
+	randomizer_difficulty = 1;
+	randomizer_kind = "mid level mobs";
+	randomizer_tag = "Mining Mastards"
+	},
+/turf/open/indestructible/ground/inside/subway,
+/area/f13/caves)
 "eld" = (
 /obj/effect/turf_decal/weather/dirt{
 	color = "#a98c5d";
@@ -154941,7 +154953,7 @@ aaA
 aaB
 aaB
 aaB
-aaB
+adz
 aaB
 aaA
 aae
@@ -155456,7 +155468,7 @@ bjo
 bjo
 uhI
 bjo
-adz
+aaB
 acr
 aaB
 aaA
@@ -155710,7 +155722,7 @@ aae
 aae
 aaC
 bjo
-bjo
+ela
 bjo
 aaB
 abV
@@ -155969,11 +155981,11 @@ aaB
 aaB
 bjo
 aaB
-adz
+aaB
 abV
 aaB
-adz
-adz
+aaB
+aaB
 aaB
 aaA
 iZj
