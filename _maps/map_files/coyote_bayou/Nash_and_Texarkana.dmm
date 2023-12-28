@@ -121392,11 +121392,6 @@
 	icon_state = "horizontalinnermain0"
 	},
 /area/f13/wasteland/city/nash/theloop)
-"xCQ" = (
-/obj/structure/wreck/trash/machinepiletwo,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/grass,
-/area/f13/caves)
 "xCW" = (
 /obj/machinery/light{
 	light_color = "#e8eaff"
@@ -146452,7 +146447,7 @@ aae
 aae
 aae
 aae
-xCQ
+tCT
 xSv
 gEq
 uHp

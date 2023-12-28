@@ -1016,6 +1016,18 @@
 	},
 /turf/open/floor/plating/tunnel,
 /area/f13/building)
+"auH" = (
+/obj/structure/closet,
+/obj/effect/spawner/lootdrop/f13/uncommon,
+/obj/effect/spawner/lootdrop/f13/uncommon,
+/obj/effect/spawner/lootdrop/f13/uncommon,
+/obj/effect/spawner/lootdrop/f13/rare,
+/obj/effect/spawner/lootdrop/f13/rare,
+/turf/open/floor/plasteel/barber{
+	icon = 'icons/turf/f13floors2.dmi';
+	icon_state = "bluerustychess2"
+	},
+/area/f13/bunker)
 "auN" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/lattice{
@@ -1278,11 +1290,6 @@
 	icon_state = "redrustyfull"
 	},
 /area/f13/building)
-"aAD" = (
-/obj/machinery/door/airlock/grunge/abandoned,
-/obj/structure/flora/tree/jungle,
-/turf/open/floor/grass,
-/area/f13/underground/cave/vault/fourfivefour)
 "aAM" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/bookcase/manuals/engineering,
@@ -3886,7 +3893,7 @@
 /turf/open/floor/plasteel/f13/vault_floor/green/side,
 /area/f13/building)
 "bRK" = (
-/mob/living/simple_animal/hostile/supermutant,
+/mob/living/simple_animal/hostile/handy/protectron,
 /turf/open/floor/plasteel/barber{
 	icon_state = "plating"
 	},
@@ -5369,8 +5376,8 @@
 /turf/open/floor/plasteel/f13/vault_floor/misc/vault1,
 /area/f13/building)
 "cBs" = (
-/mob/living/simple_animal/hostile/supermutant,
 /obj/effect/spawner/lootdrop/f13/uncommon,
+/mob/living/simple_animal/hostile/handy/protectron,
 /turf/open/floor/plasteel/barber{
 	icon = 'icons/turf/f13floors2.dmi';
 	icon_state = "bluerustychess2"
@@ -9298,8 +9305,10 @@
 /turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/f13/enclave)
 "egI" = (
-/mob/living/simple_animal/hostile/centaur,
-/turf/open/floor/plating,
+/mob/living/simple_animal/hostile/handy/gutsy/flamer,
+/turf/open/floor/plasteel/barber{
+	icon_state = "plating"
+	},
 /area/f13/bunker)
 "egQ" = (
 /obj/structure/table/wood,
@@ -9780,7 +9789,6 @@
 /obj/effect/decal/waste{
 	icon_state = "goo5"
 	},
-/mob/living/simple_animal/hostile/supermutant,
 /turf/open/floor/plasteel/barber{
 	icon_state = "plating"
 	},
@@ -11039,6 +11047,13 @@
 /obj/structure/lattice/catwalk,
 /turf/open/floor/plasteel/f13/vault_floor/plating,
 /area/f13/brotherhood/rnd)
+"eWm" = (
+/obj/effect/decal/cleanable/dirt,
+/mob/living/simple_animal/hostile/handy/assaultron,
+/turf/open/floor/plasteel/barber{
+	icon_state = "plating"
+	},
+/area/f13/bunker)
 "eWx" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
@@ -11275,10 +11290,12 @@
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/brotherhood/rnd)
 "fbh" = (
-/obj/structure/door_assembly/door_assembly_com,
-/obj/structure/flora/tree/jungle,
-/turf/open/floor/grass,
-/area/f13/underground/cave/vault/fourfivefour)
+/mob/living/simple_animal/hostile/handy/robobrain,
+/turf/open/floor/plasteel/barber{
+	icon = 'icons/turf/f13floors2.dmi';
+	icon_state = "bluerustychess2"
+	},
+/area/f13/bunker)
 "fbC" = (
 /obj/structure/table/reinforced,
 /obj/item/flashlight/lamp,
@@ -13427,7 +13444,10 @@
 /obj/structure/ladder/unbreakable{
 	id = "Supmut2"
 	},
-/turf/open/floor/plasteel/elevatorshaft,
+/turf/open/floor/plasteel/barber{
+	icon = 'icons/turf/f13floors2.dmi';
+	icon_state = "bluerustychess2"
+	},
 /area/f13/bunker/bighornbunker)
 "gar" = (
 /obj/structure/cable{
@@ -19935,7 +19955,6 @@
 "jih" = (
 /obj/effect/decal/remains/human,
 /obj/item/flashlight/flare/torch,
-/mob/living/simple_animal/hostile/radscorpion,
 /turf/open/floor/plasteel/barber{
 	icon_state = "platingdmg2"
 	},
@@ -20617,10 +20636,8 @@
 	},
 /area/f13/building)
 "jAk" = (
-/obj/structure/chair{
-	dir = 4
-	},
-/obj/structure/nest/supermutant,
+/obj/effect/decal/cleanable/oil/slippery,
+/mob/living/simple_animal/hostile/handy/robobrain,
 /turf/open/floor/plasteel/barber{
 	icon = 'icons/turf/f13floors2.dmi';
 	icon_state = "bluerustychess2"
@@ -25026,7 +25043,7 @@
 	},
 /area/f13/brotherhood/mining)
 "lDB" = (
-/mob/living/simple_animal/hostile/supermutant,
+/mob/living/simple_animal/hostile/securitron/sentrybot/nsb/riot,
 /turf/open/floor/plasteel/barber{
 	icon = 'icons/turf/f13floors2.dmi';
 	icon_state = "bluerustychess2"
@@ -27090,7 +27107,7 @@
 	},
 /area/f13/bunker)
 "mBf" = (
-/obj/structure/nest/scorpion,
+/mob/living/simple_animal/hostile/handy/assaultron,
 /turf/open/floor/plasteel/barber{
 	icon = 'icons/turf/f13floors2.dmi';
 	icon_state = "bluerustychess2"
@@ -28183,7 +28200,7 @@
 /turf/open/floor/plating/tunnel,
 /area/f13/brotherhood/rnd)
 "nbh" = (
-/mob/living/simple_animal/hostile/radscorpion,
+/mob/living/simple_animal/hostile/securitron,
 /turf/open/floor/plasteel/barber{
 	icon = 'icons/turf/f13floors2.dmi';
 	icon_state = "bluerustychess2"
@@ -29121,9 +29138,10 @@
 /turf/open/floor/grass,
 /area/f13/wasteland/enclavehelipad)
 "nya" = (
-/obj/structure/nest/supermutant,
+/mob/living/simple_animal/hostile/handy/gutsy/flamer,
 /turf/open/floor/plasteel/barber{
-	icon_state = "plating"
+	icon = 'icons/turf/f13floors2.dmi';
+	icon_state = "bluerustychess2"
 	},
 /area/f13/bunker)
 "nyg" = (
@@ -30601,6 +30619,7 @@
 /obj/machinery/light/small{
 	dir = 1
 	},
+/mob/living/simple_animal/hostile/securitron/sentrybot/nsb/riot,
 /turf/open/floor/plasteel/barber{
 	icon = 'icons/turf/f13floors2.dmi';
 	icon_state = "bluerustychess2"
@@ -32022,8 +32041,11 @@
 /turf/open/floor/plasteel/f13/vault_floor/misc/cafeteria,
 /area/f13/vault)
 "oNk" = (
-/mob/living/simple_animal/hostile/supermutant,
-/turf/open/floor/plating,
+/mob/living/simple_animal/hostile/supermutant/rangedmutant,
+/turf/open/floor/plasteel/barber{
+	icon = 'icons/turf/f13floors2.dmi';
+	icon_state = "bluerustychess2"
+	},
 /area/f13/bunker)
 "oNA" = (
 /obj/effect/turf_decal/stripes/white/line{
@@ -34042,11 +34064,12 @@
 	},
 /area/f13/building)
 "pFQ" = (
-/mob/living/simple_animal/hostile/centaur,
-/turf/open/floor/plasteel/barber{
-	icon_state = "plating"
+/turf/closed/indestructible/rock{
+	icon = 'icons/turf/walls/reinforced_wall.dmi';
+	icon_state = "r_wall";
+	name = "reinforced wall"
 	},
-/area/f13/bunker)
+/area/f13/enclave)
 "pFX" = (
 /obj/structure/necropolis_gate{
 	desc = "A massive stone gateway with a very heavy stone door.";
@@ -34676,8 +34699,12 @@
 	},
 /area/f13/vault)
 "pUS" = (
-/turf/closed/indestructible/opshuttle,
-/area/f13/bunker/bighornbunker)
+/turf/closed/indestructible/rock{
+	icon = 'icons/turf/walls/reinforced_wall.dmi';
+	icon_state = "r_wall";
+	name = "reinforced wall"
+	},
+/area/f13/wasteland/enclavehelipad)
 "pVq" = (
 /obj/structure/flora/grass/coyote/ten,
 /turf/open/indestructible/ground/inside/subway{
@@ -36712,7 +36739,7 @@
 /turf/open/floor/plating/tunnel,
 /area/f13/brotherhood/offices1st)
 "qMm" = (
-/mob/living/simple_animal/hostile/centaur,
+/mob/living/simple_animal/hostile/handy/gutsy,
 /turf/open/floor/plasteel/barber{
 	icon_state = "platingdmg2"
 	},
@@ -36939,6 +36966,10 @@
 	},
 /turf/open/indestructible/ground/outside/water,
 /area/f13/underground/cave/vault/fourfivefour)
+"qRE" = (
+/obj/effect/decal/remains/human,
+/turf/closed/wall/r_wall/rust,
+/area/f13/bunker)
 "qRJ" = (
 /turf/closed/wall/r_wall/rust{
 	desc = "This wall looks damaged, maybe you could take it apart?";
@@ -37989,7 +38020,6 @@
 /obj/item/stack/sheet/mineral/uranium{
 	amount = 5
 	},
-/mob/living/simple_animal/hostile/supermutant,
 /turf/open/floor/plating,
 /area/f13/bunker)
 "roY" = (
@@ -38006,8 +38036,9 @@
 /turf/open/floor/grass,
 /area/f13/underground/cave/vault/fourfivefour)
 "rpn" = (
-/turf/open/floor/plasteel/elevatorshaft,
-/area/f13/bunker/bighornbunker)
+/obj/effect/decal/waste,
+/turf/closed/wall/r_wall/rust,
+/area/f13/bunker)
 "rpx" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -39331,12 +39362,6 @@
 	icon_state = "darkyellowfull"
 	},
 /area/f13/brotherhood/offices2nd)
-"rYv" = (
-/mob/living/simple_animal/hostile/radscorpion,
-/turf/open/floor/plasteel/barber{
-	icon_state = "plating"
-	},
-/area/f13/bunker)
 "rYD" = (
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plasteel/f13{
@@ -43261,6 +43286,13 @@
 /mob/living/simple_animal/hostile/raider/sulphite,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/brotherhood/rnd)
+"tPI" = (
+/mob/living/simple_animal/hostile/supermutant/rangedmutant,
+/turf/open/floor/plasteel/barber{
+	icon = 'icons/turf/f13floors2.dmi';
+	icon_state = "bluerustychess2"
+	},
+/area/f13/bunker/bighornbunker)
 "tPM" = (
 /obj/structure/rack,
 /obj/effect/spawner/lootdrop/f13/armor/costumes,
@@ -44373,13 +44405,6 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite,
 /area/f13/vault)
-"uqD" = (
-/obj/structure/nest/supermutant,
-/turf/open/floor/plasteel/barber{
-	icon = 'icons/turf/f13floors2.dmi';
-	icon_state = "bluerustychess2"
-	},
-/area/f13/bunker)
 "uqH" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -47451,6 +47476,7 @@
 /obj/machinery/light/small{
 	dir = 8
 	},
+/mob/living/simple_animal/hostile/handy/robobrain,
 /turf/open/floor/plasteel/barber{
 	icon = 'icons/turf/f13floors2.dmi';
 	icon_state = "bluerustychess2"
@@ -49010,16 +49036,9 @@
 	},
 /area/f13/bunker)
 "wwT" = (
-/obj/structure/closet,
-/obj/effect/spawner/lootdrop/f13/uncommon,
-/obj/effect/spawner/lootdrop/f13/uncommon,
-/obj/effect/spawner/lootdrop/f13/uncommon,
-/obj/effect/spawner/lootdrop/f13/rare,
-/obj/effect/spawner/lootdrop/f13/rare,
-/turf/open/floor/plasteel/barber{
-	icon = 'icons/turf/f13floors2.dmi';
-	icon_state = "bluerustychess2"
-	},
+/obj/effect/decal/waste,
+/mob/living/simple_animal/hostile/handy/gutsy/flamer,
+/turf/open/floor/plating,
 /area/f13/bunker)
 "wwV" = (
 /obj/effect/decal/cleanable/dirt,
@@ -49827,13 +49846,14 @@
 	},
 /area/f13/building)
 "wRq" = (
-/obj/effect/spawner/lootdrop/trash,
-/obj/structure/nest/supermutant,
+/obj/effect/decal/remains/human,
+/obj/effect/spawner/lootdrop/f13/uncommon,
+/mob/living/simple_animal/hostile/supermutant/rangedmutant,
 /turf/open/floor/plasteel/barber{
 	icon = 'icons/turf/f13floors2.dmi';
 	icon_state = "bluerustychess2"
 	},
-/area/f13/bunker)
+/area/f13/bunker/bighornbunker)
 "wRz" = (
 /obj/structure/flora/grass/wasteland{
 	icon_state = "tall_grass_3"
@@ -69594,42 +69614,42 @@ rLB
 rLB
 rLB
 rLB
-bpQ
-bpQ
-bpQ
-bpQ
-bpQ
-bpQ
-bpQ
-bpQ
-bpQ
-bpQ
-bpQ
-bpQ
-bpQ
-bpQ
-bpQ
-bpQ
-bpQ
-bpQ
-bpQ
-bpQ
-bpQ
-bpQ
-bpQ
-bpQ
-bpQ
-bpQ
-bpQ
-bpQ
-bpQ
-bpQ
-bpQ
-bpQ
-bpQ
-bpQ
-bpQ
-bpQ
+pFQ
+pFQ
+pFQ
+pFQ
+pFQ
+pFQ
+pFQ
+pFQ
+pFQ
+pFQ
+pFQ
+pFQ
+pFQ
+pFQ
+pFQ
+pFQ
+pFQ
+pFQ
+pFQ
+pFQ
+pFQ
+pFQ
+pFQ
+pFQ
+pFQ
+pFQ
+pFQ
+pFQ
+pFQ
+pFQ
+pFQ
+pFQ
+pFQ
+pFQ
+pFQ
+pFQ
 whv
 tot
 tot
@@ -69851,7 +69871,7 @@ whv
 whv
 whv
 whv
-bpQ
+pFQ
 pPM
 pPM
 pPM
@@ -69885,8 +69905,8 @@ pPM
 pPM
 pPM
 pPM
-pPM
-bpQ
+pUS
+pFQ
 whv
 tot
 tot
@@ -70108,7 +70128,7 @@ whv
 whv
 whv
 whv
-bpQ
+pFQ
 pPM
 iys
 iys
@@ -70143,7 +70163,7 @@ iys
 xOi
 jpj
 pPM
-bpQ
+pFQ
 whv
 tot
 tot
@@ -70365,7 +70385,7 @@ whv
 whv
 whv
 whv
-bpQ
+pFQ
 pPM
 iys
 iys
@@ -70400,7 +70420,7 @@ dkR
 lju
 ekb
 pPM
-bpQ
+pFQ
 whv
 iba
 tot
@@ -70622,7 +70642,7 @@ whv
 whv
 whv
 whv
-bpQ
+pFQ
 pPM
 iys
 iys
@@ -70657,7 +70677,7 @@ lRF
 qFp
 qmx
 pPM
-bpQ
+pFQ
 whv
 iba
 tot
@@ -70879,7 +70899,7 @@ whv
 whv
 whv
 whv
-bpQ
+pFQ
 pPM
 iys
 iys
@@ -70914,7 +70934,7 @@ cVl
 qFp
 qFp
 pPM
-bpQ
+pFQ
 whv
 tot
 tot
@@ -71136,7 +71156,7 @@ whv
 whv
 whv
 whv
-bpQ
+pFQ
 pPM
 iys
 aeV
@@ -71171,7 +71191,7 @@ cVl
 iys
 dkR
 pPM
-bpQ
+pFQ
 whv
 tot
 bpQ
@@ -71393,7 +71413,7 @@ whv
 whv
 whv
 whv
-bpQ
+pFQ
 pPM
 iys
 iys
@@ -71428,7 +71448,7 @@ cVl
 iys
 hCA
 pPM
-bpQ
+pFQ
 whv
 tot
 adn
@@ -71650,7 +71670,7 @@ whv
 whv
 whv
 whv
-bpQ
+pFQ
 pPM
 iys
 iys
@@ -71685,7 +71705,7 @@ iys
 aHZ
 mxk
 pPM
-bpQ
+pFQ
 whv
 adn
 adn
@@ -71907,7 +71927,7 @@ whv
 whv
 whv
 whv
-bpQ
+pFQ
 pPM
 iys
 iys
@@ -71942,7 +71962,7 @@ aHZ
 iys
 fqX
 pPM
-bpQ
+pFQ
 whv
 adn
 adn
@@ -72164,7 +72184,7 @@ whv
 whv
 whv
 whv
-bpQ
+pFQ
 pPM
 iys
 iys
@@ -72199,7 +72219,7 @@ iys
 xdX
 iys
 pPM
-bpQ
+pFQ
 whv
 adn
 adn
@@ -72421,7 +72441,7 @@ whv
 whv
 whv
 whv
-bpQ
+pFQ
 pPM
 iys
 iys
@@ -72456,7 +72476,7 @@ cAk
 cXJ
 iys
 pPM
-bpQ
+pFQ
 whv
 adn
 adn
@@ -72678,7 +72698,7 @@ whv
 whv
 whv
 whv
-bpQ
+pFQ
 pPM
 iys
 iys
@@ -72713,7 +72733,7 @@ cXJ
 iys
 iys
 pPM
-bpQ
+pFQ
 whv
 tot
 adn
@@ -72935,7 +72955,7 @@ whv
 whv
 whv
 whv
-bpQ
+pFQ
 pPM
 cXJ
 iys
@@ -72970,7 +72990,7 @@ iys
 iys
 iys
 pPM
-bpQ
+pFQ
 whv
 tot
 bpQ
@@ -73192,7 +73212,7 @@ whv
 whv
 whv
 whv
-bpQ
+pFQ
 pPM
 cXJ
 iys
@@ -73227,7 +73247,7 @@ iys
 iys
 iys
 pPM
-bpQ
+pFQ
 whv
 tot
 bpQ
@@ -73449,7 +73469,7 @@ whv
 whv
 whv
 whv
-bpQ
+pFQ
 pPM
 iys
 cXJ
@@ -73484,7 +73504,7 @@ iys
 iys
 iys
 pPM
-bpQ
+pFQ
 whv
 tot
 bpQ
@@ -73706,7 +73726,7 @@ whv
 whv
 whv
 whv
-bpQ
+pFQ
 pPM
 iys
 cXJ
@@ -73741,7 +73761,7 @@ hMw
 hMw
 hMw
 bpQ
-bpQ
+pFQ
 whv
 tot
 bpQ
@@ -73963,7 +73983,7 @@ whv
 whv
 whv
 whv
-bpQ
+pFQ
 pPM
 iys
 jSa
@@ -73998,7 +74018,7 @@ szu
 szu
 szu
 bpQ
-bpQ
+pFQ
 whv
 tot
 bpQ
@@ -74220,7 +74240,7 @@ whv
 whv
 whv
 whv
-bpQ
+pFQ
 pPM
 iys
 aHZ
@@ -74255,7 +74275,7 @@ aZI
 szu
 amL
 bpQ
-bpQ
+pFQ
 whv
 tot
 bpQ
@@ -74477,7 +74497,7 @@ whv
 whv
 whv
 whv
-bpQ
+pFQ
 pPM
 iys
 aHZ
@@ -74512,7 +74532,7 @@ szu
 kHy
 szu
 bpQ
-bpQ
+pFQ
 whv
 bpQ
 bpQ
@@ -74734,7 +74754,7 @@ whv
 whv
 whv
 whv
-bpQ
+pFQ
 pPM
 iys
 aHZ
@@ -74769,7 +74789,7 @@ pRW
 szu
 szu
 gOq
-bpQ
+pFQ
 whv
 bpQ
 pCR
@@ -74991,7 +75011,7 @@ whv
 whv
 whv
 whv
-bpQ
+pFQ
 pPM
 iys
 cXJ
@@ -75026,7 +75046,7 @@ wmh
 kpI
 amL
 bpQ
-bpQ
+pFQ
 whv
 bpQ
 cnK
@@ -75248,7 +75268,7 @@ whv
 whv
 whv
 whv
-bpQ
+pFQ
 pPM
 iys
 cXJ
@@ -75283,7 +75303,7 @@ vjR
 rQo
 szu
 bpQ
-bpQ
+pFQ
 whv
 bpQ
 fYc
@@ -75505,7 +75525,7 @@ whv
 whv
 whv
 whv
-bpQ
+pFQ
 pPM
 iys
 iys
@@ -75540,7 +75560,7 @@ vjR
 dcT
 szu
 bpQ
-bpQ
+pFQ
 whv
 bpQ
 bpQ
@@ -75762,7 +75782,7 @@ whv
 whv
 whv
 whv
-bpQ
+pFQ
 pPM
 jSa
 iys
@@ -75797,7 +75817,7 @@ mdx
 vMN
 rAz
 bpQ
-bpQ
+pFQ
 whv
 tot
 bpQ
@@ -76019,7 +76039,7 @@ whv
 whv
 whv
 whv
-bpQ
+pFQ
 pPM
 iys
 iys
@@ -76054,7 +76074,7 @@ pRW
 szu
 szu
 gOq
-bpQ
+pFQ
 whv
 iba
 bpQ
@@ -76276,7 +76296,7 @@ whv
 whv
 whv
 whv
-bpQ
+pFQ
 pPM
 iys
 iys
@@ -76311,7 +76331,7 @@ pRW
 szu
 szu
 bpQ
-bpQ
+pFQ
 whv
 iba
 tot
@@ -76533,7 +76553,7 @@ whv
 whv
 whv
 whv
-bpQ
+pFQ
 pPM
 iys
 iys
@@ -76568,7 +76588,7 @@ szu
 szu
 amL
 bpQ
-bpQ
+pFQ
 whv
 iba
 tot
@@ -76790,7 +76810,7 @@ whv
 whv
 whv
 whv
-bpQ
+pFQ
 pPM
 iys
 aHZ
@@ -76825,7 +76845,7 @@ sDT
 kHy
 szu
 bpQ
-bpQ
+pFQ
 whv
 iba
 tot
@@ -77047,7 +77067,7 @@ whv
 whv
 whv
 whv
-bpQ
+pFQ
 pPM
 iys
 aHZ
@@ -77082,7 +77102,7 @@ szu
 kHy
 szu
 bpQ
-bpQ
+pFQ
 whv
 iba
 tot
@@ -77304,7 +77324,7 @@ whv
 whv
 whv
 whv
-bpQ
+pFQ
 pPM
 iys
 aHZ
@@ -77339,7 +77359,7 @@ ahh
 jjv
 bpQ
 bpQ
-bpQ
+pFQ
 whv
 iba
 tot
@@ -77561,7 +77581,7 @@ whv
 whv
 whv
 whv
-bpQ
+pFQ
 pPM
 cXJ
 cXJ
@@ -77596,7 +77616,7 @@ wtv
 wtv
 wtv
 iyX
-bpQ
+pFQ
 whv
 tot
 tot
@@ -77818,7 +77838,7 @@ whv
 whv
 whv
 whv
-bpQ
+pFQ
 pPM
 iys
 aHZ
@@ -77853,7 +77873,7 @@ cnl
 vOc
 cnl
 iyX
-bpQ
+pFQ
 whv
 tot
 iba
@@ -78075,7 +78095,7 @@ whv
 whv
 whv
 whv
-bpQ
+pFQ
 pPM
 iys
 xdX
@@ -78110,7 +78130,7 @@ qdT
 mtH
 gRX
 bpQ
-bpQ
+pFQ
 whv
 tot
 iba
@@ -78332,7 +78352,7 @@ whv
 whv
 whv
 whv
-bpQ
+pFQ
 pPM
 cXJ
 iys
@@ -78367,7 +78387,7 @@ sMP
 gRX
 hQn
 bpQ
-bpQ
+pFQ
 whv
 tot
 iba
@@ -78589,7 +78609,7 @@ whv
 whv
 whv
 whv
-bpQ
+pFQ
 pPM
 pPM
 pPM
@@ -78624,7 +78644,7 @@ bpQ
 bpQ
 bpQ
 bpQ
-bpQ
+pFQ
 whv
 wgF
 iba
@@ -78846,42 +78866,42 @@ whv
 whv
 whv
 whv
-bpQ
-bpQ
-bpQ
-bpQ
-bpQ
-bpQ
-bpQ
-bpQ
-bpQ
-bpQ
-bpQ
-bpQ
-bpQ
-bpQ
-bpQ
-bpQ
-bpQ
-bpQ
-bpQ
-bpQ
-bpQ
-bpQ
-bpQ
-bpQ
-bpQ
-bpQ
-bpQ
-bpQ
-bpQ
-bpQ
-bpQ
-bpQ
-bpQ
-bpQ
-bpQ
-bpQ
+pFQ
+pFQ
+pFQ
+pFQ
+pFQ
+pFQ
+pFQ
+pFQ
+pFQ
+pFQ
+pFQ
+pFQ
+pFQ
+pFQ
+pFQ
+pFQ
+pFQ
+pFQ
+pFQ
+pFQ
+pFQ
+pFQ
+pFQ
+pFQ
+pFQ
+pFQ
+pFQ
+pFQ
+pFQ
+pFQ
+pFQ
+pFQ
+pFQ
+pFQ
+pFQ
+pFQ
 whv
 wgF
 iba
@@ -85320,7 +85340,7 @@ cGR
 twg
 owP
 uvZ
-iot
+pYo
 rZN
 cpZ
 nbW
@@ -85831,7 +85851,7 @@ whv
 whv
 lwM
 yag
-iot
+pYo
 pYo
 pYo
 usi
@@ -86357,11 +86377,11 @@ lfu
 grz
 lwM
 pEQ
-pUS
-pUS
-pUS
-pUS
-pUS
+iiN
+iiN
+iiN
+iiN
+iiN
 pEQ
 whv
 whv
@@ -86614,11 +86634,11 @@ gsu
 gsu
 lwM
 pEQ
-pUS
-rpn
+iiN
+pYo
 gap
-rpn
-pUS
+pYo
+iiN
 pEQ
 whv
 whv
@@ -86871,11 +86891,11 @@ pYo
 fwN
 lwM
 pEQ
-pUS
-rpn
-rpn
-rpn
-pUS
+iiN
+pYo
+pYo
+pYo
+iiN
 pEQ
 whv
 whv
@@ -87128,11 +87148,11 @@ rZN
 lwM
 lwM
 pEQ
-pUS
-rpn
-rpn
-rpn
-pUS
+iiN
+pYo
+pYo
+pYo
+iiN
 pEQ
 whv
 whv
@@ -87385,11 +87405,11 @@ pYo
 grz
 lwM
 pEQ
-pUS
+iiN
 vfG
 ubB
 vfG
-pUS
+iiN
 pEQ
 whv
 whv
@@ -88671,8 +88691,8 @@ dpm
 rZN
 gsu
 pYo
-pYo
-rfB
+tPI
+wRq
 cJh
 rUr
 lwM
@@ -88883,7 +88903,7 @@ xnf
 iSC
 qmm
 rZb
-sXB
+whv
 sME
 gZb
 ngw
@@ -89140,7 +89160,7 @@ xBQ
 xBQ
 xBQ
 rZb
-sXB
+whv
 sME
 mVk
 qja
@@ -89162,7 +89182,7 @@ whv
 whv
 whv
 ctX
-tTg
+wwT
 gfa
 roW
 kbv
@@ -89186,7 +89206,7 @@ rZN
 cJh
 pYo
 pYo
-twg
+pYo
 kev
 pYo
 lwM
@@ -89393,11 +89413,11 @@ ngA
 rZb
 rZb
 rZb
-fbh
+jWs
 rZb
 rZb
 rZb
-sXB
+whv
 sME
 gZb
 gZb
@@ -89419,7 +89439,7 @@ whv
 whv
 whv
 ctX
-egI
+gfa
 aGY
 alD
 iJQ
@@ -89654,7 +89674,7 @@ xBQ
 lDP
 vcW
 rZb
-sXB
+whv
 sME
 ngw
 gZb
@@ -89678,7 +89698,7 @@ whv
 ctX
 tTg
 iJQ
-oNk
+gfa
 nlj
 ctX
 whv
@@ -89911,7 +89931,7 @@ qRq
 cau
 oRW
 rZb
-sXB
+whv
 sME
 gZb
 ngw
@@ -90168,7 +90188,7 @@ kTP
 cNL
 aoV
 rZb
-sXB
+whv
 sME
 gZb
 gZb
@@ -90418,7 +90438,7 @@ xBQ
 xBQ
 jWs
 jWs
-aAD
+jWs
 pAD
 rpb
 mjY
@@ -90450,7 +90470,7 @@ sVg
 uco
 ctX
 izk
-gtl
+lDB
 gtl
 gtl
 oaX
@@ -90676,7 +90696,7 @@ jWs
 jWs
 jWs
 rZb
-oZo
+pAD
 rpb
 nAB
 rdV
@@ -90704,7 +90724,7 @@ gcG
 aim
 ctX
 izk
-lDB
+gtl
 ctX
 gtl
 vBl
@@ -90961,13 +90981,13 @@ ctX
 ctX
 ctX
 hSe
-lDB
+gtl
 lFN
 gtl
 dpB
 kan
 mLO
-wRq
+gtl
 ctX
 whv
 whv
@@ -91212,7 +91232,7 @@ whv
 ctX
 sOE
 jDW
-gtl
+fbh
 gtl
 gtl
 idx
@@ -91475,7 +91495,7 @@ lwW
 eKv
 ctX
 itq
-lDB
+gtl
 ctX
 izk
 uTr
@@ -91725,13 +91745,13 @@ whv
 whv
 ctX
 fzS
-gtl
+mBf
 gtl
 hDz
 gtl
 gtl
 ctX
-aal
+jAk
 hSe
 ctX
 pyl
@@ -91989,7 +92009,7 @@ ctX
 lFN
 ctX
 gtl
-lDB
+gtl
 ctX
 ctX
 ctX
@@ -92748,9 +92768,9 @@ txZ
 iLm
 sME
 ctX
-wwT
-lDB
-wwT
+auH
+gtl
+auH
 ctX
 dZi
 ciy
@@ -93262,7 +93282,7 @@ lFN
 lFN
 ctX
 ctX
-wwT
+auH
 uTr
 hKt
 ctX
@@ -93516,7 +93536,7 @@ ctX
 jNG
 vMx
 gtl
-lDB
+gtl
 iZs
 ctX
 lQs
@@ -93780,7 +93800,7 @@ ctX
 lFN
 ctX
 ctX
-mBf
+gtl
 deK
 gtl
 ctX
@@ -94027,15 +94047,15 @@ whv
 whv
 whv
 ctX
-uqD
-lDB
+gtl
+gtl
 kJW
 fmm
 oIN
 ctX
 tpi
 sVg
-nbh
+gtl
 ctX
 kJW
 hSe
@@ -94295,7 +94315,7 @@ hSe
 bNE
 lFN
 gtl
-nbh
+nya
 hSe
 ctX
 whv
@@ -94799,7 +94819,7 @@ dBG
 bNE
 ctX
 qgJ
-gtl
+fbh
 gtl
 tpi
 gtl
@@ -95056,7 +95076,7 @@ dEP
 gtl
 ctX
 izk
-lDB
+gtl
 deK
 vbM
 vMx
@@ -95310,17 +95330,17 @@ whv
 whv
 ctX
 dBG
-gtl
+mBf
 lFN
 gtl
-cBs
+hSe
 hSe
 gtl
 jyx
 dLv
 deK
 bNE
-nbh
+gtl
 gtl
 gtl
 gtl
@@ -95567,11 +95587,11 @@ whv
 whv
 ctX
 gXj
-lDB
+gtl
 ctX
 afY
 gtl
-jAk
+idx
 bNE
 gtl
 ctX
@@ -96093,10 +96113,10 @@ vCl
 gtl
 aal
 hSe
+fbh
 gtl
 gtl
-gtl
-gtl
+oNk
 eRF
 gtl
 gtl
@@ -96346,7 +96366,7 @@ sXB
 sXB
 sXB
 ctX
-mBf
+gtl
 hSe
 gtl
 gtl
@@ -96604,7 +96624,7 @@ sXB
 sXB
 ctX
 izk
-gtl
+nbh
 deK
 vEO
 gtl
@@ -96867,7 +96887,7 @@ ctX
 gtl
 bNE
 gtl
-gtl
+oNk
 ctX
 ctX
 ctX
@@ -97123,7 +97143,7 @@ xzq
 ctX
 gtl
 gtl
-nbh
+gtl
 ctX
 ctX
 ctX
@@ -97368,7 +97388,7 @@ whv
 nyZ
 opJ
 ctX
-nya
+yfO
 eqE
 aol
 pHy
@@ -97379,15 +97399,15 @@ qrw
 ctX
 ctX
 gtl
-nbh
+gtl
 gtl
 ctX
-sXB
-sXB
-sXB
-sXB
-sXB
-sXB
+whv
+whv
+whv
+whv
+whv
+whv
 whv
 whv
 whv
@@ -97626,7 +97646,7 @@ brB
 sVf
 pHy
 nPM
-bRK
+yfO
 qGr
 eFv
 btX
@@ -97636,7 +97656,7 @@ yfO
 pcD
 ctX
 hSe
-gtl
+nya
 oaX
 ctX
 whv
@@ -98403,11 +98423,11 @@ ctX
 uRs
 ctX
 lGn
-bcL
+eWm
 opJ
 ctX
 vEO
-mBf
+gtl
 pSP
 ctX
 whv
@@ -98660,7 +98680,7 @@ msl
 yfO
 tmJ
 pHy
-rYv
+yfO
 jKl
 qrw
 cAt
@@ -99169,7 +99189,7 @@ whv
 whv
 whv
 pHy
-nya
+yfO
 bAM
 xMF
 ctX
@@ -99431,7 +99451,7 @@ opJ
 jKl
 ctX
 pHy
-bRK
+yfO
 aUS
 ctX
 qoH
@@ -100720,7 +100740,7 @@ whv
 whv
 ctX
 nKl
-lDB
+gtl
 dBG
 lfS
 gyF
@@ -100991,7 +101011,7 @@ ctX
 ctX
 ctX
 ctX
-ctX
+whv
 whv
 whv
 whv
@@ -101235,20 +101255,20 @@ whv
 lfS
 jdB
 yfO
-bRK
+yfO
 whv
 ctX
 whv
 lfS
-yfO
+egI
 pHy
 ctX
 aol
-bRK
 yfO
-bRK
-vnP
+yfO
+yfO
 ctX
+whv
 whv
 whv
 whv
@@ -101504,8 +101524,8 @@ kce
 wJP
 czv
 msl
-djw
-ctX
+rpn
+whv
 daP
 daP
 daP
@@ -101758,11 +101778,11 @@ yfO
 sYG
 ctX
 bcL
-pFQ
+yfO
 syD
 yfO
-nyZ
-ctX
+qRE
+whv
 daP
 bcK
 uWa
@@ -102271,7 +102291,7 @@ uRs
 qJE
 msl
 ctX
-bRK
+yfO
 rbp
 yfO
 whv
@@ -104325,12 +104345,12 @@ pLB
 pLB
 pLB
 pLB
-pLB
-pLB
-pLB
-pLB
-pLB
-ltw
+whv
+whv
+whv
+whv
+whv
+whv
 whv
 whv
 whv
