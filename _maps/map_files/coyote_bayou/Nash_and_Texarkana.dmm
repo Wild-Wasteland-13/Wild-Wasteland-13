@@ -96205,10 +96205,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/f13/wood,
 /area/f13/building/abandoned)
-"sca" = (
-/mob/living/simple_animal/hostile/raider/tribal,
-/turf/open/indestructible/ground/outside/gravel,
-/area/f13/wasteland/coyote/nash/southeastcornercamp)
 "sco" = (
 /obj/structure/tires/five,
 /turf/open/indestructible/ground/outside/sidewalk{
@@ -107383,11 +107379,6 @@
 /obj/item/clothing/under/f13/formal,
 /turf/open/floor/f13/wood,
 /area/f13/building/abandoned)
-"uxG" = (
-/obj/effect/decal/cleanable/dirt,
-/mob/living/simple_animal/hostile/raider/ranged,
-/turf/open/floor/grass,
-/area/f13/wasteland/coyote/nash/southeastcornercamp)
 "uxI" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/door/poddoor/shutters/old{
@@ -176794,7 +176785,7 @@ qwI
 vLb
 lkY
 lkY
-uxG
+qwI
 lkY
 lkY
 quX
@@ -185503,7 +185494,7 @@ ifG
 mnm
 hzF
 hzF
-sca
+hzF
 hzF
 hzF
 hzF
