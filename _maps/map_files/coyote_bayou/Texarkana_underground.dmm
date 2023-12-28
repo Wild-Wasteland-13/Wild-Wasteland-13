@@ -961,6 +961,10 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
+/obj/machinery/door/airlock/ckey{
+	req_access = "25, 28";
+	name = "Nash public access"
+	},
 /turf/open/floor/plasteel/f13/vault_floor/purple/side{
 	dir = 1
 	},
@@ -6869,16 +6873,16 @@
 /area/f13/bunker)
 "cMh" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/door/airlock/science/glass{
-	req_one_access_txt = "136";
-	name = "Research & Development"
-	},
 /obj/machinery/door/poddoor/preopen{
 	id = "mining11"
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
+/obj/machinery/door/airlock/ckey{
+	req_access = "25, 28";
+	name = "Nash public access"
+	},
 /turf/open/floor/plasteel/f13/vault_floor/purple,
 /area/f13/building)
 "cMJ" = (
@@ -11153,6 +11157,14 @@
 	color = "#779999"
 	},
 /area/f13/building)
+"fJu" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/door/airlock/ckey{
+	req_access = "25, 28";
+	name = "Nash public access"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/white,
+/area/f13/building)
 "fJH" = (
 /obj/item/mmi,
 /obj/item/mmi,
@@ -14903,6 +14915,16 @@
 /mob/living/carbon/monkey,
 /turf/open/floor/plasteel/f13/vault_floor/purple,
 /area/f13/building)
+"ieS" = (
+/obj/structure/spacevine,
+/obj/machinery/door/airlock/ckey{
+	req_access = "25, 28";
+	name = "Nash public access"
+	},
+/turf/open/floor/f13{
+	icon_state = "greenrustyfull"
+	},
+/area/f13/building/sewers)
 "ifg" = (
 /obj/structure/decoration/rag{
 	icon_state = "skin"
@@ -16481,7 +16503,11 @@
 "jcg" = (
 /obj/effect/fake_stairs/north,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/indestructible/ground/outside/desert,
+/turf/open/floor/f13{
+	color = "#ffe9de";
+	icon_state = "darkrusty";
+	name = "dirty floor"
+	},
 /area/f13/building)
 "jcn" = (
 /obj/structure/table,
@@ -17988,6 +18014,10 @@
 	req_access_txt = null;
 	req_one_access_txt = null;
 	pixel_y = 24
+	},
+/obj/machinery/door/airlock/ckey{
+	req_access = "25, 28";
+	name = "Nash public access"
 	},
 /turf/open/floor/plasteel/f13/vault_floor/purple/side,
 /area/f13/building)
@@ -22476,8 +22506,12 @@
 	},
 /area/f13/tunnel)
 "mSf" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/railing/handrail/rusty{
+	dir = 8
+	},
 /turf/open/water,
-/area/f13/building)
+/area/f13/building/sewers)
 "mSv" = (
 /obj/structure/closet/crate/footlocker{
 	pixel_x = 7;
@@ -23355,7 +23389,11 @@
 /area/f13/building/massfusion)
 "nxo" = (
 /obj/effect/fake_stairs/north,
-/turf/open/indestructible/ground/outside/desert,
+/turf/open/floor/f13{
+	color = "#ffe9de";
+	icon_state = "darkrusty";
+	name = "dirty floor"
+	},
 /area/f13/building)
 "nxG" = (
 /obj/effect/decal/cleanable/dirt,
@@ -27843,10 +27881,13 @@
 /turf/open/floor/plasteel/f13/vault_floor/yellow,
 /area/f13/tunnel)
 "qjZ" = (
-/obj/machinery/light/small{
-	dir = 1
+/obj/machinery/door/airlock/ckey{
+	req_access = "25, 28";
+	name = "Nash public access"
 	},
-/turf/closed/indestructible/f13vaultrusted,
+/turf/open/floor/f13{
+	icon_state = "greenrustyfull"
+	},
 /area/f13/building/sewers)
 "qkf" = (
 /obj/structure/kitchenspike,
@@ -29603,6 +29644,13 @@
 	icon_state = "greenrustyfull"
 	},
 /area/f13/caves)
+"rlW" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/railing/handrail/rusty{
+	dir = 4
+	},
+/turf/open/water,
+/area/f13/building/sewers)
 "rlY" = (
 /obj/structure/barricade/wooden/planks/pregame,
 /turf/closed/wall/r_wall/rust,
@@ -29710,6 +29758,14 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/indestructible/ground/inside/subway,
 /area/f13/tunnel)
+"rqR" = (
+/obj/machinery/door/unpowered/securedoor{
+	name = "Sewer door";
+	req_access_txt = null;
+	req_one_access_txt = "25, 28"
+	},
+/turf/open/indestructible/ground/inside/subway,
+/area/f13/building/sewers)
 "rqS" = (
 /obj/machinery/vending/cigarette,
 /turf/open/floor/f13/wood,
@@ -33246,6 +33302,14 @@
 /obj/structure/flora/wasteplant/wild_fungus,
 /turf/open/indestructible/ground/outside/dirt/bigdirtturf,
 /area/f13/caves)
+"tvU" = (
+/obj/structure/flora/ausbushes/sparsegrass,
+/obj/structure/lattice/catwalk,
+/obj/structure/railing/handrail/rusty{
+	dir = 8
+	},
+/turf/open/water,
+/area/f13/building/sewers)
 "tvW" = (
 /obj/structure/sign/poster/official/report_crimes,
 /turf/closed/wall/r_wall/f13vault{
@@ -44932,7 +44996,7 @@ mEa
 iUE
 iUE
 tkZ
-mSf
+tkZ
 bPE
 xga
 eHs
@@ -45149,7 +45213,7 @@ cOZ
 cOZ
 lxd
 cOZ
-azN
+cOZ
 lxd
 lxd
 lxd
@@ -45186,9 +45250,9 @@ qae
 bOb
 hXn
 aem
-iUE
-iUE
-iUE
+tvU
+tvU
+tvU
 mSf
 nda
 kWF
@@ -45407,7 +45471,7 @@ eTA
 eTA
 eTA
 qjZ
-tWm
+ieS
 lXr
 eTA
 eTA
@@ -45443,11 +45507,11 @@ otF
 bOb
 aem
 aem
-tkZ
-tkZ
-tkZ
-mSf
-hdY
+dHk
+dHk
+dHk
+dHk
+fJu
 aBU
 eHs
 eHs
@@ -45699,11 +45763,11 @@ cXz
 jfO
 bOb
 cVd
-mEa
-tkZ
-tkZ
-tkZ
-mSf
+gcv
+rlW
+rlW
+rlW
+rlW
 bPE
 hFx
 uJL
@@ -45960,7 +46024,7 @@ pck
 xRB
 xRB
 tkZ
-mSf
+tkZ
 vzl
 lWk
 hPA
@@ -48735,7 +48799,7 @@ kyV
 kyV
 kyV
 kyV
-kyV
+rqR
 gcv
 gcv
 hXn
@@ -50785,7 +50849,7 @@ aae
 aae
 pLf
 pLf
-kyV
+rqR
 pLf
 aae
 aae
