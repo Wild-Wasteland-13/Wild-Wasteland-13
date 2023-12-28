@@ -3656,14 +3656,6 @@
 /obj/structure/flora/grass/jungle,
 /turf/open/floor/plasteel/cult,
 /area/f13/building/tribal)
-"bLT" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/door/airlock/ckey{
-	req_access = "25, 28";
-	name = "Nash public access"
-	},
-/turf/open/floor/plasteel/f13/vault_floor/white,
-/area/f13/building)
 "bLU" = (
 /obj/structure/stone_tile/block{
 	dir = 4;
@@ -8942,7 +8934,7 @@
 /area/f13/building/trainstation)
 "ehH" = (
 /obj/machinery/door/airlock/science/glass{
-	req_one_access_txt = "136""124"
+	req_one_access_txt = "136, 124"
 	},
 /turf/open/floor/plasteel/f13/vault_floor/white,
 /area/f13/building/hospital/clinic/nash)
@@ -9389,7 +9381,6 @@
 "exZ" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood/splatter,
-/obj/effect/mob_spawn/human/corpse/raider/tribal,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/caves)
 "eya" = (
@@ -10342,6 +10333,9 @@
 /obj/structure/flora/tree_timber,
 /turf/open/floor/plating/ashplanet/rocky,
 /area/f13/caves)
+"fcT" = (
+/turf/closed/indestructible/f13vaultrusted,
+/area/f13/building/trainstation)
 "fcV" = (
 /obj/item/bonesetter,
 /turf/open/indestructible/ground/inside/subway,
@@ -12083,7 +12077,6 @@
 /area/f13/building/tribal)
 "gkQ" = (
 /obj/structure/kitchenspike,
-/obj/effect/mob_spawn/human/corpse/raidermelee,
 /obj/effect/decal/cleanable/blood/splats,
 /turf/open/floor/plasteel/freezer,
 /area/f13/caves)
@@ -12694,12 +12687,6 @@
 /obj/effect/spawner/lootdrop/low_tools,
 /turf/open/floor/plasteel/f13,
 /area/f13/tunnel)
-"gFf" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/vending/snack/random,
-/turf/open/floor/plasteel/f13/vault_floor/white,
-/area/f13/building)
 "gFx" = (
 /obj/machinery/light/small{
 	dir = 1
@@ -12819,16 +12806,6 @@
 	name = "dirty floor"
 	},
 /area/f13/building)
-"gJH" = (
-/obj/structure/spacevine,
-/obj/machinery/door/airlock/ckey{
-	req_access = "25, 28";
-	name = "Nash public access"
-	},
-/turf/open/floor/f13{
-	icon_state = "greenrustyfull"
-	},
-/area/f13/building/sewers)
 "gJK" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/fake_stairs/north,
@@ -19724,6 +19701,14 @@
 	},
 /turf/open/indestructible/ground/inside/subway,
 /area/f13/tunnel)
+"lis" = (
+/obj/machinery/door/unpowered/securedoor{
+	name = "Sewer door";
+	req_access_txt = null;
+	req_one_access_txt = "25, 28"
+	},
+/turf/open/indestructible/ground/inside/subway,
+/area/f13/building/sewers)
 "liA" = (
 /obj/effect/turf_decal/stripes/line,
 /obj/item/card/midbounty,
@@ -19978,7 +19963,7 @@
 "lrn" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/door/airlock/science/glass{
-	req_one_access_txt = "136""124"
+	req_one_access_txt = "136, 124"
 	},
 /turf/open/floor/plasteel/f13/vault_floor/green/white,
 /area/f13/building)
@@ -20008,7 +19993,7 @@
 /area/f13/caves)
 "lsl" = (
 /obj/machinery/door/window{
-	req_one_access_txt = "124""136"
+	req_one_access_txt = "124, 136"
 	},
 /turf/open/floor/plasteel/f13/vault_floor/purple,
 /area/f13/building)
@@ -20530,6 +20515,14 @@
 /obj/structure/spider/stickyweb,
 /turf/open/indestructible/ground/inside/subway,
 /area/f13/caves)
+"lHv" = (
+/obj/structure/flora/ausbushes/sparsegrass,
+/obj/structure/lattice/catwalk,
+/obj/structure/railing/handrail/rusty{
+	dir = 8
+	},
+/turf/open/water,
+/area/f13/building/sewers)
 "lIh" = (
 /obj/structure/flora/grass/jungle,
 /turf/open/floor/grass/fairy/blue,
@@ -20621,6 +20614,13 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/dark/darksolid,
 /area/f13/tunnel)
+"lLq" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/railing/handrail/rusty{
+	dir = 4
+	},
+/turf/open/water,
+/area/f13/building/sewers)
 "lLz" = (
 /obj/structure/flora/junglebush/b,
 /turf/open/indestructible/ground/outside/water,
@@ -22319,7 +22319,6 @@
 /area/f13/caves)
 "mKr" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/effect/mob_spawn/human/corpse/raider,
 /obj/effect/decal/cleanable/blood/splatter,
 /obj/effect/decal/cleanable/blood/tracks{
 	dir = 4
@@ -22514,7 +22513,7 @@
 "mSf" = (
 /obj/structure/lattice/catwalk,
 /obj/structure/railing/handrail/rusty{
-	dir = 4
+	dir = 8
 	},
 /turf/open/water,
 /area/f13/building/sewers)
@@ -23457,9 +23456,6 @@
 /obj/structure/spider/cocoon,
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/caves)
-"nzs" = (
-/turf/closed/indestructible/f13vaultrusted,
-/area/f13/building/trainstation)
 "nzz" = (
 /turf/open/floor/plating/tunnel{
 	icon_state = "tunnelchess"
@@ -26571,7 +26567,6 @@
 /area/f13/caves)
 "pwn" = (
 /obj/item/trash/f13/yumyum,
-/obj/effect/mob_spawn/human/corpse/raider,
 /obj/effect/decal/cleanable/blood/splatter,
 /obj/effect/decal/cleanable/blood/tracks{
 	dir = 4
@@ -28968,6 +28963,14 @@
 /obj/structure/bed/oldalt,
 /turf/open/indestructible/ground/inside/subway,
 /area/f13/caves)
+"qQE" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/door/airlock/ckey{
+	req_access = "25, 28";
+	name = "Nash public access"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/white,
+/area/f13/building)
 "qQF" = (
 /obj/structure/wreck/trash/four_barrels,
 /turf/open/floor/plasteel/f13/vault_floor/red{
@@ -31469,7 +31472,7 @@
 /area/f13/caves)
 "sto" = (
 /obj/machinery/door/airlock/science/glass{
-	req_one_access_txt = "136""124"
+	req_one_access_txt = "136, 124"
 	},
 /turf/open/floor/plasteel/f13/vault_floor/white,
 /area/f13/building)
@@ -31555,13 +31558,6 @@
 	icon_state = "darkrustysolid"
 	},
 /area/tcommsat/server)
-"svN" = (
-/obj/structure/lattice/catwalk,
-/obj/structure/railing/handrail/rusty{
-	dir = 8
-	},
-/turf/open/water,
-/area/f13/building/sewers)
 "svV" = (
 /obj/structure/ladder/unbreakable{
 	height = 1;
@@ -33119,6 +33115,12 @@
 /obj/effect/spawner/lootdrop/clothing_high,
 /turf/open/floor/f13/wood,
 /area/f13/tunnel)
+"tpW" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/vending/snack/random,
+/turf/open/floor/plasteel/f13/vault_floor/white,
+/area/f13/building)
 "tqk" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -33700,14 +33702,6 @@
 /turf/open/floor/f13{
 	icon_state = "greenrustyfull"
 	},
-/area/f13/building/sewers)
-"tJn" = (
-/obj/structure/flora/ausbushes/sparsegrass,
-/obj/structure/lattice/catwalk,
-/obj/structure/railing/handrail/rusty{
-	dir = 8
-	},
-/turf/open/water,
 /area/f13/building/sewers)
 "tJq" = (
 /obj/structure/chair/comfy/brown{
@@ -34475,14 +34469,6 @@
 /mob/living/simple_animal/hostile/radroach,
 /turf/open/floor/plasteel/dark,
 /area/f13/building/museum)
-"ukh" = (
-/obj/machinery/door/unpowered/securedoor{
-	name = "Sewer door";
-	req_access_txt = null;
-	req_one_access_txt = "25, 28"
-	},
-/turf/open/indestructible/ground/inside/subway,
-/area/f13/building/sewers)
 "ukm" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -38457,6 +38443,16 @@
 	color = "#779999"
 	},
 /area/f13/building)
+"wOI" = (
+/obj/structure/spacevine,
+/obj/machinery/door/airlock/ckey{
+	req_access = "25, 28";
+	name = "Nash public access"
+	},
+/turf/open/floor/f13{
+	icon_state = "greenrustyfull"
+	},
+/area/f13/building/sewers)
 "wPm" = (
 /obj/structure/chair/stool/retro/black,
 /obj/effect/decal/cleanable/dirt,
@@ -40469,7 +40465,6 @@
 /area/f13/caves)
 "xXl" = (
 /obj/structure/kitchenspike,
-/obj/effect/mob_spawn/human/corpse/raidermelee,
 /obj/effect/decal/cleanable/blood/old,
 /turf/open/floor/plasteel/freezer,
 /area/f13/caves)
@@ -43950,9 +43945,9 @@ oMS
 oMS
 ehC
 ehC
-nzs
-nzs
-nzs
+fcT
+fcT
+fcT
 eTA
 eTA
 eTA
@@ -44207,9 +44202,9 @@ bOO
 bOO
 ehC
 ehC
-nzs
-nzs
-nzs
+fcT
+fcT
+fcT
 eTA
 exy
 cjt
@@ -45243,7 +45238,7 @@ azN
 cOZ
 cOZ
 cjt
-gFf
+tpW
 mfq
 eTA
 iMZ
@@ -45259,10 +45254,10 @@ qae
 bOb
 hXn
 aem
-tJn
-tJn
-tJn
-svN
+lHv
+lHv
+lHv
+mSf
 nda
 kWF
 eHs
@@ -45480,7 +45475,7 @@ eTA
 eTA
 eTA
 qjZ
-gJH
+wOI
 lXr
 eTA
 eTA
@@ -45520,7 +45515,7 @@ dHk
 dHk
 dHk
 dHk
-bLT
+qQE
 aBU
 eHs
 eHs
@@ -45773,10 +45768,10 @@ jfO
 bOb
 cVd
 gcv
-mSf
-mSf
-mSf
-mSf
+lLq
+lLq
+lLq
+lLq
 bPE
 hFx
 uJL
@@ -48808,7 +48803,7 @@ kyV
 kyV
 kyV
 kyV
-ukh
+lis
 gcv
 gcv
 hXn
@@ -50858,7 +50853,7 @@ aae
 aae
 pLf
 pLf
-ukh
+lis
 pLf
 aae
 aae
