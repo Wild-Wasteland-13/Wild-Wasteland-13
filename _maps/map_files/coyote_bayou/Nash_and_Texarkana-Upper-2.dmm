@@ -2806,6 +2806,12 @@
 	},
 /turf/open/transparent/openspace,
 /area/f13/wasteland)
+"rQ" = (
+/obj/effect/landmark/vertibird{
+	name = "Nash - Radio operator landpad at mass fusion"
+	},
+/turf/open/indestructible/ground/outside/roof,
+/area/f13/wasteland)
 "rS" = (
 /obj/structure/fence/wooden{
 	dir = 1;
@@ -5612,16 +5618,6 @@
 "Kj" = (
 /turf/open/transparent/openspace,
 /area/f13/building/abandoned)
-"Km" = (
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/effect/landmark/vertibird{
-	name = "Radio operator landpad at mass fusion"
-	},
-/turf/open/indestructible/ground/outside/roof{
-	color = "#FFFF44"
-	},
-/area/f13/wasteland)
 "Kr" = (
 /obj/structure/spacevine{
 	color = "#225522"
@@ -5634,6 +5630,11 @@
 "Ks" = (
 /obj/effect/decal/cleanable/blood/drip,
 /obj/structure/spacevine,
+/turf/open/indestructible/ground/outside/roof,
+/area/f13/wasteland)
+"Ku" = (
+/obj/structure/barricade/sandbags,
+/obj/structure/barricade/sandbags,
 /turf/open/indestructible/ground/outside/roof,
 /area/f13/wasteland)
 "Kx" = (
@@ -60436,10 +60437,10 @@ hm
 hm
 hm
 hm
-hm
-hm
-hm
-hm
+Ku
+FI
+FI
+FI
 FI
 FI
 FI
@@ -60693,11 +60694,11 @@ hm
 hm
 hm
 hm
-hm
-hm
-hm
-hm
 FI
+yP
+yP
+yP
+yP
 lF
 lF
 yP
@@ -60950,17 +60951,17 @@ hm
 hm
 hm
 hm
-hm
-hm
-hm
-hm
 FI
+yP
+yP
+yP
+yP
 IO
-gi
-eD
-eD
-gi
-eD
+yP
+yP
+yP
+yP
+yP
 FI
 hm
 hm
@@ -61207,17 +61208,17 @@ hm
 hm
 hm
 hm
-hm
-hm
-hm
-hm
 FI
 yP
-pQ
-pQ
-Km
 yP
-lF
+gi
+eD
+eD
+gi
+eD
+yP
+yP
+rQ
 FI
 hm
 hm
@@ -61464,17 +61465,17 @@ hm
 hm
 hm
 hm
-hm
-hm
-hm
-hm
 FI
 yP
+yP
+pQ
+pQ
+gi
+yP
 lF
 yP
-gi
-lF
-lF
+yP
+yP
 FI
 hm
 hm
@@ -61721,17 +61722,17 @@ hm
 hm
 hm
 hm
-hm
-hm
-hm
-hm
 FI
 yP
-eD
-Md
-eD
+yP
+lF
+yP
 gi
-eD
+lF
+lF
+yP
+yP
+yP
 FI
 FI
 FI
@@ -61978,14 +61979,14 @@ hm
 hm
 hm
 hm
-hm
-hm
-hm
-hm
 FI
 yP
 yP
-IO
+eD
+Md
+eD
+gi
+eD
 yP
 yP
 IO
@@ -62235,11 +62236,11 @@ hm
 hm
 hm
 hm
-hm
 FI
-FI
-FI
-FI
+yP
+yP
+yP
+yP
 yP
 lF
 IO
@@ -62492,8 +62493,8 @@ hm
 hm
 hm
 hm
-hm
 FI
+yP
 yP
 yP
 lF
@@ -62749,8 +62750,8 @@ hm
 hm
 hm
 hm
-hm
 FI
+yP
 lF
 lF
 yP
@@ -63006,7 +63007,7 @@ hm
 hm
 hm
 hm
-hm
+FI
 Gy
 hD
 hD
