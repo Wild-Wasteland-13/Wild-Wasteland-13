@@ -1016,17 +1016,6 @@
 	},
 /turf/open/floor/plating/tunnel,
 /area/f13/building)
-"auH" = (
-/obj/machinery/door/window,
-/obj/structure/closet,
-/obj/effect/spawner/lootdrop/f13/uncommon,
-/obj/effect/spawner/lootdrop/f13/uncommon,
-/obj/effect/spawner/lootdrop/f13/uncommon,
-/turf/open/floor/plasteel/barber{
-	icon = 'icons/turf/f13floors2.dmi';
-	icon_state = "bluerustychess2"
-	},
-/area/f13/bunker)
 "auN" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/lattice{
@@ -5751,6 +5740,9 @@
 /obj/effect/spawner/lootdrop/f13/rare,
 /obj/item/card/midbounty,
 /obj/effect/spawner/lootdrop/f13/rare_melee,
+/obj/effect/spawner/lootdrop/f13/rare_weps,
+/obj/effect/spawner/lootdrop/f13/rare_weps,
+/obj/effect/spawner/lootdrop/f13/rare_weps,
 /turf/open/floor/plasteel/barber{
 	icon = 'icons/turf/f13floors2.dmi';
 	icon_state = "bluerustychess2"
@@ -11047,9 +11039,6 @@
 /obj/structure/lattice/catwalk,
 /turf/open/floor/plasteel/f13/vault_floor/plating,
 /area/f13/brotherhood/rnd)
-"eWm" = (
-/turf/closed/indestructible/opshuttle,
-/area/f13/bunker)
 "eWx" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
@@ -13859,6 +13848,8 @@
 /obj/effect/spawner/lootdrop/f13/uncommon,
 /obj/effect/spawner/lootdrop/f13/uncommon,
 /obj/effect/spawner/lootdrop/f13/uncommon,
+/obj/effect/spawner/lootdrop/f13/rare,
+/obj/effect/spawner/lootdrop/f13/rare,
 /turf/open/floor/plasteel/barber{
 	icon = 'icons/turf/f13floors2.dmi';
 	icon_state = "bluerustychess2"
@@ -16957,12 +16948,11 @@
 /turf/closed/wall/r_wall,
 /area/f13/brotherhood/rnd)
 "hKt" = (
-/obj/machinery/door/window{
-	dir = 1
-	},
 /obj/structure/closet,
 /obj/effect/spawner/lootdrop/f13/uncommon,
 /obj/effect/spawner/lootdrop/f13/uncommon,
+/obj/effect/spawner/lootdrop/f13/rare,
+/obj/effect/spawner/lootdrop/f13/rare,
 /turf/open/floor/plasteel/barber{
 	icon = 'icons/turf/f13floors2.dmi';
 	icon_state = "bluerustychess2"
@@ -29290,7 +29280,10 @@
 /obj/structure/ladder/unbreakable{
 	id = "Supmut"
 	},
-/turf/open/floor/plasteel/elevatorshaft,
+/turf/open/floor/plasteel/barber{
+	icon = 'icons/turf/f13floors2.dmi';
+	icon_state = "bluerustychess2"
+	},
 /area/f13/bunker)
 "nBn" = (
 /obj/effect/decal/cleanable/dirt/dust,
@@ -35252,10 +35245,10 @@
 /turf/open/floor/carpet/purple,
 /area/f13/brotherhood/rnd)
 "qgJ" = (
-/obj/machinery/door/window{
-	dir = 4
-	},
 /obj/structure/closet,
+/obj/effect/spawner/lootdrop/f13/rare,
+/obj/effect/spawner/lootdrop/f13/rare,
+/obj/effect/spawner/lootdrop/f13/rare,
 /turf/open/floor/plasteel/barber{
 	icon = 'icons/turf/f13floors2.dmi';
 	icon_state = "bluerustychess2"
@@ -36946,9 +36939,6 @@
 	},
 /turf/open/indestructible/ground/outside/water,
 /area/f13/underground/cave/vault/fourfivefour)
-"qRE" = (
-/turf/open/floor/plasteel/elevatorshaft,
-/area/f13/bunker)
 "qRJ" = (
 /turf/closed/wall/r_wall/rust{
 	desc = "This wall looks damaged, maybe you could take it apart?";
@@ -43271,14 +43261,6 @@
 /mob/living/simple_animal/hostile/raider/sulphite,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/brotherhood/rnd)
-"tPI" = (
-/obj/structure/closet,
-/obj/effect/spawner/lootdrop/f13/rare_weps,
-/obj/effect/spawner/lootdrop/f13/rare_weps,
-/obj/effect/spawner/lootdrop/f13/rare_armor,
-/obj/effect/spawner/lootdrop/f13/rare_armor,
-/turf/open/indestructible/ground/outside/sidewalk,
-/area/f13/bunker)
 "tPM" = (
 /obj/structure/rack,
 /obj/effect/spawner/lootdrop/f13/armor/costumes,
@@ -49028,13 +49010,12 @@
 	},
 /area/f13/bunker)
 "wwT" = (
-/obj/machinery/door/window{
-	dir = 1
-	},
 /obj/structure/closet,
 /obj/effect/spawner/lootdrop/f13/uncommon,
 /obj/effect/spawner/lootdrop/f13/uncommon,
 /obj/effect/spawner/lootdrop/f13/uncommon,
+/obj/effect/spawner/lootdrop/f13/rare,
+/obj/effect/spawner/lootdrop/f13/rare,
 /turf/open/floor/plasteel/barber{
 	icon = 'icons/turf/f13floors2.dmi';
 	icon_state = "bluerustychess2"
@@ -49141,6 +49122,9 @@
 /obj/effect/spawner/lootdrop/f13/rare,
 /obj/effect/spawner/lootdrop/f13/rare,
 /obj/item/card/midbounty,
+/obj/effect/spawner/lootdrop/f13/rare_weps,
+/obj/effect/spawner/lootdrop/f13/rare_weps,
+/obj/effect/spawner/lootdrop/f13/rare_weps,
 /turf/open/floor/plasteel/barber{
 	icon = 'icons/turf/f13floors2.dmi';
 	icon_state = "bluerustychess2"
@@ -88133,10 +88117,10 @@ whv
 whv
 sME
 sME
-tPI
 gZb
 gZb
-tPI
+gZb
+gZb
 sME
 sME
 whv
@@ -92764,7 +92748,7 @@ txZ
 iLm
 sME
 ctX
-auH
+wwT
 lDB
 wwT
 ctX
@@ -93278,7 +93262,7 @@ lFN
 lFN
 ctX
 ctX
-auH
+wwT
 uTr
 hKt
 ctX
@@ -95856,11 +95840,11 @@ tpi
 gtl
 tpi
 gtl
-eWm
-eWm
-eWm
-eWm
-eWm
+ctX
+ctX
+ctX
+ctX
+ctX
 ctX
 whv
 whv
@@ -96114,10 +96098,10 @@ gtl
 gtl
 gtl
 eRF
-qRE
-qRE
-qRE
-eWm
+gtl
+gtl
+gtl
+ctX
 ctX
 whv
 whv
@@ -96371,10 +96355,10 @@ gtl
 deK
 gtl
 gCQ
-qRE
+gtl
 nBm
-qRE
-eWm
+gtl
+ctX
 ctX
 whv
 whv
@@ -96628,10 +96612,10 @@ hSe
 gtl
 gtl
 eRF
-qRE
-qRE
-qRE
-eWm
+gtl
+gtl
+gtl
+ctX
 ctX
 whv
 whv
@@ -96884,11 +96868,11 @@ gtl
 bNE
 gtl
 gtl
-eWm
-eWm
-eWm
-eWm
-eWm
+ctX
+ctX
+ctX
+ctX
+ctX
 ctX
 whv
 whv
