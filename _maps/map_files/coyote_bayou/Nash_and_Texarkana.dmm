@@ -69429,14 +69429,6 @@
 /obj/structure/spacevine,
 /turf/open/indestructible/ground/outside/gravel,
 /area/f13/wasteland/city/nash/theloop)
-"mfl" = (
-/obj/structure/chair/wood,
-/obj/structure/nest/raider{
-	pixel_x = -1;
-	pixel_y = 29
-	},
-/turf/open/floor/f13/wood,
-/area/f13/building/abandoned)
 "mfn" = (
 /obj/effect/decal/cleanable/dirt{
 	color = "#363636"
@@ -183701,7 +183693,7 @@ aHF
 aHF
 aHF
 aHF
-mfl
+aIc
 hkG
 sgU
 aHF
