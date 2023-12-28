@@ -14515,12 +14515,6 @@
 	icon_state = "darkrustysolid"
 	},
 /area/f13/building/coyote/nash/massfus/groundfloor/east)
-"aXP" = (
-/turf/open/indestructible/ground/outside/roaddirt{
-	dir = 8;
-	icon_state = "innermaincornerouter"
-	},
-/area/f13/wasteland)
 "aXT" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/f13{
@@ -24953,11 +24947,11 @@
 /turf/open/floor/f13/wood,
 /area/f13/building/abandoned)
 "cpS" = (
-/obj/structure/railing/handrail{
-	dir = 8;
-	pixel_x = -4
+/obj/structure/fence/corner{
+	dir = 4;
+	icon_state = "end"
 	},
-/turf/open/transparent/openspace,
+/turf/open/floor/grass,
 /area/f13/wasteland)
 "cpV" = (
 /obj/structure/fence,
@@ -32795,17 +32789,6 @@
 	randomizer_tag = "Texarkana Residential District 1"
 	},
 /turf/open/floor/grass,
-/area/f13/wasteland)
-"dYz" = (
-/obj/structure/railing/handrail{
-	dir = 1;
-	pixel_y = 19
-	},
-/obj/structure/railing/handrail{
-	dir = 8;
-	pixel_x = -4
-	},
-/turf/open/transparent/openspace,
 /area/f13/wasteland)
 "dYA" = (
 /obj/structure/car/rubbish2,
@@ -55879,6 +55862,9 @@
 	},
 /turf/closed/wall/f13/wood,
 /area/f13/building)
+"jez" = (
+/turf/open/indestructible/ground/outside/dirthole,
+/area/f13/wasteland/city/nash/suburbs)
 "jeQ" = (
 /obj/structure/window/fulltile/house,
 /obj/structure/barricade/wooden/planks/pregame,
@@ -56277,12 +56263,10 @@
 	},
 /area/f13/wasteland/city)
 "jkz" = (
-/obj/effect/turf_decal/weather/dirt{
-	dir = 1
-	},
 /obj/structure/flora/grass/wasteland{
 	icon_state = "tall_grass_3"
 	},
+/obj/effect/spawner/lootdrop/trash,
 /turf/open/floor/grass,
 /area/f13/wasteland)
 "jkD" = (
@@ -56766,10 +56750,6 @@
 	color = "#779999"
 	},
 /area/f13/bar/heaven)
-"jqA" = (
-/obj/structure/railing/handrail,
-/turf/open/floor/plasteel/vault,
-/area/f13/wasteland)
 "jqD" = (
 /obj/structure/sink/puddle,
 /obj/effect/decal/cleanable/dirt,
@@ -60673,12 +60653,13 @@
 	},
 /area/f13/wasteland)
 "kmn" = (
-/obj/structure/railing/handrail,
-/obj/structure/railing/handrail{
-	dir = 8;
-	pixel_x = -4
+/obj/effect/turf_decal/weather/dirt{
+	dir = 1
 	},
-/turf/open/transparent/openspace,
+/obj/structure/flora/grass/wasteland{
+	icon_state = "tall_grass_3"
+	},
+/turf/open/floor/grass,
 /area/f13/wasteland)
 "kmo" = (
 /obj/structure/fence/wooden{
@@ -81592,8 +81573,9 @@
 /turf/open/floor/grass,
 /area/f13/caves)
 "oLH" = (
-/turf/open/transparent/openspace,
-/area/f13/wasteland)
+/obj/machinery/vending/coffee,
+/turf/open/floor/plasteel/vault,
+/area/f13/building/abandoned)
 "oLI" = (
 /obj/structure/railing{
 	layer = 4.1
@@ -92581,13 +92563,6 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/f13/wood,
 /area/f13/wasteland/city/nash/suburbs)
-"riO" = (
-/obj/structure/flora/grass/wasteland{
-	icon_state = "tall_grass_3"
-	},
-/obj/effect/spawner/lootdrop/trash,
-/turf/open/floor/grass,
-/area/f13/wasteland)
 "riR" = (
 /obj/structure/fence/corner{
 	dir = 4
@@ -103037,8 +103012,8 @@
 /turf/open/floor/grass,
 /area/f13/wasteland/nash)
 "tyj" = (
-/turf/open/indestructible/ground/outside/dirthole,
-/area/f13/wasteland/city/nash/suburbs)
+/turf/open/transparent/openspace,
+/area/f13/wasteland)
 "tyr" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt{
@@ -109407,16 +109382,10 @@
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/building/sewers)
 "uVc" = (
-/obj/structure/flora/tree/jungle{
-	color = "#d9b51c"
+/turf/open/indestructible/ground/outside/roaddirt{
+	dir = 8;
+	icon_state = "innermaincornerouter"
 	},
-/obj/structure/flora/grass/wasteland{
-	icon_state = "tall_grass_3"
-	},
-/obj/structure/flora/grass/wasteland{
-	icon_state = "tall_grass_3"
-	},
-/turf/open/floor/grass,
 /area/f13/wasteland)
 "uVg" = (
 /obj/effect/decal/cleanable/dirt{
@@ -114344,6 +114313,13 @@
 	color = "#779999"
 	},
 /area/f13/bar/heaven)
+"wcP" = (
+/obj/structure/railing/handrail{
+	dir = 8;
+	pixel_x = -4
+	},
+/turf/open/transparent/openspace,
+/area/f13/wasteland)
 "wcS" = (
 /turf/open/indestructible/ground/outside/sidewalk{
 	icon_state = "outerpavement - E"
@@ -116468,11 +116444,15 @@
 	},
 /area/f13/wasteland/city/nash/downtown)
 "wzN" = (
-/obj/structure/fence/corner{
-	dir = 4;
-	icon_state = "end"
+/obj/structure/railing/handrail{
+	dir = 1;
+	pixel_y = 19
 	},
-/turf/open/floor/grass,
+/obj/structure/railing/handrail{
+	dir = 8;
+	pixel_x = -4
+	},
+/turf/open/transparent/openspace,
 /area/f13/wasteland)
 "wzP" = (
 /obj/structure/flora/chomp/bush5{
@@ -117467,6 +117447,14 @@
 	icon_state = "yellowrustyfull"
 	},
 /area/f13/building/coyote/nash/museum/groundfloor)
+"wJM" = (
+/obj/structure/nest/randomized{
+	randomizer_difficulty = 1;
+	randomizer_kind = "trash mobs";
+	randomizer_tag = "Nash East Road"
+	},
+/turf/open/floor/grass,
+/area/f13/wasteland)
 "wJP" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -117771,6 +117759,18 @@
 /obj/effect/spawner/lootdrop/f13/uncommon,
 /turf/open/floor/f13/wood,
 /area/f13/building/abandoned)
+"wNi" = (
+/obj/structure/flora/tree/jungle{
+	color = "#d9b51c"
+	},
+/obj/structure/flora/grass/wasteland{
+	icon_state = "tall_grass_3"
+	},
+/obj/structure/flora/grass/wasteland{
+	icon_state = "tall_grass_3"
+	},
+/turf/open/floor/grass,
+/area/f13/wasteland)
 "wNj" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/nest/randomized{
@@ -118629,6 +118629,10 @@
 	icon_state = "outerborder - N"
 	},
 /area/f13/wasteland/city)
+"wWM" = (
+/obj/structure/railing/handrail,
+/turf/open/floor/plasteel/vault,
+/area/f13/wasteland)
 "wWR" = (
 /obj/structure/chair/comfy{
 	dir = 1
@@ -119907,12 +119911,12 @@
 /turf/open/floor/carpet/black,
 /area/f13/building/abandoned)
 "xlI" = (
-/obj/structure/nest/randomized{
-	randomizer_difficulty = 1;
-	randomizer_kind = "trash mobs";
-	randomizer_tag = "Nash East Road"
+/obj/structure/railing/handrail,
+/obj/structure/railing/handrail{
+	dir = 8;
+	pixel_x = -4
 	},
-/turf/open/floor/grass,
+/turf/open/transparent/openspace,
 /area/f13/wasteland)
 "xlK" = (
 /obj/effect/turf_decal/weather/dirt{
@@ -119981,10 +119985,6 @@
 	},
 /turf/open/floor/wood_fancy/wood_fancy_light,
 /area/f13/building/bank)
-"xmv" = (
-/obj/machinery/vending/coffee,
-/turf/open/floor/plasteel/vault,
-/area/f13/building/abandoned)
 "xmz" = (
 /obj/structure/simple_door/metal/barred,
 /obj/effect/decal/cleanable/oil/slippery,
@@ -154665,9 +154665,9 @@ acD
 cIY
 cIY
 cIY
-riO
+jkz
 cIY
-xlI
+wJM
 aKM
 eOw
 ony
@@ -155685,7 +155685,7 @@ cIY
 cIY
 cIY
 cIY
-uVc
+wNi
 bzk
 wkB
 noz
@@ -156200,15 +156200,15 @@ qrZ
 rnA
 jgz
 dHY
-jkz
-dYz
-cpS
-cpS
-cpS
-cpS
-cpS
-cpS
 kmn
+wzN
+wcP
+wcP
+wcP
+wcP
+wcP
+wcP
+xlI
 cIY
 aKM
 eOw
@@ -156459,19 +156459,19 @@ fCt
 kXs
 uff
 xCQ
-oLH
-oLH
-oLH
-oLH
-oLH
-oLH
+tyj
+tyj
+tyj
+tyj
+tyj
+tyj
 pMh
 cIY
 aKM
 kjZ
 ony
 sHB
-tyj
+jez
 pzG
 dHB
 oRI
@@ -156716,12 +156716,12 @@ fCt
 bEw
 tIR
 xCQ
-oLH
-oLH
-oLH
-oLH
-oLH
-oLH
+tyj
+tyj
+tyj
+tyj
+tyj
+tyj
 pMh
 cIY
 aKM
@@ -156973,12 +156973,12 @@ fCt
 olL
 uff
 xCQ
-oLH
-oLH
-oLH
-oLH
-oLH
-oLH
+tyj
+tyj
+tyj
+tyj
+tyj
+tyj
 pMh
 cIY
 aKM
@@ -157230,12 +157230,12 @@ eqK
 aYQ
 uff
 xCQ
-oLH
-oLH
-oLH
-oLH
-oLH
-oLH
+tyj
+tyj
+tyj
+tyj
+tyj
+tyj
 pMh
 cIY
 aKM
@@ -157485,17 +157485,17 @@ rnr
 aez
 vim
 aez
-wzN
+cpS
 xCQ
-oLH
-oLH
-oLH
-oLH
-oLH
-oLH
+tyj
+tyj
+tyj
+tyj
+tyj
+tyj
 pMh
 cIY
-aXP
+uVc
 enS
 cIY
 cIY
@@ -157744,12 +157744,12 @@ cIY
 cIY
 hyv
 xCQ
-oLH
-oLH
-oLH
-oLH
-oLH
-oLH
+tyj
+tyj
+tyj
+tyj
+tyj
+tyj
 pMh
 cIY
 cIY
@@ -158007,7 +158007,7 @@ chX
 chX
 chX
 chX
-jqA
+wWM
 cIY
 cIY
 cIY
@@ -158264,7 +158264,7 @@ chX
 chX
 chX
 chX
-jqA
+wWM
 cIY
 cIY
 oRI
@@ -159292,7 +159292,7 @@ ivL
 tUf
 wKU
 qPp
-xmv
+oLH
 wKU
 hCc
 evw

@@ -460,6 +460,11 @@
 	},
 /turf/open/indestructible/ground/inside/dirt,
 /area/f13/wasteland)
+"cN" = (
+/obj/structure/barricade/sandbags,
+/obj/structure/barricade/sandbags,
+/turf/open/indestructible/ground/outside/roof,
+/area/f13/wasteland)
 "cP" = (
 /obj/structure/destructible/tribal_torch/lit,
 /obj/structure/fence/end/wooden{
@@ -1417,6 +1422,12 @@
 /obj/structure/rack/shelf_metal,
 /turf/open/floor/f13/wood,
 /area/f13/building)
+"iQ" = (
+/obj/effect/landmark/vertibird{
+	name = "Nash - Radio operator landpad at mass fusion"
+	},
+/turf/open/indestructible/ground/outside/roof,
+/area/f13/wasteland)
 "iT" = (
 /obj/structure/railing{
 	color = "#A47449";
@@ -2805,12 +2816,6 @@
 	dir = 1
 	},
 /turf/open/transparent/openspace,
-/area/f13/wasteland)
-"rQ" = (
-/obj/effect/landmark/vertibird{
-	name = "Nash - Radio operator landpad at mass fusion"
-	},
-/turf/open/indestructible/ground/outside/roof,
 /area/f13/wasteland)
 "rS" = (
 /obj/structure/fence/wooden{
@@ -5630,11 +5635,6 @@
 "Ks" = (
 /obj/effect/decal/cleanable/blood/drip,
 /obj/structure/spacevine,
-/turf/open/indestructible/ground/outside/roof,
-/area/f13/wasteland)
-"Ku" = (
-/obj/structure/barricade/sandbags,
-/obj/structure/barricade/sandbags,
 /turf/open/indestructible/ground/outside/roof,
 /area/f13/wasteland)
 "Kx" = (
@@ -60437,7 +60437,7 @@ hm
 hm
 hm
 hm
-Ku
+cN
 FI
 FI
 FI
@@ -61218,7 +61218,7 @@ gi
 eD
 yP
 yP
-rQ
+yP
 FI
 hm
 hm
@@ -61474,7 +61474,7 @@ gi
 yP
 lF
 yP
-yP
+iQ
 yP
 FI
 hm
