@@ -5612,6 +5612,16 @@
 "Kj" = (
 /turf/open/transparent/openspace,
 /area/f13/building/abandoned)
+"Km" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/landmark/vertibird{
+	name = "Radio operator landpad at mass fusion"
+	},
+/turf/open/indestructible/ground/outside/roof{
+	color = "#FFFF44"
+	},
+/area/f13/wasteland)
 "Kr" = (
 /obj/structure/spacevine{
 	color = "#225522"
@@ -61205,7 +61215,7 @@ FI
 yP
 pQ
 pQ
-gi
+Km
 yP
 lF
 FI
