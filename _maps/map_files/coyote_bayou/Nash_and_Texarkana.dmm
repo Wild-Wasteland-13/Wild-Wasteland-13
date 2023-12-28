@@ -33259,13 +33259,6 @@
 	icon_state = "verticalinnermain0"
 	},
 /area/f13/wasteland/city/nash/downtown)
-"eel" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/nest/raider/melee{
-	pixel_x = 32
-	},
-/turf/open/floor/f13/wood,
-/area/f13/building/abandoned)
 "eem" = (
 /obj/effect/landmark/start/f13/wastelander,
 /turf/open/indestructible/ground/outside/sidewalk{
@@ -87503,14 +87496,6 @@
 	},
 /turf/open/indestructible/ground/outside/sidewalk,
 /area/f13/wasteland)
-"qdL" = (
-/obj/structure/nest/raider/ranged{
-	pixel_y = -32
-	},
-/turf/open/floor/f13/wood{
-	icon_state = "housewood2-broken"
-	},
-/area/f13/building/abandoned)
 "qdP" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/camera/autoname{
@@ -179345,7 +179330,7 @@ uqJ
 cIB
 oBz
 uqJ
-eel
+uqJ
 bsq
 oBz
 uqJ
@@ -181144,7 +181129,7 @@ uqJ
 bZe
 fUx
 uqJ
-qdL
+ncU
 aHF
 oBz
 uLS
