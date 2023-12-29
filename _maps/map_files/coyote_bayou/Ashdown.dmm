@@ -12994,10 +12994,17 @@
 "fMm" = (
 /obj/structure/railing{
 	color = "#A47449";
-	dir = 2;
-	layer = 4
+	dir = 1;
+	pixel_y = -6
 	},
-/turf/closed/wall/f13/store,
+/turf/closed/indestructible/rock{
+	desc = "A pre-War wall made of solid concrete.";
+	icon = 'icons/turf/walls/f13store.dmi';
+	icon_state = "store";
+	icon_type_smooth = "store";
+	name = "Concrete wall";
+	smooth = 1
+	},
 /area/f13/building)
 "fMs" = (
 /obj/structure/fence,
@@ -18705,6 +18712,14 @@
 	icon_state = "horizontalbottombordertop3"
 	},
 /area/f13/wasteland)
+"irk" = (
+/obj/structure/railing{
+	color = "#A47449";
+	dir = 2;
+	layer = 4
+	},
+/turf/closed/wall/f13/store,
+/area/f13/building)
 "irn" = (
 /obj/structure/flora/grass/wasteland{
 	icon_state = "tall_grass_5";
@@ -49393,21 +49408,6 @@
 	},
 /turf/open/indestructible/ground/outside/savannah,
 /area/f13/wasteland)
-"wjv" = (
-/obj/structure/railing{
-	color = "#A47449";
-	dir = 1;
-	pixel_y = -6
-	},
-/turf/closed/indestructible/rock{
-	desc = "A pre-War wall made of solid concrete.";
-	icon = 'icons/turf/walls/f13store.dmi';
-	icon_state = "store";
-	icon_type_smooth = "store";
-	name = "Concrete wall";
-	smooth = 1
-	},
-/area/f13/building)
 "wjF" = (
 /obj/machinery/washing_machine,
 /turf/open/floor/f13{
@@ -69354,9 +69354,9 @@ uSf
 uSf
 uSf
 uSf
-fMm
+irk
 liR
-wjv
+fMm
 gVD
 gVD
 gVD
