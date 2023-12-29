@@ -23019,6 +23019,10 @@
 	},
 /turf/closed/wall/f13/wood/house,
 /area/f13/city)
+"hST" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating/f13/outside/road,
+/area/f13/building)
 "hSX" = (
 /obj/structure/junk/cabinet{
 	pixel_y = 10
@@ -37859,13 +37863,11 @@
 /turf/open/indestructible/ground/outside/water/running,
 /area/f13/wasteland/redwater)
 "mUO" = (
-/obj/effect/decal/marking{
-	icon_state = "doublehorizontaldegraded"
+/obj/structure/stairs/west{
+	color = "#A47449";
+	dir = 4
 	},
-/obj/effect/landmark/vertibird{
-	name = "Redwater - Hollow penitentiary"
-	},
-/turf/open/indestructible/ground/outside/gravel,
+/turf/open/floor/grass,
 /area/f13/wasteland/redwater)
 "mUX" = (
 /obj/structure/flora/ausbushes/grassybush,
@@ -38217,9 +38219,14 @@
 /turf/open/floor/grass,
 /area/f13/wasteland/town)
 "ncM" = (
-/obj/structure/ladder/unbreakable,
-/turf/open/floor/f13,
-/area/f13/city)
+/obj/effect/decal/marking{
+	icon_state = "doublehorizontaldegraded"
+	},
+/obj/effect/landmark/vertibird{
+	name = "Redwater - Hollow penitentiary"
+	},
+/turf/open/indestructible/ground/outside/gravel,
+/area/f13/wasteland/redwater)
 "ncR" = (
 /obj/structure/fence/corner,
 /obj/effect/turf_decal/weather/dirt{
@@ -45666,10 +45673,6 @@
 /obj/effect/spawner/lootdrop/f13/common,
 /turf/open/indestructible/ground/outside/road,
 /area/f13/building)
-"pLt" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plating/f13/outside/road,
-/area/f13/building)
 "pLB" = (
 /obj/item/shovel,
 /obj/effect/decal/cleanable/dirt,
@@ -50809,6 +50812,15 @@
 /obj/effect/spawner/lootdrop/f13/uncommon,
 /turf/open/floor/f13/wood,
 /area/f13/building)
+"rxH" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/railing{
+	color = "#A47449";
+	dir = 2;
+	layer = 4
+	},
+/turf/open/floor/grass,
+/area/f13/wasteland/redwater)
 "rxJ" = (
 /obj/structure/table/wood,
 /obj/effect/spawner/lootdrop/f13/uncommon,
@@ -55599,15 +55611,6 @@
 	icon_state = "tall_grass_6"
 	},
 /obj/structure/flora/rock/pile/largejungle,
-/turf/open/floor/grass,
-/area/f13/wasteland/redwater)
-"tcJ" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/railing{
-	color = "#A47449";
-	dir = 2;
-	layer = 4
-	},
 /turf/open/floor/grass,
 /area/f13/wasteland/redwater)
 "tcP" = (
@@ -66079,13 +66082,6 @@
 	dir = 1
 	},
 /turf/open/indestructible/ground/outside/gravel,
-/area/f13/wasteland/redwater)
-"wHq" = (
-/obj/structure/stairs/west{
-	color = "#A47449";
-	dir = 4
-	},
-/turf/open/floor/grass,
 /area/f13/wasteland/redwater)
 "wHs" = (
 /obj/machinery/processor/chopping_block,
@@ -84920,7 +84916,7 @@ qUV
 dzx
 dzx
 dzx
-mUO
+ncM
 flv
 qUV
 qUV
@@ -95039,7 +95035,7 @@ aXu
 aXu
 aXu
 vcp
-ncM
+jBT
 jBT
 jpN
 jZD
@@ -122219,8 +122215,8 @@ oBP
 aXu
 aXu
 oiR
-tcJ
-wHq
+rxH
+mUO
 dUW
 aXu
 xso
@@ -122733,7 +122729,7 @@ aXu
 aXu
 aXu
 axx
-pLt
+hST
 nJR
 nJR
 nJR
@@ -122990,7 +122986,7 @@ aXu
 aXu
 aXu
 nJR
-pLt
+hST
 nJR
 nJR
 nJR

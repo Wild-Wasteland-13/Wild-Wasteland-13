@@ -1,4 +1,14 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"ab" = (
+/obj/effect/turf_decal/trimline/neutral{
+	icon_state = "trimline_fill";
+	dir = 8
+	},
+/obj/effect/turf_decal/big{
+	dir = 8
+	},
+/turf/open/indestructible/ground/outside/roof,
+/area/f13/wasteland)
 "ac" = (
 /obj/structure/decoration/rag{
 	icon_state = "skin"
@@ -83,6 +93,33 @@
 /obj/effect/turf_decal/weather/dirt,
 /turf/open/floor/grass,
 /area/f13/wasteland/ashdown)
+"aY" = (
+/obj/effect/turf_decal/trimline/neutral{
+	icon_state = "trimline_fill";
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/neutral{
+	icon_state = "trimline_fill";
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/neutral{
+	icon_state = "trimline_fill";
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/neutral{
+	icon_state = "trimline_fill";
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/neutral{
+	icon_state = "trimline_fill";
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/neutral{
+	icon_state = "trimline_fill";
+	dir = 8
+	},
+/turf/open/indestructible/ground/outside/roof,
+/area/f13/wasteland)
 "ba" = (
 /obj/structure/flora/chomp/bush2{
 	color = "#338833";
@@ -347,33 +384,6 @@
 	},
 /turf/open/floor/f13/wood,
 /area/f13/building/hospital/clinic/ashdown)
-"cW" = (
-/obj/effect/turf_decal/trimline/neutral{
-	icon_state = "trimline_fill";
-	dir = 8
-	},
-/obj/effect/turf_decal/trimline/neutral{
-	icon_state = "trimline_fill";
-	dir = 8
-	},
-/obj/effect/turf_decal/trimline/neutral{
-	icon_state = "trimline_fill";
-	dir = 8
-	},
-/obj/effect/turf_decal/trimline/neutral{
-	icon_state = "trimline_fill";
-	dir = 8
-	},
-/obj/effect/turf_decal/trimline/neutral{
-	icon_state = "trimline_fill";
-	dir = 8
-	},
-/obj/effect/turf_decal/trimline/neutral{
-	icon_state = "trimline_fill";
-	dir = 8
-	},
-/turf/open/indestructible/ground/outside/roof,
-/area/f13/wasteland)
 "da" = (
 /obj/structure/flora/tallgrass8,
 /turf/open/floor/grass,
@@ -716,44 +726,56 @@
 /obj/structure/decoration/rag,
 /turf/closed/wall/f13/wood,
 /area/f13/building)
-"fy" = (
-/obj/effect/turf_decal/trimline/neutral{
-	icon_state = "trimline_fill";
-	dir = 5
-	},
-/obj/effect/turf_decal/trimline/neutral{
-	icon_state = "trimline_fill";
-	dir = 5
-	},
-/obj/effect/turf_decal/trimline/neutral{
-	icon_state = "trimline_fill";
-	dir = 5
-	},
-/obj/effect/turf_decal/trimline/neutral{
-	icon_state = "trimline_fill";
-	dir = 5
-	},
-/obj/effect/turf_decal/trimline/neutral{
-	icon_state = "trimline_fill";
-	dir = 5
-	},
-/obj/effect/turf_decal/trimline/neutral{
-	icon_state = "trimline_fill";
-	dir = 5
-	},
-/obj/effect/turf_decal/trimline/neutral{
-	icon_state = "trimline_fill";
-	dir = 5
-	},
-/obj/effect/turf_decal/trimline/neutral{
-	icon_state = "trimline_fill";
-	dir = 4
-	},
-/turf/open/indestructible/ground/outside/roof,
-/area/f13/wasteland)
 "fB" = (
 /obj/structure/flora/jungle6,
 /turf/open/floor/grass,
+/area/f13/wasteland)
+"fC" = (
+/obj/effect/turf_decal/trimline/neutral{
+	icon_state = "trimline_fill";
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/neutral{
+	icon_state = "trimline_fill";
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/neutral{
+	icon_state = "trimline_fill";
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/neutral{
+	icon_state = "trimline_fill";
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/neutral{
+	icon_state = "trimline_fill";
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/neutral{
+	icon_state = "trimline_fill";
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/neutral{
+	icon_state = "trimline_fill";
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/neutral{
+	icon_state = "trimline_fill";
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/neutral{
+	icon_state = "trimline_fill";
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/neutral{
+	icon_state = "trimline_fill";
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/neutral{
+	icon_state = "trimline_fill";
+	dir = 8
+	},
+/turf/open/indestructible/ground/outside/roof,
 /area/f13/wasteland)
 "fL" = (
 /obj/structure/railing{
@@ -897,50 +919,9 @@
 /obj/structure/flora/tree/med_pine,
 /turf/open/floor/grass,
 /area/f13/wasteland/ashdown)
-"gC" = (
-/obj/effect/turf_decal/trimline/neutral{
-	icon_state = "trimline_fill";
-	dir = 8
-	},
-/obj/effect/turf_decal/trimline/neutral{
-	icon_state = "trimline_fill";
-	dir = 8
-	},
-/obj/effect/turf_decal/trimline/neutral{
-	icon_state = "trimline_fill";
-	dir = 8
-	},
-/obj/effect/turf_decal/trimline/neutral{
-	icon_state = "trimline_fill";
-	dir = 8
-	},
-/obj/effect/turf_decal/trimline/neutral{
-	icon_state = "trimline_fill";
-	dir = 8
-	},
-/obj/effect/turf_decal/trimline/neutral{
-	icon_state = "trimline_fill";
-	dir = 8
-	},
-/obj/effect/turf_decal/trimline/neutral{
-	icon_state = "trimline_fill";
-	dir = 8
-	},
-/obj/effect/turf_decal/trimline/neutral{
-	icon_state = "trimline_fill";
-	dir = 8
-	},
-/obj/effect/turf_decal/trimline/neutral{
-	icon_state = "trimline_fill";
-	dir = 8
-	},
-/obj/effect/turf_decal/trimline/neutral{
-	icon_state = "trimline_fill";
-	dir = 8
-	},
-/obj/effect/turf_decal/trimline/neutral{
-	icon_state = "trimline_fill";
-	dir = 8
+"gF" = (
+/obj/effect/turf_decal/big{
+	dir = 5
 	},
 /turf/open/indestructible/ground/outside/roof,
 /area/f13/wasteland)
@@ -975,6 +956,12 @@
 	color = "#779999"
 	},
 /area/f13/building)
+"gW" = (
+/obj/effect/turf_decal/big{
+	dir = 6
+	},
+/turf/open/indestructible/ground/outside/roof,
+/area/f13/wasteland)
 "gZ" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -1088,6 +1075,41 @@
 /obj/machinery/reagentgrinder,
 /turf/open/floor/f13/wood,
 /area/f13/caves)
+"hM" = (
+/obj/effect/turf_decal/trimline/neutral{
+	icon_state = "trimline_fill";
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/neutral{
+	icon_state = "trimline_fill";
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/neutral{
+	icon_state = "trimline_fill";
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/neutral{
+	icon_state = "trimline_fill";
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/neutral{
+	icon_state = "trimline_fill";
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/neutral{
+	icon_state = "trimline_fill";
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/neutral{
+	icon_state = "trimline_fill";
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/neutral{
+	icon_state = "trimline_fill";
+	dir = 4
+	},
+/turf/open/indestructible/ground/outside/roof,
+/area/f13/wasteland)
 "hO" = (
 /obj/structure/fence/wooden{
 	pixel_x = -14
@@ -1395,6 +1417,37 @@
 	},
 /turf/open/floor/grass,
 /area/f13/wasteland/ashdown)
+"kf" = (
+/obj/effect/turf_decal/trimline/neutral{
+	icon_state = "trimline_fill";
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/neutral{
+	icon_state = "trimline_fill";
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/neutral{
+	icon_state = "trimline_fill";
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/neutral{
+	icon_state = "trimline_fill";
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/neutral{
+	icon_state = "trimline_fill";
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/neutral{
+	icon_state = "trimline_fill";
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/neutral{
+	icon_state = "trimline_fill";
+	dir = 8
+	},
+/turf/open/indestructible/ground/outside/roof,
+/area/f13/wasteland)
 "kg" = (
 /obj/effect/spawner/lootdrop/f13/foodspawner,
 /obj/structure/chair/stool/retro/black,
@@ -1613,40 +1666,6 @@
 	},
 /turf/open/floor/grass,
 /area/f13/wasteland/ashdown)
-"lI" = (
-/obj/effect/turf_decal/trimline/neutral{
-	icon_state = "trimline_fill";
-	dir = 9
-	},
-/obj/effect/turf_decal/trimline/neutral{
-	icon_state = "trimline_fill";
-	dir = 9
-	},
-/obj/effect/turf_decal/trimline/neutral{
-	icon_state = "trimline_fill";
-	dir = 9
-	},
-/obj/effect/turf_decal/trimline/neutral{
-	icon_state = "trimline_fill";
-	dir = 9
-	},
-/obj/effect/turf_decal/trimline/neutral{
-	icon_state = "trimline_fill";
-	dir = 9
-	},
-/obj/effect/turf_decal/trimline/neutral{
-	icon_state = "trimline_fill";
-	dir = 9
-	},
-/obj/effect/turf_decal/trimline/neutral{
-	icon_state = "trimline_fill";
-	dir = 9
-	},
-/obj/effect/landmark/vertibird{
-	name = "Ashdown - Police station near the way to smoky mountains"
-	},
-/turf/open/indestructible/ground/outside/roof,
-/area/f13/wasteland)
 "lJ" = (
 /obj/structure/fence/wooden{
 	dir = 1
@@ -1799,14 +1818,6 @@
 "mH" = (
 /turf/open/floor/f13/wood,
 /area/f13/wasteland)
-"mN" = (
-/obj/effect/turf_decal/big{
-	dir = 1;
-	pixel_y = 0
-	},
-/obj/machinery/light/floor,
-/turf/open/indestructible/ground/outside/roof,
-/area/f13/wasteland)
 "mR" = (
 /obj/structure/railing{
 	color = "#A47449";
@@ -1901,6 +1912,45 @@
 	icon_state = "bluechess2"
 	},
 /area/f13/building/hospital/clinic/ashdown)
+"nz" = (
+/obj/effect/turf_decal/trimline/neutral{
+	icon_state = "trimline_fill";
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/neutral{
+	icon_state = "trimline_fill";
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/neutral{
+	icon_state = "trimline_fill";
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/neutral{
+	icon_state = "trimline_fill";
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/neutral{
+	icon_state = "trimline_fill";
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/neutral{
+	icon_state = "trimline_fill";
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/neutral{
+	icon_state = "trimline_fill";
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/neutral{
+	icon_state = "trimline_fill";
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/neutral{
+	icon_state = "trimline_fill";
+	dir = 4
+	},
+/turf/open/indestructible/ground/outside/roof,
+/area/f13/wasteland)
 "nA" = (
 /obj/structure/flora/tree/oak_five,
 /turf/open/floor/grass,
@@ -2106,12 +2156,6 @@
 /obj/structure/flora/ausbushes/pointybush,
 /turf/open/floor/grass,
 /area/f13/wasteland)
-"ph" = (
-/obj/effect/turf_decal/big{
-	dir = 5
-	},
-/turf/open/indestructible/ground/outside/roof,
-/area/f13/wasteland)
 "pj" = (
 /obj/structure/flora/tree_log,
 /turf/open/indestructible/ground/outside/desert,
@@ -2172,6 +2216,17 @@
 "pC" = (
 /turf/open/floor/f13/wood,
 /area/f13/building/hospital/clinic/ashdown)
+"pD" = (
+/obj/effect/turf_decal/big,
+/turf/open/indestructible/ground/outside/roof,
+/area/f13/wasteland)
+"pL" = (
+/obj/effect/turf_decal/big{
+	dir = 1;
+	pixel_y = 0
+	},
+/turf/open/indestructible/ground/outside/roof,
+/area/f13/wasteland)
 "pR" = (
 /obj/structure/table,
 /obj/item/reagent_containers/food/drinks/bottle/rum/empty,
@@ -2270,16 +2325,6 @@
 	icon_state = "oakfloor1"
 	},
 /area/f13/building)
-"qZ" = (
-/obj/effect/turf_decal/trimline/neutral{
-	icon_state = "trimline_fill";
-	dir = 8
-	},
-/obj/effect/turf_decal/big{
-	dir = 8
-	},
-/turf/open/indestructible/ground/outside/roof,
-/area/f13/wasteland)
 "rb" = (
 /obj/structure/flora/grass/coyote/four,
 /turf/open/floor/grass,
@@ -2492,11 +2537,6 @@
 /obj/structure/flora/ausbushes/sparsegrass,
 /turf/open/floor/grass,
 /area/f13/wasteland)
-"sh" = (
-/obj/effect/turf_decal/big,
-/obj/machinery/light/floor,
-/turf/open/indestructible/ground/outside/roof,
-/area/f13/wasteland)
 "sn" = (
 /obj/structure/flora/branch_broken,
 /obj/effect/decal/cleanable/generic,
@@ -2625,10 +2665,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/f13/wood,
 /area/f13/building)
-"tl" = (
-/obj/effect/turf_decal/big,
-/turf/open/indestructible/ground/outside/roof,
-/area/f13/wasteland)
 "tm" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/transparent/openspace,
@@ -3038,6 +3074,28 @@
 	},
 /turf/closed/wall/f13/wood/house,
 /area/f13/building)
+"vz" = (
+/obj/effect/turf_decal/big,
+/obj/effect/turf_decal/arrows{
+	dir = 1
+	},
+/obj/effect/turf_decal/arrows{
+	dir = 1
+	},
+/obj/effect/turf_decal/arrows{
+	dir = 1
+	},
+/obj/effect/turf_decal/arrows{
+	dir = 1
+	},
+/obj/effect/turf_decal/arrows{
+	dir = 1
+	},
+/obj/effect/turf_decal/arrows{
+	dir = 1
+	},
+/turf/open/indestructible/ground/outside/roof,
+/area/f13/wasteland)
 "vE" = (
 /obj/structure/barricade/wooden,
 /obj/structure/fence/wooden{
@@ -3399,13 +3457,6 @@
 	},
 /turf/closed/wall/f13/wood,
 /area/f13/building)
-"xY" = (
-/obj/effect/turf_decal/big{
-	dir = 1;
-	pixel_y = 0
-	},
-/turf/open/indestructible/ground/outside/roof,
-/area/f13/wasteland)
 "xZ" = (
 /obj/structure/rack,
 /obj/item/restraints/handcuffs/fake/kinky,
@@ -3445,6 +3496,16 @@
 "yf" = (
 /obj/structure/car/rubbish2,
 /turf/open/floor/grass,
+/area/f13/wasteland)
+"yg" = (
+/obj/effect/turf_decal/trimline/neutral{
+	icon_state = "trimline_fill";
+	dir = 8
+	},
+/obj/effect/turf_decal/big{
+	dir = 9
+	},
+/turf/open/indestructible/ground/outside/roof,
 /area/f13/wasteland)
 "yh" = (
 /obj/effect/decal/cleanable/dirt,
@@ -3821,31 +3882,47 @@
 "AN" = (
 /obj/effect/turf_decal/trimline/neutral{
 	icon_state = "trimline_fill";
-	dir = 8
+	dir = 4
 	},
 /obj/effect/turf_decal/trimline/neutral{
 	icon_state = "trimline_fill";
-	dir = 8
+	dir = 4
 	},
 /obj/effect/turf_decal/trimline/neutral{
 	icon_state = "trimline_fill";
-	dir = 8
+	dir = 4
 	},
 /obj/effect/turf_decal/trimline/neutral{
 	icon_state = "trimline_fill";
-	dir = 8
+	dir = 4
 	},
 /obj/effect/turf_decal/trimline/neutral{
 	icon_state = "trimline_fill";
-	dir = 8
+	dir = 4
 	},
 /obj/effect/turf_decal/trimline/neutral{
 	icon_state = "trimline_fill";
-	dir = 8
+	dir = 4
 	},
 /obj/effect/turf_decal/trimline/neutral{
 	icon_state = "trimline_fill";
-	dir = 8
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/neutral{
+	icon_state = "trimline_fill";
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/neutral{
+	icon_state = "trimline_fill";
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/neutral{
+	icon_state = "trimline_fill";
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/neutral{
+	icon_state = "trimline_fill";
+	dir = 4
 	},
 /turf/open/indestructible/ground/outside/roof,
 /area/f13/wasteland)
@@ -3927,53 +4004,6 @@
 	sunlight_state = 1
 	},
 /area/f13/building)
-"Be" = (
-/obj/effect/turf_decal/trimline/neutral{
-	icon_state = "trimline_fill";
-	dir = 4
-	},
-/obj/effect/turf_decal/trimline/neutral{
-	icon_state = "trimline_fill";
-	dir = 4
-	},
-/obj/effect/turf_decal/trimline/neutral{
-	icon_state = "trimline_fill";
-	dir = 4
-	},
-/obj/effect/turf_decal/trimline/neutral{
-	icon_state = "trimline_fill";
-	dir = 4
-	},
-/obj/effect/turf_decal/trimline/neutral{
-	icon_state = "trimline_fill";
-	dir = 4
-	},
-/obj/effect/turf_decal/trimline/neutral{
-	icon_state = "trimline_fill";
-	dir = 4
-	},
-/obj/effect/turf_decal/trimline/neutral{
-	icon_state = "trimline_fill";
-	dir = 4
-	},
-/obj/effect/turf_decal/trimline/neutral{
-	icon_state = "trimline_fill";
-	dir = 4
-	},
-/obj/effect/turf_decal/trimline/neutral{
-	icon_state = "trimline_fill";
-	dir = 4
-	},
-/obj/effect/turf_decal/trimline/neutral{
-	icon_state = "trimline_fill";
-	dir = 4
-	},
-/obj/effect/turf_decal/trimline/neutral{
-	icon_state = "trimline_fill";
-	dir = 4
-	},
-/turf/open/indestructible/ground/outside/roof,
-/area/f13/wasteland)
 "Bl" = (
 /obj/machinery/smartfridge/bottlerack/grownbin,
 /obj/effect/turf_decal/weather/dirt,
@@ -4060,80 +4090,6 @@
 /obj/structure/flora/branch,
 /turf/open/indestructible/ground/outside/desert,
 /area/f13/wasteland)
-"BM" = (
-/obj/effect/turf_decal/trimline/neutral{
-	icon_state = "trimline_fill";
-	dir = 4
-	},
-/obj/effect/turf_decal/trimline/neutral{
-	icon_state = "trimline_fill";
-	dir = 4
-	},
-/obj/effect/turf_decal/trimline/neutral{
-	icon_state = "trimline_fill";
-	dir = 4
-	},
-/obj/effect/turf_decal/trimline/neutral{
-	icon_state = "trimline_fill";
-	dir = 4
-	},
-/obj/effect/turf_decal/trimline/neutral{
-	icon_state = "trimline_fill";
-	dir = 4
-	},
-/obj/effect/turf_decal/trimline/neutral{
-	icon_state = "trimline_fill";
-	dir = 4
-	},
-/obj/effect/turf_decal/trimline/neutral{
-	icon_state = "trimline_fill";
-	dir = 4
-	},
-/obj/effect/turf_decal/trimline/neutral{
-	icon_state = "trimline_fill";
-	dir = 4
-	},
-/obj/effect/turf_decal/trimline/neutral{
-	icon_state = "trimline_fill";
-	dir = 4
-	},
-/turf/open/indestructible/ground/outside/roof,
-/area/f13/wasteland)
-"BO" = (
-/obj/effect/turf_decal/trimline/neutral{
-	icon_state = "trimline_fill";
-	dir = 8
-	},
-/obj/effect/turf_decal/trimline/neutral{
-	icon_state = "trimline_fill";
-	dir = 8
-	},
-/obj/effect/turf_decal/trimline/neutral{
-	icon_state = "trimline_fill";
-	dir = 8
-	},
-/obj/effect/turf_decal/trimline/neutral{
-	icon_state = "trimline_fill";
-	dir = 8
-	},
-/obj/effect/turf_decal/trimline/neutral{
-	icon_state = "trimline_fill";
-	dir = 8
-	},
-/obj/effect/turf_decal/trimline/neutral{
-	icon_state = "trimline_fill";
-	dir = 8
-	},
-/obj/effect/turf_decal/trimline/neutral{
-	icon_state = "trimline_fill";
-	dir = 8
-	},
-/obj/effect/turf_decal/trimline/neutral{
-	icon_state = "trimline_fill";
-	dir = 8
-	},
-/turf/open/indestructible/ground/outside/roof,
-/area/f13/wasteland)
 "BS" = (
 /obj/effect/turf_decal/weather/dirt{
 	dir = 1
@@ -4175,6 +4131,16 @@
 	dir = 10
 	},
 /turf/open/transparent/openspace,
+/area/f13/wasteland)
+"Cg" = (
+/obj/effect/turf_decal/trimline/neutral{
+	icon_state = "trimline_fill";
+	dir = 8
+	},
+/obj/effect/turf_decal/big{
+	dir = 10
+	},
+/turf/open/indestructible/ground/outside/roof,
 /area/f13/wasteland)
 "Ch" = (
 /obj/structure/destructible/tribal_torch/wall/lit{
@@ -4219,6 +4185,41 @@
 	},
 /turf/open/floor/grass,
 /area/f13/wasteland/ashdown)
+"Cu" = (
+/obj/effect/turf_decal/trimline/neutral{
+	icon_state = "trimline_fill";
+	dir = 6
+	},
+/obj/effect/turf_decal/trimline/neutral{
+	icon_state = "trimline_fill";
+	dir = 6
+	},
+/obj/effect/turf_decal/trimline/neutral{
+	icon_state = "trimline_fill";
+	dir = 6
+	},
+/obj/effect/turf_decal/trimline/neutral{
+	icon_state = "trimline_fill";
+	dir = 6
+	},
+/obj/effect/turf_decal/trimline/neutral{
+	icon_state = "trimline_fill";
+	dir = 6
+	},
+/obj/effect/turf_decal/trimline/neutral{
+	icon_state = "trimline_fill";
+	dir = 6
+	},
+/obj/effect/turf_decal/trimline/neutral{
+	icon_state = "trimline_fill";
+	dir = 6
+	},
+/obj/effect/turf_decal/trimline/neutral{
+	icon_state = "trimline_fill";
+	dir = 6
+	},
+/turf/open/indestructible/ground/outside/roof,
+/area/f13/wasteland)
 "Cx" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/wreck/trash/brokenvendor,
@@ -4284,41 +4285,6 @@
 /obj/effect/turf_decal/weather/dirt,
 /turf/open/floor/grass,
 /area/f13/wasteland/ashdown)
-"Dr" = (
-/obj/effect/turf_decal/trimline/neutral{
-	icon_state = "trimline_fill";
-	dir = 4
-	},
-/obj/effect/turf_decal/trimline/neutral{
-	icon_state = "trimline_fill";
-	dir = 4
-	},
-/obj/effect/turf_decal/trimline/neutral{
-	icon_state = "trimline_fill";
-	dir = 4
-	},
-/obj/effect/turf_decal/trimline/neutral{
-	icon_state = "trimline_fill";
-	dir = 4
-	},
-/obj/effect/turf_decal/trimline/neutral{
-	icon_state = "trimline_fill";
-	dir = 4
-	},
-/obj/effect/turf_decal/trimline/neutral{
-	icon_state = "trimline_fill";
-	dir = 4
-	},
-/obj/effect/turf_decal/trimline/neutral{
-	icon_state = "trimline_fill";
-	dir = 4
-	},
-/obj/effect/turf_decal/trimline/neutral{
-	icon_state = "trimline_fill";
-	dir = 4
-	},
-/turf/open/indestructible/ground/outside/roof,
-/area/f13/wasteland)
 "Ds" = (
 /obj/effect/turf_decal/weather/dirt{
 	dir = 8
@@ -4427,16 +4393,6 @@
 	name = "concrete wall"
 	},
 /area/f13/building)
-"DW" = (
-/obj/effect/turf_decal/trimline/neutral{
-	icon_state = "trimline_fill";
-	dir = 8
-	},
-/obj/effect/turf_decal/big{
-	dir = 9
-	},
-/turf/open/indestructible/ground/outside/roof,
-/area/f13/wasteland)
 "DY" = (
 /obj/structure/flora/burnedbush4,
 /turf/open/indestructible/ground/outside/desert,
@@ -4525,6 +4481,41 @@
 	},
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/building)
+"Ew" = (
+/obj/effect/turf_decal/trimline/neutral{
+	icon_state = "trimline_fill";
+	dir = 10
+	},
+/obj/effect/turf_decal/trimline/neutral{
+	icon_state = "trimline_fill";
+	dir = 10
+	},
+/obj/effect/turf_decal/trimline/neutral{
+	icon_state = "trimline_fill";
+	dir = 10
+	},
+/obj/effect/turf_decal/trimline/neutral{
+	icon_state = "trimline_fill";
+	dir = 10
+	},
+/obj/effect/turf_decal/trimline/neutral{
+	icon_state = "trimline_fill";
+	dir = 10
+	},
+/obj/effect/turf_decal/trimline/neutral{
+	icon_state = "trimline_fill";
+	dir = 10
+	},
+/obj/effect/turf_decal/trimline/neutral{
+	icon_state = "trimline_fill";
+	dir = 10
+	},
+/obj/effect/turf_decal/trimline/neutral{
+	icon_state = "trimline_fill";
+	dir = 10
+	},
+/turf/open/indestructible/ground/outside/roof,
+/area/f13/wasteland)
 "Ex" = (
 /obj/structure/chair/stool/retro/black,
 /turf/open/floor/f13/wood,
@@ -4929,6 +4920,41 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/f13/wood,
 /area/f13/building/abandoned)
+"GU" = (
+/obj/effect/turf_decal/trimline/neutral{
+	icon_state = "trimline_fill";
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/neutral{
+	icon_state = "trimline_fill";
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/neutral{
+	icon_state = "trimline_fill";
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/neutral{
+	icon_state = "trimline_fill";
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/neutral{
+	icon_state = "trimline_fill";
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/neutral{
+	icon_state = "trimline_fill";
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/neutral{
+	icon_state = "trimline_fill";
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/neutral{
+	icon_state = "trimline_fill";
+	dir = 8
+	},
+/turf/open/indestructible/ground/outside/roof,
+/area/f13/wasteland)
 "GZ" = (
 /obj/structure/rug/big/rug_blue_shag,
 /obj/effect/decal/cleanable/dirt,
@@ -5107,29 +5133,6 @@
 	color = "#777777"
 	},
 /area/f13/wasteland/ashdown)
-"Is" = (
-/obj/effect/turf_decal/trimline/neutral{
-	icon_state = "trimline_fill";
-	dir = 8
-	},
-/obj/effect/turf_decal/trimline/neutral{
-	icon_state = "trimline_fill";
-	dir = 8
-	},
-/obj/effect/turf_decal/trimline/neutral{
-	icon_state = "trimline_fill";
-	dir = 8
-	},
-/obj/effect/turf_decal/trimline/neutral{
-	icon_state = "trimline_fill";
-	dir = 8
-	},
-/obj/effect/turf_decal/trimline/neutral{
-	icon_state = "trimline_fill";
-	dir = 8
-	},
-/turf/open/indestructible/ground/outside/roof,
-/area/f13/wasteland)
 "Iu" = (
 /obj/structure/railing{
 	dir = 10
@@ -5347,6 +5350,41 @@
 /obj/structure/chair/stool,
 /turf/open/floor/carpet/black,
 /area/f13/building)
+"JB" = (
+/obj/effect/turf_decal/trimline/neutral{
+	icon_state = "trimline_fill";
+	dir = 5
+	},
+/obj/effect/turf_decal/trimline/neutral{
+	icon_state = "trimline_fill";
+	dir = 5
+	},
+/obj/effect/turf_decal/trimline/neutral{
+	icon_state = "trimline_fill";
+	dir = 5
+	},
+/obj/effect/turf_decal/trimline/neutral{
+	icon_state = "trimline_fill";
+	dir = 5
+	},
+/obj/effect/turf_decal/trimline/neutral{
+	icon_state = "trimline_fill";
+	dir = 5
+	},
+/obj/effect/turf_decal/trimline/neutral{
+	icon_state = "trimline_fill";
+	dir = 5
+	},
+/obj/effect/turf_decal/trimline/neutral{
+	icon_state = "trimline_fill";
+	dir = 5
+	},
+/obj/effect/turf_decal/trimline/neutral{
+	icon_state = "trimline_fill";
+	dir = 4
+	},
+/turf/open/indestructible/ground/outside/roof,
+/area/f13/wasteland)
 "JC" = (
 /obj/structure/nest/randomized{
 	randomizer_difficulty = 1;
@@ -5559,35 +5597,23 @@
 "KM" = (
 /obj/effect/turf_decal/trimline/neutral{
 	icon_state = "trimline_fill";
-	dir = 6
+	dir = 8
 	},
 /obj/effect/turf_decal/trimline/neutral{
 	icon_state = "trimline_fill";
-	dir = 6
+	dir = 8
 	},
 /obj/effect/turf_decal/trimline/neutral{
 	icon_state = "trimline_fill";
-	dir = 6
+	dir = 8
 	},
 /obj/effect/turf_decal/trimline/neutral{
 	icon_state = "trimline_fill";
-	dir = 6
+	dir = 8
 	},
 /obj/effect/turf_decal/trimline/neutral{
 	icon_state = "trimline_fill";
-	dir = 6
-	},
-/obj/effect/turf_decal/trimline/neutral{
-	icon_state = "trimline_fill";
-	dir = 6
-	},
-/obj/effect/turf_decal/trimline/neutral{
-	icon_state = "trimline_fill";
-	dir = 6
-	},
-/obj/effect/turf_decal/trimline/neutral{
-	icon_state = "trimline_fill";
-	dir = 6
+	dir = 8
 	},
 /turf/open/indestructible/ground/outside/roof,
 /area/f13/wasteland)
@@ -5627,16 +5653,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/f13/wood,
 /area/f13/building)
-"Lc" = (
-/obj/effect/turf_decal/trimline/neutral{
-	icon_state = "trimline_fill";
-	dir = 8
-	},
-/obj/effect/turf_decal/big{
-	dir = 10
-	},
-/turf/open/indestructible/ground/outside/roof,
-/area/f13/wasteland)
 "Ll" = (
 /obj/structure/window/fulltile/wood,
 /obj/structure/curtain{
@@ -6128,12 +6144,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/grass,
 /area/f13/wasteland/ashdown)
-"ON" = (
-/obj/effect/turf_decal/big{
-	dir = 6
-	},
-/turf/open/indestructible/ground/outside/roof,
-/area/f13/wasteland)
 "OP" = (
 /turf/open/floor/plasteel/f13/vault_floor/plating,
 /area/f13/building/abandoned)
@@ -6145,6 +6155,11 @@
 /area/f13/building/abandoned)
 "Pg" = (
 /turf/open/floor/grass,
+/area/f13/wasteland)
+"Pj" = (
+/obj/effect/turf_decal/big,
+/obj/machinery/light/floor,
+/turf/open/indestructible/ground/outside/roof,
 /area/f13/wasteland)
 "Pl" = (
 /obj/structure/flora/grass/coyote/one,
@@ -6396,6 +6411,14 @@
 	},
 /turf/open/floor/f13/wood,
 /area/f13/building)
+"QX" = (
+/obj/effect/turf_decal/big{
+	dir = 1;
+	pixel_y = 0
+	},
+/obj/machinery/light/floor,
+/turf/open/indestructible/ground/outside/roof,
+/area/f13/wasteland)
 "Ra" = (
 /obj/structure/nest/radroach,
 /turf/open/indestructible/ground/inside/mountain,
@@ -6406,41 +6429,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/f13/wood,
 /area/f13/building/abandoned)
-"Rg" = (
-/obj/effect/turf_decal/trimline/neutral{
-	icon_state = "trimline_fill";
-	dir = 10
-	},
-/obj/effect/turf_decal/trimline/neutral{
-	icon_state = "trimline_fill";
-	dir = 10
-	},
-/obj/effect/turf_decal/trimline/neutral{
-	icon_state = "trimline_fill";
-	dir = 10
-	},
-/obj/effect/turf_decal/trimline/neutral{
-	icon_state = "trimline_fill";
-	dir = 10
-	},
-/obj/effect/turf_decal/trimline/neutral{
-	icon_state = "trimline_fill";
-	dir = 10
-	},
-/obj/effect/turf_decal/trimline/neutral{
-	icon_state = "trimline_fill";
-	dir = 10
-	},
-/obj/effect/turf_decal/trimline/neutral{
-	icon_state = "trimline_fill";
-	dir = 10
-	},
-/obj/effect/turf_decal/trimline/neutral{
-	icon_state = "trimline_fill";
-	dir = 10
-	},
-/turf/open/indestructible/ground/outside/roof,
-/area/f13/wasteland)
 "Ri" = (
 /obj/effect/turf_decal/weather/dirt{
 	dir = 8
@@ -7200,28 +7188,6 @@
 	sunlight_state = 1
 	},
 /area/f13/building)
-"Vx" = (
-/obj/effect/turf_decal/big,
-/obj/effect/turf_decal/arrows{
-	dir = 1
-	},
-/obj/effect/turf_decal/arrows{
-	dir = 1
-	},
-/obj/effect/turf_decal/arrows{
-	dir = 1
-	},
-/obj/effect/turf_decal/arrows{
-	dir = 1
-	},
-/obj/effect/turf_decal/arrows{
-	dir = 1
-	},
-/obj/effect/turf_decal/arrows{
-	dir = 1
-	},
-/turf/open/indestructible/ground/outside/roof,
-/area/f13/wasteland)
 "VB" = (
 /obj/structure/flora/grass/coyote/twentysix,
 /turf/open/floor/grass,
@@ -7511,6 +7477,40 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/f13/vault_floor/plating,
 /area/f13/building/abandoned)
+"XD" = (
+/obj/effect/turf_decal/trimline/neutral{
+	icon_state = "trimline_fill";
+	dir = 9
+	},
+/obj/effect/turf_decal/trimline/neutral{
+	icon_state = "trimline_fill";
+	dir = 9
+	},
+/obj/effect/turf_decal/trimline/neutral{
+	icon_state = "trimline_fill";
+	dir = 9
+	},
+/obj/effect/turf_decal/trimline/neutral{
+	icon_state = "trimline_fill";
+	dir = 9
+	},
+/obj/effect/turf_decal/trimline/neutral{
+	icon_state = "trimline_fill";
+	dir = 9
+	},
+/obj/effect/turf_decal/trimline/neutral{
+	icon_state = "trimline_fill";
+	dir = 9
+	},
+/obj/effect/turf_decal/trimline/neutral{
+	icon_state = "trimline_fill";
+	dir = 9
+	},
+/obj/effect/landmark/vertibird{
+	name = "Ashdown - Police station near the way to smoky mountains"
+	},
+/turf/open/indestructible/ground/outside/roof,
+/area/f13/wasteland)
 "XI" = (
 /obj/structure/barricade/bars,
 /obj/structure/window/fulltile/house,
@@ -23890,12 +23890,12 @@ kP
 kP
 kP
 kP
-DW
-qZ
-qZ
-qZ
-qZ
-Lc
+yg
+ab
+ab
+ab
+ab
+Cg
 kP
 kP
 Hw
@@ -24147,12 +24147,12 @@ kP
 kP
 kP
 kP
-xY
-Dr
-BM
-Dr
-Be
-tl
+pL
+hM
+nz
+hM
+AN
+pD
 kP
 kP
 kP
@@ -24404,12 +24404,12 @@ kP
 kP
 kP
 kP
-xY
-BO
-Rg
-lI
-BO
-Vx
+pL
+GU
+Ew
+XD
+GU
+vz
 kP
 kP
 kP
@@ -24661,12 +24661,12 @@ kP
 kP
 kP
 kP
-mN
-BM
-KM
-fy
-BM
-sh
+QX
+nz
+Cu
+JB
+nz
+Pj
 kP
 kP
 kP
@@ -24918,12 +24918,12 @@ kP
 kP
 kP
 kP
-xY
-AN
-Is
-cW
-gC
-tl
+pL
+kf
+KM
+aY
+fC
+pD
 kP
 kP
 kP
@@ -25175,12 +25175,12 @@ kP
 kP
 kP
 kP
-ph
+gF
 tT
 tT
 tT
 tT
-ON
+gW
 kP
 kP
 kP

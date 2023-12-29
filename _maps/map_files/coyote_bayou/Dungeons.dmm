@@ -8325,7 +8325,6 @@
 "dJK" = (
 /obj/item/clothing/head/bomb_hood/security,
 /obj/structure/rack/shelf_metal,
-/obj/effect/spawner/lootdrop/f13/armor/tier1,
 /obj/item/clothing/under/f13/recon/outcast,
 /obj/effect/spawner/lootdrop/f13/uncommon,
 /obj/item/card/midbounty,

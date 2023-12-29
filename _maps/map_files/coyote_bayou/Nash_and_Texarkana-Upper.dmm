@@ -2623,10 +2623,6 @@
 	},
 /turf/open/transparent/openspace,
 /area/f13/wasteland/nash)
-"bZs" = (
-/obj/effect/spawner/lootdrop/f13/armor/tier1,
-/turf/open/indestructible/ground/inside/mountain,
-/area/f13/caves)
 "caq" = (
 /obj/structure/nest/protectron{
 	layer = 3;
@@ -53925,7 +53921,7 @@ gJP
 gJP
 gJP
 dOR
-bZs
+gJP
 gJP
 hFx
 gJP

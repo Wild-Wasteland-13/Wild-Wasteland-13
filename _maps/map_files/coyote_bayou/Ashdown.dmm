@@ -12992,10 +12992,13 @@
 	},
 /area/f13/building)
 "fMm" = (
-/obj/effect/spawner/lootdrop/f13/armor/tier1,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/indestructible/ground/outside/graveldirt,
-/area/f13/building/abandoned)
+/obj/structure/railing{
+	color = "#A47449";
+	dir = 2;
+	layer = 4
+	},
+/turf/closed/wall/f13/store,
+/area/f13/building)
 "fMs" = (
 /obj/structure/fence,
 /obj/structure/fence/corner{
@@ -25643,14 +25646,6 @@
 	icon_state = "horizontaltopbordertop0"
 	},
 /area/f13/wasteland/city)
-"lmN" = (
-/obj/structure/railing{
-	color = "#A47449";
-	dir = 2;
-	layer = 4
-	},
-/turf/closed/wall/f13/store,
-/area/f13/building)
 "lmR" = (
 /obj/structure/curtain{
 	color = "#363636"
@@ -29283,7 +29278,6 @@
 "ncx" = (
 /obj/structure/toilet,
 /obj/effect/decal/remains/human,
-/obj/effect/spawner/lootdrop/f13/armor/tier1,
 /turf/open/floor/f13{
 	icon_state = "whitegreenrustychess"
 	},
@@ -34410,21 +34404,6 @@
 	dir = 6
 	},
 /area/f13/wasteland)
-"pqu" = (
-/obj/structure/railing{
-	color = "#A47449";
-	dir = 1;
-	pixel_y = -6
-	},
-/turf/closed/indestructible/rock{
-	desc = "A pre-War wall made of solid concrete.";
-	icon = 'icons/turf/walls/f13store.dmi';
-	icon_state = "store";
-	icon_type_smooth = "store";
-	name = "Concrete wall";
-	smooth = 1
-	},
-/area/f13/building)
 "pqH" = (
 /obj/dugpit,
 /turf/open/indestructible/ground/outside/savannah,
@@ -49414,6 +49393,21 @@
 	},
 /turf/open/indestructible/ground/outside/savannah,
 /area/f13/wasteland)
+"wjv" = (
+/obj/structure/railing{
+	color = "#A47449";
+	dir = 1;
+	pixel_y = -6
+	},
+/turf/closed/indestructible/rock{
+	desc = "A pre-War wall made of solid concrete.";
+	icon = 'icons/turf/walls/f13store.dmi';
+	icon_state = "store";
+	icon_type_smooth = "store";
+	name = "Concrete wall";
+	smooth = 1
+	},
+/area/f13/building)
 "wjF" = (
 /obj/machinery/washing_machine,
 /turf/open/floor/f13{
@@ -68455,7 +68449,7 @@ xZC
 dHq
 eke
 sQe
-fMm
+oKE
 spt
 jYk
 gxW
@@ -69360,9 +69354,9 @@ uSf
 uSf
 uSf
 uSf
-lmN
+fMm
 liR
-pqu
+wjv
 gVD
 gVD
 gVD

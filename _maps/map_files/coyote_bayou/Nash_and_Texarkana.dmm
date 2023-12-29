@@ -7962,13 +7962,6 @@
 	icon_state = "whitegreenrustychess"
 	},
 /area/f13/ruins)
-"aCB" = (
-/obj/structure/closet/cabinet,
-/obj/effect/spawner/lootdrop/f13/armor/tier1,
-/obj/effect/spawner/lootdrop/f13/uncommon,
-/obj/effect/spawner/lootdrop/f13/uncommon,
-/turf/open/floor/f13/wood,
-/area/f13/ruins)
 "aCD" = (
 /obj/structure/barricade/wooden,
 /turf/open/indestructible/ground/outside/sidewalk{
@@ -48882,7 +48875,6 @@
 /area/f13/wasteland)
 "hHr" = (
 /obj/structure/junk/cabinet,
-/obj/effect/spawner/lootdrop/f13/armor/tier1,
 /turf/open/floor/f13/wood,
 /area/f13/ruins)
 "hHx" = (
@@ -65391,13 +65383,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/indestructible/ground/outside/desert,
 /area/f13/wasteland)
-"lmn" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/spawner/lootdrop/f13/armor/tier1,
-/turf/open/floor/f13{
-	icon_state = "floorrusty"
-	},
-/area/f13/ruins)
 "lmE" = (
 /turf/open/indestructible/ground/outside/roaddirt{
 	icon_state = "innerpavement"
@@ -69789,7 +69774,6 @@
 /area/f13/wasteland/city/nash/redriverdepotroad)
 "mjn" = (
 /obj/structure/table,
-/obj/effect/spawner/lootdrop/f13/armor/tier1,
 /obj/effect/spawner/lootdrop/f13/uncommon,
 /turf/open/floor/f13{
 	icon_state = "floorrusty"
@@ -88490,7 +88474,6 @@
 /area/f13/wasteland/city)
 "qos" = (
 /obj/structure/table,
-/obj/effect/spawner/lootdrop/f13/armor/tier1,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -102375,7 +102358,6 @@
 "tsb" = (
 /obj/structure/closet,
 /obj/item/gun/ballistic/revolver/detective,
-/obj/effect/spawner/lootdrop/f13/armor/tier1,
 /obj/effect/spawner/lootdrop/f13/uncommon,
 /obj/effect/spawner/lootdrop/f13/uncommon,
 /turf/open/floor/f13{
@@ -165532,7 +165514,7 @@ voZ
 pbK
 vbw
 ycz
-lmn
+exw
 xfv
 gwE
 ycz
@@ -169408,7 +169390,7 @@ aAC
 aAW
 kJA
 xOe
-aCB
+sET
 cnn
 iDt
 aCD
