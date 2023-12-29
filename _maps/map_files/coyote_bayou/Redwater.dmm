@@ -11492,8 +11492,13 @@
 /turf/closed/wall/f13/wood/house,
 /area/f13/building)
 "dUW" = (
-/turf/closed/wall/f13/ruins,
-/area/f13/desert)
+/obj/structure/railing{
+	color = "#A47449";
+	dir = 1;
+	pixel_y = -6
+	},
+/turf/open/floor/grass,
+/area/f13/wasteland/redwater)
 "dVk" = (
 /obj/structure/rack,
 /obj/item/storage/bag/ore,
@@ -14130,7 +14135,7 @@
 /turf/closed/wall/r_wall/f13composite{
 	icon_state = "rubblepillar"
 	},
-/area/f13/desert)
+/area/f13/building)
 "eOO" = (
 /obj/structure/spacevine{
 	name = "vines"
@@ -31806,7 +31811,7 @@
 	layer = 2.8
 	},
 /turf/open/floor/grass,
-/area/f13/desert)
+/area/f13/building)
 "kTD" = (
 /obj/structure/spacevine{
 	name = "vines"
@@ -32209,7 +32214,7 @@
 /turf/closed/wall/r_wall/f13composite{
 	icon_state = "rubbleplate"
 	},
-/area/f13/desert)
+/area/f13/building)
 "kZF" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/decal/cleanable/dirt{
@@ -37854,10 +37859,14 @@
 /turf/open/indestructible/ground/outside/water/running,
 /area/f13/wasteland/redwater)
 "mUO" = (
-/obj/structure/window/fulltile/house,
-/obj/structure/barricade/wooden/crude/snow,
-/turf/open/floor/f13/wood,
-/area/f13/desert)
+/obj/effect/decal/marking{
+	icon_state = "doublehorizontaldegraded"
+	},
+/obj/effect/landmark/vertibird{
+	name = "Redwater - Hollow penitentiary"
+	},
+/turf/open/indestructible/ground/outside/gravel,
+/area/f13/wasteland/redwater)
 "mUX" = (
 /obj/structure/flora/ausbushes/grassybush,
 /obj/structure/flora/grass/jungle,
@@ -39870,7 +39879,7 @@
 /area/f13/wasteland/redwater)
 "nJR" = (
 /turf/open/floor/plating/f13/outside/road,
-/area/f13/desert)
+/area/f13/building)
 "nJX" = (
 /obj/structure/decoration/rag,
 /obj/effect/decal/cleanable/dirt/dust,
@@ -45657,6 +45666,10 @@
 /obj/effect/spawner/lootdrop/f13/common,
 /turf/open/indestructible/ground/outside/road,
 /area/f13/building)
+"pLt" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating/f13/outside/road,
+/area/f13/building)
 "pLB" = (
 /obj/item/shovel,
 /obj/effect/decal/cleanable/dirt,
@@ -49494,7 +49507,7 @@
 "rcF" = (
 /obj/effect/spawner/lootdrop/f13/uncommon,
 /turf/open/floor/plating/f13/outside/road,
-/area/f13/desert)
+/area/f13/building)
 "rcM" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/decal/cleanable/dirt/dust,
@@ -51681,7 +51694,7 @@
 "rMb" = (
 /obj/effect/decal/remains/human,
 /turf/open/floor/plating/f13/outside/road,
-/area/f13/desert)
+/area/f13/building)
 "rMl" = (
 /obj/structure/stone_tile/slab,
 /turf/open/floor/plasteel/cult,
@@ -55586,6 +55599,15 @@
 	icon_state = "tall_grass_6"
 	},
 /obj/structure/flora/rock/pile/largejungle,
+/turf/open/floor/grass,
+/area/f13/wasteland/redwater)
+"tcJ" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/railing{
+	color = "#A47449";
+	dir = 2;
+	layer = 4
+	},
 /turf/open/floor/grass,
 /area/f13/wasteland/redwater)
 "tcP" = (
@@ -66057,6 +66079,13 @@
 	dir = 1
 	},
 /turf/open/indestructible/ground/outside/gravel,
+/area/f13/wasteland/redwater)
+"wHq" = (
+/obj/structure/stairs/west{
+	color = "#A47449";
+	dir = 4
+	},
+/turf/open/floor/grass,
 /area/f13/wasteland/redwater)
 "wHs" = (
 /obj/machinery/processor/chopping_block,
@@ -84891,7 +84920,7 @@ qUV
 dzx
 dzx
 dzx
-uQL
+mUO
 flv
 qUV
 qUV
@@ -122190,9 +122219,9 @@ oBP
 aXu
 aXu
 oiR
-oBP
-aXu
-aXu
+tcJ
+wHq
+dUW
 aXu
 xso
 nBR
@@ -122446,15 +122475,15 @@ aXu
 aXu
 aXu
 mNG
-aXu
-aXu
-aXu
-aXu
-dUW
-mUO
-mUO
-dUW
-dUW
+axx
+nJR
+axx
+axx
+axx
+mif
+mif
+axx
+axx
 nBR
 nBR
 rPH
@@ -122703,15 +122732,15 @@ dya
 aXu
 aXu
 aXu
-aXu
-oBP
-mnT
-aXu
+axx
+pLt
+nJR
+nJR
 nJR
 nJR
 rcF
 nJR
-dUW
+axx
 nBR
 sbr
 nBR
@@ -122960,15 +122989,15 @@ mnT
 aXu
 aXu
 aXu
-aXu
-oBP
-aXu
-aXu
+nJR
+pLt
 nJR
 nJR
 nJR
 nJR
-mUO
+nJR
+nJR
+mif
 nBR
 sbr
 uzH
@@ -123217,15 +123246,15 @@ sUi
 aXu
 aXu
 oBP
-aXu
-aXu
-aXu
-aXu
+nJR
+nJR
+nJR
+nJR
 nJR
 rMb
 rcF
 nJR
-mUO
+mif
 nBR
 sbr
 mrv
@@ -123474,15 +123503,15 @@ aXu
 aXu
 aXu
 aXu
-aXu
-mnT
-aXu
-lVL
+nJR
+nJR
+nJR
+nJR
 nJR
 kZE
-dUW
+axx
 nJR
-dUW
+axx
 nBR
 nBR
 jXx
@@ -123731,15 +123760,15 @@ jaQ
 aXu
 mnT
 aXu
-aXu
-aXu
-aXu
-lVL
-dUW
+axx
+nJR
+nJR
+nJR
+nJR
 eON
 nJR
 nJR
-dUW
+axx
 nBR
 sbr
 nBR
@@ -123988,15 +124017,15 @@ aXu
 aXu
 aXu
 aXu
-aXu
-aXu
-lVL
-lVL
-dUW
-mUO
-mUO
+axx
+axx
+nJR
+axx
+axx
+mif
+mif
 kTz
-dUW
+axx
 nBR
 nBR
 nBR
