@@ -1610,9 +1610,6 @@
 	icon_state = "trimline_fill";
 	dir = 9
 	},
-/obj/effect/landmark/vertibird{
-	name = "Redwater - Wake welcome center"
-	},
 /turf/open/indestructible/ground/outside/roof,
 /area/f13/wasteland)
 "Iq" = (
@@ -1982,6 +1979,48 @@
 	icon_state = "crossborderroundmid"
 	},
 /area/f13/village/overpass_village)
+"QU" = (
+/obj/effect/turf_decal/trimline/neutral{
+	icon_state = "trimline_fill";
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/neutral{
+	icon_state = "trimline_fill";
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/neutral{
+	icon_state = "trimline_fill";
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/neutral{
+	icon_state = "trimline_fill";
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/neutral{
+	icon_state = "trimline_fill";
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/neutral{
+	icon_state = "trimline_fill";
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/neutral{
+	icon_state = "trimline_fill";
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/neutral{
+	icon_state = "trimline_fill";
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/neutral{
+	icon_state = "trimline_fill";
+	dir = 4
+	},
+/obj/effect/landmark/vertibird{
+	name = "Redwater - Wake welcome center"
+	},
+/turf/open/indestructible/ground/outside/roof,
+/area/f13/wasteland)
 "Rj" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/f13/wood,
@@ -54240,17 +54279,17 @@ bk
 bk
 bk
 bk
-bk
-bk
-bk
-bk
-bk
-bk
-bk
-bk
-bk
-bk
-bk
+jU
+jU
+jU
+jU
+jU
+jU
+jU
+jU
+jU
+jU
+jU
 bk
 bk
 bk
@@ -54497,8 +54536,8 @@ bk
 bk
 bk
 bk
-bk
-bk
+jU
+jU
 jU
 jU
 jU
@@ -54754,8 +54793,8 @@ bk
 bk
 bk
 bk
-bk
-bk
+jU
+jU
 jU
 jU
 jU
@@ -55011,8 +55050,8 @@ bk
 bk
 bk
 bk
-bk
-bk
+jU
+jU
 jU
 jU
 jU
@@ -55268,15 +55307,15 @@ bk
 bk
 bk
 bk
-bk
-bk
+jU
+jU
 jU
 jU
 jU
 nb
 bL
 FQ
-nb
+QU
 jU
 jU
 bk
@@ -55525,8 +55564,8 @@ bk
 bk
 bk
 bk
-bk
-bk
+jU
+jU
 jU
 jU
 jU
@@ -55782,8 +55821,8 @@ bk
 bk
 bk
 bk
-bk
-bk
+jU
+jU
 jU
 jU
 jU
@@ -56039,8 +56078,8 @@ bk
 bk
 bk
 bk
-bk
-bk
+jU
+jU
 jU
 jU
 jU

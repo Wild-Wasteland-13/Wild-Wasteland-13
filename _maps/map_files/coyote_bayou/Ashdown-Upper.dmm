@@ -1653,6 +1653,48 @@
 /obj/machinery/gear_painter,
 /turf/open/floor/f13/wood,
 /area/f13/building/workshop/ashdown)
+"lq" = (
+/obj/effect/turf_decal/trimline/neutral{
+	icon_state = "trimline_fill";
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/neutral{
+	icon_state = "trimline_fill";
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/neutral{
+	icon_state = "trimline_fill";
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/neutral{
+	icon_state = "trimline_fill";
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/neutral{
+	icon_state = "trimline_fill";
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/neutral{
+	icon_state = "trimline_fill";
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/neutral{
+	icon_state = "trimline_fill";
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/neutral{
+	icon_state = "trimline_fill";
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/neutral{
+	icon_state = "trimline_fill";
+	dir = 4
+	},
+/obj/effect/landmark/vertibird{
+	name = "Ashdown - Police station near the way to smoky mountains"
+	},
+/turf/open/indestructible/ground/outside/roof,
+/area/f13/wasteland)
 "lu" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/indestructible/ground/inside/mountain,
@@ -5744,9 +5786,6 @@
 /obj/effect/turf_decal/trimline/neutral{
 	icon_state = "trimline_fill";
 	dir = 9
-	},
-/obj/effect/landmark/vertibird{
-	name = "Ashdown - Police station near the way to smoky mountains"
 	},
 /turf/open/indestructible/ground/outside/roof,
 /area/f13/wasteland)
@@ -24665,7 +24704,7 @@ bz
 ei
 Ww
 eP
-ei
+lq
 pq
 kP
 kP
