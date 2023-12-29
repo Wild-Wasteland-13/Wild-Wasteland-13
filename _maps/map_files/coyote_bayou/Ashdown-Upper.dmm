@@ -1691,7 +1691,7 @@
 	dir = 4
 	},
 /obj/effect/landmark/vertibird{
-	name = "Ashdown - Police station near the way to smoky mountains"
+	name = "Redlick - Police station at smoky moutain base"
 	},
 /turf/open/indestructible/ground/outside/roof,
 /area/f13/wasteland)

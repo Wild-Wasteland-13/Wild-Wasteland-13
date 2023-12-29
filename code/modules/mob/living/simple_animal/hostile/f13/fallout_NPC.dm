@@ -219,7 +219,7 @@
 	health = 650
 	melee_damage_lower = 20
 	melee_damage_upper = 47
-	extra_projectiles = 2 
+	extra_projectiles = 2
 	retreat_distance = 3
 	minimum_distance = 5
 	ranged_cooldown_time = 12
@@ -622,3 +622,39 @@
 	speak_chance = 1
 	ignore_other_mobs = TRUE // we fight
 	override_ignore_other_mobs = TRUE
+
+////////////////
+//    ALIEN   //
+////////////////
+
+/mob/living/simple_animal/hostile/Abductor
+	name = "Abductor"
+	desc = "Some kind of aline."
+	icon = 'icons/fallout/mobs/humans/fallout_npc.dmi'
+	icon_state = "zetan_soldier"
+	icon_living = "zetan_soldier"
+	icon_dead = "zetan_soldier_dead"
+	maxHealth = 120
+	health = 120
+	minimum_distance = 10
+	retreat_distance = 10
+	obj_damage = 0
+	environment_smash = 0
+	loot = list()
+	melee_damage_lower = 5
+	melee_damage_upper = 15
+	ranged_cooldown_time = 30
+	projectiletype = /obj/item/projectile/f13plasma/pistol/adam
+	projectilesound = 'sound/weapons/wave.ogg'
+	extra_projectiles = 1
+	attack_verb_simple = "thrusts"
+	projectile_sound_properties = list(
+		SP_VARY(FALSE),
+		SP_VOLUME(PLASMA_VOLUME),
+		SP_VOLUME_SILENCED(PLASMA_VOLUME * SILENCED_VOLUME_MULTIPLIER),
+		SP_NORMAL_RANGE(PLASMA_RANGE),
+		SP_NORMAL_RANGE_SILENCED(SILENCED_GUN_RANGE),
+		SP_IGNORE_WALLS(TRUE),
+		SP_DISTANT_SOUND(PLASMA_DISTANT_SOUND),
+		SP_DISTANT_RANGE(PLASMA_RANGE_DISTANT)
+	)

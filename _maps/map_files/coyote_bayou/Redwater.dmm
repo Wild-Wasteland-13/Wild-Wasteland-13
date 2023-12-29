@@ -24792,19 +24792,6 @@
 	},
 /turf/open/indestructible/ground/outside/water/running,
 /area/f13/wasteland/redwater)
-"iwd" = (
-/mob/living/simple_animal/hostile/enclave/scientist{
-	desc = "Some kind of alien.";
-	name = "abductor";
-	icon_living = "zetan_soldier";
-	icon_state = "zetan_soldier";
-	icon_dead = "zetan_soldier_dead";
-	faction = list("raider");
-	speak = list("");
-	speak_emote = list("")
-	},
-/turf/open/floor/mineral/abductor,
-/area/f13/wasteland/redwater)
 "iwh" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -53866,6 +53853,12 @@
 "svD" = (
 /obj/item/stack/ore/slag,
 /turf/open/indestructible/ground/outside/desert,
+/area/f13/wasteland/redwater)
+"svK" = (
+/mob/living/simple_animal/hostile/Abductor,
+/turf/open/indestructible/ground/outside/gravel{
+	color = "#999999"
+	},
 /area/f13/wasteland/redwater)
 "svO" = (
 /obj/structure/table/wood/settler,
@@ -126048,8 +126041,8 @@ ubO
 hIL
 ubO
 ubO
-iwd
-ubO
+ogF
+svK
 ogF
 ogF
 ubO
