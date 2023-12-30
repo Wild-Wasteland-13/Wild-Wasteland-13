@@ -19495,10 +19495,6 @@
 	color = "#779999"
 	},
 /area/f13/building)
-"kVW" = (
-/obj/structure/simple_door/repaired,
-/turf/closed/wall/rust,
-/area/f13/building)
 "kWF" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -28648,7 +28644,7 @@
 /area/f13/building/museum)
 "qwv" = (
 /obj/structure/simple_door/room,
-/turf/closed/wall/f13/ruins,
+/turf/open/indestructible/ground/outside/desert,
 /area/f13/caves)
 "qwI" = (
 /obj/structure/chair/f13chair1{
@@ -46500,7 +46496,7 @@ spG
 jtH
 cXz
 cXz
-kVW
+rte
 hXn
 pck
 xRB
@@ -74640,7 +74636,7 @@ aae
 bFx
 aah
 aah
-bFx
+aah
 adz
 adz
 adz
@@ -74897,7 +74893,7 @@ aae
 bFx
 aah
 aah
-bFx
+aah
 adz
 adz
 adz
