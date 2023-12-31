@@ -7866,6 +7866,9 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/building/abandoned)
+"dzi" = (
+/turf/open/indestructible/ground/inside/mountain,
+/area/f13/building)
 "dzn" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/flora/small_bush,
@@ -50286,6 +50289,10 @@
 	icon_state = "dark"
 	},
 /area/f13/building)
+"wyy" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/indestructible/ground/inside/mountain,
+/area/f13/building)
 "wyI" = (
 /obj/structure/fence/wooden{
 	dir = 4
@@ -61207,8 +61214,8 @@ gMW
 gMW
 gMW
 gMW
-gMW
-gMW
+wWK
+wWK
 gMW
 gMW
 gMW
@@ -61463,9 +61470,9 @@ gMW
 gMW
 gMW
 gMW
-gMW
-gMW
-gMW
+wWK
+wWK
+wWK
 gMW
 gMW
 gMW
@@ -61720,9 +61727,9 @@ gMW
 gMW
 gMW
 gMW
-gMW
-gMW
-gMW
+wWK
+wWK
+wWK
 gMW
 gMW
 gMW
@@ -61977,8 +61984,8 @@ gMW
 gMW
 gMW
 gMW
-gMW
-gMW
+wWK
+wWK
 gMW
 uSf
 uSf
@@ -62233,8 +62240,8 @@ rYb
 gMW
 gMW
 gMW
-gMW
-gMW
+wWK
+wWK
 gMW
 gMW
 uSf
@@ -62490,8 +62497,8 @@ rYb
 gMW
 gMW
 gMW
-gMW
-gMW
+wWK
+wWK
 gMW
 gMW
 uSf
@@ -62747,8 +62754,8 @@ rYb
 gMW
 gMW
 gMW
-gMW
-gMW
+wWK
+wWK
 gMW
 gMW
 uSf
@@ -63004,8 +63011,8 @@ rYb
 gMW
 gMW
 gMW
-gMW
-gMW
+wWK
+wWK
 gMW
 gMW
 uSf
@@ -63261,8 +63268,8 @@ rYb
 gMW
 gMW
 gMW
-gMW
-gMW
+wWK
+wWK
 gMW
 gMW
 uSf
@@ -63518,8 +63525,8 @@ rYb
 uSf
 uSf
 uSf
-uSf
-uSf
+dzi
+dzi
 uSf
 uSf
 uSf
@@ -63776,7 +63783,7 @@ uSf
 osb
 oxo
 oxo
-osb
+dzi
 uAp
 qGB
 uSf
@@ -64032,7 +64039,7 @@ rYb
 uSf
 arU
 osb
-qGB
+wyy
 pag
 arU
 kVz
@@ -64290,7 +64297,7 @@ uSf
 hOu
 osb
 lzL
-qGB
+wyy
 jyG
 osb
 uSf

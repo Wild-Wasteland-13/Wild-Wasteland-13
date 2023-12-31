@@ -7439,11 +7439,6 @@
 	icon_state = "mountain2"
 	},
 /area/f13/underground/cave)
-"dpB" = (
-/obj/structure/simple_door/bunker,
-/obj/effect/decal/cleanable/oil/slippery,
-/turf/open/indestructible/ground/outside/desert,
-/area/f13/bunker/bighornbunker)
 "dpI" = (
 /obj/structure/rack,
 /obj/item/crafting/fuse,
@@ -33665,12 +33660,6 @@
 	icon_state = "plating"
 	},
 /area/f13/building)
-"pvd" = (
-/obj/structure/simple_door/bunker,
-/obj/structure/barricade/wooden/crude,
-/obj/structure/barricade/wooden/strong,
-/turf/closed/wall/r_wall/rust,
-/area/f13/bunker/bighornbunker)
 "pvF" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -42584,10 +42573,6 @@
 /turf/open/floor/f13{
 	icon_state = "grass2"
 	},
-/area/f13/bunker)
-"twg" = (
-/obj/machinery/door/airlock/hatch,
-/turf/open/indestructible/ground/outside/desert,
 /area/f13/bunker)
 "twi" = (
 /obj/structure/rack,
@@ -87257,7 +87242,7 @@ whv
 whv
 whv
 pta
-dpB
+ksj
 bPg
 onF
 iot
@@ -87266,7 +87251,7 @@ mLO
 mLO
 mLO
 mLO
-pvd
+cGT
 mLO
 mLO
 atp
@@ -90080,8 +90065,8 @@ ctX
 ctX
 ctX
 ctX
-twg
-twg
+lFN
+lFN
 ctX
 whv
 whv
