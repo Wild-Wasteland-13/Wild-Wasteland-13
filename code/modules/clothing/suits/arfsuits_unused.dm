@@ -28,33 +28,42 @@ Suits. 0-10 in its primary value, slowdown 0, various utility
 // LEGION //
 ////////////
 
-// Recipe combine veteran armor with a kevlar vest
-/obj/item/clothing/suit/armor/heavy/legion/breacher
-	name = "lil ceaser's breacher armor"
-	desc = "A suit with the standard metal reinforcements of a veteran and a patched bulletproof vest worn over it. Why does it smell like overcooked mozzarella?"
-	icon_state = "legion_heavy"
-	item_state = "legion_heavy"
+//obj/item/clothing/suit/armor/heavy/legion/breacher
+	//name = "lil ceaser's breacher armor"
+	//desc = "A suit with the standard metal reinforcements of a veteran and a patched bulletproof vest worn over it. Why does it smell like overcooked mozzarella?"
+	//icon = 'icons/fallout/clothing/armored_heavy.dmi'
+	//mob_overlay_icon = 'icons/fallout/onmob/clothes/armor_heavy.dmi'
+	//icon_state = "legion_heavy"
+	//item_state = "legion_heavy"
 
-/obj/item/clothing/suit/armor/heavy/legion/centurion
-	name = "larper centurion armor"
-	desc = "The centurion armor from a CN9-D is by far the strongest suit of armor available to Lil Caesar's Larping Pizza Legion. The armor is composed from other pieces of armor taken from that of the wearer's defeated opponents in combat (it was oiled wrestling.)"
-	icon_state = "legion_centurion"
+//obj/item/clothing/suit/armor/heavy/legion/centurion
+	//name = "larper centurion armor"
+	//desc = "The centurion armor from a CN9-D is by far the strongest suit of armor available to Lil Caesar's Larping Pizza Legion. The armor is composed from other pieces of armor taken from that of the wearer's defeated opponents in combat (it was oiled wrestling.)"
+	//icon = 'icons/fallout/clothing/armored_heavy.dmi'
+	//mob_overlay_icon = 'icons/fallout/onmob/clothes/armor_heavy.dmi'
+	//icon_state = "legion_centurion"
 
-/obj/item/clothing/suit/armor/heavy/legion/palacent
-	name = "paladin-slayer biggus dickus centurion 'armor'"
-	desc = "The armor of a well sliced Centurion who has bested one or more Brotherhood Paladins. Or something. Adding pieces of his prizes to his own defense. The symbol of the Pizza Legion are crudely painted on this once-'marvelous' suit of armor."
-	icon_state = "legion_palacent"
+//obj/item/clothing/suit/armor/heavy/legion/palacent
+	//name = "paladin-slayer biggus dickus centurion 'armor'"
+	//desc = "The armor of a well sliced Centurion who has bested one or more Brotherhood Paladins. Or something. Adding pieces of his prizes to his own defense. The symbol of the Pizza Legion are crudely painted on this once-'marvelous' suit of armor."
+	//icon = 'icons/fallout/clothing/armored_heavy.dmi'
+	//mob_overlay_icon = 'icons/fallout/onmob/clothes/armor_heavy.dmi'
+	//icon_state = "legion_palacent"
 
-/obj/item/clothing/suit/armor/heavy/legion/rangercent
-	name = "wanger-huntew centuwion awmow" //uwu//
-	desc = "A suit of armor collected over the years by the deaths of countless femboys out west. The inner padding has a photo of a blonde catgirl with red eyes stored in a pocket and you can't bring yourself to remove it."
-	icon_state = "legion_rangercent"
-	item_state = "legion_rangercent"
+//obj/item/clothing/suit/armor/heavy/legion/rangercent
+	//name = "wanger-huntew centuwion awmow" //uwu//
+	//desc = "A suit of armor collected over the years by the deaths of countless femboys out west. The inner padding has a photo of a blonde catgirl with red eyes stored in a pocket and you can't bring yourself to remove it."
+	//icon = 'icons/fallout/clothing/armored_heavy.dmi'
+	//mob_overlay_icon = 'icons/fallout/onmob/clothes/armor_heavy.dmi'
+	//icon_state = "legion_rangercent"
+	//item_state = "legion_rangercent"
 
-/obj/item/clothing/suit/armor/heavy/legion/legate
-	name = "legion's of leg-ater 'armor'"
-	desc = "The armor appears to be a full suit of heavy gauge aluminum and offers 'full body protection'. It also has a cloak in excellent condition (because that's what you need in a swamp, to be warmer), but the armor itself bears numerous battle scars and the helmet is missing half of the left horn. The Leg-ater's suit appears originally crafted, in contrast to other Lil Ceasar's Brand armor which consists of repurposed pre-War sports equipment."
-	icon_state = "legion_legate"
+//obj/item/clothing/suit/armor/heavy/legion/legate
+	//name = "legion's of leg-ater 'armor'"
+	//desc = "The armor appears to be a full suit of heavy gauge aluminum and offers 'full body protection'. It also has a cloak in excellent condition (because that's what you need in a swamp, to be warmer), but the armor itself bears numerous battle scars and the helmet is missing half of the left horn. The Leg-ater's suit appears originally crafted, in contrast to other Lil Ceasar's Brand armor which consists of repurposed pre-War sports equipment."
+	//icon = 'icons/fallout/clothing/armored_heavy.dmi'
+	//mob_overlay_icon = 'icons/fallout/onmob/clothes/armor_heavy.dmi'
+	//icon_state = "legion_legate"
 
 //FOR BOTH SUITS AND ARMORS BELONGING TO FACTIONS
 //PLEASE PUT CUSTOM ARMORS IN f13armor.dm. All power armors are found in f13armor.dm.
@@ -73,158 +82,158 @@ Suits. 0-10 in its primary value, slowdown 0, various utility
 	icon_state = "ncrexile"
 	item_state = "ncrexile"
 
-/obj/item/clothing/suit/armor/exile/legexile
-	name = "modified larper armor"
-	desc = "A modified detoriated armor kit consisting of larping gear and scrap metal. You've never been able to get the smell of fresh breadsticks out of it."
-	icon_state = "legexile"
-	item_state = "legexile"
+//obj/item/clothing/suit/armor/exile/legexile
+	//name = "modified larper armor"
+	//desc = "A modified detoriated armor kit consisting of larping gear and scrap metal. You've never been able to get the smell of fresh breadsticks out of it."
+	//icon_state = "legexile"
+	//item_state = "legexile"
 
 //////////
 //LEGION//
 //////////
 
-/obj/item/clothing/suit/armor/legion
-	name = "legion armor template"
-	desc = "should not exist. Bugreport."
-	icon = 'icons/fallout/clothing/armored_light.dmi'
-	mob_overlay_icon = 'icons/fallout/onmob/clothes/armor_light.dmi'
-	icon_state = "legrecruit"
-	item_state = "legarmor"
-	salvage_loot = list(/obj/item/stack/crafting/armor_plate = 2) // Because shit armor
+//obj/item/clothing/suit/armor/legion
+	//name = "legion armor template"
+	//esc = "should not exist. Bugreport."
+	//icon = 'icons/fallout/clothing/armored_light.dmi'
+	//mob_overlay_icon = 'icons/fallout/onmob/clothes/armor_light.dmi'
+	//icon_state = "legrecruit"
+	//item_state = "legarmor"
+	//salvage_loot = list(/obj/item/stack/crafting/armor_plate = 2) // Because shit armor
 
-/datum/component/storage/concrete/pockets/tiny/legion
-	max_items = 3
+//datum/component/storage/concrete/pockets/tiny/legion
+	//max_items = 3
 
-/obj/item/clothing/suit/armor/legion/recruit
-	name = "Lil Ceasar's Larpers recruit armor"
-	desc = "Well, it's better than nothing.  Except it's weirdly sticky."
-	icon_state = "legion_recruit"
-	item_state = "legion_recruit"
+//obj/item/clothing/suit/armor/legion/recruit
+	//name = "Lil Ceasar's Larpers recruit armor"
+	//desc = "Well, it's better than nothing.  Except it's weirdly sticky."
+	//icon_state = "legion_recruit"
+	//item_state = "legion_recruit"
 
-/obj/item/clothing/suit/armor/legion/recruit/decan
-	name = "Lil Ceasar's recruitn't armor"
-	desc = "Recruit chefs receive slightly better protection than regular recruits. Slightly."
+//obj/item/clothing/suit/armor/legion/recruit/decan
+	//name = "Lil Ceasar's recruitn't armor"
+	//desc = "Recruit chefs receive slightly better protection than regular recruits. Slightly."
 
-/obj/item/clothing/suit/armor/legion/prime
-	name = "amazon prime armor"
-	desc = "Oh my god Becky, look at all these deals!"
-	icon_state = "legion_prime"
-	item_state = "legion_prime"
+//obj/item/clothing/suit/armor/legion/prime
+	//name = "amazon prime armor"
+	//desc = "Oh my god Becky, look at all these deals!"
+	//icon_state = "legion_prime"
+	//item_state = "legion_prime"
 
-/obj/item/clothing/suit/armor/legion/prime/decan
-	name = "Larper amazon prime decanus armor"
-	desc = "A baseball uniform for the unhinged."
+//obj/item/clothing/suit/armor/legion/prime/decan
+	//name = "Larper amazon prime decanus armor"
+	//desc = "A baseball uniform for the unhinged."
 
-/obj/item/clothing/suit/armor/legion/orator
-	name = "big talkers skirt suit"
-	desc = "Damn bitch, you go hard."
-	icon_state = "legion-orator"
-	item_state = "legion-orator"
+//obj/item/clothing/suit/armor/legion/orator
+	//name = "big talkers skirt suit"
+	//desc = "Damn bitch, you go hard."
+	//icon_state = "legion-orator"
+	//item_state = "legion-orator"
 
-/obj/item/clothing/suit/armor/legion/prime/slavemaster
-	name = "middle management armor"
-	desc = "Issued to Lil Ceasars worker-watchers to keep them from getting their dainty toes burnt or something."
-	icon_state = "legion-master"
-	item_state = "legion-master"
+//obj/item/clothing/suit/armor/legion/prime/slavemaster
+	//name = "middle management armor"
+	//desc = "Issued to Lil Ceasars worker-watchers to keep them from getting their dainty toes burnt or something."
+	//icon_state = "legion-master"
+	//item_state = "legion-master"
 
-/obj/item/clothing/suit/armor/legion/vet
-	name = "pizza wars veteran armor"
-	desc = "When the fields of sauce ran red this big cheese stood alone."
-	icon = 'icons/fallout/clothing/armored_medium.dmi'
-	mob_overlay_icon = 'icons/fallout/onmob/clothes/armor_medium.dmi'
-	icon_state = "legion_veteran"
-	item_state = "legion_veteran"
-	salvage_loot = list(/obj/item/stack/crafting/armor_plate = 4) // Slightly better armor
+//obj/item/clothing/suit/armor/legion/vet
+	//name = "pizza wars veteran armor"
+	//desc = "When the fields of sauce ran red this big cheese stood alone."
+	//icon = 'icons/fallout/clothing/armored_medium.dmi'
+	//mob_overlay_icon = 'icons/fallout/onmob/clothes/armor_medium.dmi'
+	//icon_state = "legion_veteran"
+	//item_state = "legion_veteran"
+	//salvage_loot = list(/obj/item/stack/crafting/armor_plate = 4) // Slightly better armor
 
-/obj/item/clothing/suit/armor/legion/heavy
-	name = "heavy pizza wars armor"
-	desc = "A veterans armor reinforced with a patched bulletproof vest, the wearer has the markings signifying their claiming of ten anuses.  Anusii?"
-	icon = 'icons/fallout/clothing/armored_heavy.dmi'
-	mob_overlay_icon = 'icons/fallout/onmob/clothes/armor_heavy.dmi'
-	icon_state = "legion_heavy"
-	item_state = "legion_heavy"
-	salvage_loot = list(/obj/item/stack/crafting/armor_plate = 5)
+//obj/item/clothing/suit/armor/legion/heavy
+	//name = "heavy pizza wars armor"
+	//desc = "A veterans armor reinforced with a patched bulletproof vest, the wearer has the markings signifying their claiming of ten anuses.  Anusii?"
+	//icon = 'icons/fallout/clothing/armored_heavy.dmi'
+	//mob_overlay_icon = 'icons/fallout/onmob/clothes/armor_heavy.dmi'
+	//icon_state = "legion_heavy"
+	//item_state = "legion_heavy"
+	//salvage_loot = list(/obj/item/stack/crafting/armor_plate = 5)
 
-/obj/item/clothing/suit/armor/legion/vet/explorer
-	name = "lil ceasar's scunt armor"
-	desc = "Armor based on layered strips of laminated linen and leather, the technique giving it surprising resilience for low weight. As well as gifting the wearer with the ability to die to turrets like crazy."
-	icon = 'icons/fallout/clothing/armored_light.dmi'
-	mob_overlay_icon = 'icons/fallout/onmob/clothes/armor_light.dmi'
-	icon_state = "legion_explorer"
-	item_state = "legion_explorer"
+//obj/item/clothing/suit/armor/legion/vet/explorer
+	//name = "lil ceasar's scunt armor"
+	//desc = "Armor based on layered strips of laminated linen and leather, the technique giving it surprising resilience for low weight. As well as gifting the wearer with the ability to die to turrets like crazy."
+	//icon = 'icons/fallout/clothing/armored_light.dmi'
+	//mob_overlay_icon = 'icons/fallout/onmob/clothes/armor_light.dmi'
+	//icon_state = "legion_explorer"
+	//item_state = "legion_explorer"
 
-/obj/item/clothing/suit/armor/legion/vet/vexil
-	name = "lil ceasar's vexillarius armor"
-	icon = 'icons/fallout/clothing/armored_medium.dmi'
-	desc = " Worn by Vexillarius (You're pretty sure you've seen a guy named this in a comic book once), this armor has been reinforced with circular metal plates that look a bit like pizzas on the chest and a back mounted pole for the flag of the baby cow, making the wearer easy to see at a distance."
-	icon_state = "legion_vex"
-	item_state = "legion_vex"
+//obj/item/clothing/suit/armor/legion/vet/vexil
+	//name = "lil ceasar's vexillarius armor"
+	//icon = 'icons/fallout/clothing/armored_medium.dmi'
+	//desc = " Worn by Vexillarius (You're pretty sure you've seen a guy named this in a comic book once), this armor has been reinforced with circular metal plates that look a bit like pizzas on the chest and a back mounted pole for the flag of the baby cow, making the wearer easy to see at a distance."
+	//icon_state = "legion_vex"
+	//item_state = "legion_vex"
 
-/obj/item/clothing/suit/armor/legion/venator
-	name = "pizza wars explorer's armor"
-	desc = "Explorer's armor reinforced with metal plates (they're clearly stylized pepperonis) and chainmail."
-	icon_state = "legion-venator"
-	item_state = "legion-venator"
-	salvage_loot = list(/obj/item/stack/crafting/armor_plate = 5)
+//obj/item/clothing/suit/armor/legion/venator
+	//name = "pizza wars explorer's armor"
+	//desc = "Explorer's armor reinforced with metal plates (they're clearly stylized pepperonis) and chainmail."
+	//icon_state = "legion-venator"
+	//item_state = "legion-venator"
+	//salvage_loot = list(/obj/item/stack/crafting/armor_plate = 5)
 
-/obj/item/clothing/suit/armor/legion/centurion //good all around
-	name = "pizza centurion armor"
-	desc = "Every Centurion is issued some of the best armor available in the Pizza Legion, and adds better pieces from slain opponents over time."
-	icon = 'icons/fallout/clothing/armored_heavy.dmi'
-	mob_overlay_icon = 'icons/fallout/onmob/clothes/armor_heavy.dmi'
-	icon_state = "legion_centurion"
-	item_state = "legion_centurion"
-	salvage_loot = list(/obj/item/stack/crafting/armor_plate = 10) // Rest in pieces
+//obj/item/clothing/suit/armor/legion/centurion //good all around
+	//name = "pizza centurion armor"
+	//desc = "Every Centurion is issued some of the best armor available in the Pizza Legion, and adds better pieces from slain opponents over time."
+	//icon = 'icons/fallout/clothing/armored_heavy.dmi'
+	//mob_overlay_icon = 'icons/fallout/onmob/clothes/armor_heavy.dmi'
+	//icon_state = "legion_centurion"
+	//item_state = "legion_centurion"
+	//salvage_loot = list(/obj/item/stack/crafting/armor_plate = 10) // Rest in pieces
 
-/obj/item/clothing/suit/armor/legion/palacent //laser resist spec
-	name = "paladin-slayer pizza centurion armor"
-	icon = 'icons/fallout/clothing/armored_medium.dmi'
-	mob_overlay_icon = 'icons/fallout/onmob/clothes/armor_medium.dmi' // Inconsistent naming, clean all of the sprites and code up sometime
-	desc = "A Pizza Centurion able to defeat a Brotherhood Paladin gets the honorific title 'Paladin-Slayer', and adds bits of the looted armor to his own. The biggest downside is that he often gets called a dweeb for if he dares to demand that title."
-	icon_state = "legion_palacent"
-	item_state = "legion_palacent"
+//obj/item/clothing/suit/armor/legion/palacent //laser resist spec
+	//name = "paladin-slayer pizza centurion armor"
+	//icon = 'icons/fallout/clothing/armored_medium.dmi'
+	//mob_overlay_icon = 'icons/fallout/onmob/clothes/armor_medium.dmi' // Inconsistent naming, clean all of the sprites and code up sometime
+	//desc = "A Pizza Centurion able to defeat a Brotherhood Paladin gets the honorific title 'Paladin-Slayer', and adds bits of the looted armor to his own. The biggest downside is that he often gets called a dweeb for if he dares to demand that title."
+	//icon_state = "legion_palacent"
+	//item_state = "legion_palacent"
 
 
-/obj/item/clothing/suit/armor/legion/rangercent //speed and bullet resist, sacrifices all else
-	name = "wanger-huntew centuwion awmow"
-	icon = 'icons/fallout/clothing/armored_medium.dmi'
-	mob_overlay_icon = 'icons/fallout/onmob/clothes/armor_medium.dmi'
-	desc = "Centurions who have led many patrols and ambushes have a distinct look from the many looted pieces of the armor they pulled off femboys out west, and are often experienced in 'skirmishing'."
-	icon_state = "legion_rangercent"
-	item_state = "legion_rangercent"
+//obj/item/clothing/suit/armor/legion/rangercent //speed and bullet resist, sacrifices all else
+	//name = "wanger-huntew centuwion awmow"
+	//icon = 'icons/fallout/clothing/armored_medium.dmi'
+	//mob_overlay_icon = 'icons/fallout/onmob/clothes/armor_medium.dmi'
+	//desc = "Centurions who have led many patrols and ambushes have a distinct look from the many looted pieces of the armor they pulled off femboys out west, and are often experienced in 'skirmishing'."
+	//icon_state = "legion_rangercent"
+	//item_state = "legion_rangercent"
 
-/obj/item/clothing/suit/armor/legion/legate
-	name = "leg-ater armor"
-	desc = " Made by the most skilled blacksmiths in the kitchen, the bronzed steel of this rare armor offers good protection despite smelling like old anchovies, and the scars on its metal proves it has seen use on the field. Probably."
-	icon = 'icons/fallout/clothing/armored_heavy.dmi'
-	mob_overlay_icon = 'icons/fallout/onmob/clothes/armor_heavy.dmi'
-	icon_state = "legion_legate"
-	item_state = "legion_legate"
-	salvage_loot = list(/obj/item/stack/crafting/armor_plate = 15) // Wouldn't it be hilarious if we just tore apart Legate's armor?
+//obj/item/clothing/suit/armor/legion/legate
+	//name = "leg-ater armor"
+	//desc = " Made by the most skilled blacksmiths in the kitchen, the bronzed steel of this rare armor offers good protection despite smelling like old anchovies, and the scars on its metal proves it has seen use on the field. Probably."
+	//icon = 'icons/fallout/clothing/armored_heavy.dmi'
+	//mob_overlay_icon = 'icons/fallout/onmob/clothes/armor_heavy.dmi'
+	//icon_state = "legion_legate"
+	//item_state = "legion_legate"
+	//salvage_loot = list(/obj/item/stack/crafting/armor_plate = 15) // Wouldn't it be hilarious if we just tore apart Legate's armor?
 
-/obj/item/clothing/suit/armor/medium/combat/legion
-	name = "pizza combat armor"
-	desc = "Pre-war military style armor, patched and missing some parts. Modified and repainted to declare the user a fighter for Lil Caesar's Pizza Larpers Legion."
-	icon = 'icons/fallout/clothing/armored_medium.dmi'
-	mob_overlay_icon = 'icons/fallout/onmob/clothes/armor_medium.dmi'
-	icon_state = "legion_combat"
-	item_state = "legion_combat"
+//obj/item/clothing/suit/armor/medium/combat/legion
+	//name = "pizza combat armor"
+	//desc = "Pre-war military style armor, patched and missing some parts. Modified and repainted to declare the user a fighter for Lil Caesar's Pizza Larpers Legion."
+	//icon = 'icons/fallout/clothing/armored_medium.dmi'
+	//mob_overlay_icon = 'icons/fallout/onmob/clothes/armor_medium.dmi'
+	//icon_state = "legion_combat"
+	//item_state = "legion_combat"
 
-/obj/item/clothing/suit/armor/medium/combat/mk2/legion
-	name = "reinforced pizza combat armor"
-	icon = 'icons/fallout/clothing/armored_medium.dmi'
-	mob_overlay_icon = 'icons/fallout/onmob/clothes/armor_medium.dmi'
-	desc = "Pre-war military style armor, a full set with bracers and reinforcements. Modified and repainted to declare the user a fighter for Lil Caesar's Pizza Larpers Legion."
-	icon_state = "legion_combat2"
-	item_state = "legion_combat2"
+//obj/item/clothing/suit/armor/medium/combat/mk2/legion
+	//name = "reinforced pizza combat armor"
+	//icon = 'icons/fallout/clothing/armored_medium.dmi'
+	//mob_overlay_icon = 'icons/fallout/onmob/clothes/armor_medium.dmi'
+	//desc = "Pre-war military style armor, a full set with bracers and reinforcements. Modified and repainted to declare the user a fighter for Lil Caesar's Pizza Larpers Legion."
+	//icon_state = "legion_combat2"
+	//item_state = "legion_combat2"
 
-/obj/item/clothing/suit/armor/legion/vet/explorercanada
-	name = "custom explorer armor"
-	desc = "Armor based on layered strips of laminated linen and leather, the technique giving it surprising resilience for low weight. This one has been custom made and smells like maple syrup."
-	icon = 'icons/fallout/clothing/armored_light.dmi'
-	mob_overlay_icon = 'icons/fallout/onmob/clothes/armor_light.dmi'
-	icon_state = "legion-explorercustom"
-	item_state = "legion-explorercustom"
+//obj/item/clothing/suit/armor/legion/vet/explorercanada
+	//name = "custom explorer armor"
+	//desc = "Armor based on layered strips of laminated linen and leather, the technique giving it surprising resilience for low weight. This one has been custom made and smells like maple syrup."
+	//icon = 'icons/fallout/clothing/armored_light.dmi'
+	//mob_overlay_icon = 'icons/fallout/onmob/clothes/armor_light.dmi'
+	//icon_state = "legion-explorercustom"
+	//item_state = "legion-explorercustom"
 
 /obj/item/clothing/suit/armor/ncrarmor
 	name = "NCR patrol vest"
@@ -622,34 +631,34 @@ Suits. 0-10 in its primary value, slowdown 0, various utility
 // LEGION //
 ////////////
 
-/obj/item/clothing/suit/armor/medium/tribal/legion/legexile
-	name = "modified Legion armor"
-	desc = "A modified detoriated armor kit consisting of Legion gear and scrap metal."
-	icon_state = "legexile"
-	item_state = "legexile"
+//obj/item/clothing/suit/armor/medium/tribal/legion/legexile
+	//name = "modified Legion armor"
+	//desc = "A modified detoriated armor kit consisting of Legion gear and scrap metal."
+	//icon_state = "legexile"
+	//item_state = "legexile"
 
-/obj/item/clothing/suit/armor/medium/tribal/legion/forgemaster
-	name = "Ovenkeepers Armor"
-	desc = "The only true protection from the heat of the pizza ovens is your faith in Lil' Ceasar's love."
-	icon_state = "opifex_apron"
-	item_state = "opifex_apron"
-	blood_overlay_type = "armor"
+//obj/item/clothing/suit/armor/medium/tribal/legion/forgemaster
+	//name = "Ovenkeepers Armor"
+	//desc = "The only true protection from the heat of the pizza ovens is your faith in Lil' Ceasar's love."
+	//icon_state = "opifex_apron"
+	//item_state = "opifex_apron"
+	//blood_overlay_type = "armor"
 
-/obj/item/clothing/suit/armor/medium/tribal/legion/vet
-	name = "lil ceasar's veteran armor"
-	desc = "Armor worn by veteran delivery drivers who have proven their combat prowess in many battles, its hardened leather is sturdier than that of previous ranks."
-	icon_state = "legion_veteran"
+//obj/item/clothing/suit/armor/medium/tribal/legion/vet
+	//name = "lil ceasar's veteran armor"
+	//desc = "Armor worn by veteran delivery drivers who have proven their combat prowess in many battles, its hardened leather is sturdier than that of previous ranks."
+	//icon_state = "legion_veteran"
 
-/obj/item/clothing/suit/armor/medium/tribal/legion/vexil
-	name = "lil ceasar's vexillarius armor"
-	desc = "The armor appears to be based off of a suit of Legion veteran armor, with the addition of circular metal plates attached to the torso, as well as a banner displaying the flag of the Legion worn on the back."
-	icon_state = "legion_vex"
+//obj/item/clothing/suit/armor/medium/tribal/legion/vexil
+	//name = "lil ceasar's vexillarius armor"
+	//desc = "The armor appears to be based off of a suit of Legion veteran armor, with the addition of circular metal plates attached to the torso, as well as a banner displaying the flag of the Legion worn on the back."
+	//icon_state = "legion_vex"
 
-/obj/item/clothing/suit/armor/medium/tribal/legion/combat
-	name = "lil ceasar's combat armor"
-	desc = "An old military grade pre war combat armor and, repainted to the colour scheme of Lil Caesar's Pizza Legion."
-	icon_state = "legion_combat"
-	item_state = "legion_combat"
+//obj/item/clothing/suit/armor/medium/tribal/legion/combat
+	//name = "lil ceasar's combat armor"
+	//desc = "An old military grade pre war combat armor and, repainted to the colour scheme of Lil Caesar's Pizza Legion."
+	//icon_state = "legion_combat"
+	//item_state = "legion_combat"
 
 /// Brotherhood of steel -- unused
 /obj/item/clothing/suit/armor/medium/combat/bos

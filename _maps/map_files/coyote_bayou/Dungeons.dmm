@@ -557,7 +557,9 @@
 /obj/effect/decal/cleanable/dirt{
 	color = "000000"
 	},
-/turf/open/indestructible/ground/outside/desert,
+/turf/open/floor/f13{
+	icon_state = "stagestairs"
+	},
 /area/f13/brotherhood/operations)
 "alX" = (
 /obj/effect/spawner/lootdrop/low_tools,
@@ -1158,7 +1160,9 @@
 /obj/effect/decal/cleanable/dirt{
 	color = "000000"
 	},
-/turf/open/indestructible/ground/outside/desert,
+/turf/open/floor/f13{
+	icon_state = "stagestairs"
+	},
 /area/f13/brotherhood/operations)
 "axo" = (
 /obj/effect/decal/waste{
@@ -1765,9 +1769,6 @@
 /obj/effect/spawner/lootdrop/f13/weapon/milsurplus,
 /turf/open/floor/plasteel/f13/vault_floor/purple,
 /area/f13/enclave)
-"aOO" = (
-/turf/open/indestructible/ground/outside/desert,
-/area/f13/brotherhood/operating)
 "aOW" = (
 /obj/structure/grille,
 /obj/structure/window/reinforced/fulltile,
@@ -3684,7 +3685,9 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
-/turf/open/indestructible/ground/outside/desert,
+/turf/open/floor/f13{
+	icon_state = "stagestairs"
+	},
 /area/f13/brotherhood/rnd)
 "bNo" = (
 /obj/structure/cable{
@@ -6184,7 +6187,9 @@
 	pixel_x = -16
 	},
 /obj/structure/debris/v3,
-/turf/open/indestructible/ground/outside/desert,
+/turf/open/floor/f13{
+	icon_state = "stagestairs"
+	},
 /area/f13/brotherhood/rnd)
 "cPQ" = (
 /obj/effect/decal/cleanable/dirt,
@@ -6813,7 +6818,9 @@
 	color = "000000"
 	},
 /obj/structure/debris/v1,
-/turf/open/indestructible/ground/outside/desert,
+/turf/open/floor/f13{
+	icon_state = "stagestairs"
+	},
 /area/f13/brotherhood/operations)
 "deK" = (
 /obj/effect/decal/remains/human,
@@ -6833,7 +6840,9 @@
 "deS" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/indestructible/ground/outside/desert,
+/turf/open/floor/f13{
+	icon_state = "stagestairs"
+	},
 /area/f13/brotherhood/rnd)
 "dfg" = (
 /obj/structure/safe,
@@ -7584,7 +7593,9 @@
 /obj/effect/turf_decal/bot_red,
 /obj/structure/debris/v3,
 /obj/structure/debris/v4,
-/turf/open/indestructible/ground/outside/desert,
+/turf/open/floor/f13{
+	icon_state = "reddirtyfull"
+	},
 /area/f13/brotherhood/armory)
 "dsS" = (
 /obj/structure/simple_door/metal/ventilation,
@@ -8283,7 +8294,9 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
-/turf/open/indestructible/ground/outside/desert,
+/turf/open/floor/f13{
+	icon_state = "stagestairs"
+	},
 /area/f13/brotherhood/operations)
 "dJU" = (
 /obj/effect/decal/cleanable/dirt,
@@ -10005,7 +10018,9 @@
 	name = "Research Checkpoint Button";
 	pixel_x = -32
 	},
-/turf/open/indestructible/ground/outside/desert,
+/turf/open/floor/f13{
+	icon_state = "stagestairs"
+	},
 /area/f13/brotherhood/operations)
 "eux" = (
 /obj/structure/cable{
@@ -10118,7 +10133,9 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
-/turf/open/indestructible/ground/outside/desert,
+/turf/open/floor/f13{
+	icon_state = "stagestairs"
+	},
 /area/f13/brotherhood/operations)
 "eAk" = (
 /obj/effect/decal/remains/human,
@@ -11096,7 +11113,9 @@
 /area/f13/building)
 "eXe" = (
 /obj/effect/decal/cleanable/dirt,
-/turf/open/indestructible/ground/outside/desert,
+/turf/open/floor/f13{
+	icon_state = "stagestairs"
+	},
 /area/f13/brotherhood/operations)
 "eXi" = (
 /obj/structure/nest/tunneler,
@@ -11343,7 +11362,9 @@
 	layer = 3.1;
 	pixel_x = -16
 	},
-/turf/open/indestructible/ground/outside/desert,
+/turf/open/floor/f13{
+	icon_state = "stagestairs"
+	},
 /area/f13/brotherhood/rnd)
 "fcf" = (
 /obj/item/pda{
@@ -12462,7 +12483,9 @@
 	icon_state = "1-2"
 	},
 /mob/living/simple_animal/hostile/raider/thief,
-/turf/open/indestructible/ground/outside/desert,
+/turf/open/floor/f13{
+	icon_state = "stagestairs"
+	},
 /area/f13/brotherhood/operations)
 "fEF" = (
 /obj/machinery/button/door{
@@ -13256,7 +13279,9 @@
 	id = "bosdoors3";
 	name = "brotherhood shutters"
 	},
-/turf/open/indestructible/ground/outside/desert,
+/turf/open/floor/f13{
+	icon_state = "stagestairs"
+	},
 /area/f13/brotherhood/operations)
 "fXq" = (
 /obj/structure/rack,
@@ -15394,7 +15419,7 @@
 /obj/structure/simple_door/bunker{
 	name = "Locker Room"
 	},
-/turf/open/indestructible/ground/outside/desert,
+/turf/open/floor/wood_common,
 /area/f13/brotherhood/rnd)
 "gWz" = (
 /obj/effect/decal/cleanable/generic,
@@ -17982,7 +18007,9 @@
 	pixel_x = -16
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/open/indestructible/ground/outside/desert,
+/turf/open/floor/f13{
+	icon_state = "stagestairs"
+	},
 /area/f13/brotherhood/rnd)
 "ijW" = (
 /turf/open/water,
@@ -18863,12 +18890,6 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/blue/bluechess,
 /area/f13/building)
-"iHn" = (
-/obj/structure/cable{
-	icon_state = "1-2"
-	},
-/turf/open/indestructible/ground/outside/desert,
-/area/f13/brotherhood/operations)
 "iHM" = (
 /obj/machinery/light/broken,
 /turf/open/floor/f13{
@@ -20534,7 +20555,9 @@
 "jyF" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/debris/v1,
-/turf/open/indestructible/ground/outside/desert,
+/turf/open/floor/f13{
+	icon_state = "stagestairs"
+	},
 /area/f13/brotherhood/rnd)
 "jyJ" = (
 /obj/machinery/door/airlock/public/glass{
@@ -26463,7 +26486,7 @@
 /obj/machinery/door/airlock/grunge{
 	req_access_txt = "120"
 	},
-/turf/open/indestructible/ground/outside/desert,
+/turf/open/floor/wood_common,
 /area/f13/brotherhood/offices1st)
 "mju" = (
 /turf/open/floor/carpet/purple,
@@ -27638,7 +27661,9 @@
 /obj/effect/decal/cleanable/dirt{
 	color = "000000"
 	},
-/turf/open/indestructible/ground/outside/desert,
+/turf/open/floor/f13{
+	icon_state = "stagestairs"
+	},
 /area/f13/brotherhood/operations)
 "mMK" = (
 /obj/effect/decal/cleanable/dirt,
@@ -28488,7 +28513,9 @@
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/brotherhood/chemistry)
 "nhq" = (
-/turf/open/indestructible/ground/outside/desert,
+/turf/open/floor/f13{
+	icon_state = "stagestairs"
+	},
 /area/f13/brotherhood/rnd)
 "nhs" = (
 /obj/effect/decal/cleanable/dirt{
@@ -30998,7 +31025,9 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
-/turf/open/indestructible/ground/outside/desert,
+/turf/open/floor/f13{
+	icon_state = "stagestairs"
+	},
 /area/f13/brotherhood/operations)
 "opF" = (
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
@@ -31123,7 +31152,9 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/indestructible/ground/outside/desert,
+/turf/open/floor/f13{
+	icon_state = "stagestairs"
+	},
 /area/f13/brotherhood/rnd)
 "osk" = (
 /obj/structure/table/reinforced,
@@ -33037,7 +33068,9 @@
 	color = "000000"
 	},
 /obj/structure/debris/v3,
-/turf/open/indestructible/ground/outside/desert,
+/turf/open/floor/f13{
+	icon_state = "stagestairs"
+	},
 /area/f13/brotherhood/operations)
 "piQ" = (
 /obj/structure/rack,
@@ -33294,7 +33327,9 @@
 	id = "bosdoors";
 	name = "brotherhood shutters"
 	},
-/turf/open/indestructible/ground/outside/desert,
+/turf/open/floor/f13{
+	icon_state = "stagestairs"
+	},
 /area/f13/brotherhood/operations)
 "png" = (
 /obj/structure/table_frame,
@@ -33666,7 +33701,9 @@
 /obj/effect/decal/cleanable/dirt{
 	color = "000000"
 	},
-/turf/open/indestructible/ground/outside/desert,
+/turf/open/floor/f13{
+	icon_state = "stagestairs"
+	},
 /area/f13/brotherhood/operations)
 "pvH" = (
 /obj/structure/destructible/clockwork/wall_gear,
@@ -36181,7 +36218,9 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
-/turf/open/indestructible/ground/outside/desert,
+/turf/open/floor/f13{
+	icon_state = "stagestairs"
+	},
 /area/f13/brotherhood/rnd)
 "qzE" = (
 /obj/machinery/light/small{
@@ -37151,7 +37190,9 @@
 "qUr" = (
 /obj/effect/decal/cleanable/dirt,
 /mob/living/simple_animal/hostile/renegade/grunt,
-/turf/open/indestructible/ground/outside/desert,
+/turf/open/floor/f13{
+	icon_state = "stagestairs"
+	},
 /area/f13/brotherhood/operations)
 "qUD" = (
 /obj/effect/overlay/junk/oldpipes,
@@ -39565,7 +39606,9 @@
 	icon_state = "1-2"
 	},
 /obj/structure/debris/v4,
-/turf/open/indestructible/ground/outside/desert,
+/turf/open/floor/f13{
+	icon_state = "stagestairs"
+	},
 /area/f13/brotherhood/rnd)
 "scy" = (
 /obj/effect/decal/cleanable/vomit/old,
@@ -40096,7 +40139,7 @@
 	name = "Scientist's Quarters";
 	req_one_access_txt = "134"
 	},
-/turf/open/indestructible/ground/outside/desert,
+/turf/open/floor/carpet/royalblue,
 /area/f13/enclave)
 "soL" = (
 /obj/structure/rack,
@@ -42959,7 +43002,9 @@
 /area/f13/vault)
 "tHt" = (
 /obj/effect/decal/cleanable/dirt,
-/turf/open/indestructible/ground/outside/desert,
+/turf/open/floor/f13{
+	icon_state = "stagestairs"
+	},
 /area/f13/brotherhood/rnd)
 "tHL" = (
 /obj/structure/table/wood,
@@ -44369,7 +44414,9 @@
 /obj/effect/decal/cleanable/dirt{
 	color = "000000"
 	},
-/turf/open/indestructible/ground/outside/desert,
+/turf/open/floor/f13{
+	icon_state = "stagestairs"
+	},
 /area/f13/brotherhood/operations)
 "uoK" = (
 /obj/structure/closet,
@@ -44955,7 +45002,9 @@
 /area/f13/tunnel)
 "uCV" = (
 /obj/structure/window/fulltile/store,
-/turf/open/indestructible/ground/outside/desert,
+/turf/open/floor/f13{
+	icon_state = "bluerustysolid"
+	},
 /area/f13/brotherhood/offices2nd)
 "uCW" = (
 /obj/structure/wreck/trash/brokenvendor,
@@ -45607,7 +45656,9 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
-/turf/open/indestructible/ground/outside/desert,
+/turf/open/floor/f13{
+	icon_state = "stagestairs"
+	},
 /area/f13/brotherhood/operations)
 "uRL" = (
 /obj/structure/barricade/bars,
@@ -46565,7 +46616,9 @@
 /obj/effect/decal/cleanable/dirt{
 	color = "000000"
 	},
-/turf/open/indestructible/ground/outside/desert,
+/turf/open/floor/f13{
+	icon_state = "stagestairs"
+	},
 /area/f13/brotherhood/operations)
 "vmJ" = (
 /obj/effect/spawner/lootdrop/f13/rare,
@@ -46696,7 +46749,9 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
-/turf/open/indestructible/ground/outside/desert,
+/turf/open/floor/f13{
+	icon_state = "stagestairs"
+	},
 /area/f13/brotherhood/operations)
 "vpT" = (
 /obj/structure/cable{
@@ -47226,7 +47281,9 @@
 /obj/effect/decal/cleanable/dirt{
 	color = "000000"
 	},
-/turf/open/indestructible/ground/outside/desert,
+/turf/open/floor/f13{
+	icon_state = "stagestairs"
+	},
 /area/f13/brotherhood/leisure)
 "vAZ" = (
 /obj/effect/decal/cleanable/dirt,
@@ -70065,7 +70122,7 @@ whv
 whv
 whv
 hrZ
-hrZ
+iCj
 hrZ
 hrZ
 hrZ
@@ -113539,7 +113596,7 @@ sxc
 cjZ
 gIL
 jKU
-aOO
+eBL
 eBL
 ofW
 gGg
@@ -113796,7 +113853,7 @@ sxc
 cjZ
 gIL
 iqI
-aOO
+eBL
 eBL
 eBL
 eQe
@@ -114290,7 +114347,7 @@ bJL
 pIs
 kwo
 qPV
-iHn
+dgg
 dgg
 wrv
 tyt

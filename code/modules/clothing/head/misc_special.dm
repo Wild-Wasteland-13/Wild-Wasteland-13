@@ -562,14 +562,14 @@
 
 /obj/item/clothing/head/coyote/samuraiwarriorone
 	name = "Stylish Samurai Helmet"
-	desc = "Oda Nobunag-on-my-balls."
+	desc = "A classic lacquer helmet worn by ranks of samurai of the Old Era."
 	icon_state = "samurai_warrior1"
 	item_state = "samurai_warrior1"
 	pocket_storage_component_path = /datum/component/storage/concrete/pockets/small/rushelmet
 
 /obj/item/clothing/head/coyote/samuraiwarriortwo
 	name = "Stylish Samurai Helmet - Blue"
-	desc = "Oda Nobunag-on-my-balls."
+	desc = "A classic lacquer helmet worn by ranks of samurai of the Old Era.."
 	icon_state = "samurai_warrior2"
 	item_state = "samurai_warrior2"
 	pocket_storage_component_path = /datum/component/storage/concrete/pockets/small/rushelmet
@@ -577,56 +577,56 @@
 
 /obj/item/clothing/head/coyote/samuraiwarriorthree
 	name = "Stylish Samurai Helmet - Brown"
-	desc = "Oda Nobunag-on-my-balls."
+	desc = "A classic lacquer helmet worn by ranks of samurai of the Old Era.."
 	icon_state = "samurai_warrior3"
 	item_state = "samurai_warrior3"
 	pocket_storage_component_path = /datum/component/storage/concrete/pockets/small/rushelmet
-	
+
 /obj/item/clothing/head/coyote/samuraiwarriorfour
 	name = "Stylish Samurai Helmet - Black"
-	desc = "Oda Nobunag-on-my-balls."
+	desc = "A classic lacquer helmet worn by ranks of samurai of the Old Era.."
 	icon_state = "samurai_warrior4"
 	item_state = "samurai_warrior4"
 	pocket_storage_component_path = /datum/component/storage/concrete/pockets/small/rushelmet
 
 /obj/item/clothing/head/coyote/samuraiwarriorfive
 	name = "Stylish Samurai Helmet - White"
-	desc = "Oda Nobunag-on-my-balls."
+	desc = "A classic lacquer helmet worn by ranks of samurai of the Old Era.."
 	icon_state = "samurai_warrior5"
 	item_state = "samurai_warrior5"
 	pocket_storage_component_path = /datum/component/storage/concrete/pockets/small/rushelmet
-	
+
 /obj/item/clothing/head/coyote/samuraiguard1
 	name = "Simple Samurai Helmet - Reddish Brown"
-	desc = "Oda Nobunag-on-my-balls."
+	desc = "A classic lacquer helmet worn by ranks of samurai of the Old Era.."
 	icon_state = "samurai_guard1"
 	item_state = "samurai_guard1"
 	pocket_storage_component_path = /datum/component/storage/concrete/pockets/small/rushelmet
 
 /obj/item/clothing/head/coyote/samuraiguard2
 	name = "Simple Samurai Helmet - Blue"
-	desc = "Oda Nobunag-on-my-balls."
+	desc = "A classic lacquer helmet worn by ranks of samurai of the Old Era.."
 	icon_state = "samurai_guard2"
 	item_state = "samurai_guard2"
 	pocket_storage_component_path = /datum/component/storage/concrete/pockets/small/rushelmet
 
 /obj/item/clothing/head/coyote/samuraiguard3
 	name = "Simple Samurai Helmet - Brown"
-	desc = "Oda Nobunag-on-my-balls."
+	desc = "A classic lacquer helmet worn by ranks of samurai of the Old Era.."
 	icon_state = "samurai_guard3"
 	item_state = "samurai_guard3"
 	pocket_storage_component_path = /datum/component/storage/concrete/pockets/small/rushelmet
 
 /obj/item/clothing/head/coyote/samuraiguard4
 	name = "Simple Samurai Helmet - Black"
-	desc = "Oda Nobunag-on-my-balls."
+	desc = "A classic lacquer helmet worn by ranks of samurai of the Old Era.."
 	icon_state = "samurai_guard4"
 	item_state = "samurai_guard4"
 	pocket_storage_component_path = /datum/component/storage/concrete/pockets/small/rushelmet
 
 /obj/item/clothing/head/coyote/samuraiguard5
 	name = "Simple Samurai Helmet - White"
-	desc = "Oda Nobunag-on-my-balls."
+	desc = "A classic lacquer helmet worn by ranks of samurai of the Old Era.."
 	icon_state = "samurai_guard5"
 	item_state = "samurai_guard5"
 	pocket_storage_component_path = /datum/component/storage/concrete/pockets/small/rushelmet
@@ -664,7 +664,7 @@
 
 /obj/item/clothing/head/coyote/blackcape
 	name = "Black Cape"
-	desc = "You're really not Batman."
+	desc = "Just a black cape."
 	icon_state = "black_cape"
 	item_state = "black_cape"
 	pocket_storage_component_path = /datum/component/storage/concrete/pockets/small/rushelmet
@@ -678,7 +678,7 @@
 
 /obj/item/clothing/head/coyote/goatpelt
 	name = "Goat Pelt"
-	desc = "Menudo anyone?"
+	desc = "The goat doesn't much anymore."
 	icon_state = "goatpelt"
 	item_state = "goatpelt"
 	pocket_storage_component_path = /datum/component/storage/concrete/pockets/small/rushelmet

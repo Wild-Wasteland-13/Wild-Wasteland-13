@@ -685,14 +685,14 @@ obj/item/storage/backpack/duffelbag/syndie/shredderbundle
 	item_state = "satchel_enclave"
 
 /obj/item/storage/backpack/legionr
-	name = "Larper 'red' flag"
-	desc = "A larper cape made from what looks like red piece of cloth, with a golden baby cow on the back. With a lot of pockets underneath"
+	name = "Golden cow crest red flag"
+	desc = "A  cape made from what looks like a red flag, with a golden cow on the back. With a lot of pockets underneath"
 	icon_state = "legioncaper"
 	item_state = "legioncaper"
 
 /obj/item/storage/backpack/legionb
-	name = "Larper purple flag"
-	desc = "Lee-gion brand cape made from what looks like pinkish dark blue piece of cluth, with a golden bull cucking a sheep on the back. With a lot of pockets underneath"
+	name = "Golden cow crest purple flag"
+	desc = "A  cape made from what looks like a purlpe flag, with a golden cow on the back. With a lot of pockets underneath"
 	icon_state = "legioncapeb"
 	item_state = "legioncapeb"
 
