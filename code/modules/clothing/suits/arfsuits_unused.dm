@@ -59,11 +59,11 @@ Suits. 0-10 in its primary value, slowdown 0, various utility
 	//item_state = "legion_rangercent"
 
 /obj/item/clothing/suit/armor/heavy/legion/legate
-	/name = "Akadian style armor"
-	/desc = "The armor appears to be a full suit of brass."
-	/icon = 'icons/fallout/clothing/armored_heavy.dmi'
-	/mob_overlay_icon = 'icons/fallout/onmob/clothes/armor_heavy.dmi'
-	/icon_state = "legion_legate"
+	name = "Akadian style armor"
+	desc = "A full suit made of brass"
+	icon = 'icons/fallout/clothing/armored_heavy.dmi'
+	mob_overlay_icon = 'icons/fallout/onmob/clothes/armor_heavy.dmi'
+	icon_state = "legion_legate"
 
 //FOR BOTH SUITS AND ARMORS BELONGING TO FACTIONS
 //PLEASE PUT CUSTOM ARMORS IN f13armor.dm. All power armors are found in f13armor.dm.
@@ -94,7 +94,7 @@ Suits. 0-10 in its primary value, slowdown 0, various utility
 
 /obj/item/clothing/suit/armor/legion
 	name = "legion armor template"
-	esc = "should not exist. Bugreport."
+	desc = "should not exist. Bugreport."
 	icon = 'icons/fallout/clothing/armored_light.dmi'
 	mob_overlay_icon = 'icons/fallout/onmob/clothes/armor_light.dmi'
 	icon_state = "legrecruit"
@@ -154,13 +154,13 @@ datum/component/storage/concrete/pockets/tiny/legion
 	item_state = "legion_heavy"
 	salvage_loot = list(/obj/item/stack/crafting/armor_plate = 5)
 
-//obj/item/clothing/suit/armor/legion/vet/explorer
-	//name = "lil ceasar's scunt armor"
-	//desc = "Armor based on layered strips of laminated linen and leather, the technique giving it surprising resilience for low weight. As well as gifting the wearer with the ability to die to turrets like crazy."
-	//icon = 'icons/fallout/clothing/armored_light.dmi'
-	//mob_overlay_icon = 'icons/fallout/onmob/clothes/armor_light.dmi'
-	//icon_state = "legion_explorer"
-	//item_state = "legion_explorer"
+/obj/item/clothing/suit/armor/legion/vet/explorer
+	name = "Sports layered armor"
+	desc = "Rugby rmor with layered strips of laminated linen and leather, the technique giving it surprising resilience for low weight."
+	icon = 'icons/fallout/clothing/armored_light.dmi'
+	mob_overlay_icon = 'icons/fallout/onmob/clothes/armor_light.dmi'
+	icon_state = "legion_explorer"
+	item_state = "legion_explorer"
 
 /obj/item/clothing/suit/armor/legion/vet/vexil
 	name = "Reinforced sports armor"
@@ -178,7 +178,7 @@ datum/component/storage/concrete/pockets/tiny/legion
 
 /obj/item/clothing/suit/armor/legion/centurion //good all around
 	name = "Centurion armor"
-	desc = "."
+	desc = "Roman armor, centurion rank."
 	icon = 'icons/fallout/clothing/armored_heavy.dmi'
 	mob_overlay_icon = 'icons/fallout/onmob/clothes/armor_heavy.dmi'
 	icon_state = "legion_centurion"
@@ -186,7 +186,7 @@ datum/component/storage/concrete/pockets/tiny/legion
 	salvage_loot = list(/obj/item/stack/crafting/armor_plate = 10) // Rest in pieces
 
 /obj/item/clothing/suit/armor/legion/palacent //laser resist spec
-	name = "Power armor reinforced"
+	name = "PA scrap armor"
 	icon = 'icons/fallout/clothing/armored_medium.dmi'
 	mob_overlay_icon = 'icons/fallout/onmob/clothes/armor_medium.dmi' // Inconsistent naming, clean all of the sprites and code up sometime
 	desc = "A suit of armor reinforced with power armor parts."
@@ -202,14 +202,14 @@ datum/component/storage/concrete/pockets/tiny/legion
 	icon_state = "legion_rangercent"
 	item_state = "legion_rangercent"
 
-//obj/item/clothing/suit/armor/legion/legate
-	//name = "leg-ater armor"
-	//desc = " Made by the most skilled blacksmiths in the kitchen, the bronzed steel of this rare armor offers good protection despite smelling like old anchovies, and the scars on its metal proves it has seen use on the field. Probably."
-	//icon = 'icons/fallout/clothing/armored_heavy.dmi'
-	//mob_overlay_icon = 'icons/fallout/onmob/clothes/armor_heavy.dmi'
-	//icon_state = "legion_legate"
-	//item_state = "legion_legate"
-	//salvage_loot = list(/obj/item/stack/crafting/armor_plate = 15) // Wouldn't it be hilarious if we just tore apart Legate's armor?
+/obj/item/clothing/suit/armor/legion/legate
+	name = "Akadian style armor"
+	desc = "A full suit made of brass."
+	icon = 'icons/fallout/clothing/armored_heavy.dmi'
+	mob_overlay_icon = 'icons/fallout/onmob/clothes/armor_heavy.dmi'
+	icon_state = "legion_legate"
+	item_state = "legion_legate"
+	salvage_loot = list(/obj/item/stack/crafting/armor_plate = 15) // Wouldn't it be hilarious if we just tore apart Legate's armor?
 
 //obj/item/clothing/suit/armor/medium/combat/legion
 	//name = "pizza combat armor"
