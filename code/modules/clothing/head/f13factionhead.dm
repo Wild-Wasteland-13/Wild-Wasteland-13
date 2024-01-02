@@ -388,7 +388,7 @@ obj/item/clothing/head/helmet/f13/enclave/usmcriot
 
 /obj/item/clothing/head/helmet/f13/legion/heavy
 	name = "Reinforced plumed helmet"
-	desc = "A metal helmet with 'ballistic' visor and a plume."
+	desc = "A metal helmet with a ballistic visor and a plume."
 	icon_state = "legion-decvet"
 	item_state = "legion-decvet"
 	actions_types = list(/datum/action/item_action/toggle)
@@ -407,15 +407,15 @@ obj/item/clothing/head/helmet/f13/enclave/usmcriot
 
 /obj/item/clothing/head/helmet/f13/legion/centurion
 	name = "Centurion helmet"
-	desc = "A classic metal helmet worn by  ranks of centurions of the classic Era."
+	desc = "A classic metal helmet like the ones from the centurions of the classic Era."
 	icon_state = "legion-centurion"
 	item_state = "legion-centurion"
 	resistance_flags = LAVA_PROOF | FIRE_PROOF
 	salvage_loot = list(/obj/item/stack/crafting/armor_plate = 3)
 
 /obj/item/clothing/head/helmet/f13/legion/rangercent
-	name = "Reinforced centurion helmet"
-	desc = "A classic metal helmet worn by  ranks of centurions of the classic Era, this one is reinforced."
+	name = "Feathered ranger helmet"
+	desc = "A ranger helmet with a red plume."
 	icon_state = "legion-rangercent"
 	item_state = "legion-rangercent"
 	resistance_flags = LAVA_PROOF | FIRE_PROOF
@@ -423,7 +423,7 @@ obj/item/clothing/head/helmet/f13/enclave/usmcriot
 
 /obj/item/clothing/head/helmet/f13/legion/palacent  //ugh
 	name = "Reinforced centurion helmet MK2"
-	desc = "A classic metal helmet worn by  ranks of centurions of the classic Era, this one is been reinforced."
+	desc = "A classic metal helmet like the ones from the centurions of the classic Era, this one is been reinforced."
 	icon_state = "legion-palacent"
 	item_state = "legion-palacent"
 	resistance_flags = LAVA_PROOF | FIRE_PROOF
