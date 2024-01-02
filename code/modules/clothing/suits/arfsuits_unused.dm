@@ -105,6 +105,8 @@ datum/component/storage/concrete/pockets/tiny/legion
 /obj/item/clothing/suit/armor/legion/prime/slavemaster
 	name = "Combat golden cow crest armor"
 	desc = "Old combat armor adorned with a cow golden crest."
+	icon = 'icons/fallout/clothing/armored_medium.dmi'
+	mob_overlay_icon = 'icons/fallout/onmob/clothes/armor_medium.dmi'
 	icon_state = "legion_combat2"
 	item_state = "legion_combat2"
 
