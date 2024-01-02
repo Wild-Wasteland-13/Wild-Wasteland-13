@@ -2034,7 +2034,7 @@
 	icon_state = "scrapheavy"
 	item_state = "scrapheavy"
 
-/obj/item/clothing/suit/armor/light/leather/lightscoutarmor 
+/obj/item/clothing/suit/armor/light/leather/lightscoutarmor
 	name = "light scout armor"
 	desc = "A makeshift set of pauldrons made of leather and scrap metal. It offers minimal protection, but is pretty light."
 	armor_tokens = list(ARMOR_MODIFIER_UP_MELEE_T1, ARMOR_MODIFIER_DOWN_FIRE_T1, ARMOR_MODIFIER_DOWN_LASER_T1, ARMOR_MODIFIER_UP_DT_T1)
@@ -2342,7 +2342,7 @@
 
 /obj/item/clothing/suit/armor/light/kit/punk/steelbreastplate
 	name = "Unpainted Steel Breastplate"
-	desc = "A relatively recently made breastplate, put together by god knows who in this swamp."
+	desc = "A relatively recently made breastplate."
 	icon_state = "imperial_breastplate"
 	item_state = "imperial_breastplate"
 	icon = 'modular_coyote/icons/objects/civ13suitobj.dmi'
@@ -2360,7 +2360,7 @@
 
 /obj/item/clothing/suit/armor/light/kit/punk/samurai1
 	name = "Yoroi - Reddish Brown"
-	desc = "A samurais true armor is their ability to not be cringe."
+	desc = "An outfit used by traditional japanese warriors."
 	icon_state = "samurai1"
 	item_state = "samurai1"
 	icon = 'modular_coyote/icons/objects/civ13suitobj.dmi'
@@ -2369,7 +2369,7 @@
 
 /obj/item/clothing/suit/armor/light/kit/punk/samurai2
 	name = "Yoroi - Blue"
-	desc = "A samurais true armor is their ability to not be cringe."
+	desc = "An outfit used by traditional japanese warriors."
 	icon_state = "samurai2"
 	item_state = "samurai2"
 	icon = 'modular_coyote/icons/objects/civ13suitobj.dmi'
@@ -2378,7 +2378,7 @@
 
 /obj/item/clothing/suit/armor/light/kit/punk/samurai3
 	name = "Yoroi - Brown"
-	desc = "A samurais true armor is their ability to not be cringe."
+	desc = "An outfit used by traditional japanese warriors."
 	icon_state = "samurai3"
 	item_state = "samurai3"
 	icon = 'modular_coyote/icons/objects/civ13suitobj.dmi'
@@ -2387,7 +2387,7 @@
 
 /obj/item/clothing/suit/armor/light/kit/punk/samurai4
 	name = "Yoroi - Black"
-	desc = "A samurais true armor is their ability to not be cringe."
+	desc = "An outfit used by traditional japanese warriors."
 	icon_state = "samurai4"
 	item_state = "samurai4"
 	icon = 'modular_coyote/icons/objects/civ13suitobj.dmi'
@@ -2397,7 +2397,7 @@
 
 /obj/item/clothing/suit/armor/light/kit/punk/samurai5
 	name = "Yoroi - Black"
-	desc = "A samurais true armor is their ability to not be cringe. This one should be good for painting."
+	desc = "An outfit used by traditional japanese warriors."
 	icon_state = "samurai5"
 	item_state = "samurai5"
 	icon = 'modular_coyote/icons/objects/civ13suitobj.dmi'
@@ -2406,7 +2406,7 @@
 
 /obj/item/clothing/suit/armor/light/kit/punk/samuraipoor1
 	name = "Yoroi Lightened - Reddish Brown"
-	desc = "You're one broke ass samurai, pal."
+	desc = "An outfit used by traditional japanese warriors."
 	icon_state = "samuraipoor1"
 	item_state = "samuraipoor1"
 	icon = 'modular_coyote/icons/objects/civ13suitobj.dmi'
@@ -2415,7 +2415,7 @@
 
 /obj/item/clothing/suit/armor/light/kit/punk/samuraipoor2
 	name = "Yoroi Lightened - Blue"
-	desc = "You're one broke ass samurai, pal."
+	desc = "An outfit used by traditional japanese warriors."
 	icon_state = "samuraipoor2"
 	item_state = "samuraipoor2"
 	icon = 'modular_coyote/icons/objects/civ13suitobj.dmi'
@@ -2425,7 +2425,7 @@
 
 /obj/item/clothing/suit/armor/light/kit/punk/samuraipoor3
 	name = "Yoroi Lightened - Brown"
-	desc = "You're one broke ass samurai, pal."
+	desc = "An outfit used by traditional japanese warriors."
 	icon_state = "samuraipoor3"
 	item_state = "samuraipoor3"
 	icon = 'modular_coyote/icons/objects/civ13suitobj.dmi'
@@ -2434,7 +2434,7 @@
 
 /obj/item/clothing/suit/armor/light/kit/punk/samuraipoor4
 	name = "Yoroi Lightened - Black"
-	desc = "You're one broke ass samurai, pal."
+	desc = "An outfit used by traditional japanese warriors."
 	icon_state = "samuraipoor4"
 	item_state = "samuraipoor4"
 	icon = 'modular_coyote/icons/objects/civ13suitobj.dmi'
@@ -2443,7 +2443,7 @@
 
 /obj/item/clothing/suit/armor/light/kit/punk/samuraiwar1
 	name = "Padded Yoroi - Red"
-	desc = "A slightly higher quality samurai armor that still won't stop anything more than the occasion melee attack."
+	desc = "An outfit used by traditional japanese warriors."
 	icon_state = "samurai_warrior1"
 	item_state = "samurai_warrior1"
 	icon = 'modular_coyote/icons/objects/civ13suitobj.dmi'
@@ -2452,7 +2452,7 @@
 
 /obj/item/clothing/suit/armor/light/kit/punk/samuraiwar2
 	name = "Padded Yoroi - Blue"
-	desc = "A slightly higher quality samurai armor that still won't stop anything more than the occasion melee attack."
+	desc = "An outfit used by traditional japanese warriors."
 	icon_state = "samurai_warrior2"
 	item_state = "samurai_warrior2"
 	icon = 'modular_coyote/icons/objects/civ13suitobj.dmi'
@@ -2461,7 +2461,7 @@
 
 /obj/item/clothing/suit/armor/light/kit/punk/samuraiwar3
 	name = "Padded Yoroi - Brown"
-	desc = "A slightly higher quality samurai armor that still won't stop anything more than the occasion melee attack."
+	desc = "An outfit used by traditional japanese warriors."
 	icon_state = "samurai_warrior3"
 	item_state = "samurai_warrior3"
 	icon = 'modular_coyote/icons/objects/civ13suitobj.dmi'
@@ -2470,7 +2470,7 @@
 
 /obj/item/clothing/suit/armor/light/kit/punk/samuraiwar4
 	name = "Padded Yoroi - Black"
-	desc = "A slightly higher quality samurai armor that still won't stop anything more than the occasion melee attack."
+	desc = "An outfit used by traditional japanese warriors."
 	icon_state = "samurai_warrior4"
 	item_state = "samurai_warrior4"
 	icon = 'modular_coyote/icons/objects/civ13suitobj.dmi'
@@ -2479,7 +2479,7 @@
 
 /obj/item/clothing/suit/armor/light/kit/punk/samuraiwar5
 	name = "Padded Yoroi - White"
-	desc = "A slightly higher quality samurai armor that still won't stop anything more than the occasion melee attack."
+	desc = "An outfit used by traditional japanese warriors."
 	icon_state = "samurai_warrior5"
 	item_state = "samurai_warrior5"
 	icon = 'modular_coyote/icons/objects/civ13suitobj.dmi'
@@ -2537,7 +2537,7 @@
 ////////////////
 
 /obj/item/clothing/suit/armor/light/knight
-	name = "preacher plate armour"
+	name = "preacher A classic suit of plate armour, highly effective at stopping melee attacks armour"
 	desc = "A classic suit of plate armour, highly effective at stopping melee attacks."
 	icon = 'icons/obj/clothing/suits.dmi'
 	icon_state = "knight_red"
