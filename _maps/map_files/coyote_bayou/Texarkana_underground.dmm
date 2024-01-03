@@ -6105,7 +6105,6 @@
 /obj/effect/decal/cleanable/blood/old{
 	icon_state = "floor1-old"
 	},
-/mob/living/simple_animal/hostile/deathclaw/mother,
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/tunnel)
 "coF" = (
@@ -8963,6 +8962,14 @@
 	},
 /turf/open/water,
 /area/f13/caves)
+"egm" = (
+/obj/structure/closet,
+/obj/effect/spawner/lootdrop/f13/rare_weps,
+/obj/effect/spawner/lootdrop/f13/rare_armor,
+/obj/item/clothing/suit/armor/power_armor/midwest,
+/obj/item/clothing/head/helmet/f13/power_armor/midwest,
+/turf/open/indestructible/ground/inside/mountain,
+/area/f13/caves)
 "egV" = (
 /obj/structure/rack,
 /obj/effect/spawner/lootdrop/f13/common,
@@ -9369,7 +9376,6 @@
 /obj/effect/decal/cleanable/blood/tracks{
 	dir = 6
 	},
-/obj/item/mine/stun,
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/tunnel)
 "evQ" = (
@@ -12154,7 +12160,6 @@
 	icon_state = "floor5-old"
 	},
 /obj/effect/decal/cleanable/dirt,
-/mob/living/simple_animal/hostile/deathclaw/mother,
 /turf/open/floor/plating/tunnel,
 /area/f13/tunnel)
 "glB" = (
@@ -13143,6 +13148,7 @@
 /obj/effect/decal/cleanable/blood/old{
 	icon_state = "floor7-old"
 	},
+/mob/living/simple_animal/hostile/mirelurk/hunter,
 /turf/open/floor/f13{
 	icon_state = "darkrusty"
 	},
@@ -18758,6 +18764,11 @@
 	icon_state = "housewood1-broken"
 	},
 /area/f13/caves)
+"kzv" = (
+/obj/effect/decal/cleanable/dirt,
+/mob/living/simple_animal/hostile/mirelurk/hunter,
+/turf/open/floor/plating/tunnel,
+/area/f13/tunnel)
 "kzw" = (
 /obj/structure/table/glass,
 /obj/effect/turf_decal/stripes/line{
@@ -19030,6 +19041,10 @@
 	icon_state = "greenrustyfull"
 	},
 /area/f13/building/sewers)
+"kJZ" = (
+/mob/living/simple_animal/hostile/mirelurk,
+/turf/open/water,
+/area/f13/tunnel)
 "kKi" = (
 /obj/structure/table/glass,
 /obj/item/storage/firstaid,
@@ -22279,8 +22294,8 @@
 	},
 /area/f13/building/sewers)
 "mEn" = (
-/obj/item/reagent_containers/food/snacks/f13/deathclawegg,
-/obj/effect/spawner/lootdrop/f13/rare,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/nest/mirelurk,
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/tunnel)
 "mEr" = (
@@ -29342,6 +29357,10 @@
 	dir = 1
 	},
 /area/f13/caves)
+"qTk" = (
+/mob/living/simple_animal/hostile/mirelurk/baby,
+/turf/open/water,
+/area/f13/tunnel)
 "qTC" = (
 /obj/effect/decal/cleanable/dirt{
 	color = "#363636"
@@ -34739,10 +34758,8 @@
 /turf/open/floor/wood_wide/wood_wide_dark,
 /area/f13/building/sewers)
 "ugN" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/mob/living/simple_animal/hostile/deathclaw/mother,
-/turf/open/floor/plating/tunnel,
+/obj/structure/nest/mirelurk,
+/turf/open/water,
 /area/f13/tunnel)
 "ugU" = (
 /obj/effect/decal/cleanable/dirt{
@@ -40855,6 +40872,11 @@
 	color = "#779999"
 	},
 /area/f13/building)
+"xVp" = (
+/obj/effect/decal/cleanable/dirt,
+/mob/living/simple_animal/hostile/mirelurk/baby,
+/turf/open/floor/plating/tunnel,
+/area/f13/tunnel)
 "xVN" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/stripes/asteroid/line,
@@ -68442,11 +68464,11 @@ aaa
 aak
 aak
 aak
-cox
+boU
 bCt
 tAa
 scJ
-ugN
+glY
 gRv
 bCt
 aak
@@ -68701,7 +68723,7 @@ cpl
 boU
 coE
 pWa
-jre
+xVp
 arj
 glY
 dhQ
@@ -68954,13 +68976,13 @@ aae
 aae
 aaa
 aak
-mEn
+bvX
 qap
 pWa
-pWa
+mEn
 fyE
 gjx
-jre
+kzv
 jre
 glo
 bZA
@@ -69213,7 +69235,7 @@ aaa
 aak
 aak
 vJV
-mEn
+bvX
 bCt
 bQR
 jre
@@ -69469,7 +69491,7 @@ aaa
 aae
 aaa
 aak
-cox
+boU
 bNC
 bCt
 tUb
@@ -70233,7 +70255,7 @@ aaa
 aak
 aae
 bJq
-bJq
+kJZ
 bJq
 bJq
 aak
@@ -71256,7 +71278,7 @@ bCG
 aaa
 bJq
 bJq
-bJq
+ugN
 bJq
 bJq
 boU
@@ -71512,7 +71534,7 @@ kIe
 bCG
 aaa
 boU
-bJq
+qTk
 lGv
 bJq
 boU
@@ -72036,7 +72058,7 @@ boU
 boU
 bJq
 bJq
-cox
+boU
 aak
 aaa
 aak
@@ -72555,9 +72577,9 @@ aak
 aak
 boU
 bJq
+kJZ
 bJq
-bJq
-bJq
+ugN
 bJq
 bJq
 bJq
@@ -72805,7 +72827,7 @@ aaa
 aae
 boU
 bJq
-bJq
+kJZ
 bJq
 boU
 boU
@@ -72815,7 +72837,7 @@ bJq
 bJq
 bJq
 bJq
-bJq
+qTk
 bJq
 bJq
 boU
@@ -79681,7 +79703,7 @@ ibk
 jvL
 cRu
 djZ
-aaa
+aae
 aae
 aae
 aae
@@ -79939,9 +79961,9 @@ aPS
 aPS
 djZ
 aae
-aaa
-aaa
-aaa
+aae
+aae
+aae
 aae
 aae
 aae
@@ -80198,8 +80220,8 @@ djZ
 aae
 aae
 aae
-aaa
-aaa
+aae
+aae
 aae
 aae
 aae
@@ -80456,8 +80478,8 @@ bNC
 bNC
 aae
 aae
-aaa
-aaa
+aae
+aae
 aae
 aae
 aae
@@ -80715,7 +80737,7 @@ aae
 aae
 aae
 aae
-aaa
+aae
 aae
 aae
 aae
@@ -80973,7 +80995,7 @@ aae
 aae
 aae
 aae
-aaa
+aae
 aae
 aae
 xwF
@@ -81231,7 +81253,7 @@ aae
 aae
 aae
 aae
-aaa
+aae
 aae
 aae
 xwF
@@ -81489,8 +81511,8 @@ aae
 aae
 aae
 aae
-aaa
-aaa
+aae
+aae
 xwF
 xwF
 xwF
@@ -81747,8 +81769,8 @@ aae
 aae
 aae
 aae
-aaa
-xwF
+aae
+aae
 xwF
 xwF
 xwF
@@ -82004,8 +82026,8 @@ bNC
 aae
 aae
 aae
-aaa
-xwF
+aae
+aae
 xwF
 xwF
 xwF
@@ -82262,8 +82284,8 @@ bNC
 aae
 aae
 aae
-aaa
-aaa
+aae
+aae
 xwF
 xwF
 xwF
@@ -82520,7 +82542,7 @@ bNC
 bNC
 aae
 aae
-aaa
+aae
 xwF
 xwF
 xwF
@@ -82777,7 +82799,7 @@ bNC
 bNC
 aae
 aae
-aaa
+aae
 xwF
 xwF
 xwF
@@ -83034,7 +83056,7 @@ bNC
 bNC
 aae
 aae
-aaa
+aae
 xwF
 xwF
 xwF
@@ -83291,7 +83313,7 @@ bZl
 bNC
 bNC
 aae
-aaa
+aae
 xwF
 xwF
 xwF
@@ -83548,8 +83570,8 @@ boU
 bNC
 bNC
 aae
-aaa
-xwF
+aae
+aae
 xwF
 xwF
 xwF
@@ -83805,8 +83827,8 @@ bNC
 bNC
 aae
 aae
-aaa
-xwF
+aae
+aae
 xwF
 xwF
 xwF
@@ -84061,9 +84083,9 @@ bNC
 bNC
 aae
 aae
-aaa
-aaa
-xwF
+aae
+aae
+aae
 xwF
 xwF
 xwF
@@ -84317,10 +84339,10 @@ bNC
 bNC
 aae
 aae
-aaa
-aaa
-aaa
-xwF
+aae
+aae
+aae
+aae
 xwF
 xwF
 xwF
@@ -84574,10 +84596,10 @@ bNC
 bNC
 aae
 aae
-aaa
 aae
-aaa
-xwF
+aae
+aae
+aae
 xwF
 xwF
 xwF
@@ -84830,17 +84852,17 @@ bNC
 bNC
 aae
 aae
-aaa
-aaa
 aae
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
 aaa
 "}
 (170,1,1) = {"
@@ -85086,8 +85108,8 @@ boU
 bNC
 bNC
 aae
-aaa
-aaa
+aae
+aae
 aae
 aae
 aae
@@ -85343,7 +85365,7 @@ boU
 bNC
 bNC
 aae
-aaa
+aae
 aae
 aae
 aae
@@ -85672,7 +85694,7 @@ aae
 xwF
 aaB
 fSX
-rRE
+aaB
 aaB
 aaB
 aae
@@ -86923,13 +86945,13 @@ rQU
 aaa
 aaa
 xwF
-xwF
-xwF
+aaa
+aaa
 aaa
 qsZ
 qJz
 aaB
-tTe
+egm
 xwF
 aaa
 aaa
@@ -87181,7 +87203,7 @@ xwF
 xwF
 xwF
 xwF
-xwF
+aaa
 bCG
 luf
 aaB
@@ -87438,7 +87460,7 @@ xwF
 xwF
 xwF
 xwF
-xwF
+aaa
 bCG
 mKv
 fSX
@@ -90797,8 +90819,8 @@ abV
 ueb
 xwF
 xwF
-gzX
-aaB
+tTe
+tTe
 aaB
 hAW
 xwF
@@ -91054,7 +91076,7 @@ ueb
 ueb
 aae
 aar
-aar
+aaB
 nTj
 aaB
 aaB

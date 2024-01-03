@@ -9713,10 +9713,6 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/closed/wall/f13/wood,
 /area/f13/building)
-"doa" = (
-/obj/effect/spawner/lootdrop/f13/rare,
-/turf/open/indestructible/ground/outside/ruins,
-/area/f13/wasteland/redwater)
 "dof" = (
 /mob/living/simple_animal/radstag,
 /obj/structure/flora/tree/jungle{
@@ -16607,8 +16603,9 @@
 	},
 /area/f13/building)
 "fHL" = (
-/turf/closed/wall/f13/ruins,
-/area/f13/wasteland/redwater)
+/obj/structure/billboard/robco,
+/turf/closed/wall/f13/supermart,
+/area/f13/building)
 "fHR" = (
 /obj/structure/table/wood/settler,
 /obj/machinery/computer/terminal{
@@ -26945,12 +26942,6 @@
 	},
 /turf/open/floor/grass,
 /area/f13/wasteland/redwater)
-"jdO" = (
-/obj/structure/spacevine{
-	name = "vines"
-	},
-/turf/open/indestructible/ground/outside/ruins,
-/area/f13/wasteland/redwater)
 "jdP" = (
 /obj/effect/turf_decal/weather/dirt{
 	dir = 1
@@ -34944,12 +34935,6 @@
 	},
 /turf/open/indestructible/ground/outside/desert/harsh,
 /area/f13/building)
-"lTU" = (
-/obj/effect/mob_spawn/human/corpse/charredskeleton,
-/turf/open/indestructible/ground/outside/sidewalk{
-	icon_state = "verticalrightborderright0"
-	},
-/area/f13/wasteland/redwater)
 "lTZ" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/decal/cleanable/dirt{
@@ -45008,12 +44993,6 @@
 	name = "dirty floor"
 	},
 /area/f13/building)
-"pzM" = (
-/obj/effect/mob_spawn/human/corpse/charredskeleton,
-/turf/open/indestructible/ground/outside/road{
-	icon_state = "horizontalinnermain0"
-	},
-/area/f13/wasteland/redwater)
 "pzP" = (
 /obj/effect/turf_decal/weather/dirt{
 	dir = 1
@@ -60746,12 +60725,6 @@
 	},
 /turf/open/floor/grass,
 /area/f13/wasteland/redwater)
-"uRF" = (
-/obj/effect/mob_spawn/human/corpse/charredskeleton,
-/turf/open/indestructible/ground/outside/sidewalk{
-	icon_state = "horizontaltopbordertop2right"
-	},
-/area/f13/wasteland/redwater)
 "uRJ" = (
 /obj/effect/turf_decal/weather/dirt{
 	dir = 9
@@ -64389,17 +64362,6 @@
 	icon_state = "verticalleftborderleft0"
 	},
 /area/f13/building)
-"wfc" = (
-/obj/structure/spacevine{
-	name = "vines"
-	},
-/obj/structure/flora/ausbushes/ywflowers{
-	light_power = 3;
-	light_range = 2;
-	light_color = "#EBAF4C"
-	},
-/turf/closed/wall/f13/ruins,
-/area/f13/wasteland/redwater)
 "wfe" = (
 /obj/effect/spawner/lootdrop/f13/rare,
 /turf/open/floor/carpet/red,
@@ -65637,10 +65599,8 @@
 /turf/open/water,
 /area/f13/caves)
 "wBq" = (
-/obj/structure/spacevine{
-	name = "vines"
-	},
-/turf/closed/wall/f13/ruins,
+/obj/structure/billboard/superduper1,
+/turf/open/floor/grass,
 /area/f13/wasteland/redwater)
 "wBt" = (
 /obj/effect/decal/cleanable/dirt,
@@ -98894,7 +98854,7 @@ aXu
 xWj
 fwu
 xnJ
-pzM
+dzx
 kST
 dzx
 vhV
@@ -99150,10 +99110,10 @@ aXu
 uwg
 vaE
 hni
-uRF
+xaX
 dzx
 vhV
-pzM
+dzx
 vhV
 oji
 oji
@@ -99409,7 +99369,7 @@ xWj
 hni
 kIV
 hKP
-lTU
+hKP
 hKP
 hKP
 hKP
@@ -99934,7 +99894,7 @@ lQo
 wvI
 bTQ
 tss
-aXu
+wBq
 xWj
 uwg
 uwg
@@ -100416,7 +100376,7 @@ vXe
 stJ
 rAv
 erz
-fPH
+fHL
 shN
 shN
 aXu
@@ -123523,16 +123483,16 @@ ohe
 nBR
 nBR
 nBR
-fHL
-doa
-doa
-tMZ
-tMZ
-tMZ
-jdO
-tMZ
-tMZ
-fHL
+axx
+kep
+kep
+ktQ
+ktQ
+ktQ
+kyn
+ktQ
+ktQ
+axx
 aXu
 jaQ
 aXu
@@ -123780,16 +123740,16 @@ ohe
 nBR
 nBR
 nBR
-fHL
-fHL
-fHL
-fHL
-fHL
-fHL
-wBq
-wfc
-wBq
-fHL
+axx
+axx
+axx
+axx
+axx
+axx
+hjR
+gRf
+hjR
+axx
 aXu
 qSZ
 cOz

@@ -24156,7 +24156,7 @@
 	dir = 5;
 	icon_state = "innerpavement"
 	},
-/area/f13/wasteland/city)
+/area/f13/wasteland)
 "cls" = (
 /obj/structure/barricade/sandbags,
 /turf/open/indestructible/ground/outside/road,
@@ -29864,12 +29864,6 @@
 	dir = 1;
 	icon_state = "rubble"
 	},
-/area/f13/wasteland/city)
-"dsD" = (
-/obj/structure/fence/corner{
-	dir = 8
-	},
-/turf/open/indestructible/ground/outside/sidewalk,
 /area/f13/wasteland/city)
 "dsI" = (
 /obj/structure/wreck/trash/machinepiletwo,
@@ -52874,12 +52868,13 @@
 /turf/open/floor/f13/wood,
 /area/f13/ruins)
 "iyy" = (
-/obj/structure/fence,
-/obj/effect/turf_decal/weather/dirt{
-	dir = 8
+/obj/structure/nest/randomized{
+	randomizer_difficulty = 1;
+	randomizer_kind = "OP mobs";
+	randomizer_tag = "RRAD Ramblers"
 	},
-/turf/open/floor/grass,
-/area/f13/wasteland/city)
+/turf/open/indestructible/ground/outside/gravel,
+/area/f13/caves)
 "iyP" = (
 /turf/open/indestructible/ground/outside/ruins,
 /area/f13/wasteland/city/nash/downtown)
@@ -78294,14 +78289,6 @@
 /obj/structure/flora/chomp/bush3,
 /turf/open/indestructible/ground/outside/desert,
 /area/f13/caves)
-"obG" = (
-/obj/structure/nest/randomized{
-	randomizer_difficulty = 1;
-	randomizer_kind = "mid level mobs";
-	randomizer_tag = "Texarkana Residential District 1"
-	},
-/turf/open/indestructible/ground/outside/gravel,
-/area/f13/caves)
 "obM" = (
 /obj/structure/table/booth,
 /obj/item/reagent_containers/food/snacks/meat/steak/plain/human{
@@ -85064,7 +85051,7 @@
 	dir = 4;
 	icon_state = "innermaincornerouter"
 	},
-/area/f13/wasteland/city)
+/area/f13/wasteland)
 "pze" = (
 /mob/living/simple_animal/hostile/ghoul,
 /obj/structure/flora/junglebush/large,
@@ -128768,10 +128755,10 @@ sfk
 sfk
 lYQ
 vkY
-dsD
+sxW
 clr
 pzb
-iyy
+aez
 eax
 jpF
 dab
@@ -129701,7 +129688,7 @@ ezS
 ezS
 ezS
 ezS
-xDa
+nkX
 ezS
 tNk
 qeC
@@ -129958,7 +129945,7 @@ ezS
 tNk
 ezS
 ezS
-xDa
+nkX
 ezS
 pmP
 nkX
@@ -130214,8 +130201,8 @@ tNk
 ezS
 tNk
 ezS
-vVy
-vVy
+ezS
+ezS
 nkX
 nkX
 tNk
@@ -130471,7 +130458,7 @@ tNk
 ezS
 ezS
 ezS
-vVy
+ezS
 ezS
 ezS
 ezS
@@ -130728,7 +130715,7 @@ ezS
 ezS
 ezS
 ezS
-vVy
+ezS
 nkX
 ezS
 ezS
@@ -130984,7 +130971,7 @@ ezS
 ezS
 ezS
 ezS
-vVy
+ezS
 ezS
 nkX
 ezS
@@ -131241,7 +131228,7 @@ ezS
 tNk
 tNk
 ezS
-vVy
+ezS
 ezS
 ezS
 ezS
@@ -131497,8 +131484,8 @@ ezS
 tNk
 ezS
 ezS
-vVy
-vVy
+ezS
+ezS
 ezS
 ezS
 nkX
@@ -131754,7 +131741,7 @@ ezS
 tNk
 ezS
 ezS
-vVy
+ezS
 ezS
 ezS
 ezS
@@ -132011,7 +131998,7 @@ tNk
 ezS
 ezS
 ezS
-vVy
+ezS
 ezS
 ezS
 ezS
@@ -132267,8 +132254,8 @@ tNk
 ezS
 ezS
 ezS
-vVy
-vVy
+ezS
+ezS
 ezS
 ezS
 ezS
@@ -132523,8 +132510,8 @@ ezS
 ezS
 ezS
 ezS
-vVy
-vVy
+ezS
+ezS
 nkX
 ezS
 ezS
@@ -132780,7 +132767,7 @@ ezS
 ezS
 ezS
 ezS
-vVy
+ezS
 ezS
 nkX
 ezS
@@ -133036,8 +133023,8 @@ vVy
 ezS
 ezS
 ezS
-vVy
-vVy
+ezS
+ezS
 ezS
 ezS
 ezS
@@ -133293,7 +133280,7 @@ vVy
 ezS
 ezS
 ezS
-vVy
+ezS
 ezS
 ezS
 ezS
@@ -133549,8 +133536,8 @@ vVy
 vVy
 ezS
 ezS
-vVy
-vVy
+ezS
+ezS
 ezS
 ezS
 ezS
@@ -133806,7 +133793,7 @@ vVy
 vVy
 ezS
 ezS
-vVy
+ezS
 ezS
 ezS
 ezS
@@ -134062,7 +134049,7 @@ wmE
 vVy
 vVy
 ezS
-vVy
+ezS
 ezS
 ezS
 ezS
@@ -134319,7 +134306,7 @@ wmE
 vVy
 vVy
 ezS
-vVy
+ezS
 ezS
 ezS
 ezS
@@ -143342,12 +143329,12 @@ upa
 upa
 nkX
 ezS
-xDa
-aaa
-aaa
-aaa
-aaa
-vVy
+nkX
+aae
+aae
+aae
+aae
+ezS
 ezS
 ezS
 aaa
@@ -143597,16 +143584,16 @@ tNk
 ezS
 ezS
 qlW
-xDa
-eTX
-aaa
+nkX
+asS
 aae
 aae
 aae
 aae
-aaa
-aaa
-aaa
+aae
+aae
+aae
+aae
 aaa
 "}
 (76,1,1) = {"
@@ -143853,8 +143840,8 @@ tNk
 qeC
 nkX
 ezS
-vVy
-eTX
+ezS
+asS
 aae
 aae
 aae
@@ -144109,8 +144096,8 @@ ezS
 ezS
 tNk
 ezS
-vVy
-eTX
+ezS
+asS
 aae
 aae
 aae
@@ -144365,8 +144352,8 @@ tNk
 ezS
 ezS
 tNk
-xDa
-aaa
+nkX
+aae
 aae
 aae
 aae
@@ -144621,8 +144608,8 @@ tNk
 ezS
 ezS
 upa
-vVy
-aaa
+ezS
+aae
 aae
 aae
 aae
@@ -144878,7 +144865,7 @@ tNk
 tNk
 tNk
 ezS
-aaa
+aae
 aae
 aae
 aae
@@ -145134,8 +145121,8 @@ tNk
 tNk
 tNk
 ezS
-vVy
-aaa
+ezS
+aae
 aae
 aae
 tZl
@@ -145391,7 +145378,7 @@ ezS
 tNk
 ezS
 ezS
-aaa
+aae
 aae
 aae
 aae
@@ -188529,7 +188516,7 @@ aae
 aae
 ctG
 huP
-huP
+iyy
 huP
 huP
 huP
@@ -188785,7 +188772,7 @@ aak
 aae
 aae
 huP
-obG
+huP
 iCQ
 huP
 aae
