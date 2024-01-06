@@ -45712,10 +45712,6 @@
 	icon_state = "floorgrime"
 	},
 /area/f13/building)
-"uUP" = (
-/obj/structure/window/fulltile/store,
-/turf/open/space/basic,
-/area/f13/brotherhood/armory)
 "uUV" = (
 /obj/structure/lattice{
 	density = 1
@@ -116021,7 +116017,7 @@ nao
 gMj
 aOZ
 wow
-uUP
+dfi
 oeJ
 wow
 wow

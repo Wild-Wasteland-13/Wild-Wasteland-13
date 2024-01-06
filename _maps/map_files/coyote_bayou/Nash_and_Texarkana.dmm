@@ -20273,10 +20273,6 @@
 	icon_state = "floorrusty"
 	},
 /area/f13/store)
-"byA" = (
-/obj/structure/christmas/snowmanhat,
-/turf/open/indestructible/ground/outside/snow,
-/area/f13/wasteland/nash)
 "byF" = (
 /obj/structure/flora/grass/wasteland{
 	icon_state = "tall_grass_8"
@@ -51943,10 +51939,6 @@
 	icon_state = "horizontalbottombordertop2"
 	},
 /area/f13/wasteland/city/nash/redriverdepotroad)
-"inW" = (
-/obj/structure/christmas/snowman,
-/turf/open/indestructible/ground/outside/snow,
-/area/f13/wasteland/nash)
 "iod" = (
 /obj/structure/simple_door/house{
 	req_one_access_txt = "124"
@@ -59799,9 +59791,6 @@
 	},
 /turf/open/floor/grass,
 /area/f13/wasteland)
-"kcx" = (
-/turf/open/indestructible/ground/outside/snow,
-/area/f13/wasteland/nash)
 "kcz" = (
 /obj/effect/turf_decal/weather/dirt{
 	dir = 1
@@ -108154,10 +108143,6 @@
 	icon_state = "greenrustychess"
 	},
 /area/f13/building/coyote/nash/massfus/parkinglot)
-"uGL" = (
-/obj/structure/flora/tree/pine,
-/turf/open/indestructible/ground/outside/snow,
-/area/f13/wasteland/nash)
 "uGO" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/weather/dirt{
@@ -131887,10 +131872,10 @@ iVW
 cmp
 qTw
 vZx
-kcx
-kcx
-inW
-kcx
+rIC
+rIC
+rIC
+rIC
 rIC
 rIC
 rIC
@@ -132144,11 +132129,11 @@ byt
 bQW
 qTw
 vZx
-kcx
-uGL
-kcx
-kcx
-kcx
+rIC
+rIC
+rIC
+rIC
+rIC
 rIC
 rIC
 rIC
@@ -132401,10 +132386,10 @@ iVW
 bQW
 qTw
 vZx
-kcx
-kcx
-byA
-kcx
+rIC
+rIC
+rIC
+rIC
 rIC
 rIC
 rIC
