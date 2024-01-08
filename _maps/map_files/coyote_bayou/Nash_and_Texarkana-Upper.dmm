@@ -7756,6 +7756,7 @@
 "gde" = (
 /obj/machinery/light/broken,
 /obj/effect/decal/cleanable/blood/drip,
+/mob/living/simple_animal/hostile/raider/ranged/sulphiteranged,
 /turf/open/floor/plasteel/f13/vault_floor/white,
 /area/f13/building/hospital)
 "gdU" = (
@@ -12482,6 +12483,7 @@
 "jse" = (
 /obj/structure/barricade/sandbags,
 /obj/structure/barricade/wooden,
+/obj/structure/barricade/wooden/crude,
 /turf/open/floor/plasteel/f13/vault_floor/blue/side,
 /area/f13/building/hospital)
 "jsk" = (
@@ -13651,6 +13653,7 @@
 	},
 /obj/structure/barricade/sandbags,
 /obj/structure/barricade/wooden,
+/obj/structure/barricade/wooden/crude,
 /turf/open/floor/plasteel/f13/vault_floor/blue/side{
 	dir = 1
 	},
@@ -15102,9 +15105,7 @@
 /area/f13/caves)
 "lso" = (
 /mob/living/simple_animal/hostile/raider/tribal,
-/turf/open/floor/plasteel/f13/vault_floor/blue/side{
-	dir = 8
-	},
+/turf/open/floor/plasteel/f13/vault_floor/white,
 /area/f13/building/hospital)
 "lsC" = (
 /obj/structure/railing{
@@ -21497,6 +21498,11 @@
 	},
 /turf/open/transparent/openspace,
 /area/f13/wasteland/nash)
+"qrj" = (
+/obj/effect/decal/cleanable/blood/drip,
+/mob/living/simple_animal/hostile/raider/tribal,
+/turf/open/floor/plasteel/f13/vault_floor/white,
+/area/f13/building/hospital)
 "qru" = (
 /obj/effect/decal/cleanable/blood/drip,
 /turf/open/floor/wood_common,
@@ -22748,14 +22754,9 @@
 	},
 /area/f13/building/mall)
 "rqa" = (
-/mob/living/simple_animal/hostile/raider/ranged/sulphiteranged,
-/obj/machinery/light/broken{
-	dir = 4
-	},
 /obj/effect/decal/cleanable/blood/drip,
-/turf/open/floor/plasteel/f13/vault_floor/blue/side{
-	dir = 4
-	},
+/mob/living/simple_animal/hostile/raider/ranged/sulphiteranged,
+/turf/open/floor/plasteel/f13/vault_floor/white,
 /area/f13/building/hospital)
 "rqu" = (
 /obj/effect/decal/cleanable/dirt,
@@ -23606,6 +23607,8 @@
 /obj/effect/decal/cleanable/dirt{
 	color = "#363636"
 	},
+/obj/structure/barricade/wooden,
+/obj/structure/barricade/wooden/crude,
 /turf/open/floor/plasteel/f13/vault_floor/blue/white,
 /area/f13/building/hospital)
 "rRJ" = (
@@ -24765,15 +24768,13 @@
 /turf/open/floor/f13/wood,
 /area/f13/building)
 "sQi" = (
-/obj/effect/decal/cleanable/dirt{
-	color = "#363636"
+/obj/structure/stairs/west{
+	dir = 4
 	},
-/mob/living/simple_animal/hostile/raider/ranged/sulphiteranged,
-/obj/effect/decal/cleanable/blood/drip,
-/turf/open/floor/plasteel/f13/vault_floor/blue/side{
-	dir = 8
+/turf/open/floor/f13{
+	icon_state = "floorrusty"
 	},
-/area/f13/building/hospital)
+/area/f13/building)
 "sQl" = (
 /obj/structure/chair/wood{
 	dir = 8
@@ -45102,7 +45103,7 @@ ixY
 ixY
 ixY
 ixY
-iRb
+vje
 vje
 sSu
 oez
@@ -45358,8 +45359,8 @@ vje
 vje
 vje
 vje
-iRb
-iRb
+vje
+vje
 vje
 sSu
 oez
@@ -45603,7 +45604,7 @@ vje
 vje
 vje
 vje
-iRb
+vje
 vje
 vje
 vje
@@ -45863,18 +45864,18 @@ vje
 vje
 vje
 vje
-iRb
 vje
-iRb
-iRb
-iRb
-iRb
-iRb
-iRb
-iRb
-iRb
-iRb
-iRb
+vje
+vje
+vje
+vje
+vje
+vje
+vje
+vje
+vje
+vje
+vje
 sSu
 oez
 oez
@@ -46119,10 +46120,10 @@ vje
 vje
 vje
 vje
-iRb
-iRb
-iRb
-iRb
+vje
+vje
+vje
+vje
 oez
 oez
 oez
@@ -46373,13 +46374,13 @@ vje
 vje
 vje
 vje
-iRb
-iRb
-iRb
 vje
 vje
 vje
-iRb
+vje
+vje
+vje
+vje
 oez
 oez
 oez
@@ -46629,7 +46630,7 @@ vje
 vje
 vje
 vje
-iRb
+vje
 vje
 vje
 vje
@@ -46884,8 +46885,8 @@ vje
 vje
 vje
 vje
-iRb
-iRb
+vje
+vje
 vje
 vje
 vje
@@ -47140,7 +47141,7 @@ vje
 vje
 vje
 vje
-iRb
+vje
 vje
 vje
 vje
@@ -47396,7 +47397,7 @@ vje
 vje
 vje
 vje
-iRb
+vje
 vje
 vje
 vje
@@ -47651,8 +47652,8 @@ iRb
 iRb
 vje
 vje
-iRb
-iRb
+vje
+vje
 vje
 vje
 vje
@@ -47906,8 +47907,8 @@ iRb
 "}
 (64,1,1) = {"
 iRb
-iRb
-iRb
+vje
+vje
 vje
 vje
 vje
@@ -48163,7 +48164,7 @@ iRb
 "}
 (65,1,1) = {"
 iRb
-iRb
+vje
 vje
 vje
 vje
@@ -62850,8 +62851,8 @@ sTt
 dAp
 nSY
 oLE
-iRb
-iRb
+vje
+vje
 vje
 vje
 vje
@@ -63108,8 +63109,8 @@ tmP
 nSY
 enE
 vje
-iRb
-iRb
+vje
+vje
 vje
 vje
 vje
@@ -63367,9 +63368,9 @@ enE
 vje
 vje
 vje
-iRb
-iRb
-iRb
+vje
+vje
+vje
 vje
 vje
 vje
@@ -63625,9 +63626,9 @@ vje
 vje
 vje
 vje
-iRb
-iRb
-iRb
+vje
+vje
+vje
 vje
 vje
 vje
@@ -63881,10 +63882,10 @@ enE
 vje
 vje
 vje
-iRb
 vje
 vje
-iRb
+vje
+vje
 vje
 vje
 vje
@@ -64138,10 +64139,10 @@ vje
 vje
 vje
 vje
-iRb
 vje
 vje
-iRb
+vje
+vje
 vje
 vje
 vje
@@ -64394,12 +64395,12 @@ enE
 vje
 vje
 vje
-iRb
 vje
 vje
 vje
 vje
-iRb
+vje
+vje
 vje
 vje
 vje
@@ -64651,12 +64652,12 @@ vje
 vje
 vje
 vje
-iRb
 vje
 vje
 vje
 vje
-iRb
+vje
+vje
 vje
 vje
 vje
@@ -64868,7 +64869,7 @@ iRb
 "}
 (130,1,1) = {"
 iRb
-iRb
+vje
 vje
 vje
 vje
@@ -64907,13 +64908,13 @@ vje
 vje
 vje
 vje
-iRb
 vje
 vje
 vje
 vje
 vje
-iRb
+vje
+vje
 gJP
 gJP
 hMq
@@ -65125,8 +65126,8 @@ iRb
 "}
 (131,1,1) = {"
 iRb
-iRb
-iRb
+vje
+vje
 vje
 vje
 vje
@@ -65170,7 +65171,7 @@ dTc
 dTc
 dTc
 vje
-iRb
+vje
 gJP
 gJP
 hMq
@@ -65383,8 +65384,8 @@ iRb
 (132,1,1) = {"
 iRb
 vje
-iRb
-iRb
+vje
+vje
 vje
 vje
 vje
@@ -65642,7 +65643,7 @@ iRb
 vje
 vje
 vje
-iRb
+vje
 vje
 vje
 vje
@@ -65900,10 +65901,10 @@ vje
 vje
 vje
 vje
-iRb
 vje
-iRb
-iRb
+vje
+vje
+vje
 vje
 vje
 vje
@@ -66157,11 +66158,11 @@ vje
 vje
 vje
 vje
-iRb
-iRb
 vje
-iRb
-iRb
+vje
+vje
+vje
+vje
 vje
 vje
 vje
@@ -66415,10 +66416,10 @@ vje
 vje
 vje
 vje
-iRb
-iRb
 vje
-iRb
+vje
+vje
+vje
 vje
 vje
 vje
@@ -66674,9 +66675,9 @@ vje
 vje
 vje
 vje
-iRb
 vje
-iRb
+vje
+vje
 vje
 vje
 vje
@@ -66931,9 +66932,9 @@ vje
 vje
 vje
 vje
-iRb
 vje
-iRb
+vje
+vje
 vje
 vje
 vje
@@ -67190,9 +67191,9 @@ vje
 vje
 vje
 vje
-iRb
 vje
-iRb
+vje
+vje
 vje
 vje
 vje
@@ -67447,10 +67448,10 @@ vje
 vje
 vje
 vje
-iRb
-iRb
 vje
-iRb
+vje
+vje
+vje
 vje
 vje
 vje
@@ -67708,9 +67709,9 @@ vje
 vje
 vje
 vje
-iRb
 vje
-iRb
+vje
+vje
 enE
 nSB
 enE
@@ -67721,7 +67722,7 @@ enE
 enE
 enE
 enE
-iRb
+vje
 usf
 dTc
 wtK
@@ -67965,8 +67966,8 @@ vje
 vje
 vje
 vje
-iRb
-iRb
+vje
+vje
 oez
 vje
 vje
@@ -68223,7 +68224,7 @@ vje
 vje
 vje
 vje
-iRb
+vje
 oez
 vje
 vje
@@ -68494,8 +68495,8 @@ vje
 vje
 vje
 vje
-iRb
-iRb
+vje
+vje
 vje
 vje
 vje
@@ -68751,7 +68752,7 @@ vje
 vje
 vje
 vje
-iRb
+vje
 vje
 vje
 vje
@@ -69008,7 +69009,7 @@ vje
 vje
 vje
 vje
-iRb
+vje
 vje
 gJP
 gJP
@@ -69265,7 +69266,7 @@ vje
 vje
 vje
 vje
-iRb
+vje
 vje
 gJP
 gJP
@@ -69521,7 +69522,7 @@ oez
 oez
 oez
 vje
-iRb
+vje
 vje
 vje
 gJP
@@ -69778,7 +69779,7 @@ oez
 oez
 oez
 vje
-iRb
+vje
 vje
 gJP
 gJP
@@ -70034,8 +70035,8 @@ oez
 oez
 oez
 oez
-iRb
-iRb
+vje
+vje
 vje
 fSd
 dIW
@@ -70291,7 +70292,7 @@ oez
 oez
 oez
 oez
-iRb
+vje
 vje
 vje
 fSd
@@ -71845,7 +71846,7 @@ tBF
 cdN
 cdN
 cdN
-fSd
+tke
 gJP
 gJP
 nxF
@@ -72102,7 +72103,7 @@ cdN
 nWw
 pte
 cdN
-fSd
+lnR
 gJP
 gJP
 gJP
@@ -72359,7 +72360,7 @@ aFC
 fwF
 aWq
 cdN
-fSd
+tke
 gJP
 gJP
 gJP
@@ -72380,7 +72381,7 @@ aRD
 aRD
 tpK
 amX
-jxp
+sQi
 spb
 bPu
 nHV
@@ -73383,9 +73384,9 @@ fSd
 fSd
 fSd
 fSd
-tke
-lnR
-tke
+fSd
+fSd
+fSd
 dDO
 qAP
 gJP
@@ -75244,11 +75245,11 @@ bhm
 eav
 kXU
 kXU
-sQi
+kXU
 lAE
-lso
+tYl
 rVj
-lso
+tYl
 rVj
 loK
 mYX
@@ -75761,7 +75762,7 @@ tRs
 xam
 uzO
 uzO
-rqa
+guf
 mIp
 iLu
 ivA
@@ -80628,7 +80629,7 @@ aaG
 cym
 dSL
 dSL
-cym
+lso
 bhm
 hjx
 oab
@@ -80884,7 +80885,7 @@ vqz
 aaG
 ocx
 lUm
-dSL
+qrj
 gde
 bhm
 xeb
@@ -81397,7 +81398,7 @@ vqz
 vqz
 bhm
 dSL
-dSL
+rqa
 cym
 cym
 vGi
