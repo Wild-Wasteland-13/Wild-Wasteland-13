@@ -19442,11 +19442,6 @@
 	color = "#779999"
 	},
 /area/f13/building)
-"btu" = (
-/turf/open/indestructible/ground/outside/sidewalk{
-	icon_state = "verticalrightborderright0"
-	},
-/area/f13/building/abandoned)
 "btx" = (
 /obj/effect/turf_decal/weather/dirt{
 	color = "#a98c5d";
@@ -153967,7 +153962,7 @@ cIY
 oRI
 vKX
 hCc
-btu
+hCc
 gCs
 baS
 hCc
