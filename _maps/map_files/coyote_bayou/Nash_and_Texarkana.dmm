@@ -99300,7 +99300,9 @@
 /turf/open/indestructible/ground/outside/dirthole,
 /area/f13/wasteland/city/nash/starterroad)
 "sMo" = (
-/obj/machinery/mineral/wasteland_vendor/traderspecial,
+/obj/machinery/door/poddoor/shutters/preopen{
+	id = "scrapperlockdown"
+	},
 /turf/open/floor/wood_common{
 	color = "#779999"
 	},
@@ -132866,7 +132868,7 @@ fHl
 fHl
 alk
 alk
-alk
+fHl
 fHl
 bZR
 bZR
@@ -133121,9 +133123,9 @@ qTw
 oxw
 inE
 wfR
-iFl
 xug
 fsz
+sMo
 nCz
 iFl
 iFl
@@ -135694,7 +135696,7 @@ iFl
 bog
 sPU
 iFl
-sMo
+iFl
 iFl
 eJb
 cUu

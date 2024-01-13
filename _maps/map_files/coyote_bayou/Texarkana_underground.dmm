@@ -17301,6 +17301,10 @@
 /obj/effect/turf_decal/stripes/line,
 /turf/open/floor/plating/tunnel,
 /area/f13/caves)
+"jBr" = (
+/obj/machinery/mineral/wasteland_vendor/specialplus,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
+/area/f13/building)
 "jBs" = (
 /obj/effect/turf_decal/stripes/asteroid/line{
 	dir = 9
@@ -53326,7 +53330,7 @@ boU
 aae
 uUw
 tFU
-bOQ
+bLL
 bLL
 bPE
 bLL
@@ -53582,7 +53586,7 @@ boU
 aae
 aae
 uUw
-bLL
+jBr
 mNK
 bLL
 bPE
