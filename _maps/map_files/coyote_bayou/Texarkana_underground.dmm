@@ -13939,6 +13939,7 @@
 /turf/closed/indestructible/vaultdoor,
 /area/f13/caves)
 "huk" = (
+/obj/effect/decal/cleanable/dirt,
 /obj/structure/stairs/north{
 	color = "#A47449";
 	dir = 4
@@ -43448,8 +43449,8 @@ bCt
 iFY
 sZs
 sZs
+vbw
 huk
-sZs
 sZs
 bCt
 sYw
