@@ -3346,10 +3346,6 @@
 /obj/structure/flora/wasteplant/wild_xander,
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/wasteland)
-"cFp" = (
-/obj/item/mine/shrapnel,
-/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
-/area/f13/building)
 "cFB" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/chair/stool/retro/black,
@@ -35610,7 +35606,7 @@ ujK
 cqK
 dTc
 axq
-cFp
+cqK
 dTc
 oez
 oez

@@ -40062,8 +40062,6 @@
 /area/f13/wasteland/redwater)
 "nNC" = (
 /obj/item/mine/shrapnel,
-/obj/item/mine/shrapnel,
-/obj/item/reagent_containers/food/drinks/bottle/whiskey,
 /turf/open/floor/plasteel/f13{
 	icon_state = "greenrustychess"
 	},
